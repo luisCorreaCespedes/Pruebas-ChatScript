@@ -1,0 +1,26 @@
+﻿USERS/topic__harry.txt
+jul2116 May06'22-11:39:06-1651851546300 May06'22-11:39:06-1651851546302 0 |
+1 1 ~introductions ZMb a&TD3  DY 0 3 3 0 # start, input#, rejoindertopic,rejoinderid (a:  ( ~yes ) A mi tambien me gusta la lluvia! ^reuse ( FIN ) ),checksum
+~introductions #pending
+~introductions + 1 a&TD3 ia 1 0 0 
+#`end topics
+$cs_language=ENGLISH
+$shutup=1
+$singleresponse=1
+$botprompt=HARRY: 
+$userprompt=: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_bot=Harry
+$cs_randindex=1285
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~introductions 1 KEEP 
+ Luis
+#`end user
+ Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...
+#`end chatbot

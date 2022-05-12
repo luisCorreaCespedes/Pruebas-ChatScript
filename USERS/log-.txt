@@ -1,0 +1,9 @@
+﻿
+May 06 11:39:01.862 2022 ServerPre: pid: 0  (build mine) size=0 
+No computer id before user load?
+May 06 11:39:06.299 2022 ServerPre: pid: 0  (harry) size=4 Luis
+May 06 11:39:06.298 2022 Respond: user: bot:harry len:5 ip: (~introductions) 1 Luis  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:39:06.303 2022 5ms q 0 Why:~introductions.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 11:39:10.263 2022 ServerPre: pid: 0  (harry) size=6 :reset
+    Command: :reset
+May 06 11:39:10.263 2022 Respond: user: bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:39:10.277 2022 14ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 

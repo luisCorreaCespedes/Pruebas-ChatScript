@@ -1,0 +1,121 @@
+##<<ENGLISH 
+concept: ~badness (~weakbadness ~strongbadness ~mediumbadness )
+     
+concept: ~goodness (~weakgoodness ~stronggoodness ~mediumgoodness )
+       concept: ~feeling_adequate (adequate capable competent composed confident encouraged excited in_control organized proud responsible satisfied ) 
+
+concept: ~feeling_admiration (admiration amazed amazement ) 
+concept: ~feeling_alone (alienated alone cut_off detached excluded forsaken isolated left_out lonely lonesome misunderstood rejected shut_out ) 
+concept: ~feeling_angry (acrimonious anger angry annoyed appalled bitter boiling cross devastated disgusted enraged fed_up frustrated fuming furious hostile in_a_huff in_a_stew incensed 
+          indignant inflamed infuriated irate irritated livid loathing mad offended outraged pique provoked rageful rancor resentful sullen temper up_in_arms virulent worked_up wrathful 
+          wrought_up acrimonious angry annoyed appalled bitter boiling cross devastated disgusted enraged frustrated fuming furious hostile in_a_huff in_a_stew incensed indignant 
+          inflamed infuriated irate irritated livid mad offended outraged pique provoked rageful resentful sullen up_in_arms virulent worked_up wrathful wrought_up 
+		 anger  fed_up loathing mad rancor temper ) 
+
+concept: ~feeling_good_misc (~feeling_adequate ~feeling_admiration ~feeling_attached ~feeling_attracted ~feeling_esteem ~feeling_fearless ~feeling_focused ~feeling_free ~feeling_grateful 
+          ~feeling_happy ~feeling_independent ~feeling_irrisistable ~feeling_justified ~feeling_loved ~feeling_lustful ~feeling_save ~feeling_sympathy accepting accomplished affable 
+          agreeable altruistic amenable amiable amorous appreciative approachable attentive awe benevolent bouncy breezy bubbly candid chipper chummy companionable compliant conciliatory 
+          congenial considerate contemplative cordial courteous delightful dignified diplomatic dispassionate dreamy easygoing ebullient effervescent electrified elevated empowered 
+          energetic energized enlightened enthralled euphoric expectant fearless flirtatious flirty forgiving forthright friendly fulfilled full generous giddy good good-natured gregarious 
+          gutsy harmonious high holiday honest hospitable hot humble hyper idyllic imaginative impassive imperturbable impressed inclusive indescribable indomitable intrepid jocund 
+          kind laidback levelheaded liberated liberating light-hearted longsuffering mellow mischievous neighborly nostalgic okay patient peaceable peppy perky philosophical placid 
+          pleasant plucky polite positive purposeful rational receptive reflective refreshed rejuvenated relaxed remorseful respectful responsive rested reverent reverential revitalized 
+          romantic sanguine sedate self-effacing selfless sensible sensitive sentimental serious sharing silly smart sociable solicitous sparky splendid spunky steadfast supportive 
+          sympathetic tender thoughtful thrilled tolerant touched trustful unassuming understanding unflappable unruffled unselfish unshakeable unshaken upbeat uplifted vibrant warm 
+          welcoming whimsical wistful )
+concept: ~feeling_depressed (
+~feeling_apathetic ~feeling_bored 
+~feeling_demoralized ~emosadevent
+) 
+
+concept: ~feeling_mixed_misc (
+recumbent
+nerdy
+maughty
+geeky
+blank
+analytical
+chatty
+mysterious
+neutral
+prayerful
+shy
+talkative
+ ) 
+
+concept: ~feeling_bad_misc (~feeling_alone ~feeling_angry ~feeling_apathetic ~feeling_belittle ~feeling_bored ~feeling_burden ~feeling_cheated ~feeling_codependent ~feeling_demoralized 
+          ~feeling_derailed ~feeling_disgust ~feeling_embarrass ~feeling_entitled ~feeling_fearful ~feeling_hated ~feeling_lost ~feeling_obsessed ~feeling_outofcontrol ~feeling_powerless 
+          ~feeling_reproachful ~feeling_sad ~feeling_singledout ~feeling_trapped abashed aggravated aloof argumentative bad barren belligerent bizarre black blue blunt boisterous bossy 
+          brooding brutish bullish callous cantankerous capricious changeable close-mouthed cold combative concessionary confined confining confrontational contentious contradictory 
+          contrary cranky crappy crazy critical crusty cynical dangerous defiant desolate devious dirty disbelieving disconcerted discontent disdainful distant disturbed ditzy domineering 
+          dorky drained drunk edgy empty enervated envious erratic exasperated expansive fatalistic fickle fierce flippant foreboding forlorn foul giggly gloomy grim groggy grouchy 
+          grumpy haughty haunted haunting heavy helpless hungry hypercritical imperious implacable impulsive inadequate incendiary indolent inferior inflammatory insidious insubordinate 
+          intimidated irascible irreverent irritable judgmental lovesick madness malicious merciless mercurial moody morose naughty nauseated nightmarish offensive ominous ornery overbearing 
+          overpowered pained painful pessimistic predatory presumptuous provocative puzzled quixotic rambunctious rebellious reluctant restless rigid riotous rowdy rushed self-important 
+          selfish sick sleepy smug solemn sombre sour stressed stubborn subdued submissive surly suspenseful taciturn tepid terrifying terror-stricken threatening tired troubled turbulent 
+          ugly uncaring uneasy ungrateful unpleasant unpredictable unruly unsettled unyielding uppity vengeful vile violent volatile wary weird wild )
+
+
+concept: ~feeling_apathetic (apathetic complacent full_of_ennui immobilized lazy lethargic numb passive quiescent weary unconcerned unmotivated ) 
+concept: ~feeling_attached (affectionate attached belonging captivated cherished compassionate connected empathetic included liked loved loving understood ) 
+concept: ~feeling_attracted (absorbed affected agog anxious attracted avid challenged concerned confident craving curious dedicated desirous eager earnest enchanted engrossed enthusiastic 
+          excited fascinated fervent fervid full_of_anticipation hopeful inquisitive inspiring intent interested intrigued keen motivated needed nosey snoopy zealous ) 
+concept: ~feeling_belittle (belittled chagrined degraded diminished discounted discredited disgraced disrespected insignificant underestimated unsupported ) 
+concept: ~feeling_bored (~emobored ambivalent apathetic bore_me bored boredom boring complacent diffidence full_of_ennui indifferent lackadaisical not_interested uninterested uninteresting 
+          unmotivated ) 
+concept: ~feeling_burden (burdened obligated pressured put_upon thwarted ) 
+concept: ~feeling_cheated (abused accused betrayed cheated coerced conned deceived disparaged duped exploited framed lied_to manipulated tricked victimized violated ) 
+concept: ~feeling_codependent (addicted codependent insecure needy ) 
+concept: ~feeling_demoralized (demoralized disappointed discouraged disheartened disillusioned disinclined stifled thwarted ) 
+concept: ~feeling_derailed (derailed disjointed disoriented torn ) 
+concept: ~feeling_disgust (appalled appalling disgust revolted revolting ) 
+concept: ~feeling_embarrass (ashamed awkward disparaged embarrassed guilty ) 
+concept: ~feeling_entitled (entitled exempt favored immune privileged ) 
+concept: ~feeling_esteem (admired appreciated esteemed respected revered significant supported valued worshiped ) 
+concept: ~feeling_fearful (afraid aghast alarmed anxious appalled apprehension apprehensive attacked awed cautious concern concerned cowardly defenseless diffident dismayed distrustful 
+          doubtful dread dubious exposed fainthearted fear fearful fidgety fright frightened full_of_misgiving hesitant horrified horror hysterical in_fear indecisive insecure irresolute 
+          menaced misgiving nervous panic panicked paranoid pensive perplexed petrified phobic quaking questioning restful scared shaky shocked skeptical suspicious tense terrified 
+          terrorized threatened timid timorous trembling tremulous unbelieving uncertain uncomfortable upset wavering worried ) 
+concept: ~feeling_fearless (audacious bold brave certain confident courageous daring dauntless determined encouraged enterprising gallant hardy heroic reassured resolute secure self-reliant 
+          spirited stout ) 
+concept: ~feeling_focused (committed  determined focused in_the_zone ) 
+concept: ~feeling_free (autonomous free independent released unshackled ) 
+concept: ~feeling_grateful (grateful gratitude ) 
+concept: ~feeling_happy (affection airy amused animated beatific blissful blithe bright brisk buoyant cheerful cheery comfortable compassion contented convivial debonair delight delighted 
+          eager eagerness ecstatic elated enthused enthusiastic excited exhilarated exultant fabulous fain fantastic festive free_and_easy frisky genial glad gleeful great happiness 
+          happy harmony high-spirited hilarious hope humorous important inspired jaunty jocular jolly jovial joy joyful joyous jubilant laughing lighthearted lively love lucky merry 
+          mirthful optimism optimistic overjoyed peaceful playful pleased pleasure rapturous satisfaction satisfied saucy self-satisfied serene sparkling spirited sprightly sunny terrific 
+          thankful tranquil transported triumph vivacious wonderful ) 
+concept: ~feeling_hated (abandoned chastised criticized deserted discarded forsaken hated humiliated ignored left_out let_down overlooked punished rejected replaced unapproved_of unlovable 
+          unloved ) 
+concept: ~feeling_independent (arrogant autonomous cocky independent macho strong ) 
+concept: ~feeling_irristable (aggressive exuberant immortal indestructible invincible invulnerable irresistible powerful unstoppable ) 
+concept: ~feeling_justified (absolved acquitted appeased justified redeemed satisfied vindicated ) 
+concept: ~feeling_lost (baffled bewildered confused confusion lost unfocussed ) 
+concept: ~feeling_loved (accepted adorable adored approved_of desirable entrusted loved validated valued welcomed ) 
+concept: ~feeling_lustful (addicted ardent aroused horny hot_and_bothered infatuated lustful needy passionate randy turned_on yearning ) 
+concept: ~feeling_obsessed (compelled consumed obsessed )
+concept: ~feeling_outofcontrol (careless impotent obligated obliterated out_of_control powerless reckless vulnerable weak ) 
+concept: ~feeling_powerless (bashful beaten_down blocked defeated discouraged disorganized exhausted frustrated hopeless irresponsible overwhelmed powerless stifled thwarted worn_down 
+          worn_out ) 
+concept: ~feeling_reproachful (calumniating castigating censorious contumelious defamatory derisive disparaging invective libelous maligning opprobrious reproachful reviling sarcastic 
+          scathing scolding scurrilous ) 
+concept: ~feeling_sad (aching afflicted agonized anguished bereaved cheerless clouded crestfallen crushed dark dejected depress depressed depressing despair despairing despondent disappointing 
+          wretched disconsolate discontented discouraged disheartened dismal displeased disspirited distress distressed dolorous down downcast downhearted dreadful dreary dull embarrassed feel_blue 
+          flat frowning funereal gloomy glum grief grief-stricken grieved guilt hapless heartbroken heavyhearted hopelessness humiliated hurt in_despair in_pain in_the_dumps injured 
+          joyless listless listlessness lonely low lugubrious melancholy miserable moody moping mournful offended oppressed out_of_sorts pathetic pessimism piteous regretful remorse 
+          rueful sad sadness shamed  somber sorrow sorrowful spiritless suffering sulky sullen tortured tragic unhappy victimized withdrawn woebegone woeful worried ) 
+concept: ~feeling_safe (at_ease calm comfortable composed peaceful relieved secure ) 
+ concept: ~feeling_singledout (affronted categorized cross-examined guilty interrogated judged labeled rated singled_out stereotyped wronged ) 
+concept: ~feeling_surprise (astonished bewildered confused shock shocked startled surprise surprised )
+concept: ~feeling_sympathy (compassion kindness pity sympathy ) 
+concept: ~feeling_trapped (cornered deceived imprisoned optionless outmaneuvered set_up stifled trapped tricked ) 
+concept: ~feeling_words (~emodisgust ~emopain ~emosurprise ~feeling_adequate ~feeling_admiration ~feeling_alone ~feeling_angry ~feeling_apathetic ~feeling_attached ~feeling_attracted 
+          ~feeling_belittle ~feeling_bored ~feeling_burden ~feeling_cheated ~feeling_codependent ~feeling_demoralized ~feeling_derailed ~feeling_disgust ~feeling_embarrass ~feeling_entitled 
+          ~feeling_esteem ~feeling_fearful ~feeling_fearless ~feeling_focused ~feeling_free ~feeling_grateful ~feeling_happy ~feeling_hated ~feeling_independent ~feeling_irristable 
+          ~feeling_justified ~feeling_lost ~feeling_loved ~feeling_lustful ~feeling_obsessed ~feeling_outofcontrol ~feeling_powerless ~feeling_reproachful ~feeling_sad ~feeling_safe 
+          ~feeling_singledout ~feeling_surprise ~feeling_sympathy ~feeling_trapped ) 
+
+   
+          
+##>>

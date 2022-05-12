@@ -1,0 +1,29 @@
+USERS/topic_luis_harry.txt
+jul2116 May06'22-01:44:26-1651815866914 May06'22-11:53:16-1651852396459 0 |
+1 1 0 DY 0 3 3 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+~introductions + 1 a&TD3 ma 1 0 0 
+#`end topics
+$cs_language=ENGLISH
+$cs_time=0
+$cs_trace=0
+$cs_randindex=2082
+$cs_bot=Harry
+$cs_login=luis
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=luis: >
+$botprompt=HARRY: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~introductions 1 FIN ~introductions 1 FIN ~introductions 0 FIN ~introductions 0 FIN ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 0 FIN ~introductions 0 FIN ~introductions 4 FIN ~introductions 3 FIN ~introductions 1 KEEP ~introductions 0 KEEP ~introductions 2 FIN ~introductions 0 KEEP ~introductions 2 FIN ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 3 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 8 READY_TO_ORDER ~introductions 6 READY_TO_ORDER ~introductions 0 KEEP ~introductions 1 FIN ~introductions 4 FIN ~introductions 1 FIN ~introductions 0 KEEP ~introductions 1 KEEP ~introductions 2 KEEP ~introductions 1 FIN ~introductions 2 FIN ~introductions 3 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP 
+ no
+#`end user
+ Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...
+ La lluvia ayuda a dormir.
+ Hasta luego!
+#`end chatbot

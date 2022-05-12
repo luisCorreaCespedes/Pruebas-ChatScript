@@ -1,0 +1,345 @@
+﻿ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\gowil\Desktop\ChatScript 12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108928 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=2  heap=4420 Compiled:Apr16'22-09:08:18-1650096498821 by version 11.6 "test"
+
+Apr 24 11:35:15.108 2022 ServerPre: pid: 0 d () size=0 
+Apr 24 11:35:15.108 2022 Start: user:d bot:test ip: (~test) 0 ==> [why=~control.11.0.~control.11.0  ] I don't know what to say.  When:Apr 24 11:35:15.117 2022 9ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Apr16'22-09:08:18-1650096498821 Build1:Apr16'22-09:08:18-1650096498821 Why:~xpostprocess.1.0=OOBRESULT.~control.11.0 ~control.11.0.~control.11.0 
+
+Apr 24 11:35:18.719 2022 ServerPre: pid: 0 d (test) size=12 :build harry
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\gowil\Desktop\ChatScript 12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=146  fact=15  heap=210268 Compiled:Apr24'22-11:35:18-1650796518803 by version 12.1 "harry"
+
+Apr 24 11:35:20.713 2022 ServerPre: pid: 0 d () size=0 
+Apr 24 11:35:20.713 2022 Start: user:d bot:harry ip: (~introductions) 0 ==> Welcome to ChatScript.  When:Apr 24 11:35:20.721 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Apr24'22-11:35:18-1650796518803 Build1:Apr24'22-11:35:18-1650796518803 Why:~introductions.1.0.~control.0.0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\gowil\Desktop\ChatScript 12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=146  fact=15  heap=210224 Compiled:Apr24'22-11:35:18-1650796518803 by version 12.1 "harry"
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=146  fact=15  heap=210224 Compiled:Apr24'22-11:35:18-1650796518803 by version 12.1 "harry"
+
+May 06 01:44:26.912 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:44:26.912 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> Welcome to ChatScript.  When:May 06 01:44:26.916 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Apr24'22-11:35:18-1650796518803 Build1:Apr24'22-11:35:18-1650796518803 Why:~introductions.1.0.~control.0.0 
+
+May 06 01:44:36.382 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3488 Compiled:May06'22-01:44:36-1651815876462 by version 12.1 "mine"
+
+May 06 01:44:37.492 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:44:37.492 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> Hola!  When:May 06 01:44:37.497 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:44:36-1651815876462 Build1:May06'22-01:44:36-1651815876462 Why:~introductions.0.0.~control.0.0 
+
+May 06 01:45:44.283 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=1  fact=0  heap=296 Compiled:May06'22-01:45:44-1651815944356 by version 12.1 "mine"
+
+May 06 01:45:45.283 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+May 06 01:46:00.433 2022 ServerPre: pid: 0 luis (anonymous) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=1  fact=0  heap=296 Compiled:May06'22-01:46:00-1651815960507 by version 12.1 "mine"
+
+May 06 01:46:01.456 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+May 06 01:46:48.113 2022 ServerPre: pid: 0 luis (anonymous) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3488 Compiled:May06'22-01:46:48-1651816008192 by version 12.1 "mine"
+
+May 06 01:46:49.177 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:46:49.176 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> I don't know what to say.  When:May 06 01:46:49.183 2022 7ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:46:48-1651816008192 Build1:May06'22-01:46:48-1651816008192 Why:~control.9.0.~control.9.0 
+
+May 06 01:46:59.399 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3488 Compiled:May06'22-01:46:59-1651816019472 by version 12.1 "mine"
+
+May 06 01:47:00.435 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:47:00.435 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> I don't know what to say.  When:May 06 01:47:00.439 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:46:59-1651816019472 Build1:May06'22-01:46:59-1651816019472 Why:~control.9.0.~control.9.0 
+
+May 06 01:48:38.027 2022 ServerPre: pid: 0 luis (harry) size=2 hi
+May 06 01:48:38.026 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 hi  ==> I don't know what to say.  When:May 06 01:48:38.034 2022 8ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3444 Compiled:May06'22-01:46:59-1651816019472 by version 12.1 "mine"
+
+May 06 01:48:50.378 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:48:50.378 2022 Start: user:Luis bot:harry ip: (~introductions) 1 ==> I don't know what to say.  When:May 06 01:48:50.383 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:46:59-1651816019472 Build1:May06'22-01:46:59-1651816019472 Why:~control.9.0.~control.9.0 
+
+May 06 01:48:59.803 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3488 Compiled:May06'22-01:48:59-1651816139878 by version 12.1 "mine"
+
+May 06 01:49:00.914 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:49:00.914 2022 Start: user:luis bot:harry ip: (~introductions) 1 ==> I don't know what to say.  When:May 06 01:49:00.918 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:48:59-1651816139878 Build1:May06'22-01:48:59-1651816139878 Why:~control.9.0.~control.9.0 
+
+May 06 01:52:41.789 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3488 Compiled:May06'22-01:52:41-1651816361867 by version 12.1 "mine"
+
+May 06 01:52:42.926 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:52:42.926 2022 Start: user:luis bot:harry ip: (~introductions) 1 ==> I don't know what to say.  When:May 06 01:52:42.931 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:52:41-1651816361867 Build1:May06'22-01:52:41-1651816361867 Why:~control.9.0.~control.9.0 
+
+May 06 01:53:18.134 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 01:53:18.133 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola!  When:May 06 01:53:18.146 2022 13ms q 0 Why:~introductions.0.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 01:53:26.233 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=4132 Compiled:May06'22-01:53:26-1651816406308 by version 12.1 "mine"
+
+May 06 01:53:27.321 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:53:27.321 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> Hello! How are you? Welcome to Big Joe's Breakfast. Can I start you off with something to drink?  When:May 06 01:53:27.325 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:53:26-1651816406308 Build1:May06'22-01:53:26-1651816406308 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 01:53:33.426 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 01:53:33.425 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hello! How are you? Welcome to Big Joe's Breakfast. Can I start you off with something to drink?  When:May 06 01:53:33.437 2022 12ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 01:53:52.400 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 01:53:52.399 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> What can I get you to drink?  When:May 06 01:53:52.405 2022 6ms q 0 Why:~introductions.0.1.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:10.925 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 01:54:10.925 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 2 no  ==> Ok. I'll get you your drink order. And I'll come back to take your breakfast order. Are you ready to order?  When:May 06 01:54:10.931 2022 6ms q 0 Why:~introductions.0.2.~control.9.0 ~introductions.1.0=READY_TO_ORDER.~introductions.0.2  JOpen:0/0 Timeout:0 
+
+May 06 01:54:16.025 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 01:54:16.024 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 3 no  ==> I will be back shortly to take your order.  When:May 06 01:54:16.029 2022 5ms q 0 Why:~introductions.1.4.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:19.210 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 01:54:19.209 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 4 no  ==> Are you ready to order?  When:May 06 01:54:19.214 2022 5ms q 0 Why:~introductions.1.0=READY_TO_ORDER.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:20.700 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 01:54:20.700 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 5 no  ==> I will be back shortly to take your order.  When:May 06 01:54:20.705 2022 5ms q 0 Why:~introductions.1.4.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:23.465 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 06 01:54:23.465 2022 Respond: user:luis bot:harry len:4 ip: (~introductions) 6 yes  ==> Are you ready to order?  When:May 06 01:54:23.470 2022 5ms q 0 Why:~introductions.1.0=READY_TO_ORDER.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:24.963 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 06 01:54:24.962 2022 Respond: user:luis bot:harry len:4 ip: (~introductions) 7 yes  ==> Ok. Do you like meat?  When:May 06 01:54:24.967 2022 5ms q 0 Why:~introductions.1.1.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:28.226 2022 ServerPre: pid: 0 luis (harry) size=4 same
+May 06 01:54:28.225 2022 Respond: user:luis bot:harry len:5 ip: (~introductions) 8 same  ==> Are you ready to order?  When:May 06 01:54:28.231 2022 6ms q 0 Why:~introductions.1.0=READY_TO_ORDER.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:30.478 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 01:54:30.477 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 9 no  ==> I will be back shortly to take your order.  When:May 06 01:54:30.483 2022 6ms q 0 Why:~introductions.1.4.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:54:33.726 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 01:54:33.725 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hello! How are you? Welcome to Big Joe's Breakfast. Can I start you off with something to drink?  When:May 06 01:54:33.737 2022 12ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 01:57:55.598 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 01:57:55.597 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hello! How are you? Welcome to Big Joe's Breakfast. Can I start you off with something to drink?  When:May 06 01:57:55.611 2022 14ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 01:57:59.846 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3668 Compiled:May06'22-01:57:59-1651816679925 by version 12.1 "mine"
+
+May 06 01:58:00.921 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:58:00.920 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> Hola! ¿Te gusta caminar?  When:May 06 01:58:00.924 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:57:59-1651816679925 Build1:May06'22-01:57:59-1651816679925 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 01:58:04.377 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 01:58:04.376 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> Hasta luego!  When:May 06 01:58:04.381 2022 5ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:58:12.299 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 01:58:12.298 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 2 no  ==> I don't know what to say.  When:May 06 01:58:12.304 2022 6ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:58:14.339 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 01:58:14.338 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 3 si  ==> I don't know what to say.  When:May 06 01:58:14.344 2022 6ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:59:33.020 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3636 Compiled:May06'22-01:59:33-1651816773098 by version 12.1 "mine"
+
+May 06 01:59:34.043 2022 ServerPre: pid: 0 luis () size=0 
+May 06 01:59:34.042 2022 Start: user:luis bot:harry ip: (~introductions) 3 ==> Hola! Te gusta caminar?  When:May 06 01:59:34.046 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-01:59:33-1651816773098 Build1:May06'22-01:59:33-1651816773098 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 01:59:35.809 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 01:59:35.808 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 4 si  ==> Hasta luego!  When:May 06 01:59:35.813 2022 5ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:59:40.143 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 01:59:40.142 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta caminar?  When:May 06 01:59:40.155 2022 13ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 01:59:42.304 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 01:59:42.303 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> Hasta luego!  When:May 06 01:59:42.308 2022 5ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:59:44.070 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 06 01:59:44.070 2022 Respond: user:luis bot:harry len:4 ip: (~introductions) 2 yes  ==> I don't know what to say.  When:May 06 01:59:44.075 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 01:59:47.856 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 01:59:47.855 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta caminar?  When:May 06 01:59:47.868 2022 13ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 01:59:49.626 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 06 01:59:49.625 2022 Respond: user:luis bot:harry len:4 ip: (~introductions) 1 yes  ==> Hasta luego!  When:May 06 01:59:49.630 2022 5ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 02:00:09.015 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3636 Compiled:May06'22-02:00:09-1651816809088 by version 12.1 "mine"
+
+May 06 02:00:10.083 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:00:10.082 2022 Start: user:luis bot:harry ip: (~introductions) 1 ==> Hola! Te gusta caminar?  When:May 06 02:00:10.087 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:00:09-1651816809088 Build1:May06'22-02:00:09-1651816809088 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 02:00:12.490 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:00:12.489 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta caminar?  When:May 06 02:00:12.501 2022 12ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:00:14.687 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 06 02:00:14.687 2022 Respond: user:luis bot:harry len:4 ip: (~introductions) 1 yes  ==> A mi tambien!  When:May 06 02:00:14.691 2022 4ms q 0 Why:~introductions.0.1.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 02:00:22.488 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 06 02:00:22.487 2022 Respond: user:luis bot:harry len:4 ip: (~introductions) 2 yes  ==> Hasta luego!  When:May 06 02:00:22.493 2022 6ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3592 Compiled:May06'22-02:00:09-1651816809088 by version 12.1 "mine"
+
+May 06 02:02:06.207 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:02:06.207 2022 Start: user:Luis bot:harry ip: (~introductions) 2 ==> I don't know what to say.  When:May 06 02:02:06.212 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:00:09-1651816809088 Build1:May06'22-02:00:09-1651816809088 Why:~control.9.0.~control.9.0 
+
+May 06 02:02:09.378 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:02:09.377 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta caminar?  When:May 06 02:02:09.390 2022 13ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:02:11.297 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 02:02:11.296 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> A mi tambien!  When:May 06 02:02:11.301 2022 5ms q 0 Why:~introductions.0.1.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 02:02:13.754 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 06 02:02:13.753 2022 Respond: user:luis bot:harry len:2 ip: (~introductions) 2 a  ==> Hasta luego!  When:May 06 02:02:13.758 2022 5ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 02:02:18.300 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3668 Compiled:May06'22-02:02:18-1651816938375 by version 12.1 "mine"
+
+May 06 02:02:19.348 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:02:19.348 2022 Start: user:luis bot:harry ip: (~introductions) 2 ==> Hola! Te gusta caminar?  When:May 06 02:02:19.353 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:02:18-1651816938375 Build1:May06'22-02:02:18-1651816938375 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 02:02:22.868 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:02:22.868 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta caminar?  When:May 06 02:02:22.880 2022 12ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:02:24.069 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 02:02:24.068 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> A mi tambien! Hasta luego!  When:May 06 02:02:24.073 2022 5ms q 0 Why:~introductions.0.1.~control.9.0 ~introductions.1.0=FIN.~introductions.0.1  JOpen:0/0 Timeout:0 
+
+May 06 02:02:44.305 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3676 Compiled:May06'22-02:02:44-1651816964385 by version 12.1 "mine"
+
+May 06 02:02:45.369 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:02:45.368 2022 Start: user:luis bot:harry ip: (~introductions) 1 ==> Hola! Te gusta caminar?  When:May 06 02:02:45.372 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:02:44-1651816964385 Build1:May06'22-02:02:44-1651816964385 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 02:02:48.148 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 02:02:48.147 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 2 si  ==> A mi tambien! Hasta luego!  When:May 06 02:02:48.153 2022 6ms q 0 Why:~introductions.0.1.~control.9.0 ~introductions.1.0=FIN.~introductions.0.1  JOpen:0/0 Timeout:0 
+
+May 06 02:02:50.182 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 06 02:02:50.181 2022 Respond: user:luis bot:harry len:2 ip: (~introductions) 3 a  ==> Hasta luego!  When:May 06 02:02:50.187 2022 6ms q 0 Why:~introductions.1.0=FIN.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 02:10:02.202 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3736 Compiled:May06'22-02:10:02-1651817402283 by version 12.1 "mine"
+
+May 06 02:10:03.257 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:10:03.256 2022 Start: user:luis bot:harry ip: (~introductions) 3 ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 02:10:03.259 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:10:02-1651817402283 Build1:May06'22-02:10:02-1651817402283 Why:~introductions.0.0=KEEP.~control.0.0 
+
+May 06 02:10:07.318 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 02:10:07.317 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 4 no  ==> La lluvia ayuda a dormir. Hasta luego!  When:May 06 02:10:07.323 2022 6ms q 0 Why:~introductions.0.2.~control.9.0 ~introductions.1.0=FIN.~introductions.0.2  JOpen:0/0 Timeout:0 
+
+May 06 02:10:57.368 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:10:57.367 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 02:10:57.381 2022 14ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:11:03.393 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3736 Compiled:May06'22-02:11:03-1651817463470 by version 12.1 "mine"
+
+May 06 02:11:04.467 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:11:04.466 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> Hasta luego!  When:May 06 02:11:04.470 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:03-1651817463470 Build1:May06'22-02:11:03-1651817463470 Why:~introductions.1.0=FIN.~control.0.0 
+
+May 06 02:11:11.328 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:11:11.327 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 02:11:11.339 2022 12ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:11:14.752 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3736 Compiled:May06'22-02:11:14-1651817474825 by version 12.1 "mine"
+
+May 06 02:11:15.789 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:11:15.789 2022 Start: user:luis bot:harry ip: (~introductions) 0 ==> Hasta luego!  When:May 06 02:11:15.792 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:14-1651817474825 Build1:May06'22-02:11:14-1651817474825 Why:~introductions.1.0=FIN.~control.0.0 
+
+May 06 02:11:22.517 2022 ServerPre: pid: 0 luis (harry) size=6 :clear
+May 06 02:11:22.516 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 1 :clear  ==> I don't know what to say.  When:May 06 02:11:22.571 2022 55ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 02:11:25.170 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:11:25.170 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 02:11:25.182 2022 12ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:11:27.602 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 02:11:27.601 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> A mi tambien me gusta la lluvia! Hasta luego!  When:May 06 02:11:27.607 2022 6ms q 0 Why:~introductions.0.1.~control.9.0 ~introductions.1.0=FIN.~introductions.0.1  JOpen:0/0 Timeout:0 
+
+May 06 02:11:55.505 2022 ServerPre: pid: 0 luis (harry) size=11 :build mine
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3736 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 06 02:11:56.573 2022 ServerPre: pid: 0 luis () size=0 
+May 06 02:11:56.572 2022 Start: user:luis bot:harry ip: (~introductions) 1 ==> I don't know what to say.  When:May 06 02:11:56.576 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:55-1651817515581 Build1:May06'22-02:11:55-1651817515581 Why:~control.9.0.~control.9.0 
+
+May 06 02:12:04.720 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 02:12:04.720 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 02:12:04.735 2022 15ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 02:12:09.426 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 02:12:09.425 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> A mi tambien me gusta la lluvia! Hasta luego!  When:May 06 02:12:09.430 2022 5ms q 0 Why:~introductions.0.1.~control.9.0 ~introductions.1.0=FIN.~introductions.0.1  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3692 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 06 11:37:08.096 2022 ServerPre: pid: 0 luis () size=0 
+May 06 11:37:08.096 2022 Start: user:Luis bot:harry ip: (~introductions) 1 ==> I don't know what to say.  When:May 06 11:37:08.122 2022 26ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:55-1651817515581 Build1:May06'22-02:11:55-1651817515581 Why:~control.9.0.~control.9.0 
+
+May 06 11:37:12.670 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 11:37:12.669 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:37:12.686 2022 17ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 11:38:34.876 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 11:38:34.876 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:38:34.893 2022 17ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3692 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 06 11:38:44.010 2022 ServerPre: pid: 0 luis () size=0 
+May 06 11:38:44.009 2022 Start: user:Luis bot:harry ip: (~introductions) 0 ==> Hasta luego!  When:May 06 11:38:44.013 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:55-1651817515581 Build1:May06'22-02:11:55-1651817515581 Why:~introductions.1.0=FIN.~control.0.0 
+
+May 06 11:38:47.860 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 11:38:47.860 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:38:47.873 2022 13ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3692 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 06 11:39:01.862 2022 ServerPre: pid: 0  (build mine) size=0 
+BUGNo computer id before user load?
+
+May 06 11:39:06.299 2022 ServerPre: pid: 0  (harry) size=4 Luis
+May 06 11:39:06.298 2022 Respond: user: bot:harry len:5 ip: (~introductions) 1 Luis  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:39:06.303 2022 5ms q 0 Why:~introductions.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 06 11:39:10.263 2022 ServerPre: pid: 0  (harry) size=6 :reset
+May 06 11:39:10.263 2022 Respond: user: bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:39:10.277 2022 14ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3692 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 06 11:39:24.276 2022 ServerPre: pid: 0 luis () size=0 
+May 06 11:39:24.276 2022 Start: user:Luis bot:harry ip: (~introductions) 0 ==> Hasta luego!  When:May 06 11:39:24.280 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:55-1651817515581 Build1:May06'22-02:11:55-1651817515581 Why:~introductions.1.0=FIN.~control.0.0 
+
+May 06 11:39:26.954 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 11:39:26.953 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:39:26.966 2022 13ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 11:53:08.855 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 06 11:53:08.854 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 si  ==> A mi tambien me gusta la lluvia! Hasta luego!  When:May 06 11:53:08.860 2022 6ms q 0 Why:~introductions.0.1 ~introductions.1.0=FIN.~introductions.0.1  JOpen:0/0 Timeout:0 
+
+May 06 11:53:14.024 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 06 11:53:14.023 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:53:14.040 2022 17ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 06 11:53:16.456 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 06 11:53:16.456 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 no  ==> La lluvia ayuda a dormir. Hasta luego!  When:May 06 11:53:16.461 2022 5ms q 0 Why:~introductions.0.2 ~introductions.1.0=FIN.~introductions.0.2  JOpen:0/0 Timeout:0 

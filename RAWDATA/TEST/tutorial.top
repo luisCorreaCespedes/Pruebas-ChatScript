@@ -1,0 +1,9 @@
+topic: ~introductions keep repeat[]
+
+t: keep() repeat() Hola! Te gusta la lluvia?
+ Por favor indicame con un SI o NO tu respuesta...
+	a: (~yes) A mi tambien me gusta la lluvia! ^reuse(FIN)
+
+	a: (~no) La lluvia ayuda a dormir. ^reuse(FIN)
+
+t: FIN() Hasta luego!

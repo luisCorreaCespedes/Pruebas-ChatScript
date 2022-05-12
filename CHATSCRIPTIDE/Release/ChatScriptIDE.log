@@ -1,0 +1,84 @@
+﻿  stdafx.cpp
+  constructCode.cpp
+  csocket.cpp
+c:\chatscript\src\easywclient/easywsclient.cpp(413): warning C4244: 'initializing': conversion from 'uint64_t' to 'std::size_t', possible loss of data
+  c:\chatscript\src\easywclient/easywsclient.cpp(332): note: see reference to function template instantiation 'void `anonymous-namespace'::_RealWebSocket::sendData<std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>(`anonymous-namespace'::_RealWebSocket::wsheader_type::opcode_type,uint64_t,Iterator,Iterator)' being compiled
+          with
+          [
+              Iterator=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  dictionarySystem.cpp
+..\SRC\dictionarySystem.cpp(1530): warning C4018: '<=': signed/unsigned mismatch
+..\SRC\dictionarySystem.cpp(1543): warning C4018: '<=': signed/unsigned mismatch
+..\SRC\dictionarySystem.cpp(1780): warning C4018: '<=': signed/unsigned mismatch
+  duktape.cpp
+..\SRC\duktape\duktape.cpp(28286): warning C4551: function call missing argument list
+  english.cpp
+  englishTagger.cpp
+..\SRC\englishTagger.cpp(2237): warning C4018: '<=': signed/unsigned mismatch
+  evserver.cpp
+  factSystem.cpp
+  functionExecute.cpp
+..\SRC\functionExecute.cpp(978): warning C4018: '>': signed/unsigned mismatch
+..\SRC\functionExecute.cpp(1013): warning C4018: '>': signed/unsigned mismatch
+..\SRC\functionExecute.cpp(6389): warning C4101: 'word': unreferenced local variable
+..\SRC\functionExecute.cpp(7156): warning C4101: 'word': unreferenced local variable
+  infer.cpp
+..\SRC\infer.cpp(1074): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\SRC\infer.cpp(1079): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\SRC\infer.cpp(1288): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\SRC\infer.cpp(1301): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  javascript.cpp
+  jsmn.cpp
+  json.cpp
+  mainSystem.cpp
+..\SRC\mainSystem.cpp(397): warning C4101: 'route': unreferenced local variable
+  markSystem.cpp
+  mongodb.cpp
+  mysql.cpp
+  os.cpp
+..\SRC\os.cpp(1584): warning C4018: '<': signed/unsigned mismatch
+  outputSystem.cpp
+  patternSystem.cpp
+  Compiling...
+  postgres.cpp
+  privatesrc.cpp
+  scriptCompile.cpp
+  secure.cpp
+  spellcheck.cpp
+..\SRC\spellcheck.cpp(112): warning C4018: '<': signed/unsigned mismatch
+..\SRC\spellcheck.cpp(527): warning C4018: '<': signed/unsigned mismatch
+..\SRC\spellcheck.cpp(563): warning C4018: '<': signed/unsigned mismatch
+..\SRC\spellcheck.cpp(1481): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  systemVariables.cpp
+  tagger.cpp
+  testing.cpp
+..\SRC\testing.cpp(8310): warning C4305: 'argument': truncation from 'unsigned __int64' to 'int'
+..\SRC\testing.cpp(8310): warning C4309: 'argument': truncation of constant value
+..\SRC\testing.cpp(8366): warning C4305: 'argument': truncation from 'unsigned __int64' to 'int'
+..\SRC\testing.cpp(8366): warning C4309: 'argument': truncation of constant value
+..\SRC\testing.cpp(8385): warning C4305: 'argument': truncation from 'unsigned __int64' to 'int'
+..\SRC\testing.cpp(8385): warning C4309: 'argument': truncation of constant value
+..\SRC\testing.cpp(8438): warning C4305: 'argument': truncation from 'unsigned __int64' to 'int'
+..\SRC\testing.cpp(8438): warning C4309: 'argument': truncation of constant value
+..\SRC\testing.cpp(9158): warning C4305: 'argument': truncation from 'unsigned __int64' to 'int'
+..\SRC\testing.cpp(9158): warning C4309: 'argument': truncation of constant value
+  textUtilities.cpp
+  tokenSystem.cpp
+  topicSystem.cpp
+..\SRC\topicSystem.cpp(534): warning C4101: 'label': unreferenced local variable
+  userCache.cpp
+  userSystem.cpp
+  variableSystem.cpp
+  ChatScriptIDE.cpp
+ChatScriptIDE.cpp(549): warning C4018: '>': signed/unsigned mismatch
+ChatScriptIDE.cpp(1085): warning C4018: '>': signed/unsigned mismatch
+ChatScriptIDE.cpp(1393): warning C4018: '<=': signed/unsigned mismatch
+ChatScriptIDE.cpp(1586): warning C4018: '>': signed/unsigned mismatch
+ChatScriptIDE.cpp(3345): warning C4018: '<': signed/unsigned mismatch
+  cs_ev.c
+  Generating code
+  All 3754 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ChatScriptIDE.vcxproj -> C:\ChatScript\VS2015\..\BINARIES\ChatScriptIDE.exe
+  ChatScriptIDE.vcxproj -> C:\ChatScript\VS2015\..\BINARIES\ChatScriptIDE.pdb (Full PDB)

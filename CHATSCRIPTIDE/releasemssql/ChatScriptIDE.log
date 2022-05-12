@@ -1,0 +1,45 @@
+﻿  stdafx.cpp
+  constructCode.cpp
+  csocket.cpp
+  dictionarySystem.cpp
+  duktape.cpp
+  english.cpp
+  englishTagger.cpp
+  evserver.cpp
+  factSystem.cpp
+  functionExecute.cpp
+  infer.cpp
+  javascript.cpp
+  jsmn.cpp
+  json.cpp
+  mainSystem.cpp
+  markSystem.cpp
+  mongodb.cpp
+  mssql.cpp
+  mysql.cpp
+  os.cpp
+  outputSystem.cpp
+  Compiling...
+  patternSystem.cpp
+  postgres.cpp
+  privatesrc.cpp
+  scriptCompile.cpp
+  secure.cpp
+  spellcheck.cpp
+  systemVariables.cpp
+  tagger.cpp
+  testing.cpp
+  textUtilities.cpp
+  tokenSystem.cpp
+  topicSystem.cpp
+  userCache.cpp
+  userSystem.cpp
+  variableSystem.cpp
+  ChatScriptIDE.cpp
+D:\ChatScript\SRC\mainSystem.cpp(1204,7): warning C4101: 'route': unreferenced local variable
+  cs_ev.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 3781 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ChatScriptIDE.vcxproj -> D:\ChatScript\VS2019\..\BINARIES\ChatScriptIDE.exe

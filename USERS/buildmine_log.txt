@@ -1,0 +1,22 @@
+﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+
+----Reading file simplecontrol.top   
+Reading outputmacro: ^harry
+Reading table ^tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+----Reading file tutorial.top   
+Reading topic ~introductions
+*** Warning- line 3 col 7 of tutorial.top: label: keep is a potential macro in tutorial.top. Add ^ if you want it treated as such.
+*** Warning- line 92 col 36 of simplecontrol.top: Undefined set or topic ~keywordless*** Warning- line 100 col 35 of simplecontrol.top: Undefined set or topic ~quibble_all
+WARNING SUMMARY: 
+      label: keep is a potential macro in tutorial.top. Add ^ if you want it treated as such. ending line 3 col 7 of tutorial.top
+      Undefined set or topic ~keywordless ending line 92 col 36 of simplecontrol.top
+      Undefined set or topic ~quibble_all ending line 100 col 35 of simplecontrol.top
+    3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings
+    
+
+
+    Finished compile
+

@@ -1,0 +1,1157 @@
+﻿  stdafx.cpp
+  ChatScriptIDE.cpp
+d:\chatscript\chatscriptide\chatscriptide.cpp(172): error C2664: 'BOOL SetCurrentDirectoryW(LPCWSTR)': cannot convert argument 1 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(172): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(179): error C2664: 'int LoadStringW(HINSTANCE,UINT,LPWSTR,int)': cannot convert argument 3 from 'char [100]' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(179): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(180): error C2664: 'int LoadStringW(HINSTANCE,UINT,LPWSTR,int)': cannot convert argument 3 from 'char [100]' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(180): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(563): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(584): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'const char [17]' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(584): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(974): error C2440: '=': cannot convert from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(974): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(1099): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1384): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1548): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1549): warning C4244: 'initializing': conversion from 'uint64' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1550): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1566): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1581): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char *' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(1581): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(1602): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1815): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(1843): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char *' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(1843): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(2003): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char *' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2003): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(2008): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char *' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2008): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(2078): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(2309): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(2394): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2394): note: consider using '%lld' in the format string
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2394): note: consider using '%Id' in the format string
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2394): note: consider using '%I64d' in the format string
+d:\chatscript\chatscriptide\chatscriptide.cpp(2483): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2483): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(2507): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'char [100]' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2507): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(2556): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'char [100]' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2556): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(2579): error C2065: 'GWL_HINSTANCE': undeclared identifier
+d:\chatscript\chatscriptide\chatscriptide.cpp(2579): error C2660: 'CreateWindowExW': function does not take 11 arguments
+d:\chatscript\chatscriptide\chatscriptide.cpp(2605): error C2065: 'GWL_HINSTANCE': undeclared identifier
+d:\chatscript\chatscriptide\chatscriptide.cpp(2605): error C2660: 'CreateWindowExW': function does not take 11 arguments
+d:\chatscript\chatscriptide\chatscriptide.cpp(2630): error C2065: 'GWL_HINSTANCE': undeclared identifier
+d:\chatscript\chatscriptide\chatscriptide.cpp(2630): error C2660: 'CreateWindowExW': function does not take 11 arguments
+d:\chatscript\chatscriptide\chatscriptide.cpp(2649): error C2065: 'GWL_HINSTANCE': undeclared identifier
+d:\chatscript\chatscriptide\chatscriptide.cpp(2649): error C2660: 'CreateWindowExW': function does not take 11 arguments
+d:\chatscript\chatscriptide\chatscriptide.cpp(2666): error C2065: 'GWL_HINSTANCE': undeclared identifier
+d:\chatscript\chatscriptide\chatscriptide.cpp(2666): error C2660: 'CreateWindowExW': function does not take 11 arguments
+d:\chatscript\chatscriptide\chatscriptide.cpp(2682): error C2065: 'GWL_HINSTANCE': undeclared identifier
+d:\chatscript\chatscriptide\chatscriptide.cpp(2682): error C2660: 'CreateWindowExW': function does not take 11 arguments
+d:\chatscript\chatscriptide\chatscriptide.cpp(2994): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char [3000]' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(2994): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3075): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char *' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3075): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3292): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3292): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3373): warning C4018: '<': signed/unsigned mismatch
+d:\chatscript\chatscriptide\chatscriptide.cpp(3383): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3383): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3467): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3467): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3474): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3474): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3514): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\chatscript\chatscriptide\chatscriptide.cpp(3537): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3537): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3553): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3553): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3578): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3578): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3588): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3588): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3596): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3596): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3600): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3600): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3605): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3605): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3616): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3616): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3639): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char [3000]' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3639): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3644): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3644): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3652): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char [3000]' to 'LPWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3652): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3655): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'LPCSTR' to 'LPCWSTR'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3655): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\chatscript\chatscriptide\chatscriptide.cpp(3450): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'std::size_t'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3450): note: consider using '%zd' in the format string
+d:\chatscript\chatscriptide\chatscriptide.cpp(3452): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'std::size_t'
+  d:\chatscript\chatscriptide\chatscriptide.cpp(3452): note: consider using '%zd' in the format string
+  variableSystem.cpp
+d:\chatscript\src\variablesystem.cpp(1307): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  userSystem.cpp
+d:\chatscript\src\usersystem.cpp(896): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  userCache.cpp
+d:\chatscript\src\usercache.cpp(314): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  topicSystem.cpp
+d:\chatscript\src\topicsystem.cpp(3278): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  tokenSystem.cpp
+d:\chatscript\src\tokensystem.cpp(2697): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  textUtilities.cpp
+d:\chatscript\src\textutilities.cpp(3830): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  testing.cpp
+d:\chatscript\src\testing.cpp(10929): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  tagger.cpp
+d:\chatscript\src\tagger.cpp(600): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  systemVariables.cpp
+d:\chatscript\src\systemvariables.cpp(1178): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  spellcheck.cpp
+d:\chatscript\src\spellcheck.cpp(1785): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  secure.cpp
+d:\chatscript\src\secure.cpp(8): warning C4005: 'UNICODE': macro redefinition
+  d:\chatscript\src\secure.cpp(8): note: command-line arguments:  see previous definition of 'UNICODE'
+d:\chatscript\src\secure.cpp(188): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  scriptCompile.cpp
+d:\chatscript\src\scriptcompile.cpp(6960): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  privatesrc.cpp
+d:\chatscript\src\privatesrc.cpp(2): error C2006: '#include': expected a filename, found '.'
+d:\chatscript\src\privatesrc.cpp(4): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  postgres.cpp
+d:\chatscript\src\postgres.cpp(529): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  patternSystem.cpp
+d:\chatscript\src\patternsystem.cpp(1839): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  outputSystem.cpp
+d:\chatscript\src\outputsystem.cpp(1267): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  os.cpp
+d:\chatscript\src\os.cpp(2262): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  mysql.cpp
+d:\chatscript\src\mysql.cpp(389): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  mongodb.cpp
+d:\chatscript\src\mongodb.cpp(563): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...
+  Compiling...
+  markSystem.cpp
+d:\chatscript\src\marksystem.cpp(1627): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  mainSystem.cpp
+d:\chatscript\src\mainsystem.cpp(3386): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  json.cpp
+d:\chatscript\src\json.cpp(462): warning C4005: 'SAFE_SPRINTF': macro redefinition
+  d:\chatscript\src\json.cpp(459): note: see previous definition of 'SAFE_SPRINTF'
+d:\chatscript\src\json.cpp(2638): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  jsmn.cpp
+d:\chatscript\src\jsmn.cpp(256): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  javascript.cpp
+d:\chatscript\src\javascript.cpp(221): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  infer.cpp
+d:\chatscript\src\infer.cpp(1484): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  functionExecute.cpp
+d:\chatscript\src\functionexecute.cpp(11046): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  factSystem.cpp
+d:\chatscript\src\factsystem.cpp(1832): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  evserver.cpp
+d:\chatscript\src\evserver.cpp(710): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  englishTagger.cpp
+d:\chatscript\src\englishtagger.cpp(10220): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  english.cpp
+d:\chatscript\src\english.cpp(3377): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  duktape.cpp
+d:\chatscript\src\duktape\duktape.cpp(308): warning C4005: 'DUK_DBL_IDX_UI0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(288): note: see previous definition of 'DUK_DBL_IDX_UI0'
+d:\chatscript\src\duktape\duktape.cpp(309): warning C4005: 'DUK_DBL_IDX_UI1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(289): note: see previous definition of 'DUK_DBL_IDX_UI1'
+d:\chatscript\src\duktape\duktape.cpp(310): warning C4005: 'DUK_DBL_IDX_US0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(290): note: see previous definition of 'DUK_DBL_IDX_US0'
+d:\chatscript\src\duktape\duktape.cpp(311): warning C4005: 'DUK_DBL_IDX_US1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(291): note: see previous definition of 'DUK_DBL_IDX_US1'
+d:\chatscript\src\duktape\duktape.cpp(312): warning C4005: 'DUK_DBL_IDX_US2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(292): note: see previous definition of 'DUK_DBL_IDX_US2'
+d:\chatscript\src\duktape\duktape.cpp(313): warning C4005: 'DUK_DBL_IDX_US3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(293): note: see previous definition of 'DUK_DBL_IDX_US3'
+d:\chatscript\src\duktape\duktape.cpp(314): warning C4005: 'DUK_DBL_IDX_UC0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(294): note: see previous definition of 'DUK_DBL_IDX_UC0'
+d:\chatscript\src\duktape\duktape.cpp(315): warning C4005: 'DUK_DBL_IDX_UC1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(295): note: see previous definition of 'DUK_DBL_IDX_UC1'
+d:\chatscript\src\duktape\duktape.cpp(316): warning C4005: 'DUK_DBL_IDX_UC2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(296): note: see previous definition of 'DUK_DBL_IDX_UC2'
+d:\chatscript\src\duktape\duktape.cpp(317): warning C4005: 'DUK_DBL_IDX_UC3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(297): note: see previous definition of 'DUK_DBL_IDX_UC3'
+d:\chatscript\src\duktape\duktape.cpp(318): warning C4005: 'DUK_DBL_IDX_UC4': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(298): note: see previous definition of 'DUK_DBL_IDX_UC4'
+d:\chatscript\src\duktape\duktape.cpp(319): warning C4005: 'DUK_DBL_IDX_UC5': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(299): note: see previous definition of 'DUK_DBL_IDX_UC5'
+d:\chatscript\src\duktape\duktape.cpp(320): warning C4005: 'DUK_DBL_IDX_UC6': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(300): note: see previous definition of 'DUK_DBL_IDX_UC6'
+d:\chatscript\src\duktape\duktape.cpp(321): warning C4005: 'DUK_DBL_IDX_UC7': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(301): note: see previous definition of 'DUK_DBL_IDX_UC7'
+d:\chatscript\src\duktape\duktape.cpp(330): warning C4005: 'DUK_DBL_IDX_US0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(310): note: see previous definition of 'DUK_DBL_IDX_US0'
+d:\chatscript\src\duktape\duktape.cpp(331): warning C4005: 'DUK_DBL_IDX_US1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(311): note: see previous definition of 'DUK_DBL_IDX_US1'
+d:\chatscript\src\duktape\duktape.cpp(332): warning C4005: 'DUK_DBL_IDX_US2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(312): note: see previous definition of 'DUK_DBL_IDX_US2'
+d:\chatscript\src\duktape\duktape.cpp(333): warning C4005: 'DUK_DBL_IDX_US3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(313): note: see previous definition of 'DUK_DBL_IDX_US3'
+d:\chatscript\src\duktape\duktape.cpp(334): warning C4005: 'DUK_DBL_IDX_UC0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(314): note: see previous definition of 'DUK_DBL_IDX_UC0'
+d:\chatscript\src\duktape\duktape.cpp(335): warning C4005: 'DUK_DBL_IDX_UC1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(315): note: see previous definition of 'DUK_DBL_IDX_UC1'
+d:\chatscript\src\duktape\duktape.cpp(336): warning C4005: 'DUK_DBL_IDX_UC2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(316): note: see previous definition of 'DUK_DBL_IDX_UC2'
+d:\chatscript\src\duktape\duktape.cpp(337): warning C4005: 'DUK_DBL_IDX_UC3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(317): note: see previous definition of 'DUK_DBL_IDX_UC3'
+d:\chatscript\src\duktape\duktape.cpp(338): warning C4005: 'DUK_DBL_IDX_UC4': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(318): note: see previous definition of 'DUK_DBL_IDX_UC4'
+d:\chatscript\src\duktape\duktape.cpp(339): warning C4005: 'DUK_DBL_IDX_UC5': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(319): note: see previous definition of 'DUK_DBL_IDX_UC5'
+d:\chatscript\src\duktape\duktape.cpp(340): warning C4005: 'DUK_DBL_IDX_UC6': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(320): note: see previous definition of 'DUK_DBL_IDX_UC6'
+d:\chatscript\src\duktape\duktape.cpp(341): warning C4005: 'DUK_DBL_IDX_UC7': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(321): note: see previous definition of 'DUK_DBL_IDX_UC7'
+d:\chatscript\src\duktape\duktape.cpp(369): warning C4005: 'DUK_DBLUNION_SET_HIGH32_ZERO_LOW32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(365): note: see previous definition of 'DUK_DBLUNION_SET_HIGH32_ZERO_LOW32'
+d:\chatscript\src\duktape\duktape.cpp(375): warning C4005: 'DUK_DBLUNION_SET_HIGH32_ZERO_LOW32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(369): note: see previous definition of 'DUK_DBLUNION_SET_HIGH32_ZERO_LOW32'
+d:\chatscript\src\duktape\duktape.cpp(398): warning C4005: 'DUK_DBLUNION_SET_UINT64': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(391): note: see previous definition of 'DUK_DBLUNION_SET_UINT64'
+d:\chatscript\src\duktape\duktape.cpp(399): warning C4005: 'DUK_DBLUNION_GET_UINT64': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(394): note: see previous definition of 'DUK_DBLUNION_GET_UINT64'
+d:\chatscript\src\duktape\duktape.cpp(458): warning C4005: 'DUK__DBLUNION_SET_NAN_FULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(436): note: see previous definition of 'DUK__DBLUNION_SET_NAN_FULL'
+d:\chatscript\src\duktape\duktape.cpp(461): warning C4005: 'DUK__DBLUNION_IS_NAN_FULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(439): note: see previous definition of 'DUK__DBLUNION_IS_NAN_FULL'
+d:\chatscript\src\duktape\duktape.cpp(463): warning C4005: 'DUK__DBLUNION_IS_NORMALIZED_NAN_FULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(441): note: see previous definition of 'DUK__DBLUNION_IS_NORMALIZED_NAN_FULL'
+d:\chatscript\src\duktape\duktape.cpp(465): warning C4005: 'DUK__DBLUNION_IS_ANYINF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(443): note: see previous definition of 'DUK__DBLUNION_IS_ANYINF'
+d:\chatscript\src\duktape\duktape.cpp(467): warning C4005: 'DUK__DBLUNION_IS_POSINF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(445): note: see previous definition of 'DUK__DBLUNION_IS_POSINF'
+d:\chatscript\src\duktape\duktape.cpp(469): warning C4005: 'DUK__DBLUNION_IS_NEGINF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(447): note: see previous definition of 'DUK__DBLUNION_IS_NEGINF'
+d:\chatscript\src\duktape\duktape.cpp(471): warning C4005: 'DUK__DBLUNION_IS_ANYZERO': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(449): note: see previous definition of 'DUK__DBLUNION_IS_ANYZERO'
+d:\chatscript\src\duktape\duktape.cpp(475): warning C4005: 'DUK__DBLUNION_IS_NEGZERO': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(453): note: see previous definition of 'DUK__DBLUNION_IS_NEGZERO'
+d:\chatscript\src\duktape\duktape.cpp(482): warning C4005: 'DUK__DBLUNION_SET_NAN_FULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(458): note: see previous definition of 'DUK__DBLUNION_SET_NAN_FULL'
+d:\chatscript\src\duktape\duktape.cpp(486): warning C4005: 'DUK__DBLUNION_IS_NAN_FULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(461): note: see previous definition of 'DUK__DBLUNION_IS_NAN_FULL'
+d:\chatscript\src\duktape\duktape.cpp(489): warning C4005: 'DUK__DBLUNION_IS_NORMALIZED_NAN_FULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(463): note: see previous definition of 'DUK__DBLUNION_IS_NORMALIZED_NAN_FULL'
+d:\chatscript\src\duktape\duktape.cpp(492): warning C4005: 'DUK__DBLUNION_IS_ANYINF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(465): note: see previous definition of 'DUK__DBLUNION_IS_ANYINF'
+d:\chatscript\src\duktape\duktape.cpp(495): warning C4005: 'DUK__DBLUNION_IS_POSINF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(467): note: see previous definition of 'DUK__DBLUNION_IS_POSINF'
+d:\chatscript\src\duktape\duktape.cpp(498): warning C4005: 'DUK__DBLUNION_IS_NEGINF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(469): note: see previous definition of 'DUK__DBLUNION_IS_NEGINF'
+d:\chatscript\src\duktape\duktape.cpp(501): warning C4005: 'DUK__DBLUNION_IS_ANYZERO': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(471): note: see previous definition of 'DUK__DBLUNION_IS_ANYZERO'
+d:\chatscript\src\duktape\duktape.cpp(504): warning C4005: 'DUK__DBLUNION_IS_POSZERO': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(451): note: see previous definition of 'DUK__DBLUNION_IS_POSZERO'
+d:\chatscript\src\duktape\duktape.cpp(507): warning C4005: 'DUK__DBLUNION_IS_NEGZERO': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(475): note: see previous definition of 'DUK__DBLUNION_IS_NEGZERO'
+d:\chatscript\src\duktape\duktape.cpp(548): warning C4005: 'DUK_DBLUNION_NORMALIZE_NAN_CHECK': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(543): note: see previous definition of 'DUK_DBLUNION_NORMALIZE_NAN_CHECK'
+d:\chatscript\src\duktape\duktape.cpp(549): warning C4005: 'DUK_DBLUNION_IS_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(544): note: see previous definition of 'DUK_DBLUNION_IS_NAN'
+d:\chatscript\src\duktape\duktape.cpp(550): warning C4005: 'DUK_DBLUNION_IS_NORMALIZED_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(545): note: see previous definition of 'DUK_DBLUNION_IS_NORMALIZED_NAN'
+d:\chatscript\src\duktape\duktape.cpp(551): warning C4005: 'DUK_DBLUNION_SET_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(546): note: see previous definition of 'DUK_DBLUNION_SET_NAN'
+d:\chatscript\src\duktape\duktape.cpp(557): warning C4005: 'DUK_DBLUNION_NORMALIZE_NAN_CHECK': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(548): note: see previous definition of 'DUK_DBLUNION_NORMALIZE_NAN_CHECK'
+d:\chatscript\src\duktape\duktape.cpp(558): warning C4005: 'DUK_DBLUNION_IS_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(549): note: see previous definition of 'DUK_DBLUNION_IS_NAN'
+d:\chatscript\src\duktape\duktape.cpp(559): warning C4005: 'DUK_DBLUNION_IS_NORMALIZED_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(550): note: see previous definition of 'DUK_DBLUNION_IS_NORMALIZED_NAN'
+d:\chatscript\src\duktape\duktape.cpp(560): warning C4005: 'DUK_DBLUNION_IS_NORMALIZED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(555): note: see previous definition of 'DUK_DBLUNION_IS_NORMALIZED'
+d:\chatscript\src\duktape\duktape.cpp(564): warning C4005: 'DUK_DBLUNION_SET_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(551): note: see previous definition of 'DUK_DBLUNION_SET_NAN'
+d:\chatscript\src\duktape\duktape.cpp(610): warning C4005: 'DUK_DBLUNION_DOUBLE_HTON': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(600): note: see previous definition of 'DUK_DBLUNION_DOUBLE_HTON'
+d:\chatscript\src\duktape\duktape.cpp(612): warning C4005: 'DUK_DBLUNION_DOUBLE_HTON': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(610): note: see previous definition of 'DUK_DBLUNION_DOUBLE_HTON'
+d:\chatscript\src\duktape\duktape.cpp(625): warning C4005: 'DUK_DBLUNION_HAS_SIGNBIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(622): note: see previous definition of 'DUK_DBLUNION_HAS_SIGNBIT'
+d:\chatscript\src\duktape\duktape.cpp(626): warning C4005: 'DUK_DBLUNION_GET_SIGNBIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(623): note: see previous definition of 'DUK_DBLUNION_GET_SIGNBIT'
+d:\chatscript\src\duktape\duktape.cpp(660): warning C4005: 'DUK_FLT_IDX_US0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(652): note: see previous definition of 'DUK_FLT_IDX_US0'
+d:\chatscript\src\duktape\duktape.cpp(661): warning C4005: 'DUK_FLT_IDX_US1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(653): note: see previous definition of 'DUK_FLT_IDX_US1'
+d:\chatscript\src\duktape\duktape.cpp(662): warning C4005: 'DUK_FLT_IDX_UC0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(654): note: see previous definition of 'DUK_FLT_IDX_UC0'
+d:\chatscript\src\duktape\duktape.cpp(663): warning C4005: 'DUK_FLT_IDX_UC1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(655): note: see previous definition of 'DUK_FLT_IDX_UC1'
+d:\chatscript\src\duktape\duktape.cpp(664): warning C4005: 'DUK_FLT_IDX_UC2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(656): note: see previous definition of 'DUK_FLT_IDX_UC2'
+d:\chatscript\src\duktape\duktape.cpp(665): warning C4005: 'DUK_FLT_IDX_UC3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(657): note: see previous definition of 'DUK_FLT_IDX_UC3'
+d:\chatscript\src\duktape\duktape.cpp(979): warning C4005: 'DUK__TVAL_SET_TAGGEDPOINTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(975): note: see previous definition of 'DUK__TVAL_SET_TAGGEDPOINTER'
+d:\chatscript\src\duktape\duktape.cpp(987): warning C4005: 'DUK__TVAL_SET_TAGGEDPOINTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(979): note: see previous definition of 'DUK__TVAL_SET_TAGGEDPOINTER'
+d:\chatscript\src\duktape\duktape.cpp(1003): warning C4005: 'DUK__TVAL_SET_LIGHTFUNC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(997): note: see previous definition of 'DUK__TVAL_SET_LIGHTFUNC'
+d:\chatscript\src\duktape\duktape.cpp(1011): warning C4005: 'DUK__TVAL_SET_LIGHTFUNC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1003): note: see previous definition of 'DUK__TVAL_SET_LIGHTFUNC'
+d:\chatscript\src\duktape\duktape.cpp(1032): warning C4005: 'DUK__TVAL_SET_I48': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1022): note: see previous definition of 'DUK__TVAL_SET_I48'
+d:\chatscript\src\duktape\duktape.cpp(1035): warning C4005: 'DUK__TVAL_SET_U32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1028): note: see previous definition of 'DUK__TVAL_SET_U32'
+d:\chatscript\src\duktape\duktape.cpp(1048): warning C4005: 'DUK__TVAL_GET_FASTINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1046): note: see previous definition of 'DUK__TVAL_GET_FASTINT'
+d:\chatscript\src\duktape\duktape.cpp(1107): warning C4005: 'DUK_TVAL_SET_I48': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1076): note: see previous definition of 'DUK_TVAL_SET_I48'
+d:\chatscript\src\duktape\duktape.cpp(1108): warning C4005: 'DUK_TVAL_SET_I32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1077): note: see previous definition of 'DUK_TVAL_SET_I32'
+d:\chatscript\src\duktape\duktape.cpp(1109): warning C4005: 'DUK_TVAL_SET_U32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1078): note: see previous definition of 'DUK_TVAL_SET_U32'
+d:\chatscript\src\duktape\duktape.cpp(1110): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1079): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_FAST'
+d:\chatscript\src\duktape\duktape.cpp(1111): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1080): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(1113): warning C4005: 'DUK_TVAL_CHKFAST_INPLACE_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1090): note: see previous definition of 'DUK_TVAL_CHKFAST_INPLACE_FAST'
+d:\chatscript\src\duktape\duktape.cpp(1114): warning C4005: 'DUK_TVAL_CHKFAST_INPLACE_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1099): note: see previous definition of 'DUK_TVAL_CHKFAST_INPLACE_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(1136): warning C4005: 'DUK_TVAL_GET_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1134): note: see previous definition of 'DUK_TVAL_GET_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1171): warning C4005: 'DUK_TVAL_IS_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1169): note: see previous definition of 'DUK_TVAL_IS_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1172): warning C4005: 'DUK_TVAL_IS_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1167): note: see previous definition of 'DUK_TVAL_IS_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(1232): warning C4005: 'DUK_TVAL_UNUSED_INITIALIZER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(968): note: see previous definition of 'DUK_TVAL_UNUSED_INITIALIZER'
+d:\chatscript\src\duktape\duktape.cpp(1234): warning C4005: 'DUK_TAG_MIN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(943): note: see previous definition of 'DUK_TAG_MIN'
+d:\chatscript\src\duktape\duktape.cpp(1237): warning C4005: 'DUK_TAG_FASTINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(945): note: see previous definition of 'DUK_TAG_FASTINT'
+d:\chatscript\src\duktape\duktape.cpp(1239): warning C4005: 'DUK_TAG_UNDEFINED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(948): note: see previous definition of 'DUK_TAG_UNDEFINED'
+d:\chatscript\src\duktape\duktape.cpp(1240): warning C4005: 'DUK_TAG_NULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(949): note: see previous definition of 'DUK_TAG_NULL'
+d:\chatscript\src\duktape\duktape.cpp(1241): warning C4005: 'DUK_TAG_BOOLEAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(950): note: see previous definition of 'DUK_TAG_BOOLEAN'
+d:\chatscript\src\duktape\duktape.cpp(1242): warning C4005: 'DUK_TAG_POINTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(952): note: see previous definition of 'DUK_TAG_POINTER'
+d:\chatscript\src\duktape\duktape.cpp(1243): warning C4005: 'DUK_TAG_LIGHTFUNC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(953): note: see previous definition of 'DUK_TAG_LIGHTFUNC'
+d:\chatscript\src\duktape\duktape.cpp(1244): warning C4005: 'DUK_TAG_UNUSED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(947): note: see previous definition of 'DUK_TAG_UNUSED'
+d:\chatscript\src\duktape\duktape.cpp(1245): warning C4005: 'DUK_TAG_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(954): note: see previous definition of 'DUK_TAG_STRING'
+d:\chatscript\src\duktape\duktape.cpp(1246): warning C4005: 'DUK_TAG_OBJECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(955): note: see previous definition of 'DUK_TAG_OBJECT'
+d:\chatscript\src\duktape\duktape.cpp(1247): warning C4005: 'DUK_TAG_BUFFER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(956): note: see previous definition of 'DUK_TAG_BUFFER'
+d:\chatscript\src\duktape\duktape.cpp(1248): warning C4005: 'DUK_TAG_MAX': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(957): note: see previous definition of 'DUK_TAG_MAX'
+d:\chatscript\src\duktape\duktape.cpp(1264): warning C4005: 'DUK_TVAL_SET_UNDEFINED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1056): note: see previous definition of 'DUK_TVAL_SET_UNDEFINED'
+d:\chatscript\src\duktape\duktape.cpp(1270): warning C4005: 'DUK_TVAL_SET_UNUSED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1059): note: see previous definition of 'DUK_TVAL_SET_UNUSED'
+d:\chatscript\src\duktape\duktape.cpp(1276): warning C4005: 'DUK_TVAL_SET_NULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1062): note: see previous definition of 'DUK_TVAL_SET_NULL'
+d:\chatscript\src\duktape\duktape.cpp(1283): warning C4005: 'DUK_TVAL_SET_BOOLEAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1064): note: see previous definition of 'DUK_TVAL_SET_BOOLEAN'
+d:\chatscript\src\duktape\duktape.cpp(1294): warning C4005: 'DUK_TVAL_SET_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1075): note: see previous definition of 'DUK_TVAL_SET_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(1300): warning C4005: 'DUK_TVAL_SET_I48': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1107): note: see previous definition of 'DUK_TVAL_SET_I48'
+d:\chatscript\src\duktape\duktape.cpp(1306): warning C4005: 'DUK_TVAL_SET_U32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1109): note: see previous definition of 'DUK_TVAL_SET_U32'
+d:\chatscript\src\duktape\duktape.cpp(1312): warning C4005: 'DUK_TVAL_SET_I32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1108): note: see previous definition of 'DUK_TVAL_SET_I32'
+d:\chatscript\src\duktape\duktape.cpp(1314): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1110): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_FAST'
+d:\chatscript\src\duktape\duktape.cpp(1316): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1111): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(1327): warning C4005: 'DUK_TVAL_CHKFAST_INPLACE_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1113): note: see previous definition of 'DUK_TVAL_CHKFAST_INPLACE_FAST'
+d:\chatscript\src\duktape\duktape.cpp(1336): warning C4005: 'DUK_TVAL_CHKFAST_INPLACE_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1114): note: see previous definition of 'DUK_TVAL_CHKFAST_INPLACE_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(1339): warning C4005: 'DUK_TVAL_SET_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1294): note: see previous definition of 'DUK_TVAL_SET_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(1341): warning C4005: 'DUK_TVAL_SET_I48': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1300): note: see previous definition of 'DUK_TVAL_SET_I48'
+d:\chatscript\src\duktape\duktape.cpp(1343): warning C4005: 'DUK_TVAL_SET_U32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1306): note: see previous definition of 'DUK_TVAL_SET_U32'
+d:\chatscript\src\duktape\duktape.cpp(1345): warning C4005: 'DUK_TVAL_SET_I32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1312): note: see previous definition of 'DUK_TVAL_SET_I32'
+d:\chatscript\src\duktape\duktape.cpp(1354): warning C4005: 'DUK_TVAL_SET_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1081): note: see previous definition of 'DUK_TVAL_SET_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1356): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1314): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_FAST'
+d:\chatscript\src\duktape\duktape.cpp(1358): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1316): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(1359): warning C4005: 'DUK_TVAL_CHKFAST_INPLACE_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1327): note: see previous definition of 'DUK_TVAL_CHKFAST_INPLACE_FAST'
+d:\chatscript\src\duktape\duktape.cpp(1360): warning C4005: 'DUK_TVAL_CHKFAST_INPLACE_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1336): note: see previous definition of 'DUK_TVAL_CHKFAST_INPLACE_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(1371): warning C4005: 'DUK_TVAL_SET_POINTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1123): note: see previous definition of 'DUK_TVAL_SET_POINTER'
+d:\chatscript\src\duktape\duktape.cpp(1379): warning C4005: 'DUK_TVAL_SET_LIGHTFUNC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1119): note: see previous definition of 'DUK_TVAL_SET_LIGHTFUNC'
+d:\chatscript\src\duktape\duktape.cpp(1386): warning C4005: 'DUK_TVAL_SET_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1120): note: see previous definition of 'DUK_TVAL_SET_STRING'
+d:\chatscript\src\duktape\duktape.cpp(1393): warning C4005: 'DUK_TVAL_SET_OBJECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1121): note: see previous definition of 'DUK_TVAL_SET_OBJECT'
+d:\chatscript\src\duktape\duktape.cpp(1400): warning C4005: 'DUK_TVAL_SET_BUFFER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1122): note: see previous definition of 'DUK_TVAL_SET_BUFFER'
+d:\chatscript\src\duktape\duktape.cpp(1408): warning C4005: 'DUK_TVAL_SET_NAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1066): note: see previous definition of 'DUK_TVAL_SET_NAN'
+d:\chatscript\src\duktape\duktape.cpp(1413): warning C4005: 'DUK_TVAL_GET_BOOLEAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1128): note: see previous definition of 'DUK_TVAL_GET_BOOLEAN'
+d:\chatscript\src\duktape\duktape.cpp(1415): warning C4005: 'DUK_TVAL_GET_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1130): note: see previous definition of 'DUK_TVAL_GET_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(1416): warning C4005: 'DUK_TVAL_GET_FASTINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1131): note: see previous definition of 'DUK_TVAL_GET_FASTINT'
+d:\chatscript\src\duktape\duktape.cpp(1417): warning C4005: 'DUK_TVAL_GET_FASTINT_U32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1132): note: see previous definition of 'DUK_TVAL_GET_FASTINT_U32'
+d:\chatscript\src\duktape\duktape.cpp(1418): warning C4005: 'DUK_TVAL_GET_FASTINT_I32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1133): note: see previous definition of 'DUK_TVAL_GET_FASTINT_I32'
+d:\chatscript\src\duktape\duktape.cpp(1422): warning C4005: 'DUK_TVAL_GET_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1136): note: see previous definition of 'DUK_TVAL_GET_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1423): warning C4005: 'DUK_TVAL_GET_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1422): note: see previous definition of 'DUK_TVAL_GET_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1428): warning C4005: 'DUK_TVAL_GET_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1423): note: see previous definition of 'DUK_TVAL_GET_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1431): warning C4005: 'DUK_TVAL_GET_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1428): note: see previous definition of 'DUK_TVAL_GET_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1434): warning C4005: 'DUK_TVAL_GET_POINTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1148): note: see previous definition of 'DUK_TVAL_GET_POINTER'
+d:\chatscript\src\duktape\duktape.cpp(1438): warning C4005: 'DUK_TVAL_GET_LIGHTFUNC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1142): note: see previous definition of 'DUK_TVAL_GET_LIGHTFUNC'
+d:\chatscript\src\duktape\duktape.cpp(1439): warning C4005: 'DUK_TVAL_GET_LIGHTFUNC_FUNCPTR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1143): note: see previous definition of 'DUK_TVAL_GET_LIGHTFUNC_FUNCPTR'
+d:\chatscript\src\duktape\duktape.cpp(1440): warning C4005: 'DUK_TVAL_GET_LIGHTFUNC_FLAGS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1144): note: see previous definition of 'DUK_TVAL_GET_LIGHTFUNC_FLAGS'
+d:\chatscript\src\duktape\duktape.cpp(1441): warning C4005: 'DUK_TVAL_GET_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1145): note: see previous definition of 'DUK_TVAL_GET_STRING'
+d:\chatscript\src\duktape\duktape.cpp(1442): warning C4005: 'DUK_TVAL_GET_OBJECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1146): note: see previous definition of 'DUK_TVAL_GET_OBJECT'
+d:\chatscript\src\duktape\duktape.cpp(1443): warning C4005: 'DUK_TVAL_GET_BUFFER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1147): note: see previous definition of 'DUK_TVAL_GET_BUFFER'
+d:\chatscript\src\duktape\duktape.cpp(1444): warning C4005: 'DUK_TVAL_GET_HEAPHDR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1149): note: see previous definition of 'DUK_TVAL_GET_HEAPHDR'
+d:\chatscript\src\duktape\duktape.cpp(1447): warning C4005: 'DUK_TVAL_GET_TAG': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1152): note: see previous definition of 'DUK_TVAL_GET_TAG'
+d:\chatscript\src\duktape\duktape.cpp(1448): warning C4005: 'DUK_TVAL_IS_UNDEFINED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1154): note: see previous definition of 'DUK_TVAL_IS_UNDEFINED'
+d:\chatscript\src\duktape\duktape.cpp(1449): warning C4005: 'DUK_TVAL_IS_UNUSED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1155): note: see previous definition of 'DUK_TVAL_IS_UNUSED'
+d:\chatscript\src\duktape\duktape.cpp(1450): warning C4005: 'DUK_TVAL_IS_NULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1156): note: see previous definition of 'DUK_TVAL_IS_NULL'
+d:\chatscript\src\duktape\duktape.cpp(1451): warning C4005: 'DUK_TVAL_IS_BOOLEAN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1157): note: see previous definition of 'DUK_TVAL_IS_BOOLEAN'
+d:\chatscript\src\duktape\duktape.cpp(1452): warning C4005: 'DUK_TVAL_IS_BOOLEAN_TRUE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1158): note: see previous definition of 'DUK_TVAL_IS_BOOLEAN_TRUE'
+d:\chatscript\src\duktape\duktape.cpp(1453): warning C4005: 'DUK_TVAL_IS_BOOLEAN_FALSE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1159): note: see previous definition of 'DUK_TVAL_IS_BOOLEAN_FALSE'
+d:\chatscript\src\duktape\duktape.cpp(1455): warning C4005: 'DUK_TVAL_IS_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1172): note: see previous definition of 'DUK_TVAL_IS_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(1456): warning C4005: 'DUK_TVAL_IS_FASTINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1168): note: see previous definition of 'DUK_TVAL_IS_FASTINT'
+d:\chatscript\src\duktape\duktape.cpp(1458): warning C4005: 'DUK_TVAL_IS_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1171): note: see previous definition of 'DUK_TVAL_IS_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1460): warning C4005: 'DUK_TVAL_IS_NUMBER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1458): note: see previous definition of 'DUK_TVAL_IS_NUMBER'
+d:\chatscript\src\duktape\duktape.cpp(1461): warning C4005: 'DUK_TVAL_IS_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1455): note: see previous definition of 'DUK_TVAL_IS_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(1463): warning C4005: 'DUK_TVAL_IS_POINTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1164): note: see previous definition of 'DUK_TVAL_IS_POINTER'
+d:\chatscript\src\duktape\duktape.cpp(1464): warning C4005: 'DUK_TVAL_IS_LIGHTFUNC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1160): note: see previous definition of 'DUK_TVAL_IS_LIGHTFUNC'
+d:\chatscript\src\duktape\duktape.cpp(1465): warning C4005: 'DUK_TVAL_IS_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1161): note: see previous definition of 'DUK_TVAL_IS_STRING'
+d:\chatscript\src\duktape\duktape.cpp(1466): warning C4005: 'DUK_TVAL_IS_OBJECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1162): note: see previous definition of 'DUK_TVAL_IS_OBJECT'
+d:\chatscript\src\duktape\duktape.cpp(1467): warning C4005: 'DUK_TVAL_IS_BUFFER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1163): note: see previous definition of 'DUK_TVAL_IS_BUFFER'
+d:\chatscript\src\duktape\duktape.cpp(1475): warning C4005: 'DUK_TVAL_IS_HEAP_ALLOCATED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1176): note: see previous definition of 'DUK_TVAL_IS_HEAP_ALLOCATED'
+d:\chatscript\src\duktape\duktape.cpp(1477): warning C4005: 'DUK_TVAL_IS_HEAP_ALLOCATED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1475): note: see previous definition of 'DUK_TVAL_IS_HEAP_ALLOCATED'
+d:\chatscript\src\duktape\duktape.cpp(1533): warning C4005: 'DUK_TVAL_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(1531): note: see previous definition of 'DUK_TVAL_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(2344): warning C4005: 'DUK_UTIL_GET_RANDOM_DOUBLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2342): note: see previous definition of 'DUK_UTIL_GET_RANDOM_DOUBLE'
+d:\chatscript\src\duktape\duktape.cpp(2366): warning C4005: 'DUK_HTON32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2361): note: see previous definition of 'DUK_HTON32'
+d:\chatscript\src\duktape\duktape.cpp(2367): warning C4005: 'DUK_NTOH32': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2362): note: see previous definition of 'DUK_NTOH32'
+d:\chatscript\src\duktape\duktape.cpp(2368): warning C4005: 'DUK_HTON16': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2363): note: see previous definition of 'DUK_HTON16'
+d:\chatscript\src\duktape\duktape.cpp(2369): warning C4005: 'DUK_NTOH16': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2364): note: see previous definition of 'DUK_NTOH16'
+d:\chatscript\src\duktape\duktape.cpp(2484): warning C4005: 'DUK_BW_SLACK_SHIFT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2481): note: see previous definition of 'DUK_BW_SLACK_SHIFT'
+d:\chatscript\src\duktape\duktape.cpp(2515): warning C4005: 'DUK_BW_ASSERT_VALID_EXPR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2512): note: see previous definition of 'DUK_BW_ASSERT_VALID_EXPR'
+d:\chatscript\src\duktape\duktape.cpp(2516): warning C4005: 'DUK_BW_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2513): note: see previous definition of 'DUK_BW_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(2950): warning C4005: 'duk_memcpy': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2916): note: see previous definition of 'duk_memcpy'
+d:\chatscript\src\duktape\duktape.cpp(2962): warning C4005: 'duk_memcpy_unsafe': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2917): note: see previous definition of 'duk_memcpy_unsafe'
+d:\chatscript\src\duktape\duktape.cpp(2970): warning C4005: 'duk_memmove': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2925): note: see previous definition of 'duk_memmove'
+d:\chatscript\src\duktape\duktape.cpp(2982): warning C4005: 'duk_memmove_unsafe': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2926): note: see previous definition of 'duk_memmove_unsafe'
+d:\chatscript\src\duktape\duktape.cpp(2989): warning C4005: 'duk_memset': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2933): note: see previous definition of 'duk_memset'
+d:\chatscript\src\duktape\duktape.cpp(2999): warning C4005: 'duk_memset_unsafe': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2934): note: see previous definition of 'duk_memset_unsafe'
+d:\chatscript\src\duktape\duktape.cpp(3005): warning C4005: 'duk_memzero': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2940): note: see previous definition of 'duk_memzero'
+d:\chatscript\src\duktape\duktape.cpp(3014): warning C4005: 'duk_memzero_unsafe': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(2941): note: see previous definition of 'duk_memzero_unsafe'
+d:\chatscript\src\duktape\duktape.cpp(4619): warning C4005: 'DUK_HEAPHDR_GET_NEXT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4614): note: see previous definition of 'DUK_HEAPHDR_GET_NEXT'
+d:\chatscript\src\duktape\duktape.cpp(4622): warning C4005: 'DUK_HEAPHDR_SET_NEXT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4617): note: see previous definition of 'DUK_HEAPHDR_SET_NEXT'
+d:\chatscript\src\duktape\duktape.cpp(4633): warning C4005: 'DUK_HEAPHDR_GET_PREV': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4628): note: see previous definition of 'DUK_HEAPHDR_GET_PREV'
+d:\chatscript\src\duktape\duktape.cpp(4636): warning C4005: 'DUK_HEAPHDR_SET_PREV': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4631): note: see previous definition of 'DUK_HEAPHDR_SET_PREV'
+d:\chatscript\src\duktape\duktape.cpp(4732): warning C4005: 'DUK_HEAPHDR_INIT_NULLS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4728): note: see previous definition of 'DUK_HEAPHDR_INIT_NULLS'
+d:\chatscript\src\duktape\duktape.cpp(4749): warning C4005: 'DUK_HEAPHDR_IS_OBJECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4747): note: see previous definition of 'DUK_HEAPHDR_IS_OBJECT'
+d:\chatscript\src\duktape\duktape.cpp(4767): warning C4005: 'DUK_HEAPHDR_ASSERT_LINKS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4764): note: see previous definition of 'DUK_HEAPHDR_ASSERT_LINKS'
+d:\chatscript\src\duktape\duktape.cpp(4768): warning C4005: 'DUK_HEAPHDR_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4765): note: see previous definition of 'DUK_HEAPHDR_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(4796): warning C4005: 'DUK_TVAL_NEEDS_REFCOUNT_UPDATE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4792): note: see previous definition of 'DUK_TVAL_NEEDS_REFCOUNT_UPDATE'
+d:\chatscript\src\duktape\duktape.cpp(4797): warning C4005: 'DUK_HEAPHDR_NEEDS_REFCOUNT_UPDATE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4793): note: see previous definition of 'DUK_HEAPHDR_NEEDS_REFCOUNT_UPDATE'
+d:\chatscript\src\duktape\duktape.cpp(4922): warning C4005: 'DUK_TVAL_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4894): note: see previous definition of 'DUK_TVAL_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(4923): warning C4005: 'DUK_TVAL_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4895): note: see previous definition of 'DUK_TVAL_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4924): warning C4005: 'DUK_TVAL_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4896): note: see previous definition of 'DUK_TVAL_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4925): warning C4005: 'DUK_HEAPHDR_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4897): note: see previous definition of 'DUK_HEAPHDR_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(4926): warning C4005: 'DUK_HEAPHDR_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4898): note: see previous definition of 'DUK_HEAPHDR_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4927): warning C4005: 'DUK_HEAPHDR_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4899): note: see previous definition of 'DUK_HEAPHDR_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4929): warning C4005: 'DUK_HSTRING_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4901): note: see previous definition of 'DUK_HSTRING_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4930): warning C4005: 'DUK_HSTRING_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4902): note: see previous definition of 'DUK_HSTRING_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4932): warning C4005: 'DUK_HOBJECT_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4904): note: see previous definition of 'DUK_HOBJECT_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4933): warning C4005: 'DUK_HOBJECT_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4905): note: see previous definition of 'DUK_HOBJECT_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4935): warning C4005: 'DUK_HBUFFER_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4907): note: see previous definition of 'DUK_HBUFFER_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4936): warning C4005: 'DUK_HBUFFER_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4908): note: see previous definition of 'DUK_HBUFFER_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4938): warning C4005: 'DUK_HCOMPFUNC_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4910): note: see previous definition of 'DUK_HCOMPFUNC_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4939): warning C4005: 'DUK_HCOMPFUNC_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4911): note: see previous definition of 'DUK_HCOMPFUNC_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4941): warning C4005: 'DUK_HNATFUNC_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4913): note: see previous definition of 'DUK_HNATFUNC_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4942): warning C4005: 'DUK_HNATFUNC_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4914): note: see previous definition of 'DUK_HNATFUNC_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(4944): warning C4005: 'DUK_HBUFOBJ_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4916): note: see previous definition of 'DUK_HBUFOBJ_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4947): warning C4005: 'DUK_HTHREAD_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4919): note: see previous definition of 'DUK_HTHREAD_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(4948): warning C4005: 'DUK_HTHREAD_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4920): note: see previous definition of 'DUK_HTHREAD_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5028): warning C4005: 'DUK_REFZERO_CHECK_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5023): note: see previous definition of 'DUK_REFZERO_CHECK_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5029): warning C4005: 'DUK_REFZERO_CHECK_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5026): note: see previous definition of 'DUK_REFZERO_CHECK_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5208): warning C4005: 'DUK_TVAL_SET_I48_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5204): note: see previous definition of 'DUK_TVAL_SET_I48_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5209): warning C4005: 'DUK_TVAL_SET_I32_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5205): note: see previous definition of 'DUK_TVAL_SET_I32_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5210): warning C4005: 'DUK_TVAL_SET_U32_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5206): note: see previous definition of 'DUK_TVAL_SET_U32_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5226): warning C4005: 'DUK_TVAL_SET_TVAL_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5221): note: see previous definition of 'DUK_TVAL_SET_TVAL_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5227): warning C4005: 'DUK_TVAL_SET_TVAL_UPDREF_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5222): note: see previous definition of 'DUK_TVAL_SET_TVAL_UPDREF_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5233): warning C4005: 'DUK_TVAL_NEEDS_REFCOUNT_UPDATE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4796): note: see previous definition of 'DUK_TVAL_NEEDS_REFCOUNT_UPDATE'
+d:\chatscript\src\duktape\duktape.cpp(5234): warning C4005: 'DUK_HEAPHDR_NEEDS_REFCOUNT_UPDATE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4797): note: see previous definition of 'DUK_HEAPHDR_NEEDS_REFCOUNT_UPDATE'
+d:\chatscript\src\duktape\duktape.cpp(5236): warning C4005: 'DUK_TVAL_INCREF_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4815): note: see previous definition of 'DUK_TVAL_INCREF_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5237): warning C4005: 'DUK_TVAL_DECREF_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4828): note: see previous definition of 'DUK_TVAL_DECREF_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5238): warning C4005: 'DUK_TVAL_DECREF_NORZ_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4841): note: see previous definition of 'DUK_TVAL_DECREF_NORZ_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5239): warning C4005: 'DUK_TVAL_INCREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4870): note: see previous definition of 'DUK_TVAL_INCREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5240): warning C4005: 'DUK_TVAL_DECREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4871): note: see previous definition of 'DUK_TVAL_DECREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5241): warning C4005: 'DUK_TVAL_DECREF_NORZ_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4872): note: see previous definition of 'DUK_TVAL_DECREF_NORZ_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5242): warning C4005: 'DUK_TVAL_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4922): note: see previous definition of 'DUK_TVAL_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5243): warning C4005: 'DUK_TVAL_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4923): note: see previous definition of 'DUK_TVAL_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5244): warning C4005: 'DUK_TVAL_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4924): note: see previous definition of 'DUK_TVAL_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5245): warning C4005: 'DUK_HEAPHDR_INCREF_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4850): note: see previous definition of 'DUK_HEAPHDR_INCREF_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5246): warning C4005: 'DUK_HEAPHDR_DECREF_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4863): note: see previous definition of 'DUK_HEAPHDR_DECREF_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5247): warning C4005: 'DUK_HEAPHDR_DECREF_NORZ_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4865): note: see previous definition of 'DUK_HEAPHDR_DECREF_NORZ_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5248): warning C4005: 'DUK_HEAPHDR_INCREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4873): note: see previous definition of 'DUK_HEAPHDR_INCREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5249): warning C4005: 'DUK_HEAPHDR_DECREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4874): note: see previous definition of 'DUK_HEAPHDR_DECREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5250): warning C4005: 'DUK_HEAPHDR_DECREF_NORZ_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4875): note: see previous definition of 'DUK_HEAPHDR_DECREF_NORZ_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5251): warning C4005: 'DUK_HEAPHDR_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4925): note: see previous definition of 'DUK_HEAPHDR_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5252): warning C4005: 'DUK_HEAPHDR_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4926): note: see previous definition of 'DUK_HEAPHDR_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5253): warning C4005: 'DUK_HEAPHDR_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4927): note: see previous definition of 'DUK_HEAPHDR_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5257): warning C4005: 'DUK_HSTRING_INCREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4876): note: see previous definition of 'DUK_HSTRING_INCREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5258): warning C4005: 'DUK_HSTRING_DECREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4877): note: see previous definition of 'DUK_HSTRING_DECREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5259): warning C4005: 'DUK_HSTRING_DECREF_NORZ_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4878): note: see previous definition of 'DUK_HSTRING_DECREF_NORZ_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5260): warning C4005: 'DUK_HSTRING_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4900): note: see previous definition of 'DUK_HSTRING_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5261): warning C4005: 'DUK_HSTRING_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4929): note: see previous definition of 'DUK_HSTRING_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5262): warning C4005: 'DUK_HSTRING_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4930): note: see previous definition of 'DUK_HSTRING_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5266): warning C4005: 'DUK_HOBJECT_INCREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4882): note: see previous definition of 'DUK_HOBJECT_INCREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5267): warning C4005: 'DUK_HOBJECT_DECREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4883): note: see previous definition of 'DUK_HOBJECT_DECREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5268): warning C4005: 'DUK_HOBJECT_DECREF_NORZ_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4884): note: see previous definition of 'DUK_HOBJECT_DECREF_NORZ_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5269): warning C4005: 'DUK_HOBJECT_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4903): note: see previous definition of 'DUK_HOBJECT_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5270): warning C4005: 'DUK_HOBJECT_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4932): note: see previous definition of 'DUK_HOBJECT_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5271): warning C4005: 'DUK_HOBJECT_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4933): note: see previous definition of 'DUK_HOBJECT_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5275): warning C4005: 'DUK_HBUFFER_INCREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4879): note: see previous definition of 'DUK_HBUFFER_INCREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5276): warning C4005: 'DUK_HBUFFER_DECREF_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4880): note: see previous definition of 'DUK_HBUFFER_DECREF_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5277): warning C4005: 'DUK_HBUFFER_DECREF_NORZ_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4881): note: see previous definition of 'DUK_HBUFFER_DECREF_NORZ_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5278): warning C4005: 'DUK_HBUFFER_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4906): note: see previous definition of 'DUK_HBUFFER_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5279): warning C4005: 'DUK_HBUFFER_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4935): note: see previous definition of 'DUK_HBUFFER_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5280): warning C4005: 'DUK_HBUFFER_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4936): note: see previous definition of 'DUK_HBUFFER_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5282): warning C4005: 'DUK_HCOMPFUNC_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4909): note: see previous definition of 'DUK_HCOMPFUNC_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5283): warning C4005: 'DUK_HCOMPFUNC_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4938): note: see previous definition of 'DUK_HCOMPFUNC_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5284): warning C4005: 'DUK_HCOMPFUNC_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4939): note: see previous definition of 'DUK_HCOMPFUNC_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5285): warning C4005: 'DUK_HNATFUNC_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4912): note: see previous definition of 'DUK_HNATFUNC_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5286): warning C4005: 'DUK_HNATFUNC_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4941): note: see previous definition of 'DUK_HNATFUNC_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5287): warning C4005: 'DUK_HNATFUNC_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4942): note: see previous definition of 'DUK_HNATFUNC_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5288): warning C4005: 'DUK_HBUFOBJ_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4915): note: see previous definition of 'DUK_HBUFOBJ_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5289): warning C4005: 'DUK_HBUFOBJ_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4944): note: see previous definition of 'DUK_HBUFOBJ_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5290): warning C4005: 'DUK_HBUFOBJ_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4917): note: see previous definition of 'DUK_HBUFOBJ_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5291): warning C4005: 'DUK_HTHREAD_INCREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4918): note: see previous definition of 'DUK_HTHREAD_INCREF'
+d:\chatscript\src\duktape\duktape.cpp(5292): warning C4005: 'DUK_HTHREAD_DECREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4947): note: see previous definition of 'DUK_HTHREAD_DECREF'
+d:\chatscript\src\duktape\duktape.cpp(5293): warning C4005: 'DUK_HTHREAD_DECREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4948): note: see previous definition of 'DUK_HTHREAD_DECREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5294): warning C4005: 'DUK_HOBJECT_INCREF_ALLOWNULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4973): note: see previous definition of 'DUK_HOBJECT_INCREF_ALLOWNULL'
+d:\chatscript\src\duktape\duktape.cpp(5295): warning C4005: 'DUK_HOBJECT_DECREF_ALLOWNULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4978): note: see previous definition of 'DUK_HOBJECT_DECREF_ALLOWNULL'
+d:\chatscript\src\duktape\duktape.cpp(5296): warning C4005: 'DUK_HOBJECT_DECREF_NORZ_ALLOWNULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4983): note: see previous definition of 'DUK_HOBJECT_DECREF_NORZ_ALLOWNULL'
+d:\chatscript\src\duktape\duktape.cpp(5297): warning C4005: 'DUK_HBUFFER_INCREF_ALLOWNULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4988): note: see previous definition of 'DUK_HBUFFER_INCREF_ALLOWNULL'
+d:\chatscript\src\duktape\duktape.cpp(5298): warning C4005: 'DUK_HBUFFER_DECREF_ALLOWNULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4993): note: see previous definition of 'DUK_HBUFFER_DECREF_ALLOWNULL'
+d:\chatscript\src\duktape\duktape.cpp(5299): warning C4005: 'DUK_HBUFFER_DECREF_NORZ_ALLOWNULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(4998): note: see previous definition of 'DUK_HBUFFER_DECREF_NORZ_ALLOWNULL'
+d:\chatscript\src\duktape\duktape.cpp(5301): warning C4005: 'DUK_REFZERO_CHECK_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5028): note: see previous definition of 'DUK_REFZERO_CHECK_FAST'
+d:\chatscript\src\duktape\duktape.cpp(5302): warning C4005: 'DUK_REFZERO_CHECK_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5029): note: see previous definition of 'DUK_REFZERO_CHECK_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(5308): warning C4005: 'DUK_TVAL_SET_UNDEFINED_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5043): note: see previous definition of 'DUK_TVAL_SET_UNDEFINED_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5314): warning C4005: 'DUK_TVAL_SET_UNUSED_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5057): note: see previous definition of 'DUK_TVAL_SET_UNUSED_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5320): warning C4005: 'DUK_TVAL_SET_NULL_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5064): note: see previous definition of 'DUK_TVAL_SET_NULL_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5326): warning C4005: 'DUK_TVAL_SET_BOOLEAN_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5071): note: see previous definition of 'DUK_TVAL_SET_BOOLEAN_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5332): warning C4005: 'DUK_TVAL_SET_NUMBER_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5078): note: see previous definition of 'DUK_TVAL_SET_NUMBER_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5337): warning C4005: 'DUK_TVAL_SET_NUMBER_CHKFAST_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5084): note: see previous definition of 'DUK_TVAL_SET_NUMBER_CHKFAST_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5342): warning C4005: 'DUK_TVAL_SET_DOUBLE_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5090): note: see previous definition of 'DUK_TVAL_SET_DOUBLE_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5347): warning C4005: 'DUK_TVAL_SET_NAN_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5096): note: see previous definition of 'DUK_TVAL_SET_NAN_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5353): warning C4005: 'DUK_TVAL_SET_I48_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5103): note: see previous definition of 'DUK_TVAL_SET_I48_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5358): warning C4005: 'DUK_TVAL_SET_I32_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5109): note: see previous definition of 'DUK_TVAL_SET_I32_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5363): warning C4005: 'DUK_TVAL_SET_U32_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5115): note: see previous definition of 'DUK_TVAL_SET_U32_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5373): warning C4005: 'DUK_TVAL_SET_LIGHTFUNC_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5126): note: see previous definition of 'DUK_TVAL_SET_LIGHTFUNC_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5379): warning C4005: 'DUK_TVAL_SET_STRING_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5134): note: see previous definition of 'DUK_TVAL_SET_STRING_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5385): warning C4005: 'DUK_TVAL_SET_OBJECT_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5142): note: see previous definition of 'DUK_TVAL_SET_OBJECT_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5391): warning C4005: 'DUK_TVAL_SET_BUFFER_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5150): note: see previous definition of 'DUK_TVAL_SET_BUFFER_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5397): warning C4005: 'DUK_TVAL_SET_POINTER_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5157): note: see previous definition of 'DUK_TVAL_SET_POINTER_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5404): warning C4005: 'DUK_TVAL_SET_TVAL_UPDREF_ALT0': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5174): note: see previous definition of 'DUK_TVAL_SET_TVAL_UPDREF_ALT0'
+d:\chatscript\src\duktape\duktape.cpp(5407): warning C4005: 'DUK_TVAL_SET_UNDEFINED_UPDREF_NORZ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5195): note: see previous definition of 'DUK_TVAL_SET_UNDEFINED_UPDREF_NORZ'
+d:\chatscript\src\duktape\duktape.cpp(5416): warning C4005: 'DUK_TVAL_SET_I48_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5208): note: see previous definition of 'DUK_TVAL_SET_I48_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5417): warning C4005: 'DUK_TVAL_SET_I32_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5209): note: see previous definition of 'DUK_TVAL_SET_I32_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5418): warning C4005: 'DUK_TVAL_SET_U32_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5210): note: see previous definition of 'DUK_TVAL_SET_U32_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5420): warning C4005: 'DUK_TVAL_SET_I48_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5416): note: see previous definition of 'DUK_TVAL_SET_I48_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5421): warning C4005: 'DUK_TVAL_SET_I32_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5417): note: see previous definition of 'DUK_TVAL_SET_I32_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5422): warning C4005: 'DUK_TVAL_SET_U32_UPDREF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5418): note: see previous definition of 'DUK_TVAL_SET_U32_UPDREF'
+d:\chatscript\src\duktape\duktape.cpp(5515): warning C4005: 'DUK_INLINE_PERF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5511): note: see previous definition of 'DUK_INLINE_PERF'
+d:\chatscript\src\duktape\duktape.cpp(5516): warning C4005: 'DUK_ALWAYS_INLINE_PERF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5512): note: see previous definition of 'DUK_ALWAYS_INLINE_PERF'
+d:\chatscript\src\duktape\duktape.cpp(5517): warning C4005: 'DUK_NOINLINE_PERF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5513): note: see previous definition of 'DUK_NOINLINE_PERF'
+d:\chatscript\src\duktape\duktape.cpp(5526): warning C4005: 'DUK_EXEC_INLINE_PERF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5522): note: see previous definition of 'DUK_EXEC_INLINE_PERF'
+d:\chatscript\src\duktape\duktape.cpp(5527): warning C4005: 'DUK_EXEC_ALWAYS_INLINE_PERF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5523): note: see previous definition of 'DUK_EXEC_ALWAYS_INLINE_PERF'
+d:\chatscript\src\duktape\duktape.cpp(5528): warning C4005: 'DUK_EXEC_NOINLINE_PERF': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5524): note: see previous definition of 'DUK_EXEC_NOINLINE_PERF'
+d:\chatscript\src\duktape\duktape.cpp(5775): warning C4005: 'duk_del_prop_stridx_short': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5772): note: see previous definition of 'duk_del_prop_stridx_short'
+d:\chatscript\src\duktape\duktape.cpp(5786): warning C4005: 'duk_has_prop_stridx_short': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5783): note: see previous definition of 'duk_has_prop_stridx_short'
+d:\chatscript\src\duktape\duktape.cpp(5920): warning C4005: 'DUK_HSTRING_MAX_BYTELEN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5918): note: see previous definition of 'DUK_HSTRING_MAX_BYTELEN'
+d:\chatscript\src\duktape\duktape.cpp(5977): warning C4005: 'DUK_HSTRING_IS_ASCII': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5975): note: see previous definition of 'DUK_HSTRING_IS_ASCII'
+d:\chatscript\src\duktape\duktape.cpp(5986): warning C4005: 'DUK_HSTRING_GET_HASH': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5981): note: see previous definition of 'DUK_HSTRING_GET_HASH'
+d:\chatscript\src\duktape\duktape.cpp(5989): warning C4005: 'DUK_HSTRING_SET_HASH': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5984): note: see previous definition of 'DUK_HSTRING_SET_HASH'
+d:\chatscript\src\duktape\duktape.cpp(6006): warning C4005: 'DUK_HSTRING_SET_CHARLEN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6001): note: see previous definition of 'DUK_HSTRING_SET_CHARLEN'
+d:\chatscript\src\duktape\duktape.cpp(6009): warning C4005: 'DUK_HSTRING_GET_BYTELEN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5993): note: see previous definition of 'DUK_HSTRING_GET_BYTELEN'
+d:\chatscript\src\duktape\duktape.cpp(6012): warning C4005: 'DUK_HSTRING_SET_BYTELEN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(5996): note: see previous definition of 'DUK_HSTRING_SET_BYTELEN'
+d:\chatscript\src\duktape\duktape.cpp(6016): warning C4005: 'DUK_HSTRING_SET_CHARLEN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6006): note: see previous definition of 'DUK_HSTRING_SET_CHARLEN'
+d:\chatscript\src\duktape\duktape.cpp(6027): warning C4005: 'DUK_HSTRING_GET_DATA': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6024): note: see previous definition of 'DUK_HSTRING_GET_DATA'
+d:\chatscript\src\duktape\duktape.cpp(6046): warning C4005: 'DUK_HSTRING_GET_ARRIDX_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6039): note: see previous definition of 'DUK_HSTRING_GET_ARRIDX_FAST'
+d:\chatscript\src\duktape\duktape.cpp(6050): warning C4005: 'DUK_HSTRING_GET_ARRIDX_SLOW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6040): note: see previous definition of 'DUK_HSTRING_GET_ARRIDX_SLOW'
+d:\chatscript\src\duktape\duktape.cpp(6064): warning C4005: 'DUK_HSTRING_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6062): note: see previous definition of 'DUK_HSTRING_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(6314): warning C4005: 'DUK_HOBJECT_IS_BUFOBJ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6312): note: see previous definition of 'DUK_HOBJECT_IS_BUFOBJ'
+d:\chatscript\src\duktape\duktape.cpp(6320): warning C4005: 'DUK_HOBJECT_IS_PROXY': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6318): note: see previous definition of 'DUK_HOBJECT_IS_PROXY'
+d:\chatscript\src\duktape\duktape.cpp(6357): warning C4005: 'DUK_HOBJECT_HAS_BUFOBJ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6355): note: see previous definition of 'DUK_HOBJECT_HAS_BUFOBJ'
+d:\chatscript\src\duktape\duktape.cpp(6373): warning C4005: 'DUK_HOBJECT_HAS_EXOTIC_PROXYOBJ': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6371): note: see previous definition of 'DUK_HOBJECT_HAS_EXOTIC_PROXYOBJ'
+d:\chatscript\src\duktape\duktape.cpp(6483): warning C4005: 'DUK_HOBJECT_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6481): note: see previous definition of 'DUK_HOBJECT_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(6498): warning C4005: 'DUK_HOBJECT_GET_PROPS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6492): note: see previous definition of 'DUK_HOBJECT_GET_PROPS'
+d:\chatscript\src\duktape\duktape.cpp(6501): warning C4005: 'DUK_HOBJECT_SET_PROPS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6495): note: see previous definition of 'DUK_HOBJECT_SET_PROPS'
+d:\chatscript\src\duktape\duktape.cpp(6548): warning C4005: 'DUK_HOBJECT_E_FLAG_PADDING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6546): note: see previous definition of 'DUK_HOBJECT_E_FLAG_PADDING'
+d:\chatscript\src\duktape\duktape.cpp(6550): warning C4005: 'DUK_HOBJECT_E_FLAG_PADDING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6548): note: see previous definition of 'DUK_HOBJECT_E_FLAG_PADDING'
+d:\chatscript\src\duktape\duktape.cpp(6558): warning C4005: 'DUK_HOBJECT_E_GET_KEY_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6509): note: see previous definition of 'DUK_HOBJECT_E_GET_KEY_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6562): warning C4005: 'DUK_HOBJECT_E_GET_VALUE_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6514): note: see previous definition of 'DUK_HOBJECT_E_GET_VALUE_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6572): warning C4005: 'DUK_HOBJECT_A_GET_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6523): note: see previous definition of 'DUK_HOBJECT_A_GET_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6579): warning C4005: 'DUK_HOBJECT_H_GET_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6529): note: see previous definition of 'DUK_HOBJECT_H_GET_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6586): warning C4005: 'DUK_HOBJECT_P_COMPUTE_SIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6535): note: see previous definition of 'DUK_HOBJECT_P_COMPUTE_SIZE'
+d:\chatscript\src\duktape\duktape.cpp(6595): warning C4005: 'DUK_HOBJECT_P_SET_REALLOC_PTRS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6542): note: see previous definition of 'DUK_HOBJECT_P_SET_REALLOC_PTRS'
+d:\chatscript\src\duktape\duktape.cpp(6603): warning C4005: 'DUK_HOBJECT_E_GET_KEY_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6558): note: see previous definition of 'DUK_HOBJECT_E_GET_KEY_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6614): warning C4005: 'DUK_HOBJECT_E_GET_FLAGS_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6518): note: see previous definition of 'DUK_HOBJECT_E_GET_FLAGS_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6619): warning C4005: 'DUK_HOBJECT_A_GET_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6572): note: see previous definition of 'DUK_HOBJECT_A_GET_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6625): warning C4005: 'DUK_HOBJECT_H_GET_BASE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6579): note: see previous definition of 'DUK_HOBJECT_H_GET_BASE'
+d:\chatscript\src\duktape\duktape.cpp(6631): warning C4005: 'DUK_HOBJECT_P_COMPUTE_SIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6586): note: see previous definition of 'DUK_HOBJECT_P_COMPUTE_SIZE'
+d:\chatscript\src\duktape\duktape.cpp(6638): warning C4005: 'DUK_HOBJECT_P_SET_REALLOC_PTRS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6595): note: see previous definition of 'DUK_HOBJECT_P_SET_REALLOC_PTRS'
+d:\chatscript\src\duktape\duktape.cpp(6737): warning C4005: 'DUK_HOBJECT_GET_HSIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6734): note: see previous definition of 'DUK_HOBJECT_GET_HSIZE'
+d:\chatscript\src\duktape\duktape.cpp(6738): warning C4005: 'DUK_HOBJECT_SET_HSIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6735): note: see previous definition of 'DUK_HOBJECT_SET_HSIZE'
+d:\chatscript\src\duktape\duktape.cpp(6741): warning C4005: 'DUK_HOBJECT_GET_ESIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6726): note: see previous definition of 'DUK_HOBJECT_GET_ESIZE'
+d:\chatscript\src\duktape\duktape.cpp(6742): warning C4005: 'DUK_HOBJECT_SET_ESIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6727): note: see previous definition of 'DUK_HOBJECT_SET_ESIZE'
+d:\chatscript\src\duktape\duktape.cpp(6743): warning C4005: 'DUK_HOBJECT_GET_ENEXT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6728): note: see previous definition of 'DUK_HOBJECT_GET_ENEXT'
+d:\chatscript\src\duktape\duktape.cpp(6744): warning C4005: 'DUK_HOBJECT_SET_ENEXT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6729): note: see previous definition of 'DUK_HOBJECT_SET_ENEXT'
+d:\chatscript\src\duktape\duktape.cpp(6745): warning C4005: 'DUK_HOBJECT_POSTINC_ENEXT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6730): note: see previous definition of 'DUK_HOBJECT_POSTINC_ENEXT'
+d:\chatscript\src\duktape\duktape.cpp(6746): warning C4005: 'DUK_HOBJECT_GET_ASIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6731): note: see previous definition of 'DUK_HOBJECT_GET_ASIZE'
+d:\chatscript\src\duktape\duktape.cpp(6747): warning C4005: 'DUK_HOBJECT_SET_ASIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6732): note: see previous definition of 'DUK_HOBJECT_SET_ASIZE'
+d:\chatscript\src\duktape\duktape.cpp(6749): warning C4005: 'DUK_HOBJECT_GET_HSIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6737): note: see previous definition of 'DUK_HOBJECT_GET_HSIZE'
+d:\chatscript\src\duktape\duktape.cpp(6750): warning C4005: 'DUK_HOBJECT_SET_HSIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6738): note: see previous definition of 'DUK_HOBJECT_SET_HSIZE'
+d:\chatscript\src\duktape\duktape.cpp(6752): warning C4005: 'DUK_HOBJECT_GET_HSIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6749): note: see previous definition of 'DUK_HOBJECT_GET_HSIZE'
+d:\chatscript\src\duktape\duktape.cpp(6753): warning C4005: 'DUK_HOBJECT_SET_HSIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6750): note: see previous definition of 'DUK_HOBJECT_SET_HSIZE'
+d:\chatscript\src\duktape\duktape.cpp(6791): warning C4005: 'DUK_HOBJECT_GET_PROTOTYPE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6785): note: see previous definition of 'DUK_HOBJECT_GET_PROTOTYPE'
+d:\chatscript\src\duktape\duktape.cpp(6794): warning C4005: 'DUK_HOBJECT_SET_PROTOTYPE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6788): note: see previous definition of 'DUK_HOBJECT_SET_PROTOTYPE'
+d:\chatscript\src\duktape\duktape.cpp(6820): warning C4005: 'DUK_HOBJECT_HAS_FINALIZER_FAST': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6818): note: see previous definition of 'DUK_HOBJECT_HAS_FINALIZER_FAST'
+d:\chatscript\src\duktape\duktape.cpp(6836): warning C4005: 'DUK_HOBJECT_MAX_PROPERTIES': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6834): note: see previous definition of 'DUK_HOBJECT_MAX_PROPERTIES'
+d:\chatscript\src\duktape\duktape.cpp(6843): warning C4005: 'DUK_HOBJECT_ALIGN_TARGET': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6841): note: see previous definition of 'DUK_HOBJECT_ALIGN_TARGET'
+d:\chatscript\src\duktape\duktape.cpp(6845): warning C4005: 'DUK_HOBJECT_ALIGN_TARGET': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(6843): note: see previous definition of 'DUK_HOBJECT_ALIGN_TARGET'
+d:\chatscript\src\duktape\duktape.cpp(7170): warning C4005: 'DUK_HCOMPFUNC_GET_DATA': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7145): note: see previous definition of 'DUK_HCOMPFUNC_GET_DATA'
+d:\chatscript\src\duktape\duktape.cpp(7173): warning C4005: 'DUK_HCOMPFUNC_SET_DATA': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7148): note: see previous definition of 'DUK_HCOMPFUNC_SET_DATA'
+d:\chatscript\src\duktape\duktape.cpp(7174): warning C4005: 'DUK_HCOMPFUNC_GET_FUNCS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7150): note: see previous definition of 'DUK_HCOMPFUNC_GET_FUNCS'
+d:\chatscript\src\duktape\duktape.cpp(7177): warning C4005: 'DUK_HCOMPFUNC_SET_FUNCS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7153): note: see previous definition of 'DUK_HCOMPFUNC_SET_FUNCS'
+d:\chatscript\src\duktape\duktape.cpp(7178): warning C4005: 'DUK_HCOMPFUNC_GET_BYTECODE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7155): note: see previous definition of 'DUK_HCOMPFUNC_GET_BYTECODE'
+d:\chatscript\src\duktape\duktape.cpp(7181): warning C4005: 'DUK_HCOMPFUNC_SET_BYTECODE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7158): note: see previous definition of 'DUK_HCOMPFUNC_SET_BYTECODE'
+d:\chatscript\src\duktape\duktape.cpp(7182): warning C4005: 'DUK_HCOMPFUNC_GET_LEXENV': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7160): note: see previous definition of 'DUK_HCOMPFUNC_GET_LEXENV'
+d:\chatscript\src\duktape\duktape.cpp(7185): warning C4005: 'DUK_HCOMPFUNC_SET_LEXENV': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7163): note: see previous definition of 'DUK_HCOMPFUNC_SET_LEXENV'
+d:\chatscript\src\duktape\duktape.cpp(7186): warning C4005: 'DUK_HCOMPFUNC_GET_VARENV': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7165): note: see previous definition of 'DUK_HCOMPFUNC_GET_VARENV'
+d:\chatscript\src\duktape\duktape.cpp(7189): warning C4005: 'DUK_HCOMPFUNC_SET_VARENV': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7168): note: see previous definition of 'DUK_HCOMPFUNC_SET_VARENV'
+d:\chatscript\src\duktape\duktape.cpp(7264): warning C4005: 'DUK_HCOMPFUNC_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7262): note: see previous definition of 'DUK_HCOMPFUNC_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(7413): warning C4005: 'DUK_HNATFUNC_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7411): note: see previous definition of 'DUK_HNATFUNC_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(7459): warning C4005: 'DUK_HBOUNDFUNC_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7457): note: see previous definition of 'DUK_HBOUNDFUNC_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(7507): warning C4005: 'DUK_HBUFOBJ_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7505): note: see previous definition of 'DUK_HBUFOBJ_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(7726): warning C4005: 'DUK_HTHREAD_GET_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7722): note: see previous definition of 'DUK_HTHREAD_GET_STRING'
+d:\chatscript\src\duktape\duktape.cpp(7729): warning C4005: 'DUK_HTHREAD_GET_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7726): note: see previous definition of 'DUK_HTHREAD_GET_STRING'
+d:\chatscript\src\duktape\duktape.cpp(7766): warning C4005: 'DUK_HTHREAD_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7760): note: see previous definition of 'DUK_HTHREAD_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(7767): warning C4005: 'DUK_CTX_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(7764): note: see previous definition of 'DUK_CTX_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(8036): warning C4005: 'DUK_HARRAY_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8034): note: see previous definition of 'DUK_HARRAY_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(8084): warning C4005: 'DUK_HDECENV_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8081): note: see previous definition of 'DUK_HDECENV_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(8085): warning C4005: 'DUK_HOBJENV_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8082): note: see previous definition of 'DUK_HOBJENV_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(8168): warning C4005: 'DUK_HBUFFER_MAX_BYTELEN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8163): note: see previous definition of 'DUK_HBUFFER_MAX_BYTELEN'
+d:\chatscript\src\duktape\duktape.cpp(8191): warning C4005: 'DUK_HBUFFER_GET_SIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8177): note: see previous definition of 'DUK_HBUFFER_GET_SIZE'
+d:\chatscript\src\duktape\duktape.cpp(8194): warning C4005: 'DUK_HBUFFER_SET_SIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8183): note: see previous definition of 'DUK_HBUFFER_SET_SIZE'
+d:\chatscript\src\duktape\duktape.cpp(8197): warning C4005: 'DUK_HBUFFER_ADD_SIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8186): note: see previous definition of 'DUK_HBUFFER_ADD_SIZE'
+d:\chatscript\src\duktape\duktape.cpp(8200): warning C4005: 'DUK_HBUFFER_SUB_SIZE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8189): note: see previous definition of 'DUK_HBUFFER_SUB_SIZE'
+d:\chatscript\src\duktape\duktape.cpp(8226): warning C4005: 'DUK_HBUFFER_DYNAMIC_GET_DATA_PTR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8218): note: see previous definition of 'DUK_HBUFFER_DYNAMIC_GET_DATA_PTR'
+d:\chatscript\src\duktape\duktape.cpp(8229): warning C4005: 'DUK_HBUFFER_DYNAMIC_SET_DATA_PTR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8221): note: see previous definition of 'DUK_HBUFFER_DYNAMIC_SET_DATA_PTR'
+d:\chatscript\src\duktape\duktape.cpp(8232): warning C4005: 'DUK_HBUFFER_DYNAMIC_SET_DATA_PTR_NULL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8224): note: see previous definition of 'DUK_HBUFFER_DYNAMIC_SET_DATA_PTR_NULL'
+d:\chatscript\src\duktape\duktape.cpp(8279): warning C4005: 'DUK_HBUFFER_GET_DATA_PTR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8270): note: see previous definition of 'DUK_HBUFFER_GET_DATA_PTR'
+d:\chatscript\src\duktape\duktape.cpp(8287): warning C4005: 'DUK_HBUFFER_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8285): note: see previous definition of 'DUK_HBUFFER_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(8467): warning C4005: 'DUK_HPROXY_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8465): note: see previous definition of 'DUK_HPROXY_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(8579): warning C4005: 'DUK_HEAP_SWITCH_THREAD': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8575): note: see previous definition of 'DUK_HEAP_SWITCH_THREAD'
+d:\chatscript\src\duktape\duktape.cpp(8591): warning C4005: 'DUK_STATS_INC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8589): note: see previous definition of 'DUK_STATS_INC'
+d:\chatscript\src\duktape\duktape.cpp(8613): warning C4005: 'DUK_HEAP_MARK_AND_SWEEP_TRIGGER_MULT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8609): note: see previous definition of 'DUK_HEAP_MARK_AND_SWEEP_TRIGGER_MULT'
+d:\chatscript\src\duktape\duktape.cpp(8622): warning C4005: 'DUK_GC_TORTURE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8620): note: see previous definition of 'DUK_GC_TORTURE'
+d:\chatscript\src\duktape\duktape.cpp(8652): warning C4005: 'DUK_HEAP_GET_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8648): note: see previous definition of 'DUK_HEAP_GET_STRING'
+d:\chatscript\src\duktape\duktape.cpp(8655): warning C4005: 'DUK_HEAP_GET_STRING': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8652): note: see previous definition of 'DUK_HEAP_GET_STRING'
+d:\chatscript\src\duktape\duktape.cpp(8825): warning C4005: 'DUK_HEAP_ASSERT_VALID': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(8823): note: see previous definition of 'DUK_HEAP_ASSERT_VALID'
+d:\chatscript\src\duktape\duktape.cpp(9392): warning C4005: 'DUK_D': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9390): note: see previous definition of 'DUK_D'
+d:\chatscript\src\duktape\duktape.cpp(9398): warning C4005: 'DUK_DD': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9396): note: see previous definition of 'DUK_DD'
+d:\chatscript\src\duktape\duktape.cpp(9404): warning C4005: 'DUK_DDD': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9402): note: see previous definition of 'DUK_DDD'
+d:\chatscript\src\duktape\duktape.cpp(9421): warning C4005: 'DUK_DPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9419): note: see previous definition of 'DUK_DPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9427): warning C4005: 'DUK_DDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9425): note: see previous definition of 'DUK_DDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9433): warning C4005: 'DUK_DDDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9431): note: see previous definition of 'DUK_DDDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9453): warning C4005: 'DUK_DPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9421): note: see previous definition of 'DUK_DPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9455): warning C4005: 'DUK_DPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9453): note: see previous definition of 'DUK_DPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9459): warning C4005: 'DUK_DDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9427): note: see previous definition of 'DUK_DDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9461): warning C4005: 'DUK_DDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9459): note: see previous definition of 'DUK_DDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9465): warning C4005: 'DUK_DDDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9433): note: see previous definition of 'DUK_DDDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9467): warning C4005: 'DUK_DDDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9465): note: see previous definition of 'DUK_DDDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9484): warning C4005: 'DUK_DPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9455): note: see previous definition of 'DUK_DPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9485): warning C4005: 'DUK_DDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9461): note: see previous definition of 'DUK_DDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9486): warning C4005: 'DUK_DDDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9467): note: see previous definition of 'DUK_DDDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9490): warning C4005: 'DUK_DPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9484): note: see previous definition of 'DUK_DPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9491): warning C4005: 'DUK_DDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9485): note: see previous definition of 'DUK_DDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9492): warning C4005: 'DUK_DDDPRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9486): note: see previous definition of 'DUK_DDDPRINT'
+d:\chatscript\src\duktape\duktape.cpp(9660): warning C4005: 'DUK_ERROR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9607): note: see previous definition of 'DUK_ERROR'
+d:\chatscript\src\duktape\duktape.cpp(9661): warning C4005: 'DUK_ERROR_RAW': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9612): note: see previous definition of 'DUK_ERROR_RAW'
+d:\chatscript\src\duktape\duktape.cpp(9663): warning C4005: 'DUK_ERROR_FMT1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9618): note: see previous definition of 'DUK_ERROR_FMT1'
+d:\chatscript\src\duktape\duktape.cpp(9664): warning C4005: 'DUK_ERROR_RAW_FMT1': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9623): note: see previous definition of 'DUK_ERROR_RAW_FMT1'
+d:\chatscript\src\duktape\duktape.cpp(9666): warning C4005: 'DUK_ERROR_FMT2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9629): note: see previous definition of 'DUK_ERROR_FMT2'
+d:\chatscript\src\duktape\duktape.cpp(9667): warning C4005: 'DUK_ERROR_RAW_FMT2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9634): note: see previous definition of 'DUK_ERROR_RAW_FMT2'
+d:\chatscript\src\duktape\duktape.cpp(9669): warning C4005: 'DUK_ERROR_FMT3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9640): note: see previous definition of 'DUK_ERROR_FMT3'
+d:\chatscript\src\duktape\duktape.cpp(9670): warning C4005: 'DUK_ERROR_RAW_FMT3': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9645): note: see previous definition of 'DUK_ERROR_RAW_FMT3'
+d:\chatscript\src\duktape\duktape.cpp(9672): warning C4005: 'DUK_ERROR_FMT4': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9651): note: see previous definition of 'DUK_ERROR_FMT4'
+d:\chatscript\src\duktape\duktape.cpp(9673): warning C4005: 'DUK_ERROR_RAW_FMT4': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9656): note: see previous definition of 'DUK_ERROR_RAW_FMT4'
+d:\chatscript\src\duktape\duktape.cpp(9808): warning C4005: 'DUK_ERROR_REQUIRE_TYPE_INDEX': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9711): note: see previous definition of 'DUK_ERROR_REQUIRE_TYPE_INDEX'
+d:\chatscript\src\duktape\duktape.cpp(9812): warning C4005: 'DUK_ERROR_INTERNAL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9720): note: see previous definition of 'DUK_ERROR_INTERNAL'
+d:\chatscript\src\duktape\duktape.cpp(9816): warning C4005: 'DUK_DCERROR_INTERNAL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9724): note: see previous definition of 'DUK_DCERROR_INTERNAL'
+d:\chatscript\src\duktape\duktape.cpp(9819): warning C4005: 'DUK_ERROR_ALLOC_FAILED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9727): note: see previous definition of 'DUK_ERROR_ALLOC_FAILED'
+d:\chatscript\src\duktape\duktape.cpp(9822): warning C4005: 'DUK_ERROR_UNSUPPORTED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9730): note: see previous definition of 'DUK_ERROR_UNSUPPORTED'
+d:\chatscript\src\duktape\duktape.cpp(9826): warning C4005: 'DUK_DCERROR_UNSUPPORTED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9734): note: see previous definition of 'DUK_DCERROR_UNSUPPORTED'
+d:\chatscript\src\duktape\duktape.cpp(9829): warning C4005: 'DUK_ERROR_ERROR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9737): note: see previous definition of 'DUK_ERROR_ERROR'
+d:\chatscript\src\duktape\duktape.cpp(9832): warning C4005: 'DUK_ERROR_RANGE_INDEX': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9740): note: see previous definition of 'DUK_ERROR_RANGE_INDEX'
+d:\chatscript\src\duktape\duktape.cpp(9835): warning C4005: 'DUK_ERROR_RANGE_PUSH_BEYOND': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9743): note: see previous definition of 'DUK_ERROR_RANGE_PUSH_BEYOND'
+d:\chatscript\src\duktape\duktape.cpp(9838): warning C4005: 'DUK_ERROR_RANGE_INVALID_ARGS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9746): note: see previous definition of 'DUK_ERROR_RANGE_INVALID_ARGS'
+d:\chatscript\src\duktape\duktape.cpp(9842): warning C4005: 'DUK_DCERROR_RANGE_INVALID_ARGS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9750): note: see previous definition of 'DUK_DCERROR_RANGE_INVALID_ARGS'
+d:\chatscript\src\duktape\duktape.cpp(9845): warning C4005: 'DUK_ERROR_RANGE_INVALID_COUNT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9753): note: see previous definition of 'DUK_ERROR_RANGE_INVALID_COUNT'
+d:\chatscript\src\duktape\duktape.cpp(9849): warning C4005: 'DUK_DCERROR_RANGE_INVALID_COUNT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9757): note: see previous definition of 'DUK_DCERROR_RANGE_INVALID_COUNT'
+d:\chatscript\src\duktape\duktape.cpp(9852): warning C4005: 'DUK_ERROR_RANGE_INVALID_LENGTH': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9760): note: see previous definition of 'DUK_ERROR_RANGE_INVALID_LENGTH'
+d:\chatscript\src\duktape\duktape.cpp(9856): warning C4005: 'DUK_DCERROR_RANGE_INVALID_LENGTH': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9764): note: see previous definition of 'DUK_DCERROR_RANGE_INVALID_LENGTH'
+d:\chatscript\src\duktape\duktape.cpp(9859): warning C4005: 'DUK_ERROR_RANGE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9767): note: see previous definition of 'DUK_ERROR_RANGE'
+d:\chatscript\src\duktape\duktape.cpp(9862): warning C4005: 'DUK_ERROR_EVAL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9770): note: see previous definition of 'DUK_ERROR_EVAL'
+d:\chatscript\src\duktape\duktape.cpp(9865): warning C4005: 'DUK_ERROR_REFERENCE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9773): note: see previous definition of 'DUK_ERROR_REFERENCE'
+d:\chatscript\src\duktape\duktape.cpp(9868): warning C4005: 'DUK_ERROR_SYNTAX': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9776): note: see previous definition of 'DUK_ERROR_SYNTAX'
+d:\chatscript\src\duktape\duktape.cpp(9871): warning C4005: 'DUK_ERROR_TYPE_INVALID_ARGS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9779): note: see previous definition of 'DUK_ERROR_TYPE_INVALID_ARGS'
+d:\chatscript\src\duktape\duktape.cpp(9875): warning C4005: 'DUK_DCERROR_TYPE_INVALID_ARGS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9783): note: see previous definition of 'DUK_DCERROR_TYPE_INVALID_ARGS'
+d:\chatscript\src\duktape\duktape.cpp(9878): warning C4005: 'DUK_ERROR_TYPE_INVALID_STATE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9786): note: see previous definition of 'DUK_ERROR_TYPE_INVALID_STATE'
+d:\chatscript\src\duktape\duktape.cpp(9881): warning C4005: 'DUK_DCERROR_TYPE_INVALID_STATE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9790): note: see previous definition of 'DUK_DCERROR_TYPE_INVALID_STATE'
+d:\chatscript\src\duktape\duktape.cpp(9884): warning C4005: 'DUK_ERROR_TYPE_INVALID_TRAP_RESULT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9793): note: see previous definition of 'DUK_ERROR_TYPE_INVALID_TRAP_RESULT'
+d:\chatscript\src\duktape\duktape.cpp(9888): warning C4005: 'DUK_DCERROR_TYPE_INVALID_TRAP_RESULT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9796): note: see previous definition of 'DUK_DCERROR_TYPE_INVALID_TRAP_RESULT'
+d:\chatscript\src\duktape\duktape.cpp(9894): warning C4005: 'DUK_ERROR_TYPE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9799): note: see previous definition of 'DUK_ERROR_TYPE'
+d:\chatscript\src\duktape\duktape.cpp(9897): warning C4005: 'DUK_ERROR_URI': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9802): note: see previous definition of 'DUK_ERROR_URI'
+d:\chatscript\src\duktape\duktape.cpp(9930): warning C4005: 'DUK_ASSERT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9921): note: see previous definition of 'DUK_ASSERT'
+d:\chatscript\src\duktape\duktape.cpp(9932): warning C4005: 'DUK_ASSERT_EXPR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9926): note: see previous definition of 'DUK_ASSERT_EXPR'
+d:\chatscript\src\duktape\duktape.cpp(9955): warning C4005: 'DUK_ASSERT_REFCOUNT_NONZERO_HEAPHDR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9948): note: see previous definition of 'DUK_ASSERT_REFCOUNT_NONZERO_HEAPHDR'
+d:\chatscript\src\duktape\duktape.cpp(9956): warning C4005: 'DUK_ASSERT_REFCOUNT_NONZERO_TVAL': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9953): note: see previous definition of 'DUK_ASSERT_REFCOUNT_NONZERO_TVAL'
+d:\chatscript\src\duktape\duktape.cpp(9968): warning C4005: 'DUK_ASSERT_DOUBLE_IS_NORMALIZED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9966): note: see previous definition of 'DUK_ASSERT_DOUBLE_IS_NORMALIZED'
+d:\chatscript\src\duktape\duktape.cpp(9984): warning C4005: 'DUK_ASSERT_SET_GARBAGE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(9982): note: see previous definition of 'DUK_ASSERT_SET_GARBAGE'
+d:\chatscript\src\duktape\duktape.cpp(10004): warning C4005: 'DUK_ASSERT_VALSTACK_SPACE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(10002): note: see previous definition of 'DUK_ASSERT_VALSTACK_SPACE'
+d:\chatscript\src\duktape\duktape.cpp(10938): warning C4005: 'DUK__REFCINIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(10936): note: see previous definition of 'DUK__REFCINIT'
+d:\chatscript\src\duktape\duktape.cpp(18110): warning C4005: 'DUK__CHECK_SPACE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(18104): note: see previous definition of 'DUK__CHECK_SPACE'
+d:\chatscript\src\duktape\duktape.cpp(45082): warning C4005: 'DUK__DBG_TPORT_ENTER': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(45076): note: see previous definition of 'DUK__DBG_TPORT_ENTER'
+d:\chatscript\src\duktape\duktape.cpp(45083): warning C4005: 'DUK__DBG_TPORT_EXIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(45080): note: see previous definition of 'DUK__DBG_TPORT_EXIT'
+d:\chatscript\src\duktape\duktape.cpp(53677): warning C4005: 'DUK__RZ_SUPPRESS_ASSERT2': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(53674): note: see previous definition of 'DUK__RZ_SUPPRESS_ASSERT2'
+d:\chatscript\src\duktape\duktape.cpp(53704): warning C4005: 'DUK__RZ_INLINE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(53702): note: see previous definition of 'DUK__RZ_INLINE'
+d:\chatscript\src\duktape\duktape.cpp(53889): warning C4005: 'DUK__INCREF_SHARED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(53876): note: see previous definition of 'DUK__INCREF_SHARED'
+d:\chatscript\src\duktape\duktape.cpp(53894): warning C4005: 'DUK__DECREF_SHARED': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(53884): note: see previous definition of 'DUK__DECREF_SHARED'
+d:\chatscript\src\duktape\duktape.cpp(54307): warning C4005: 'DUK__HEAPPTR_ENC16': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(54303): note: see previous definition of 'DUK__HEAPPTR_ENC16'
+d:\chatscript\src\duktape\duktape.cpp(54308): warning C4005: 'DUK__HEAPPTR_DEC16': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(54304): note: see previous definition of 'DUK__HEAPPTR_DEC16'
+d:\chatscript\src\duktape\duktape.cpp(54309): warning C4005: 'DUK__GET_STRTABLE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(54305): note: see previous definition of 'DUK__GET_STRTABLE'
+d:\chatscript\src\duktape\duktape.cpp(67848): warning C4005: 'DUK__BC_INITIAL_INSTS': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(67846): note: see previous definition of 'DUK__BC_INITIAL_INSTS'
+d:\chatscript\src\duktape\duktape.cpp(69672): warning C4005: 'DUK__DUMP_ISPEC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(69653): note: see previous definition of 'DUK__DUMP_ISPEC'
+d:\chatscript\src\duktape\duktape.cpp(69673): warning C4005: 'DUK__DUMP_IVALUE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(69654): note: see previous definition of 'DUK__DUMP_IVALUE'
+d:\chatscript\src\duktape\duktape.cpp(78620): warning C4005: 'DUK__FUN': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78618): note: see previous definition of 'DUK__FUN'
+d:\chatscript\src\duktape\duktape.cpp(78648): warning C4005: 'DUK__TVAL_SHIFT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78646): note: see previous definition of 'DUK__TVAL_SHIFT'
+d:\chatscript\src\duktape\duktape.cpp(78675): warning C4005: 'DUK__REGP_A': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78663): note: see previous definition of 'DUK__REGP_A'
+d:\chatscript\src\duktape\duktape.cpp(78676): warning C4005: 'DUK__REGP_B': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78664): note: see previous definition of 'DUK__REGP_B'
+d:\chatscript\src\duktape\duktape.cpp(78677): warning C4005: 'DUK__REGP_C': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78665): note: see previous definition of 'DUK__REGP_C'
+d:\chatscript\src\duktape\duktape.cpp(78678): warning C4005: 'DUK__REGP_BC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78666): note: see previous definition of 'DUK__REGP_BC'
+d:\chatscript\src\duktape\duktape.cpp(78679): warning C4005: 'DUK__CONSTP_A': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78667): note: see previous definition of 'DUK__CONSTP_A'
+d:\chatscript\src\duktape\duktape.cpp(78680): warning C4005: 'DUK__CONSTP_B': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78668): note: see previous definition of 'DUK__CONSTP_B'
+d:\chatscript\src\duktape\duktape.cpp(78681): warning C4005: 'DUK__CONSTP_C': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78669): note: see previous definition of 'DUK__CONSTP_C'
+d:\chatscript\src\duktape\duktape.cpp(78682): warning C4005: 'DUK__CONSTP_BC': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78670): note: see previous definition of 'DUK__CONSTP_BC'
+d:\chatscript\src\duktape\duktape.cpp(78683): warning C4005: 'DUK__REGCONSTP_B': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78671): note: see previous definition of 'DUK__REGCONSTP_B'
+d:\chatscript\src\duktape\duktape.cpp(78684): warning C4005: 'DUK__REGCONSTP_C': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78672): note: see previous definition of 'DUK__REGCONSTP_C'
+d:\chatscript\src\duktape\duktape.cpp(78695): warning C4005: 'DUK__INTERNAL_ERROR': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78691): note: see previous definition of 'DUK__INTERNAL_ERROR'
+d:\chatscript\src\duktape\duktape.cpp(78721): warning C4005: 'DUK__LOOKUP_INDIRECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78713): note: see previous definition of 'DUK__LOOKUP_INDIRECT'
+d:\chatscript\src\duktape\duktape.cpp(78728): warning C4005: 'DUK__LOOKUP_INDIRECT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(78721): note: see previous definition of 'DUK__LOOKUP_INDIRECT'
+d:\chatscript\src\duktape\duktape.cpp(79191): warning C4005: 'DUK__REPLACE_TOP_A_BREAK': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(79181): note: see previous definition of 'DUK__REPLACE_TOP_A_BREAK'
+d:\chatscript\src\duktape\duktape.cpp(79192): warning C4005: 'DUK__REPLACE_TOP_BC_BREAK': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(79182): note: see previous definition of 'DUK__REPLACE_TOP_BC_BREAK'
+d:\chatscript\src\duktape\duktape.cpp(79201): warning C4005: 'DUK__REPLACE_BOOL_A_BREAK': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(79189): note: see previous definition of 'DUK__REPLACE_BOOL_A_BREAK'
+d:\chatscript\src\duktape\duktape.cpp(86965): warning C4005: 'DUK__BI_PRINT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(86963): note: see previous definition of 'DUK__BI_PRINT'
+d:\chatscript\src\duktape\duktape.cpp(91551): warning C4005: 'DUK__U32_INIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(91545): note: see previous definition of 'DUK__U32_INIT'
+d:\chatscript\src\duktape\duktape.cpp(91568): warning C4005: 'DUK__DOUBLE_INIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(91560): note: see previous definition of 'DUK__DOUBLE_INIT'
+d:\chatscript\src\duktape\duktape.cpp(91571): warning C4005: 'DUK__DOUBLE_COMPARE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(91563): note: see previous definition of 'DUK__DOUBLE_COMPARE'
+d:\chatscript\src\duktape\duktape.cpp(91576): warning C4005: 'DUK__DOUBLE_INIT': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(91568): note: see previous definition of 'DUK__DOUBLE_INIT'
+d:\chatscript\src\duktape\duktape.cpp(91579): warning C4005: 'DUK__DOUBLE_COMPARE': macro redefinition
+  d:\chatscript\src\duktape\duktape.cpp(91571): note: see previous definition of 'DUK__DOUBLE_COMPARE'
+d:\chatscript\src\duktape\duktape.cpp(99895): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  dictionarySystem.cpp
+d:\chatscript\src\dictionarysystem.cpp(8074): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  csocket.cpp
+d:\chatscript\src\csocket.cpp(1867): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  constructCode.cpp
+d:\chatscript\src\constructcode.cpp(691): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...
