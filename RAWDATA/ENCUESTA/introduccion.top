@@ -1,0 +1,10 @@
+topic: ~introduccion keep repeat []
+concept: ~respuestas [si SI sI Si no NO nO No]
+
+t:  Hola. Esta es una encuesta de satisfaccion al cliente.
+    Quieres responder la encuesta? Responde con un SI o NO.
+
+u: ENCUESTA ([_~respuestas])
+
+    $check = _0
+    ^respond(~pregunta1)

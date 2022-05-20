@@ -1,3 +1,4 @@
 ﻿T~control NODUPLICATE ( )
 T~xpostprocess NODUPLICATE ( )
-T~introductions NODUPLICATE ( )
+T~introduccion NODUPLICATE ( )
+T~preguntas NODUPLICATE ( )

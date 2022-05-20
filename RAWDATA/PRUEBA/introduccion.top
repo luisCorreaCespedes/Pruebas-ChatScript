@@ -1,0 +1,24 @@
+topic: ~introduccion keep repeat[]
+
+t: Hola, te ayudaré con tu viaje!
+   ^respond(~preguntas)
+
+u: PARADA (en _*)
+   Esta es tu locacion actual? \" '_0 \" ?
+   a: (~yes)
+       $inicio = '_0
+       ^respond(~preguntas)
+   a: (~no)
+       Dime donde te encuentras por favor.
+
+u: DESINO (hacia _*)
+   Este es tu destino? \" '_0 \" ?
+   a: (~yes)
+       $fin = '_0
+       ^respond(~preguntas)
+   a: (~no)
+       Hacia donde quieres ir?
+
+u: VIAJE ()
+   ^respond(~preguntas)
+

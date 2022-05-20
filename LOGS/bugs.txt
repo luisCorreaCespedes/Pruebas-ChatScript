@@ -1,3 +1,6 @@
 ﻿BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
 BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
 BUG in topic__build mine.txt at 0: ^build mine | No computer id before user load?
+BUG in topic__build mine.txt at 0: ^build mine | No computer id before user load?
+BUG in topic__build prueba.txt at 0: ^build prueba | No computer id before user load?
+BUG in topic__build prueba.txt at 0: ^build prueba | No computer id before user load?

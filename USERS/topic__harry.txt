@@ -1,25 +1,38 @@
 USERS/topic__harry.txt
-jul2116 May06'22-11:39:06-1651851546300 May06'22-11:39:10-1651851550275 0 |
-1 0 ~introductions ZMb a&TD3  DY 0 3 3 0 # start, input#, rejoindertopic,rejoinderid (a:  ( ~yes ) A mi tambien me gusta la lluvia! ^reuse ( FIN ) ),checksum
-~introductions #pending
-~introductions + 1 a&TD3 ia 0 0 0 
+jul2116 May20'22-10:58:28-1653058708073 May20'22-11:38:00-1653061080966 0 |
+1 4 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introduccion #pending
+~introduccion + 1 dCBE6 ia 3 0 0 
 #`end topics
 $cs_language=ENGLISH
-$shutup=1
-$singleresponse=1
-$botprompt=HARRY: 
-$userprompt=: >
-$cs_control_main=~control
-$cs_token=75726583
-$cs_bot=Harry
-$cs_randindex=1285
-$cs_trace=0
+$fin=Canada
+$inicio=Chile
 $cs_time=0
+$cs_trace=0
+$cs_randindex=1285
+$cs_bot=Harry
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=: >
+$botprompt=HARRY: 
+$singleresponse=1
+$shutup=1
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~introductions 0 KEEP ~introductions 1 KEEP 
+#context ~introduccion 1 PARADA ~introduccion 3 DESINO 
+ En Chile
+ Si
+ Hacia Canada
+ Si
 #`end user
- Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Esta es tu locacion actual? \"Chile\"?
+ A donde iras?
+ Este es tu destino? \"Canada\"?
+ Tu iras desde Chile hasta Canada.
 #`end chatbot

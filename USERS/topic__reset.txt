@@ -1,0 +1,17 @@
+USERS/topic__reset.txt
+jul2116 May20'22-10:58:38-1653058718964 May20'22-10:58:42-1653058722588 0 |
+1 0 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+#pending
+#`end topics
+$cs_language=ENGLISH
+$cs_bot=Reset
+$cs_randindex=1285
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+#`end user
+#`end chatbot

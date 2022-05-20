@@ -1,0 +1,31 @@
+﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+
+----Reading file simplecontrol.top   
+Reading outputmacro: ^harry
+Reading table ^tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+----Reading file introduccion.top   
+Reading topic ~introduccion
+*** Warning- line 6 col 6 of introduccion.top: Word "si" known in multiple spellings si SI Si 
+
+----Reading file pregunta1.top   
+Reading topic ~pregunta1
+*** Warning- line 5 col 6 of pregunta1.top: Word "si" known in multiple spellings si SI Si 
+*** Warning- line 6 col 27 of pregunta1.top: Recursive call to topic - possible infinite recursion danger ~pregunta1
+
+----Reading file conclusion.top   
+Reading topic ~conclusion
+*** Warning- line 13 col 24 of simplecontrol.top: Undefined set or topic ~introductions*** Warning- line 92 col 36 of simplecontrol.top: Undefined set or topic ~keywordless*** Warning- line 100 col 35 of simplecontrol.top: Undefined set or topic ~quibble_all
+WARNING SUMMARY: 
+      Recursive call to topic - possible infinite recursion danger ~pregunta1 ending line 6 col 27 of pregunta1.top
+      Undefined set or topic ~introductions ending line 13 col 24 of simplecontrol.top
+      Undefined set or topic ~keywordless ending line 92 col 36 of simplecontrol.top
+      Undefined set or topic ~quibble_all ending line 100 col 35 of simplecontrol.top
+    4 serious warnings, 0 function warnings, 0 spelling warnings, 2 case warnings, 0 substitution warnings
+    
+
+
+    Finished compile
+

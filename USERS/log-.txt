@@ -7,3 +7,64 @@ May 06 11:39:06.298 2022 Respond: user: bot:harry len:5 ip: (~introductions) 1 L
 May 06 11:39:10.263 2022 ServerPre: pid: 0  (harry) size=6 :reset
     Command: :reset
 May 06 11:39:10.263 2022 Respond: user: bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 06 11:39:10.277 2022 14ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 18 21:41:36.727 2022 ServerPre: pid: 0  (build mine) size=0 
+No computer id before user load?
+May 18 21:41:41.373 2022 ServerPre: pid: 0  (harry) size=12 :build harry
+    Command: :build harry
+
+May 18 21:41:45.106 2022 ServerPre: pid: 0  () size=0 
+
+May 18 21:41:49.856 2022 ServerPre: pid: 0  (harry) size=2 hi
+May 18 21:41:49.856 2022 Respond: user: bot:harry len:3 ip: (~introductions) 1 hi  ==> Have you been here before?  When:May 18 21:41:49.856 2022 0ms q 0 Why:~introductions.2.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 18 21:41:52.336 2022 ServerPre: pid: 0  (harry) size=2 no
+May 18 21:41:52.336 2022 Respond: user: bot:harry len:3 ip: (~introductions) 2 no  ==> Then welcome to your first time.  When:May 18 21:41:52.338 2022 2ms q 0 Why:~introductions.2.2  JOpen:0/0 Timeout:0 
+
+May 20 10:57:48.671 2022 ServerPre: pid: 0  (build prueba) size=0 
+No computer id before user load?
+May 20 10:57:53.622 2022 ServerPre: pid: 0  (harry) size=4 Luis
+May 20 10:57:53.622 2022 Respond: user: bot:harry len:5 ip: (~introduccion) 1 Luis  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:57:53.629 2022 7ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:58:12.563 2022 ServerPre: pid: 0  () size=0 
+
+May 20 10:58:13.673 2022 ServerPre: pid: 0  (harry) size=0 
+
+May 20 10:58:14.172 2022 ServerPre: pid: 0  (harry) size=0 
+
+May 20 10:58:14.324 2022 ServerPre: pid: 0  (harry) size=0 
+
+May 20 10:58:14.462 2022 ServerPre: pid: 0  (harry) size=0 
+
+May 20 10:58:14.599 2022 ServerPre: pid: 0  (harry) size=0 
+
+May 20 10:58:14.719 2022 ServerPre: pid: 0  (harry) size=0 
+
+May 20 10:58:23.625 2022 ServerPre: pid: 0  (build prueba) size=0 
+No computer id before user load?
+May 20 10:58:28.073 2022 ServerPre: pid: 0  (harry) size=6 :reset
+    Command: :reset
+May 20 10:58:28.073 2022 Respond: user: bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:58:28.088 2022 15ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:58:38.956 2022 ServerPre: pid: 0  (reset) size=0 
+
+May 20 10:58:42.572 2022 ServerPre: pid: 0  (reset) size=6 :reset
+    Command: :reset
+May 20 10:58:42.572 2022 Respond: user: bot:reset len:7 ip: () 0 :reset  ==>   When:May 20 10:58:42.588 2022 16ms q 0  JOpen:0/0 Timeout:0 
+
+May 20 10:58:46.442 2022 ServerPre: pid: 0  (reset) size=13 :build prueba
+    Command: :build prueba
+
+May 20 10:58:48.281 2022 ServerPre: pid: 0  () size=0 
+
+May 20 11:37:42.577 2022 ServerPre: pid: 0  (harry) size=8 En Chile
+May 20 11:37:42.577 2022 Respond: user: bot:harry len:9 ip: (~introduccion) 1 En Chile  ==> Esta es tu locacion actual? "Chile"?  When:May 20 11:37:42.592 2022 15ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 11:37:48.535 2022 ServerPre: pid: 0  (harry) size=2 Si
+May 20 11:37:48.535 2022 Respond: user: bot:harry len:3 ip: (~introduccion) 2 Si  ==> A donde iras?  When:May 20 11:37:48.535 2022 0ms q 0 Why:~preguntas.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 11:37:56.164 2022 ServerPre: pid: 0  (harry) size=12 Hacia Canada
+May 20 11:37:56.164 2022 Respond: user: bot:harry len:13 ip: (~introduccion) 3 Hacia Canada  ==> Este es tu destino? "Canada"?  When:May 20 11:37:56.172 2022 8ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 11:38:00.966 2022 ServerPre: pid: 0  (harry) size=2 Si
+May 20 11:38:00.958 2022 Respond: user: bot:harry len:3 ip: (~introduccion) 4 Si  ==> Tu iras desde Chile hasta Canada.  When:May 20 11:38:00.966 2022 8ms q 0 Why:~preguntas.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 

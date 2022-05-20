@@ -1,0 +1,27 @@
+﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+
+----Reading file simplecontrol.top   
+Reading outputmacro: ^harry
+Reading table ^tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+----Reading file comida.top   
+Reading topic ~serviciocomida
+*** Warning- line 5 col 11 of comida.top: Substitutes.txt changes Yo to you anywhere in input *** Warning- line 5 col 13 of comida.top: Keyword Yo should not be uppercase - did prior rule fail to close
+
+----Reading file pedido.top   
+Reading topic ~pedido
+*** Warning- line 5 col 20 of pedido.top: Word "si" known in multiple spellings si SI Si 
+*** Warning- line 13 col 24 of simplecontrol.top: Undefined set or topic ~introductions*** Warning- line 92 col 36 of simplecontrol.top: Undefined set or topic ~keywordless*** Warning- line 100 col 35 of simplecontrol.top: Undefined set or topic ~quibble_all
+WARNING SUMMARY: 
+      Keyword Yo should not be uppercase - did prior rule fail to close ending line 5 col 13 of comida.top
+      Undefined set or topic ~introductions ending line 13 col 24 of simplecontrol.top
+      Undefined set or topic ~keywordless ending line 92 col 36 of simplecontrol.top
+      Undefined set or topic ~quibble_all ending line 100 col 35 of simplecontrol.top
+    4 serious warnings, 0 function warnings, 0 spelling warnings, 1 case warnings, 1 substitution warnings
+    
+
+
+    Finished compile
+

@@ -1,0 +1,10 @@
+topic: ~preguntas repeat keep nostay []
+
+u: (!$inicio)
+   Donde te encuentras?
+
+u: (!$fin)
+   A donde iras?
+
+u: ($inicio $fin)
+   Tu iras desde $inicio hasta $fin .

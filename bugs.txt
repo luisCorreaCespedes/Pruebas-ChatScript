@@ -4,4 +4,83 @@
    in topic_luis_anonymous.txt at 0: ^anonymous
     No computer id before user load?
    in topic__build mine.txt at 0: ^build mine
+    No computer id before user load?
+   in topic__build mine.txt at 0: ^build mine
+    User data file CONTEXT inconsistent 1601 USERS/topic_luis_harry.txt
+jul2116 May06'22-01:44:26-1651815866914 May18'22-21:41:18-1652924478392 0 |
+3 2 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$cs_language=ENGLISH
+$cs_time=0
+$cs_trace=0
+$cs_randindex=2082
+$cs_bot=Harry
+$cs_login=luis
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=luis: >
+$botprompt=HARRY: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 3 KEEP ~introductions 2 FIN ~introductions 1 FIN ~introductions 2 KEEP ~introductions 1 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 4 FIN ~introductions 1 FIN ~introductions 0 KEEP ~introductions 6 READY_TO_ORDER ~introductions 8 READY_TO_ORDER ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 3 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 2 FIN ~introductions 0 KEEP ~introductions 2 FIN ~introductions 0 KEEP ~introductions 1 KEEP ~introductions 3 FIN ~introductions 4 FIN ~introductions 0 FIN ~introductions 0 FIN ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 0 FIN ~introductions 0 FIN ~introductions 1 FIN ~introductions 1 FIN ~introductions 0 KEEP 
+ :clear
+ :cls
+#`end user
+ Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...
+ Welcome back
+#`end chatbot
+ 
+
+User data file CONTEXT inconsistent 1111 USERS/topic_luis_harry.txt
+jul2116 May06'22-01:44:26-1651815866914 May20'22-10:39:48-1653057588699 0 |
+1 5 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introduccion #pending
+~introduccion + 1 U=6w4 ia 3 0 0 
+#`end topics
+$cs_language=ENGLISH
+$shutup=1
+$singleresponse=1
+$botprompt=HARRY: 
+$userprompt=luis: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=luis
+$cs_bot=Harry
+$cs_randindex=2082
+$cs_trace=0
+$cs_time=0
+$inicio=Chile
+$fin=Canada
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~introduccion 3 DESINO ~introduccion 1 PARADA ~introduccion 5 PARADA ~introduccion 3 PARADA ~introduccion 1 PARADA ~introduccion 6 DESINO ~introduccion 4 PARADA ~desarrollo 5 KEEP 
+ En Chile
+ Si
+ Hacia Canada
+ Si
+ Gracias
+#`end user
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Esta es tu locacion actual? \"Chile\"?
+ A donde iras?
+ Este es tu destino? \"Canada\"?
+ Tu iras desde Chile hasta Canada.
+ Tu iras desde Chile hasta Canada.
+#`end chatbot
+ 
+
+No computer id before user load?
+   in topic__build prueba.txt at 0: ^build prueba
+    No computer id before user load?
+   in topic__build prueba.txt at 0: ^build prueba
     

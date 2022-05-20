@@ -343,3 +343,603 @@ May 06 11:53:14.023 2022 Respond: user:luis bot:harry len:7 ip: (~introductions)
 
 May 06 11:53:16.456 2022 ServerPre: pid: 0 luis (harry) size=2 no
 May 06 11:53:16.456 2022 Respond: user:luis bot:harry len:3 ip: (~introductions) 1 no  ==> La lluvia ayuda a dormir. Hasta luego!  When:May 06 11:53:16.461 2022 5ms q 0 Why:~introductions.0.2 ~introductions.1.0=FIN.~introductions.0.2  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3692 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 18 21:40:59.388 2022 ServerPre: pid: 0 luis () size=0 
+May 18 21:40:59.380 2022 Start: user:Luis bot:harry ip: (~introductions) 1 ==> I don't know what to say.  When:May 18 21:40:59.407 2022 27ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May06'22-02:11:55-1651817515581 Build1:May06'22-02:11:55-1651817515581 Why:~control.9.0.~control.9.0 
+
+May 18 21:41:06.024 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 18 21:41:06.024 2022 Respond: user:luis bot:harry len:7 ip: (~introductions) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 18 21:41:06.032 2022 8ms q 0 Why:~introductions.0.0=KEEP.~control.0.0  JOpen:0/0 Timeout:0 
+
+May 18 21:41:13.911 2022 ServerPre: pid: 0 luis (harry) size=6 :clear
+May 18 21:41:13.911 2022 Respond: user:luis bot:harry len:7 ip: () 1 :clear  ==>   When:May 18 21:41:13.969 2022 58ms q 0  JOpen:0/0 Timeout:0 
+
+May 18 21:41:18.370 2022 ServerPre: pid: 0 luis (harry) size=4 :cls
+May 18 21:41:18.370 2022 Respond: user:luis bot:harry len:5 ip: () 2 :cls  ==>   When:May 18 21:41:18.392 2022 22ms q 0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=6  fact=1  heap=3692 Compiled:May06'22-02:11:55-1651817515581 by version 12.1 "mine"
+
+May 18 21:41:36.727 2022 ServerPre: pid: 0  (build mine) size=0 
+BUGNo computer id before user load?
+
+May 18 21:41:41.373 2022 ServerPre: pid: 0  (harry) size=12 :build harry
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=146  fact=15  heap=210268 Compiled:May18'22-21:41:41-1652924501470 by version 12.1 "harry"
+
+May 18 21:41:45.106 2022 ServerPre: pid: 0  () size=0 
+May 18 21:41:45.106 2022 Start: user: bot:harry ip: (~introductions) 0 ==> Welcome to ChatScript.  When:May 18 21:41:45.116 2022 10ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May18'22-21:41:41-1652924501470 Build1:May18'22-21:41:41-1652924501470 Why:~introductions.1.0.~control.0.0 
+
+May 18 21:41:49.856 2022 ServerPre: pid: 0  (harry) size=2 hi
+May 18 21:41:49.856 2022 Respond: user: bot:harry len:3 ip: (~introductions) 1 hi  ==> Have you been here before?  When:May 18 21:41:49.856 2022 0ms q 0 Why:~introductions.2.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 18 21:41:52.336 2022 ServerPre: pid: 0  (harry) size=2 no
+May 18 21:41:52.336 2022 Respond: user: bot:harry len:3 ip: (~introductions) 2 no  ==> Then welcome to your first time.  When:May 18 21:41:52.338 2022 2ms q 0 Why:~introductions.2.2  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=146  fact=15  heap=210224 Compiled:May18'22-21:41:41-1652924501470 by version 12.1 "harry"
+
+May 20 01:19:39.784 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:19:39.784 2022 Start: user:Luis bot:harry ip: (~introductions) 2 ==> Welcome back  When:May 20 01:19:39.813 2022 29ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May18'22-21:41:41-1652924501470 Build1:May18'22-21:41:41-1652924501470 Why:~introductions.0.0.~control.0.0 
+
+May 20 01:19:48.832 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=4116 Compiled:May20'22-01:19:48-1653023988958 by version 12.1 "prueba"
+
+May 20 01:19:50.665 2022 ServerPre: pid: 0 luis () size=0 
+BUGUser data file CONTEXT inconsistent 1601 USERS/topic_luis_harry.txt
+jul2116 May06'22-01:44:26-1651815866914 May18'22-21:41:18-1652924478392 0 |
+3 2 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$cs_language=ENGLISH
+$cs_time=0
+$cs_trace=0
+$cs_randindex=2082
+$cs_bot=Harry
+$cs_login=luis
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=luis: >
+$botprompt=HARRY: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 3 KEEP ~introductions 2 FIN ~introductions 1 FIN ~introductions 2 KEEP ~introductions 1 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 4 FIN ~introductions 1 FIN ~introductions 0 KEEP ~introductions 6 READY_TO_ORDER ~introductions 8 READY_TO_ORDER ~introductions 0 KEEP ~introductions 0 KEEP ~introductions 3 KEEP ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 2 FIN ~introductions 0 KEEP ~introductions 2 FIN ~introductions 0 KEEP ~introductions 1 KEEP ~introductions 3 FIN ~introductions 4 FIN ~introductions 0 FIN ~introductions 0 FIN ~introductions 0 KEEP ~introductions 1 FIN ~introductions 0 KEEP ~introductions 0 FIN ~introductions 0 FIN ~introductions 1 FIN ~introductions 1 FIN ~introductions 0 KEEP 
+ :clear
+ :cls
+#`end user
+ Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...
+ Welcome back
+#`end chatbot
+ 
+
+May 20 01:19:50.665 2022 Start: user:luis bot:harry ip: (~introduccion) 2 ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:19:50.707 2022 42ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:19:48-1653023988958 Build1:May20'22-01:19:48-1653023988958 Why:~introduccion.0.0=KEEP.~control.9.0 
+
+May 20 01:19:53.842 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:19:53.842 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 3 no  ==> La lluvia ayuda a dormir.  When:May 20 01:19:53.850 2022 8ms q 0 Why:~introduccion.0.2.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:20:02.367 2022 ServerPre: pid: 0 luis (harry) size=1 l
+May 20 01:20:02.367 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 4 l  ==> Hola! Te gusta el bosque? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:20:02.375 2022 8ms q 0 Why:~desarrollo.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:20:07.282 2022 ServerPre: pid: 0 luis (harry) size=1 k
+May 20 01:20:07.282 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 5 k  ==> I don't know what to say.  When:May 20 01:20:07.282 2022 0ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:20:08.961 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:20:08.961 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 6 no  ==> I don't know what to say.  When:May 20 01:20:08.961 2022 0ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:20:19.762 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 01:20:19.762 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 7 si  ==> I don't know what to say.  When:May 20 01:20:19.770 2022 8ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:20:21.608 2022 ServerPre: pid: 0 luis (harry) size=0 
+May 20 01:20:21.608 2022 Start: user:luis bot:harry ip: (~desarrollo) 7 ==> I don't know what to say.  When:May 20 01:20:21.608 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:19:48-1653023988958 Build1:May20'22-01:19:48-1653023988958 Why:~control.9.0.~control.9.0 
+
+May 20 01:20:24.891 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:20:24.891 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:20:24.907 2022 16ms q 0 Why:~introduccion.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=4076 Compiled:May20'22-01:19:48-1653023988958 by version 12.1 "prueba"
+
+May 20 01:23:58.782 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:23:58.782 2022 Start: user:Luis bot:harry ip: (~desarrollo) 0 ==> Hola! Te gusta el bosque? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:23:58.786 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:19:48-1653023988958 Build1:May20'22-01:19:48-1653023988958 Why:~desarrollo.0.0=KEEP.~control.9.0 
+
+May 20 01:24:08.345 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4044 Compiled:May20'22-01:24:08-1653024248482 by version 12.1 "prueba"
+
+May 20 01:24:10.014 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:24:10.014 2022 Start: user:luis bot:harry ip: (~desarrollo) 0 ==> Pregunta 1: Te gusta el dulce? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:24:10.022 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:24:08-1653024248482 Build1:May20'22-01:24:08-1653024248482 Why:~desarrollo.0.0=KEEP.~control.9.0 
+
+May 20 01:24:18.864 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:24:18.864 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola! Deseas responder una encuesta? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:24:18.880 2022 16ms q 0 Why:~introduccion.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:24:24.368 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:24:24.367 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 1 no  ==> Pregunta 1: Te gusta el dulce? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:24:24.369 2022 2ms q 0 Why:~desarrollo.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:28.482 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4040 Compiled:May20'22-01:28:28-1653024508592 by version 12.1 "prueba"
+
+May 20 01:28:30.135 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:28:30.135 2022 Start: user:luis bot:harry ip: (~introduccion) 1 ==> Hola! Deseas responder una encuesta? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:28:30.135 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:28:28-1653024508592 Build1:May20'22-01:28:28-1653024508592 Why:~introduccion.0.0=KEEP.~control.9.0 
+
+May 20 01:28:34.239 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:28:34.239 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola! Deseas responder una encuesta? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:28:34.255 2022 16ms q 0 Why:~introduccion.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:36.217 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:28:36.217 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 1 no  ==> Pregunta 1: Te gusta el dulce? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:28:36.225 2022 8ms q 0 Why:~desarrollo.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:38.623 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 01:28:38.623 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 2 si  ==> I don't know what to say.  When:May 20 01:28:38.630 2022 7ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:40.599 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:28:40.599 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 3 no  ==> I don't know what to say.  When:May 20 01:28:40.608 2022 9ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:43.587 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:28:43.587 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola! Deseas responder una encuesta? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:28:43.595 2022 8ms q 0 Why:~introduccion.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:45.941 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 01:28:45.933 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 1 si  ==> Pregunta 1: Te gusta el dulce? Por favor indicame con un SI o NO tu respuesta...  When:May 20 01:28:45.949 2022 16ms q 0 Why:~desarrollo.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:28:47.401 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:28:47.401 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 2 no  ==> I don't know what to say.  When:May 20 01:28:47.409 2022 8ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:37:19.001 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=3788 Compiled:May20'22-01:37:19-1653025039076 by version 12.1 "prueba"
+
+May 20 01:37:20.137 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:37:20.137 2022 Start: user:luis bot:harry ip: (~desarrollo) 2 ==> Este es el desarrollo.  When:May 20 01:37:20.141 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:37:19-1653025039076 Build1:May20'22-01:37:19-1653025039076 Why:~desarrollo.0.0=KEEP.~control.9.0 
+
+May 20 01:37:29.600 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:37:29.599 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola! Esta es la introducción  When:May 20 01:37:29.613 2022 14ms q 0 Why:~introduccion.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:37:31.837 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:37:31.836 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 1 a  ==> Este es el desarrollo.  When:May 20 01:37:31.842 2022 6ms q 0 Why:~desarrollo.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:37:32.906 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:37:32.906 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 2 a  ==> I don't know what to say.  When:May 20 01:37:32.911 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:37:34.004 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:37:34.004 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 3 a  ==> I don't know what to say.  When:May 20 01:37:34.009 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:37:34.979 2022 ServerPre: pid: 0 luis (harry) size=1 s
+May 20 01:37:34.979 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 4 s  ==> I don't know what to say.  When:May 20 01:37:34.984 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:37:36.435 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:37:36.434 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 5 no  ==> I don't know what to say.  When:May 20 01:37:36.439 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:39:28.571 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=3788 Compiled:May20'22-01:39:28-1653025168647 by version 12.1 "prueba"
+
+May 20 01:39:29.687 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:39:29.687 2022 Start: user:luis bot:harry ip: (~desarrollo) 5 ==> Este es el desarrollo.  When:May 20 01:39:29.691 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:39:28-1653025168647 Build1:May20'22-01:39:28-1653025168647 Why:~desarrollo.0.0=KEEP.~control.9.0 
+
+May 20 01:39:32.398 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:39:32.397 2022 Respond: user:luis bot:harry len:7 ip: () 0 :reset  ==> I don't know what to say.  When:May 20 01:39:32.410 2022 13ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:39:36.860 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:39:36.860 2022 Respond: user:luis bot:harry len:7 ip: () 0 :reset  ==> I don't know what to say.  When:May 20 01:39:36.872 2022 12ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:39:37.889 2022 ServerPre: pid: 0 luis (harry) size=1 f
+May 20 01:39:37.889 2022 Respond: user:luis bot:harry len:2 ip: () 1 f  ==> I don't know what to say.  When:May 20 01:39:37.894 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:39:41.965 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=3788 Compiled:May20'22-01:39:42-1653025182039 by version 12.1 "prueba"
+
+May 20 01:39:43.045 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:39:43.045 2022 Start: user:luis bot:harry ip: () 1 ==> I don't know what to say.  When:May 20 01:39:43.049 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:39:42-1653025182039 Build1:May20'22-01:39:42-1653025182039 Why:~control.9.0.~control.9.0 
+
+May 20 01:39:45.561 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:39:45.560 2022 Respond: user:luis bot:harry len:3 ip: () 2 no  ==> I don't know what to say.  When:May 20 01:39:45.566 2022 6ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:39:47.494 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 01:39:47.493 2022 Respond: user:luis bot:harry len:7 ip: () 0 :reset  ==> I don't know what to say.  When:May 20 01:39:47.505 2022 12ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:40:55.188 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=3788 Compiled:May20'22-01:40:55-1653025255264 by version 12.1 "prueba"
+
+May 20 01:40:56.335 2022 ServerPre: pid: 0 luis () size=0 
+May 20 01:40:56.335 2022 Start: user:luis bot:harry ip: (~introduccion) 0 ==> Hola! Esta es la introducción  When:May 20 01:40:56.338 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-01:40:55-1653025255264 Build1:May20'22-01:40:55-1653025255264 Why:~introduccion.0.0=KEEP.~control.9.0 
+
+May 20 01:40:59.105 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:40:59.104 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 1 a  ==> Este es el desarrollo.  When:May 20 01:40:59.109 2022 5ms q 0 Why:~desarrollo.0.0=KEEP.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:41:00.137 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:41:00.136 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 2 a  ==> I don't know what to say.  When:May 20 01:41:00.141 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:41:01.216 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:41:01.216 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 3 a  ==> I don't know what to say.  When:May 20 01:41:01.223 2022 7ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:41:01.670 2022 ServerPre: pid: 0 luis (harry) size=1 a
+May 20 01:41:01.670 2022 Respond: user:luis bot:harry len:2 ip: (~desarrollo) 4 a  ==> I don't know what to say.  When:May 20 01:41:01.675 2022 5ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 01:41:02.525 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 01:41:02.524 2022 Respond: user:luis bot:harry len:3 ip: (~desarrollo) 5 no  ==> I don't know what to say.  When:May 20 01:41:02.530 2022 6ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:32:32.093 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4252 Compiled:May20'22-10:32:32-1653057152226 by version 12.1 "prueba"
+
+May 20 10:32:34.239 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:32:34.239 2022 Start: user:luis bot:harry ip: (~desarrollo) 5 ==> Donde te encuentras?  When:May 20 10:32:34.245 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:32:32-1653057152226 Build1:May20'22-10:32:32-1653057152226 Why:~desarrollo.0.0.~control.9.0 
+
+May 20 10:32:44.871 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:32:44.863 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:32:44.888 2022 25ms q 0 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:32:48.214 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 10:32:48.214 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 1 no  ==> Donde te encuentras?  When:May 20 10:32:48.222 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:33:15.015 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 10:33:15.015 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 no  ==> Donde te encuentras?  When:May 20 10:33:15.023 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:33:17.778 2022 ServerPre: pid: 0 luis (harry) size=6 pirque
+May 20 10:33:17.778 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 3 pirque  ==> Donde te encuentras?  When:May 20 10:33:17.845 2022 67ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:33:20.637 2022 ServerPre: pid: 0 luis (harry) size=5 Chile
+May 20 10:33:20.637 2022 Respond: user:luis bot:harry len:6 ip: (~introduccion) 4 Chile  ==> Donde te encuentras?  When:May 20 10:33:20.645 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:33:23.242 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 20 10:33:23.242 2022 Respond: user:luis bot:harry len:4 ip: (~introduccion) 5 yes  ==> Donde te encuentras?  When:May 20 10:33:23.250 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:33:25.107 2022 ServerPre: pid: 0 luis (harry) size=2 no
+May 20 10:33:25.107 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 6 no  ==> Donde te encuentras?  When:May 20 10:33:25.113 2022 6ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:33:27.859 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:33:27.859 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:33:27.884 2022 25ms q 0 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:33:31.658 2022 ServerPre: pid: 0 luis (harry) size=6 pirque
+May 20 10:33:31.658 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 1 pirque  ==> Donde te encuentras?  When:May 20 10:33:31.729 2022 71ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:34:37.139 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4260 Compiled:May20'22-10:34:37-1653057277255 by version 12.1 "prueba"
+
+May 20 10:34:39.008 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:34:39.008 2022 Start: user:luis bot:harry ip: (~introduccion) 1 ==> Hola Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:34:39.016 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:34:37-1653057277255 Build1:May20'22-10:34:37-1653057277255 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0 
+
+May 20 10:34:48.771 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:34:48.771 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:34:48.787 2022 16ms q 0 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:34:50.614 2022 ServerPre: pid: 0 luis (harry) size=4 hola
+May 20 10:34:50.614 2022 Respond: user:luis bot:harry len:5 ip: (~introduccion) 1 hola  ==> Donde te encuentras?  When:May 20 10:34:50.622 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:34:53.439 2022 ServerPre: pid: 0 luis (harry) size=5 Chile
+May 20 10:34:53.432 2022 Respond: user:luis bot:harry len:6 ip: (~introduccion) 2 Chile  ==> Donde te encuentras?  When:May 20 10:34:53.439 2022 7ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:36:24.425 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=4244 Compiled:May20'22-10:36:24-1653057384565 by version 12.1 "prueba"
+
+May 20 10:36:26.389 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:36:26.389 2022 Start: user:luis bot:harry ip: (~introduccion) 2 ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:36:26.397 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:36:24-1653057384565 Build1:May20'22-10:36:24-1653057384565 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0 
+
+May 20 10:36:30.713 2022 ServerPre: pid: 0 luis (harry) size=8 En Chile
+May 20 10:36:30.713 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 3 En Chile  ==> Donde te encuentras?  When:May 20 10:36:30.721 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:36:39.639 2022 ServerPre: pid: 0 luis (harry) size=8 at chile
+May 20 10:36:39.631 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 4 at chile  ==> Esta es tu locacion actual? "chile"?  When:May 20 10:36:39.647 2022 16ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:36:45.536 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 20 10:36:45.536 2022 Respond: user:luis bot:harry len:4 ip: (~introduccion) 5 yes  ==> A donde iras?  When:May 20 10:36:45.544 2022 8ms q 0 Why:~desarrollo.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 10:36:51.384 2022 ServerPre: pid: 0 luis (harry) size=12 go to africa
+May 20 10:36:51.376 2022 Respond: user:luis bot:harry len:13 ip: (~introduccion) 6 go to africa  ==> Este es tu destino? "Africa"?  When:May 20 10:36:51.392 2022 16ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:36:53.916 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 20 10:36:53.916 2022 Respond: user:luis bot:harry len:4 ip: (~introduccion) 7 yes  ==> Tu iras desde hasta.  When:May 20 10:36:53.924 2022 8ms q 0 Why:~desarrollo.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 
+
+May 20 10:38:10.008 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4244 Compiled:May20'22-10:38:10-1653057490215 by version 12.1 "prueba"
+
+May 20 10:38:12.611 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:38:12.611 2022 Start: user:luis bot:harry ip: (~introduccion) 7 ==> Hola, te ayudaré con tu viaje! Tu iras desde chile hasta Africa.  When:May 20 10:38:12.619 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:38:10-1653057490215 Build1:May20'22-10:38:10-1653057490215 Why:~introduccion.0.0.~control.9.0 ~desarrollo.2.0.~introduccion.0.0 
+
+May 20 10:38:16.576 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:38:16.576 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:38:16.602 2022 26ms q 0 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:38:19.753 2022 ServerPre: pid: 0 luis (harry) size=8 en chile
+May 20 10:38:19.753 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 1 en chile  ==> Esta es tu locacion actual? "chile"?  When:May 20 10:38:19.761 2022 8ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:38:21.901 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 10:38:21.901 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 si  ==> Donde te encuentras?  When:May 20 10:38:21.909 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:38:30.045 2022 ServerPre: pid: 0 luis (harry) size=8 en chile
+May 20 10:38:30.045 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 3 en chile  ==> Esta es tu locacion actual? "chile"?  When:May 20 10:38:30.053 2022 8ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:38:31.951 2022 ServerPre: pid: 0 luis (harry) size=3 yes
+May 20 10:38:31.951 2022 Respond: user:luis bot:harry len:4 ip: (~introduccion) 4 yes  ==> Donde te encuentras?  When:May 20 10:38:31.959 2022 8ms q 0 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:38:35.915 2022 ServerPre: pid: 0 luis (harry) size=8 en chile
+May 20 10:38:35.915 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 5 en chile  ==> Esta es tu locacion actual? "chile"?  When:May 20 10:38:35.919 2022 4ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4204 Compiled:May20'22-10:38:10-1653057490215 by version 12.1 "prueba"
+
+May 20 10:39:13.831 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:39:13.831 2022 Start: user:Luis bot:harry ip: (~introduccion) 5 ==> Donde te encuentras?  When:May 20 10:39:13.839 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:38:10-1653057490215 Build1:May20'22-10:38:10-1653057490215 Why:~desarrollo.0.0.~introduccion.3.0=DEFAULT 
+
+May 20 10:39:16.488 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:39:16.488 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:39:16.505 2022 17ms q 0 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:39:19.070 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4248 Compiled:May20'22-10:39:19-1653057559186 by version 12.1 "prueba"
+
+May 20 10:39:21.077 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:39:21.077 2022 Start: user:luis bot:harry ip: (~introduccion) 0 ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:39:21.086 2022 9ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:39:19-1653057559186 Build1:May20'22-10:39:19-1653057559186 Why:~introduccion.0.0.~control.9.0 ~desarrollo.0.0.~introduccion.0.0 
+
+May 20 10:39:30.665 2022 ServerPre: pid: 0 luis (harry) size=8 En Chile
+May 20 10:39:30.665 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 1 En Chile  ==> Esta es tu locacion actual? "Chile"?  When:May 20 10:39:30.670 2022 5ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:39:33.014 2022 ServerPre: pid: 0 luis (harry) size=2 Si
+May 20 10:39:33.014 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 Si  ==> A donde iras?  When:May 20 10:39:33.022 2022 8ms q 0 Why:~desarrollo.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 10:39:43.733 2022 ServerPre: pid: 0 luis (harry) size=12 Hacia Canada
+May 20 10:39:43.733 2022 Respond: user:luis bot:harry len:13 ip: (~introduccion) 3 Hacia Canada  ==> Este es tu destino? "Canada"?  When:May 20 10:39:43.742 2022 9ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:39:45.725 2022 ServerPre: pid: 0 luis (harry) size=2 Si
+May 20 10:39:45.725 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 4 Si  ==> Tu iras desde Chile hasta Canada.  When:May 20 10:39:45.732 2022 7ms q 0 Why:~desarrollo.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 
+
+May 20 10:39:48.699 2022 ServerPre: pid: 0 luis (harry) size=7 Gracias
+May 20 10:39:48.699 2022 Respond: user:luis bot:harry len:8 ip: (~introduccion) 5 Gracias  ==> Tu iras desde Chile hasta Canada.  When:May 20 10:39:48.707 2022 8ms q 0 Why:~desarrollo.2.0.~introduccion.3.0=DEFAULT  JOpen:0/0 Timeout:0 
+
+May 20 10:44:18.901 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=3992 Compiled:May20'22-10:44:19-1653057859030 by version 12.1 "prueba"
+
+May 20 10:44:20.836 2022 ServerPre: pid: 0 luis () size=0 
+BUGUser data file CONTEXT inconsistent 1111 USERS/topic_luis_harry.txt
+jul2116 May06'22-01:44:26-1651815866914 May20'22-10:39:48-1653057588699 0 |
+1 5 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introduccion #pending
+~introduccion + 1 U=6w4 ia 3 0 0 
+#`end topics
+$cs_language=ENGLISH
+$shutup=1
+$singleresponse=1
+$botprompt=HARRY: 
+$userprompt=luis: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=luis
+$cs_bot=Harry
+$cs_randindex=2082
+$cs_trace=0
+$cs_time=0
+$inicio=Chile
+$fin=Canada
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~introduccion 3 DESINO ~introduccion 1 PARADA ~introduccion 5 PARADA ~introduccion 3 PARADA ~introduccion 1 PARADA ~introduccion 6 DESINO ~introduccion 4 PARADA ~desarrollo 5 KEEP 
+ En Chile
+ Si
+ Hacia Canada
+ Si
+ Gracias
+#`end user
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Esta es tu locacion actual? \"Chile\"?
+ A donde iras?
+ Este es tu destino? \"Canada\"?
+ Tu iras desde Chile hasta Canada.
+ Tu iras desde Chile hasta Canada.
+#`end chatbot
+ 
+
+May 20 10:44:20.836 2022 Start: user:luis bot:harry ip: (~introduccion) 5 ==> Hola, te ayudaré con tu viaje!  When:May 20 10:44:20.894 2022 58ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:44:19-1653057859030 Build1:May20'22-10:44:19-1653057859030 Why:~introduccion.0.0.~control.9.0 
+
+May 20 10:44:25.743 2022 ServerPre: pid: 0 luis (harry) size=4 hola
+May 20 10:44:25.743 2022 Respond: user:luis bot:harry len:5 ip: (~introduccion) 6 hola  ==> I don't know what to say.  When:May 20 10:44:25.751 2022 8ms q 0 Why:~control.9.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:44:29.687 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:44:29.687 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje!  When:May 20 10:44:29.712 2022 25ms q 0 Why:~introduccion.0.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:44:59.310 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=7  fact=1  heap=3940 Compiled:May20'22-10:44:59-1653057899428 by version 12.1 "prueba"
+
+May 20 10:45:01.248 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:45:01.248 2022 Start: user:luis bot:harry ip: (~introduccion) 0 ==> Hola, te ayudaré con tu viaje!  When:May 20 10:45:01.257 2022 9ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:44:59-1653057899428 Build1:May20'22-10:44:59-1653057899428 Why:~introduccion.0.0.~control.9.0 
+
+May 20 10:45:04.028 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:45:04.028 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje!  When:May 20 10:45:04.052 2022 24ms q 0 Why:~introduccion.0.0.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:46:07.087 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4340 Compiled:May20'22-10:46:07-1653057967205 by version 12.1 "prueba"
+
+May 20 10:46:09.059 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:46:09.059 2022 Start: user:luis bot:harry ip: (~introduccion) 0 ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:46:09.067 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:46:07-1653057967205 Build1:May20'22-10:46:07-1653057967205 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0 
+
+May 20 10:46:12.929 2022 ServerPre: pid: 0 luis (harry) size=8 En Chile
+May 20 10:46:12.929 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 1 En Chile  ==> Esta es tu locacion actual? "Chile"?  When:May 20 10:46:12.937 2022 8ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:46:14.742 2022 ServerPre: pid: 0 luis (harry) size=2 Si
+May 20 10:46:14.742 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 Si  ==> A donde iras?  When:May 20 10:46:14.750 2022 8ms q 0 Why:~preguntas.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 10:46:21.997 2022 ServerPre: pid: 0 luis (harry) size=12 Hacia Egipto
+May 20 10:46:21.997 2022 Respond: user:luis bot:harry len:13 ip: (~introduccion) 3 Hacia Egipto  ==> Este es tu destino? "Egypt"?  When:May 20 10:46:22.073 2022 76ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:46:29.107 2022 ServerPre: pid: 0 luis (harry) size=2 Si
+May 20 10:46:29.107 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 4 Si  ==> Tu iras desde Chile hasta Egypt.  When:May 20 10:46:29.114 2022 7ms q 0 Why:~preguntas.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 
+
+May 20 10:46:32.328 2022 ServerPre: pid: 0 luis (harry) size=7 Gracias
+May 20 10:46:32.328 2022 Respond: user:luis bot:harry len:8 ip: (~introduccion) 5 Gracias  ==> Tu iras desde Chile hasta Egypt.  When:May 20 10:46:32.334 2022 6ms q 0 Why:~preguntas.2.0.~introduccion.3.0=VIAJE  JOpen:0/0 Timeout:0 
+
+May 20 10:47:09.076 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4268 Compiled:May20'22-10:47:09-1653058029201 by version 12.1 "prueba"
+
+May 20 10:47:10.953 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:47:10.945 2022 Start: user:luis bot:harry ip: (~introduccion) 5 ==> Hola, te ayudaré con tu viaje! Tu iras desde Chile hasta Egypt.  When:May 20 10:47:10.953 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:47:09-1653058029201 Build1:May20'22-10:47:09-1653058029201 Why:~introduccion.0.0.~control.9.0 ~preguntas.2.0.~introduccion.0.0 
+
+May 20 10:47:21.971 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:47:21.971 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:47:21.996 2022 25ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:47:25.223 2022 ServerPre: pid: 0 luis (harry) size=8 En Chile
+May 20 10:47:25.223 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 1 En Chile  ==> Esta es tu locacion actual? "Chile"?  When:May 20 10:47:25.231 2022 8ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:47:28.794 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 10:47:28.794 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 si  ==> A donde iras?  When:May 20 10:47:28.802 2022 8ms q 0 Why:~preguntas.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 10:47:35.102 2022 ServerPre: pid: 0 luis (harry) size=12 hacia canada
+May 20 10:47:35.102 2022 Respond: user:luis bot:harry len:13 ip: (~introduccion) 3 hacia canada  ==> Este es tu destino? "Canada"?  When:May 20 10:47:35.110 2022 8ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:47:36.443 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 10:47:36.443 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 4 si  ==> Tu iras desde Chile hasta Canada.  When:May 20 10:47:36.451 2022 8ms q 0 Why:~preguntas.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 
+
+May 20 10:47:38.751 2022 ServerPre: pid: 0 luis (harry) size=7 gracias
+May 20 10:47:38.751 2022 Respond: user:luis bot:harry len:8 ip: (~introduccion) 5 gracias  ==> Tu iras desde Chile hasta Canada.  When:May 20 10:47:38.759 2022 8ms q 0 Why:~preguntas.2.0.~introduccion.3.0=VIAJE  JOpen:0/0 Timeout:0 
+
+May 20 10:48:40.429 2022 ServerPre: pid: 0 luis (harry) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4308 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:48:42.365 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:48:42.365 2022 Start: user:luis bot:harry ip: (~introduccion) 5 ==> Hola, te ayudaré con tu viaje! Tu iras desde Chile hasta Canada.  When:May 20 10:48:42.374 2022 9ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~introduccion.0.0.~control.9.0 ~preguntas.2.0.~introduccion.0.0 
+
+May 20 10:48:45.320 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:48:45.320 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:48:45.336 2022 16ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 10:48:48.112 2022 ServerPre: pid: 0 luis (harry) size=8 en chile
+May 20 10:48:48.112 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 1 en chile  ==> Esta es tu locacion actual? "chile"?  When:May 20 10:48:48.120 2022 8ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:48:49.468 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 10:48:49.468 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 si  ==> A donde iras?  When:May 20 10:48:49.476 2022 8ms q 0 Why:~preguntas.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 10:48:55.007 2022 ServerPre: pid: 0 luis (harry) size=12 hacia egipto
+May 20 10:48:55.007 2022 Respond: user:luis bot:harry len:13 ip: (~introduccion) 3 hacia egipto  ==> Este es tu destino? "Egypt"?  When:May 20 10:48:55.082 2022 75ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 10:48:56.336 2022 ServerPre: pid: 0 luis (harry) size=2 si
+May 20 10:48:56.336 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 4 si  ==> Tu iras desde chile hasta Egypt.  When:May 20 10:48:56.344 2022 8ms q 0 Why:~preguntas.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 
+
+May 20 10:48:58.940 2022 ServerPre: pid: 0 luis (harry) size=7 gracias
+May 20 10:48:58.932 2022 Respond: user:luis bot:harry len:8 ip: (~introduccion) 5 gracias  ==> Tu iras desde chile hasta Egypt.  When:May 20 10:48:58.940 2022 8ms q 0 Why:~preguntas.2.0.~introduccion.3.0=VIAJE  JOpen:0/0 Timeout:0 
+
+May 20 10:57:18.549 2022 ServerPre: pid: 0 luis (harry) size=6 :clear
+May 20 10:57:18.549 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 6 :clear  ==> Tu iras desde chile hasta Egypt.  When:May 20 10:57:18.630 2022 81ms q 0 Why:~preguntas.2.0.~introduccion.3.0=VIAJE  JOpen:0/0 Timeout:0 
+
+May 20 10:57:21.213 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:57:21.213 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:57:21.237 2022 24ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4268 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:57:34.623 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:57:34.623 2022 Start: user:Luis bot:harry ip: (~introduccion) 0 ==> Donde te encuentras?  When:May 20 10:57:34.623 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:57:37.275 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:57:37.275 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:57:37.290 2022 15ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4268 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:57:48.671 2022 ServerPre: pid: 0  (build prueba) size=0 
+BUGNo computer id before user load?
+
+May 20 10:57:53.622 2022 ServerPre: pid: 0  (harry) size=4 Luis
+May 20 10:57:53.622 2022 Respond: user: bot:harry len:5 ip: (~introduccion) 1 Luis  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:57:53.629 2022 7ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4268 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:58:03.005 2022 ServerPre: pid: 0 luis () size=0 
+May 20 10:58:02.998 2022 Start: user:Luis bot:harry ip: (~introduccion) 0 ==> Donde te encuentras?  When:May 20 10:58:03.005 2022 7ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:06.099 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
+May 20 10:58:06.099 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:58:06.115 2022 16ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4268 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:58:12.563 2022 ServerPre: pid: 0  () size=0 
+May 20 10:58:12.563 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:12.571 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:13.673 2022 ServerPre: pid: 0  (harry) size=0 
+May 20 10:58:13.673 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:13.673 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:14.172 2022 ServerPre: pid: 0  (harry) size=0 
+May 20 10:58:14.164 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:14.172 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:14.324 2022 ServerPre: pid: 0  (harry) size=0 
+May 20 10:58:14.324 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:14.324 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:14.462 2022 ServerPre: pid: 0  (harry) size=0 
+May 20 10:58:14.462 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:14.470 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:14.599 2022 ServerPre: pid: 0  (harry) size=0 
+May 20 10:58:14.599 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:14.599 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+
+May 20 10:58:14.719 2022 ServerPre: pid: 0  (harry) size=0 
+May 20 10:58:14.719 2022 Start: user: bot:harry ip: (~introduccion) 1 ==> Donde te encuentras?  When:May 20 10:58:14.727 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 Why:~preguntas.0.0.~introduccion.3.0=VIAJE 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4268 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:58:23.625 2022 ServerPre: pid: 0  (build prueba) size=0 
+BUGNo computer id before user load?
+
+May 20 10:58:28.073 2022 ServerPre: pid: 0  (harry) size=6 :reset
+May 20 10:58:28.073 2022 Respond: user: bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:58:28.088 2022 15ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=9  fact=1  heap=4268 Compiled:May20'22-10:48:40-1653058120561 by version 12.1 "prueba"
+
+May 20 10:58:38.956 2022 ServerPre: pid: 0  (reset) size=0 
+May 20 10:58:38.956 2022 Start: user::reset bot:reset ip: () 0 ==>   When:May 20 10:58:38.964 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:48:40-1653058120561 Build1:May20'22-10:48:40-1653058120561 
+
+May 20 10:58:42.572 2022 ServerPre: pid: 0  (reset) size=6 :reset
+May 20 10:58:42.572 2022 Respond: user: bot:reset len:7 ip: () 0 :reset  ==>   When:May 20 10:58:42.588 2022 16ms q 0  JOpen:0/0 Timeout:0 
+
+May 20 10:58:46.442 2022 ServerPre: pid: 0  (reset) size=13 :build prueba
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Downloads\Cosas ChatScript\ChatScript-12.1 host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=8  fact=1  heap=4240 Compiled:May20'22-10:58:46-1653058726562 by version 12.1 "prueba"
+
+May 20 10:58:48.281 2022 ServerPre: pid: 0  () size=0 
+May 20 10:58:48.281 2022 Start: user: bot:harry ip: (~introduccion) 0 ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:58:48.289 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May20'22-10:58:46-1653058726562 Build1:May20'22-10:58:46-1653058726562 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0 
+
+May 20 11:37:42.577 2022 ServerPre: pid: 0  (harry) size=8 En Chile
+May 20 11:37:42.577 2022 Respond: user: bot:harry len:9 ip: (~introduccion) 1 En Chile  ==> Esta es tu locacion actual? "Chile"?  When:May 20 11:37:42.592 2022 15ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 11:37:48.535 2022 ServerPre: pid: 0  (harry) size=2 Si
+May 20 11:37:48.535 2022 Respond: user: bot:harry len:3 ip: (~introduccion) 2 Si  ==> A donde iras?  When:May 20 11:37:48.535 2022 0ms q 0 Why:~preguntas.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 11:37:56.164 2022 ServerPre: pid: 0  (harry) size=12 Hacia Canada
+May 20 11:37:56.164 2022 Respond: user: bot:harry len:13 ip: (~introduccion) 3 Hacia Canada  ==> Este es tu destino? "Canada"?  When:May 20 11:37:56.172 2022 8ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 11:38:00.966 2022 ServerPre: pid: 0  (harry) size=2 Si
+May 20 11:38:00.958 2022 Respond: user: bot:harry len:3 ip: (~introduccion) 4 Si  ==> Tu iras desde Chile hasta Canada.  When:May 20 11:38:00.966 2022 8ms q 0 Why:~preguntas.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 

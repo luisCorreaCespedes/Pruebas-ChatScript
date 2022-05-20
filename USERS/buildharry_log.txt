@@ -1,0 +1,608 @@
+﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+
+>>Reading folder RAWDATA/HARRY/
+
+----Reading file childhood.top   
+Reading topic ~childhood
+*** Warning- line 34 col 14 of childhood.top: Word "snake" known in multiple spellings snake Snake 
+*** Warning- line 59 col 14 of childhood.top: Word "as" known in multiple spellings as AS 
+
+----Reading file introductions.top   
+Reading topic ~introductions
+
+----Reading file keywordless.top   
+Reading topic ~keywordless
+*** Warning- line 17 col 11 of keywordless.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 30 col 10 of keywordless.top: Word "be" known in multiple spellings be Be 
+
+----Reading file simplecontrol.top   
+Reading outputmacro: ^harry
+Reading table ^tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+<<end folder RAWDATA/HARRY
+
+>>Reading folder RAWDATA/QUIBBLE/
+
+----Reading file eliza_because.top   
+Reading topic ~quibble_because
+*** Warning- line 2 col 25 of eliza_because.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_can.top   
+Reading topic ~quibble_will
+Reading topic ~quibble_can
+*** Warning- line 22 col 23 of eliza_can.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 27 col 22 of eliza_can.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 28 col 13 of eliza_can.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 34 col 21 of eliza_can.top: Word "an" known in multiple spellings an AN 
+*** Warning- line 35 col 13 of eliza_can.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 50 col 22 of eliza_can.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 58 col 12 of eliza_can.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 62 col 14 of eliza_can.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 67 col 14 of eliza_can.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 68 col 30 of eliza_can.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 79 col 20 of eliza_can.top: Word "universe" known in multiple spellings universe Universe 
+*** Warning- line 79 col 23 of eliza_can.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_do.top   
+Reading topic ~quibble_do
+*** Warning- line 36 col 18 of eliza_do.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 45 col 24 of eliza_do.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 65 col 23 of eliza_do.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 69 col 16 of eliza_do.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 72 col 20 of eliza_do.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 78 col 18 of eliza_do.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 94 col 20 of eliza_do.top: Word "to" known in multiple spellings to TO 
+
+----Reading file eliza_how.top   
+Reading topic ~quibble_howmuch
+*** Warning- line 5 col 15 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 5 col 30 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 20 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 36 of eliza_how.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 20 col 66 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 78 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 20 col 99 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 109 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 22 col 17 of eliza_how.top: Word "wood" known in multiple spellings wood Wood 
+*** Warning- line 22 col 30 of eliza_how.top: Word "wood" known in multiple spellings wood Wood 
+*** Warning- line 22 col 52 of eliza_how.top: Word "wood" known in multiple spellings wood Wood 
+*** Warning- line 22 col 75 of eliza_how.top: Word "wood" known in multiple spellings wood Wood 
+*** Warning- line 27 col 42 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 33 col 22 of eliza_how.top: Word "be" known in multiple spellings be Be 
+Reading topic ~quibble_how
+*** Warning- line 39 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 45 col 11 of eliza_how.top: Word "old" known in multiple spellings old Old 
+*** Warning- line 45 col 14 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 47 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 48 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 50 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 53 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 55 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 56 col 26 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 60 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 61 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 65 col 25 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 70 col 15 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 71 col 23 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 76 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 77 col 18 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 81 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 84 col 16 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 85 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 92 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 99 col 26 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 100 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 101 col 13 of eliza_how.top: Word "sweet" known in multiple spellings sweet Sweet 
+*** Warning- line 102 col 31 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 103 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 105 col 11 of eliza_how.top: Word "old" known in multiple spellings old Old 
+*** Warning- line 105 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 106 col 18 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 109 col 23 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 120 col 19 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 120 col 27 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 125 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 126 col 11 of eliza_how.top: Word "old" known in multiple spellings old Old 
+*** Warning- line 126 col 27 of eliza_how.top: Word "universe" known in multiple spellings universe Universe 
+*** Warning- line 132 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 137 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 138 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 143 col 26 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 146 col 24 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 147 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 147 col 19 of eliza_how.top: Word "day" known in multiple spellings day Day 
+*** Warning- line 149 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 156 col 24 of eliza_how.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 157 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 160 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 162 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 170 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 173 col 32 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 174 col 10 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 177 col 19 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 184 col 18 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 189 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 192 col 26 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 203 col 14 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 204 col 16 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 210 col 14 of eliza_how.top: Word "he" known in multiple spellings he He 
+*** Warning- line 214 col 21 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 214 col 24 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 216 col 22 of eliza_how.top: Word "guy" known in multiple spellings guy Guy 
+*** Warning- line 216 col 25 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 217 col 24 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 217 col 35 of eliza_how.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 220 col 12 of eliza_how.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 222 col 11 of eliza_how.top: Word "old" known in multiple spellings old Old 
+*** Warning- line 236 col 8 of eliza_how.top: Word "old" known in multiple spellings old Old 
+*** Warning- line 236 col 17 of eliza_how.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_misc.top   
+Reading topic ~quibble_misc
+*** Warning- line 14 col 25 of eliza_misc.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 16 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 17 col 6 of eliza_misc.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 18 col 7 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 21 col 11 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 23 col 13 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 24 col 10 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 26 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 27 col 13 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 28 col 19 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 30 col 19 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 31 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 32 col 11 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 37 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 37 col 24 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 39 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 44 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 45 col 12 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 46 col 21 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 46 col 37 of eliza_misc.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 49 col 8 of eliza_misc.top: Word "he" known in multiple spellings he He 
+*** Warning- line 50 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 51 col 13 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 55 col 11 of eliza_misc.top: Word "day" known in multiple spellings day Day 
+*** Warning- line 56 col 9 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 59 col 27 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 60 col 27 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 64 col 10 of eliza_misc.top: Word "am" known in multiple spellings am AM 
+*** Warning- line 64 col 13 of eliza_misc.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 67 col 19 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 68 col 4 of eliza_misc.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 71 col 9 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 72 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 74 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 77 col 27 of eliza_misc.top: Word "lucky" known in multiple spellings lucky Lucky 
+*** Warning- line 77 col 31 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 82 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 84 col 14 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 93 col 16 of eliza_misc.top: Word "general" known in multiple spellings general General 
+*** Warning- line 98 col 27 of eliza_misc.top: Word "dollar" known in multiple spellings dollar Dollar 
+*** Warning- line 106 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 109 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 111 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 112 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 112 col 21 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 113 col 7 of eliza_misc.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 113 col 10 of eliza_misc.top: Word "us" known in multiple spellings us US 
+*** Warning- line 115 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 116 col 18 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 118 col 20 of eliza_misc.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 122 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 122 col 10 of eliza_misc.top: Word "old" known in multiple spellings old Old 
+*** Warning- line 126 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 130 col 24 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 131 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 134 col 9 of eliza_misc.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 140 col 11 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 142 col 9 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 146 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 148 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 150 col 11 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 152 col 12 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 153 col 12 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 154 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 156 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 184 col 25 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 192 col 13 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 221 col 18 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 238 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 282 col 15 of eliza_misc.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 283 col 13 of eliza_misc.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 373 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 374 col 7 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 382 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 384 col 6 of eliza_misc.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 389 col 15 of eliza_misc.top: Word "same" known in multiple spellings same Same 
+*** Warning- line 394 col 28 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 398 col 24 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 417 col 5 of eliza_misc.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 417 col 15 of eliza_misc.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 418 col 5 of eliza_misc.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 418 col 15 of eliza_misc.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 418 col 30 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 433 col 9 of eliza_misc.top: Word "us" known in multiple spellings us US 
+*** Warning- line 443 col 12 of eliza_misc.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 446 col 32 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 453 col 8 of eliza_misc.top: Word "same" known in multiple spellings same Same 
+*** Warning- line 484 col 6 of eliza_misc.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 486 col 8 of eliza_misc.top: Word "miss" known in multiple spellings miss Miss 
+*** Warning- line 491 col 19 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 523 col 20 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 529 col 14 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 530 col 14 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 534 col 10 of eliza_misc.top: Word "dollar" known in multiple spellings dollar Dollar 
+*** Warning- line 540 col 17 of eliza_misc.top: Word "stone" known in multiple spellings stone Stone 
+*** Warning- line 542 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 542 col 16 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 543 col 14 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 548 col 12 of eliza_misc.top: Word "hell" known in multiple spellings hell Hell 
+*** Warning- line 552 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 553 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 553 col 14 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 554 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 554 col 14 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 555 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 555 col 13 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 556 col 6 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 583 col 26 of eliza_misc.top: Word "Army" known in multiple spellings army Army 
+*** Warning- line 583 col 31 of eliza_misc.top: Word "Navy" known in multiple spellings navy Navy 
+*** Warning- line 583 col 44 of eliza_misc.top: Word "Air_Force" known in multiple spellings air_force Air_Force 
+*** Warning- line 583 col 50 of eliza_misc.top: Word "Marine" known in multiple spellings marine Marine 
+*** Warning- line 621 col 14 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 622 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 635 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 637 col 16 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 643 col 7 of eliza_misc.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 643 col 10 of eliza_misc.top: Word "us" known in multiple spellings us US 
+*** Warning- line 648 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 670 col 14 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 684 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 688 col 17 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 690 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 690 col 16 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 693 col 12 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 696 col 13 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 699 col 27 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 705 col 19 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 711 col 6 of eliza_misc.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 713 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 720 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 720 col 19 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 721 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 721 col 17 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 722 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 723 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 724 col 13 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 725 col 14 of eliza_misc.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 727 col 13 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 730 col 23 of eliza_misc.top: Word "as" known in multiple spellings as AS 
+*** Warning- line 757 col 17 of eliza_misc.top: Word "miss" known in multiple spellings miss Miss 
+*** Warning- line 764 col 25 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 770 col 22 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 771 col 15 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 772 col 29 of eliza_misc.top: Word "truth" known in multiple spellings truth Truth 
+*** Warning- line 789 col 16 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 809 col 13 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 812 col 16 of eliza_misc.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 813 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 814 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 815 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 816 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 818 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 819 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 820 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 821 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 822 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 823 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 824 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 824 col 16 of eliza_misc.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 825 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 826 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 827 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 828 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 829 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 829 col 22 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 829 col 25 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 830 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 830 col 21 of eliza_misc.top: Word "shape" known in multiple spellings shape SHAPE 
+*** Warning- line 830 col 34 of eliza_misc.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 831 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 832 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 833 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 834 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 835 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 836 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 837 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 840 col 15 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 863 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 866 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 867 col 8 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 869 col 6 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 871 col 12 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 880 col 10 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 891 col 13 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 903 col 15 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 917 col 6 of eliza_misc.top: Word "am" known in multiple spellings am AM 
+*** Warning- line 918 col 6 of eliza_misc.top: Word "am" known in multiple spellings am AM 
+*** Warning- line 928 col 19 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 929 col 14 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 932 col 12 of eliza_misc.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_not.top   
+Reading topic ~quibble_not
+*** Warning- line 2 col 17 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 19 col 12 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 10 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 22 col 30 of eliza_not.top: Word "am" known in multiple spellings am AM 
+*** Warning- line 23 col 18 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 50 col 14 of eliza_not.top: Word "let" known in multiple spellings let LET 
+*** Warning- line 53 col 19 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 61 col 22 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 79 col 10 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 86 col 14 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 87 col 24 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 88 col 19 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 89 col 24 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 102 col 19 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 104 col 21 of eliza_not.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 109 col 10 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 110 col 18 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 154 col 14 of eliza_not.top: Substitutes.txt changes no_one to no+one anywhere in input *** Warning- line 157 col 25 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 228 col 19 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 231 col 21 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 233 col 21 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 233 col 48 of eliza_not.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 235 col 13 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 237 col 20 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 250 col 13 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 255 col 99 of eliza_not.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 257 col 99 of eliza_not.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_or.top   
+Reading topic ~quibble_or
+*** Warning- line 4 col 28 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 4 col 36 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 4 col 51 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 5 col 33 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 8 col 33 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 11 col 28 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 11 col 36 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 11 col 52 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 12 col 28 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 12 col 44 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 15 col 28 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 19 col 26 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 19 col 42 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 22 col 26 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 26 col 26 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 26 col 34 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 26 col 50 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 29 col 26 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 29 col 34 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 29 col 47 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 33 col 26 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 33 col 34 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 33 col 50 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 36 col 26 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 36 col 34 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 36 col 47 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 40 col 24 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 40 col 32 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 40 col 48 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 43 col 24 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 43 col 32 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 43 col 45 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 47 col 26 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 47 col 34 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 47 col 50 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 50 col 26 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 50 col 34 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 50 col 47 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 54 col 25 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 54 col 31 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 54 col 47 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 57 col 25 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 57 col 31 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 61 col 27 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 61 col 40 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 61 col 56 of eliza_or.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 64 col 27 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 64 col 40 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 67 col 27 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 67 col 40 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 67 col 54 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 70 col 27 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 70 col 40 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 70 col 52 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 73 col 15 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 73 col 25 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 73 col 29 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 76 col 15 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 76 col 25 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 76 col 28 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 79 col 15 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 79 col 25 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 79 col 28 of eliza_or.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 81 col 45 of eliza_or.top: Word "or" known in multiple spellings or OR 
+*** Warning- line 83 col 13 of eliza_or.top: Word "or" known in multiple spellings or OR 
+
+----Reading file eliza_what.top   
+Reading topic ~quibble_what
+*** Warning- line 5 col 42 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 6 col 37 of eliza_what.top: Word "worth" known in multiple spellings worth Worth 
+*** Warning- line 8 col 11 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 10 col 11 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 29 of eliza_what.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 23 col 11 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 29 col 25 of eliza_what.top: Word "worth" known in multiple spellings worth Worth 
+*** Warning- line 32 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 35 col 25 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 47 col 26 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 53 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 56 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 65 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 78 col 20 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 81 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 93 col 24 of eliza_what.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 99 col 25 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 99 col 28 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 113 col 25 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 114 col 11 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 117 col 11 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 125 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 126 col 26 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 128 col 25 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 133 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 133 col 29 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 135 col 12 of eliza_what.top: Word "romance" known in multiple spellings romance Romance 
+*** Warning- line 144 col 34 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 157 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 158 col 29 of eliza_what.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 161 col 27 of eliza_what.top: Word "in" known in multiple spellings in IN 
+*** Warning- line 165 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 167 col 23 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 175 col 13 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 176 col 17 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 177 col 14 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 178 col 12 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 191 col 13 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 192 col 13 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 195 col 21 of eliza_what.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 197 col 13 of eliza_what.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 198 col 13 of eliza_what.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_when.top   
+Reading topic ~quibble_when
+*** Warning- line 4 col 17 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 5 col 15 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 12 col 19 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 17 col 11 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 21 col 36 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 21 col 45 of eliza_when.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 25 col 11 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 27 col 11 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 28 col 11 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 34 col 6 of eliza_when.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 36 col 17 of eliza_when.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 38 col 22 of eliza_when.top: Word "converse" known in multiple spellings converse Converse 
+
+----Reading file eliza_where.top   
+Reading topic ~quibble_where
+*** Warning- line 5 col 6 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 10 col 6 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 11 col 14 of eliza_where.top: Word "he" known in multiple spellings he He 
+*** Warning- line 12 col 14 of eliza_where.top: Word "he" known in multiple spellings he He 
+*** Warning- line 15 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 16 col 24 of eliza_where.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 18 col 14 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 21 col 21 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 22 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 25 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 32 col 22 of eliza_where.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 34 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 35 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 37 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 38 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 45 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 47 col 12 of eliza_where.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_who.top   
+Reading topic ~quibble_who
+*** Warning- line 3 col 23 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 5 col 14 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 8 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 10 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 11 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 14 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 16 col 27 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 19 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 20 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 22 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 24 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 24 col 22 of eliza_who.top: Word "parent" known in multiple spellings parent Parent 
+*** Warning- line 24 col 29 of eliza_who.top: Word "father" known in multiple spellings father Father 
+*** Warning- line 24 col 37 of eliza_who.top: Word "creator" known in multiple spellings creator Creator 
+*** Warning- line 30 col 15 of eliza_who.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 31 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 32 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 36 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 37 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 37 col 13 of eliza_who.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 38 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 38 col 25 of eliza_who.top: Word "an" known in multiple spellings an AN 
+*** Warning- line 46 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 46 col 23 of eliza_who.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 48 col 29 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 49 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 50 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 51 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 57 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 59 col 10 of eliza_who.top: Word "be" known in multiple spellings be Be 
+
+----Reading file eliza_why.top   
+Reading topic ~quibble_why
+*** Warning- line 3 col 69 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 16 col 23 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 22 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 24 col 23 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 24 col 35 of eliza_why.top: Word "bath" known in multiple spellings bath Bath 
+*** Warning- line 25 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 27 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 29 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 30 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 33 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 37 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 38 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 39 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 41 col 22 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 42 col 22 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 43 col 22 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 44 col 22 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 46 col 25 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 47 col 23 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 56 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 58 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 62 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 63 col 29 of eliza_why.top: Word "cross" known in multiple spellings cross Cross 
+*** Warning- line 64 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 67 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 68 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 69 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 75 col 23 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 77 col 25 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 78 col 26 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 79 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 80 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 83 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 89 col 25 of eliza_why.top: Word "to" known in multiple spellings to TO 
+*** Warning- line 95 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 96 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 97 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 98 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 99 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 100 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 101 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 102 col 14 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 103 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 104 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 107 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 110 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 115 col 11 of eliza_why.top: Word "be" known in multiple spellings be Be 
+*** Warning- line 116 col 13 of eliza_why.top: Word "be" known in multiple spellings be Be 
+
+----Reading file honest.top   
+Reading topic ~intent
+*** Warning- line 79 col 14 of honest.top: Word "me" known in multiple spellings me ME 
+Reading topic ~honest_response
+
+----Reading file quibble.top   
+Reading topic ~quibble_all
+
+<<end folder RAWDATA/QUIBBLE
+
+    WARNING SUMMARY: 
+    0 serious warnings, 0 function warnings, 0 spelling warnings, 531 case warnings, 7 substitution warnings
+    
+
+
+    Finished compile
+

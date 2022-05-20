@@ -9,7 +9,7 @@
 # Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) 
 # bot: name_of_macro_it_happens_in botid (possible bot macro) 
 
-file: 0  C:/Users/luisc/Downloads/ChatScript-12.1/RAWDATA/HARRY/simplecontrol.top
+file: 0  C:/Users/luisc/Downloads/Cosas ChatScript/ChatScript-12.1/RAWDATA/HARRY/simplecontrol.top
     macro: 6  ^harry
           line: 8 0  # $cs_token = 4096 | 255 | 512 |
           line: 9 60  # $cs_token += 67108864 | 65536 
@@ -177,18 +177,42 @@ file: 0  C:/Users/luisc/Downloads/ChatScript-12.1/RAWDATA/HARRY/simplecontrol.to
           line: 161 261  # } 004 
           loopend 163 269  
           Complexity of rule ~xpostprocess.0.0- t: 3
-file: 0  C:/Users/luisc/Downloads/ChatScript-12.1/RAWDATA/TEST/tutorial.top
-    topic: 1  ~introductions
-        rule: 3  ~introductions.0.0-keep t: 
-          line: 3 0  # ^repeat ( ) Hola! Te gusta la 
-          line: 4 38  # Por favor indicame con un SI o
-          Complexity of rule ~introductions.0.0-KEEP t: 1
-        rule: 5  ~introductions.0.1 a: 
-          line: 5 0  # A mi tambien me gusta la lluvi
-          Complexity of rule ~introductions.0.1- a: 1
-        rule: 7  ~introductions.0.2 a: 
-          line: 7 0  # La lluvia ayuda a dormir. ^reu
-          Complexity of rule ~introductions.0.2- a: 1
-        rule: 9  ~introductions.1.0-FIN t: 
-          line: 9 0  # Hasta 
-          Complexity of rule ~introductions.1.0-FIN t: 1
+file: 0  C:/Users/luisc/Downloads/Cosas ChatScript/ChatScript-12.1/RAWDATA/PRUEBA/introduccion.top
+    topic: 1  ~introduccion
+        rule: 3  ~introduccion.0.0- t: 
+          line: 3 0  # Hola, te ayudaré con tu viaje
+          line: 4 32  # ^respond ( ~preguntas ) 
+          Complexity of rule ~introduccion.0.0- t: 1
+        rule: 6  ~introduccion.1.0-PARADA u: 
+          line: 7 0  # Esta es tu locacion actual? \"
+          Complexity of rule ~introduccion.1.0-PARADA u: 1
+        rule: 8  ~introduccion.1.1 a: 
+          line: 9 0  # $inicio = '_0 
+          line: 10 14  # ^respond ( ~preguntas ) 
+          Complexity of rule ~introduccion.1.1- a: 1
+        rule: 11  ~introduccion.1.2 a: 
+          line: 12 0  # Dime donde te encuentras por f
+          Complexity of rule ~introduccion.1.2- a: 1
+        rule: 14  ~introduccion.2.0-DESINO u: 
+          line: 15 0  # Este es tu destino? \" '_0 \" 
+          Complexity of rule ~introduccion.2.0-DESINO u: 1
+        rule: 16  ~introduccion.2.1 a: 
+          line: 17 0  # $fin = '_0 
+          line: 18 11  # ^respond ( ~preguntas ) 
+          Complexity of rule ~introduccion.2.1- a: 1
+        rule: 19  ~introduccion.2.2 a: 
+          line: 20 0  # Hacia donde quieres ir? 
+          Complexity of rule ~introduccion.2.2- a: 1
+        rule: 22  ~introduccion.3.0-VIAJE u: 
+          Complexity of rule ~introduccion.3.0-VIAJE u: 1
+file: 0  C:/Users/luisc/Downloads/Cosas ChatScript/ChatScript-12.1/RAWDATA/PRUEBA/preguntas.top
+    topic: 1  ~preguntas
+        rule: 3  ~preguntas.0.0 u: 
+          line: 4 0  # Donde te encuentras? 
+          Complexity of rule ~preguntas.0.0- u: 1
+        rule: 6  ~preguntas.1.0 u: 
+          line: 7 0  # A donde iras? 
+          Complexity of rule ~preguntas.1.0- u: 1
+        rule: 9  ~preguntas.2.0 u: 
+          line: 10 0  # Tu iras desde $inicio hasta $f
+          Complexity of rule ~preguntas.2.0- u: 1

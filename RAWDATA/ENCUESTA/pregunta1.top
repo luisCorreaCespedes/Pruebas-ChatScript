@@ -1,0 +1,9 @@
+topic: ~pregunta1 keep repeat []
+
+t: Te gusta la lluvia?
+
+a: (si)
+       ^respond(~pregunta1)
+a: (no)
+       ^respond(~conclusion)
+

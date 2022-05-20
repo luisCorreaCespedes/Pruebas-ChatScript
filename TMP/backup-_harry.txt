@@ -1,8 +1,8 @@
 ﻿USERS/topic__harry.txt
-jul2116 May06'22-11:39:06-1651851546300 May06'22-11:39:06-1651851546302 0 |
-1 1 ~introductions ZMb a&TD3  DY 0 3 3 0 # start, input#, rejoindertopic,rejoinderid (a:  ( ~yes ) A mi tambien me gusta la lluvia! ^reuse ( FIN ) ),checksum
-~introductions #pending
-~introductions + 1 a&TD3 ia 1 0 0 
+jul2116 May20'22-10:58:28-1653058708073 May20'22-11:37:56-1653061076172 0 |
+1 3 ~introduccion !Mb dCBE6  DY 0 4 4 0 # start, input#, rejoindertopic,rejoinderid (a:  ( ~yes ) $fin = '_0 ^respond ( ~preguntas ) ),checksum
+~introduccion #pending
+~introduccion + 1 dCBE6 ia 3 0 0 
 #`end topics
 $cs_language=ENGLISH
 $shutup=1
@@ -15,12 +15,21 @@ $cs_bot=Harry
 $cs_randindex=1285
 $cs_trace=0
 $cs_time=0
+$inicio=Chile
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~introductions 1 KEEP 
- Luis
+#context ~introduccion 3 DESINO ~introduccion 1 PARADA 
+ En Chile
+ Si
+ Hacia Canada
 #`end user
- Hola! Te gusta la lluvia? Por favor indicame con un SI o NO tu respuesta...
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Hola, te ayudaré con tu viaje!
+ Donde te encuentras?
+ Esta es tu locacion actual? \"Chile\"?
+ A donde iras?
+ Este es tu destino? \"Canada\"?
 #`end chatbot
