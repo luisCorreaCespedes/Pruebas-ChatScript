@@ -713,3 +713,17 @@ May 20 10:58:03.005 2022 ServerPre: pid: 0 luis () size=0
 May 20 10:58:06.099 2022 ServerPre: pid: 0 luis (harry) size=6 :reset
     Command: :reset
 May 20 10:58:06.099 2022 Respond: user:luis bot:harry len:7 ip: (~introduccion) 0 :reset  ==> Hola, te ayudaré con tu viaje! Donde te encuentras?  When:May 20 10:58:06.115 2022 16ms q 0 Why:~introduccion.0.0.~control.9.0 ~preguntas.0.0.~introduccion.0.0  JOpen:0/0 Timeout:0 
+
+May 20 23:42:39.240 2022 ServerPre: pid: 0 luis () size=0 
+
+May 20 23:43:16.814 2022 ServerPre: pid: 0 luis (harry) size=8 En Chile
+May 20 23:43:16.814 2022 Respond: user:luis bot:harry len:9 ip: (~introduccion) 1 En Chile  ==> Esta es tu locacion actual? "Chile"?  When:May 20 23:43:16.819 2022 5ms q 0 Why:~introduccion.1.0=PARADA.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 23:43:20.695 2022 ServerPre: pid: 0 luis (harry) size=2 Si
+May 20 23:43:20.694 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 2 Si  ==> A donde iras?  When:May 20 23:43:20.703 2022 9ms q 0 Why:~preguntas.1.0.~introduccion.1.1  JOpen:0/0 Timeout:0 
+
+May 20 23:43:25.516 2022 ServerPre: pid: 0 luis (harry) size=12 Hacia Canada
+May 20 23:43:25.515 2022 Respond: user:luis bot:harry len:13 ip: (~introduccion) 3 Hacia Canada  ==> Este es tu destino? "Canada"?  When:May 20 23:43:25.528 2022 13ms q 0 Why:~introduccion.2.0=DESINO.~control.9.0  JOpen:0/0 Timeout:0 
+
+May 20 23:43:28.134 2022 ServerPre: pid: 0 luis (harry) size=2 Si
+May 20 23:43:28.133 2022 Respond: user:luis bot:harry len:3 ip: (~introduccion) 4 Si  ==> Tu iras desde Chile hasta Canada.  When:May 20 23:43:28.144 2022 11ms q 0 Why:~preguntas.2.0.~introduccion.2.1  JOpen:0/0 Timeout:0 
