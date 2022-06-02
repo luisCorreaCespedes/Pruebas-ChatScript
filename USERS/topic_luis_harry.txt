@@ -1,39 +1,31 @@
 USERS/topic_luis_harry.txt
-jul2116 May06'22-01:44:26-1651815866914 May20'22-23:43:28-1653104608140 0 |
-1 4 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~introduccion #pending
-~introduccion + 1 dCBE6 ia 3 0 0 
+jul2116 May06'22-01:44:26-1651815866914 May30'22-00:57:21-1653886641106 0 |
+12 11 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+~introductions + 1 w@M@5 ca b 0 0 
 #`end topics
 $cs_language=ENGLISH
-$fin=Canada
-$inicio=Chile
-$cs_time=0
-$cs_trace=0
-$cs_randindex=2082
-$cs_bot=Harry
-$cs_login=luis
-$cs_token=75726583
-$cs_control_main=~control
-$userprompt=luis: >
-$botprompt=HARRY: 
-$singleresponse=1
+$fin=pate Corazon
 $shutup=1
+$singleresponse=1
+$botprompt=HARRY: 
+$userprompt=luis: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=luis
+$cs_bot=Harry
+$cs_randindex=2082
+$cs_trace=0
+$cs_time=0
+$inicio=Chile
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~introduccion 3 DESINO ~introduccion 1 PARADA ~introduccion 3 DESINO 
- En Chile
- Si
- Hacia Canada
- Si
+#context 
+ hi
 #`end user
- Hola, te ayudaré con tu viaje!
- Donde te encuentras?
- Hola, te ayudaré con tu viaje!
- Donde te encuentras?
- Esta es tu locacion actual? \"Chile\"?
- A donde iras?
- Este es tu destino? \"Canada\"?
- Tu iras desde Chile hasta Canada.
+ Hi.
+ Have you been here before?
+ Glad you came back.
 #`end chatbot

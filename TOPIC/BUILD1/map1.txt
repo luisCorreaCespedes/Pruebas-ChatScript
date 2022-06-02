@@ -9,210 +9,158 @@
 # Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) 
 # bot: name_of_macro_it_happens_in botid (possible bot macro) 
 
-file: 0  C:/Users/luisc/Downloads/Cosas ChatScript/ChatScript-12.1/RAWDATA/HARRY/simplecontrol.top
-    macro: 6  ^harry
-          line: 8 0  # $cs_token = 4096 | 255 | 512 |
-          line: 9 60  # $cs_token += 67108864 | 65536 
-          line: 10 100  # $cs_token -= 8 
-          line: 13 115  # ^addtopic ( ~introductions ) 
-          line: 15 144  # $cs_control_main = ~control 
-          line: 18 172  # $userprompt = ^"%user: >" 
-          line: 19 198  # $botprompt = ^"HARRY: " 
-          line: 24 222  # $singleresponse = 1 
-          line: 27 242  # $shutup = 1 
-          Complexity of ^harry: 1
-    topic: 38  ~control
-        rule: 41  ~control.0.0 u: 
-          line: 42 0  # ^gambit ( ~introductions ) 
-          Complexity of rule ~control.0.0- u: 1
-        rule: 45  ~control.1.0 u: 
-          line: 45 0  # $shutup = 1 
-          Complexity of rule ~control.1.0- u: 1
-        rule: 47  ~control.2.0 u: 
-          line: 47 0  # $shutup = null 
-          Complexity of rule ~control.2.0- u: 1
-        rule: 50  ~control.3.0 u: 
-          line: 50 0  # Callback seen. 
-          Complexity of rule ~control.3.0- u: 1
-        rule: 51  ~control.4.0 u: 
-          line: 51 0  # Loopback seen. 
-          Complexity of rule ~control.4.0- u: 1
-        rule: 52  ~control.5.0 u: 
-          line: 52 0  # Alarm seen. 
-          Complexity of rule ~control.5.0- u: 1
-        rule: 53  ~control.6.0 u: 
-          line: 53 0  # \[ loopback=1000 \] Loopback r
-          Complexity of rule ~control.6.0- u: 1
-        rule: 54  ~control.7.0 u: 
-          line: 54 0  # \[ callback=1000 \] Callback r
-          Complexity of rule ~control.7.0- u: 1
-        rule: 55  ~control.8.0 u: 
-          line: 55 0  # \[ alarm=5000 \] Alarm request
-          Complexity of rule ~control.8.0- u: 1
-        rule: 57  ~control.9.0 u: 
-          line: 58 0  # $_responsecount = %response 
-          if 62 32  
-          ifend 62 85  
-          line: 62 28  # ^if 00n( $singleresponse ) 00v
-          line: 64 86  # $$currenttopic = %topic 
-          if 66 114  
-          ifend 66 193  
-          line: 66 110  # ^if 00A( %response == $_respon
-          if 68 198  
-          line: 68 194  # ^if 00R( %length == 0 and %res
-          line: 69 254  # { 
-          line: 70 256  # ^nofail ( TOPIC ^gambit ( $$cu
-          ifend 71 306  
-          line: 71 301  # } 004 
-          if 73 311  
-          ifend 73 403  
-          line: 73 307  # ^if 00A( %response == $_respon
-          if 75 408  
-          line: 75 404  # ^if 00A( %response == $_respon
-          line: 76 447  # { 
-          line: 77 449  # @8 = ^keywordtopics ( ) 
-          loop 78 479  
-          line: 78 473  # ^loop ( -1 ) aaa 
-          line: 79 490  # { 
-          line: 80 492  # $$topic = ^first ( @8subject )
-          line: 81 523  # ^nofail ( TOPIC ^respond ( $$t
-          if 82 566  
-          line: 82 562  # ^if 00A( %response != $_respon
-          line: 83 605  # { 
-          line: 84 607  # ^end ( RULE ) 
-          ifend 85 626  
-          line: 85 621  # } 004 
-          loopend 86 629  
-          line: 86 627  # } 
-          ifend 87 634  
-          line: 87 629  # } 004 
-          if 90 639  
-          line: 90 635  # ^if 00A( %response == $_respon
-          line: 91 678  # { 
-          line: 92 680  # ^nofail ( TOPIC ^respond ( ~ke
-          ifend 93 729  
-          line: 93 724  # } 004 
-          if 98 734  
-          line: 98 730  # ^if 00P( %response == $_respon
-          line: 99 788  # { 
-          line: 100 790  # ^nofail ( TOPIC ^respond ( ~qu
-          ifend 101 839  
-          line: 101 834  # } 004 
-          if 104 844  
-          line: 104 840  # ^if 00F( %outputrejoinder or %
-          line: 105 888  # { 
-          line: 106 890  # ^end ( TOPIC ) 
-          ifend 107 910  
-          line: 107 905  # } 004 
-          if 109 915  
-          ifend 109 1037  
-          line: 109 911  # ^if 00%( %response == $_respon
-          if 111 1042  
-          line: 111 1038  # ^if 00A( %response == $_respon
-          line: 112 1081  # { 
-          line: 113 1083  # @8 = ^keywordtopics ( ) 
-          loop 114 1113  
-          line: 114 1107  # ^loop ( -1 ) aaa 
-          line: 115 1124  # { 
-          line: 116 1126  # $$topic = ^first ( @8subject )
-          line: 117 1157  # ^nofail ( TOPIC ^gambit ( $$to
-          if 118 1199  
-          line: 118 1195  # ^if 00A( %response != $_respon
-          line: 119 1238  # { 
-          line: 120 1240  # ^end ( RULE ) 
-          ifend 121 1259  
-          line: 121 1254  # } 004 
-          loopend 122 1262  
-          line: 122 1260  # } 
-          ifend 123 1267  
-          line: 123 1262  # } 004 
-          if 124 1272  
-          ifend 124 1363  
-          line: 124 1268  # ^if 00A( %response == $_respon
-          if 126 1368  
-          line: 126 1364  # ^if 00A( %response == $_respon
-          line: 127 1407  # { 
-          line: 128 1409  # @8 = ^gambittopics ( ) 
-          loop 129 1438  
-          line: 129 1432  # ^loop ( -1 ) aaa 
-          line: 130 1449  # { 
-          line: 131 1451  # $$topic = ^pick ( @8subject ) 
-          line: 132 1481  # ^nofail ( TOPIC ^gambit ( $$to
-          if 133 1523  
-          line: 133 1519  # ^if 00A( %response != $_respon
-          line: 134 1562  # { 
-          line: 135 1564  # ^end ( RULE ) 
-          ifend 136 1583  
-          line: 136 1578  # } 004 
-          loopend 137 1586  
-          line: 137 1584  # } 
-          ifend 138 1591  
-          line: 138 1586  # } 004 
-          if 140 1596  
-          line: 140 1592  # ^if 00A( %response == $_respon
-          line: 141 1635  # { 
-          line: 142 1637  # ^repeat ( ) 
-          line: 143 1649  # I don't know what to say. 
-          ifend 144 1680  
-          line: 144 1675  # } 004 
-          Complexity of rule ~control.9.0- u: 17
-    topic: 147  ~xpostprocess
-        rule: 149  ~xpostprocess.0.0 t: 
-          loop 150 6  
-          line: 150 0  # ^loop ( -1 ) aaa 
-          line: 151 17  # { 
-          line: 152 19  # $$tmp = ^last ( @9subject ) 
-          if 153 51  
-          line: 153 47  # ^if 00O( ! %server and %os == 
-          line: 154 104  # { 
-          line: 155 106  # $$tmp = ^"talk \"$$tmp\" " 
-          line: 156 133  # ^popen ( $$tmp null ) 
-          ifend 157 160  
-          line: 157 155  # } 004 
-          if 158 165  
-          line: 158 161  # ^if 00K( ! %server and %os == 
-          line: 159 214  # { 
-          line: 160 216  # $$shellerror = ^system ( "^say
-          ifend 161 266  
-          line: 161 261  # } 004 
-          loopend 163 269  
-          Complexity of rule ~xpostprocess.0.0- t: 3
-file: 0  C:/Users/luisc/Downloads/Cosas ChatScript/ChatScript-12.1/RAWDATA/PRUEBA/introduccion.top
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/conclusion.top
+    topic: 1  ~conclusion
+        rule: 3  ~conclusion.0.0-Conclusion u: 
+          line: 4 0  # Hasta luego! 
+          line: 5 13  # $estado = 
+          Complexity of rule ~conclusion.0.0-CONCLUSION u: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/introduccion.top
     topic: 1  ~introduccion
-        rule: 3  ~introduccion.0.0- t: 
-          line: 3 0  # Hola, te ayudaré con tu viaje
-          line: 4 32  # ^respond ( ~preguntas ) 
-          Complexity of rule ~introduccion.0.0- t: 1
-        rule: 6  ~introduccion.1.0-PARADA u: 
-          line: 7 0  # Esta es tu locacion actual? \"
-          Complexity of rule ~introduccion.1.0-PARADA u: 1
-        rule: 8  ~introduccion.1.1 a: 
-          line: 9 0  # $inicio = '_0 
-          line: 10 14  # ^respond ( ~preguntas ) 
-          Complexity of rule ~introduccion.1.1- a: 1
-        rule: 11  ~introduccion.1.2 a: 
-          line: 12 0  # Dime donde te encuentras por f
-          Complexity of rule ~introduccion.1.2- a: 1
-        rule: 14  ~introduccion.2.0-DESINO u: 
-          line: 15 0  # Este es tu destino? \" '_0 \" 
-          Complexity of rule ~introduccion.2.0-DESINO u: 1
-        rule: 16  ~introduccion.2.1 a: 
-          line: 17 0  # $fin = '_0 
-          line: 18 11  # ^respond ( ~preguntas ) 
-          Complexity of rule ~introduccion.2.1- a: 1
-        rule: 19  ~introduccion.2.2 a: 
-          line: 20 0  # Hacia donde quieres ir? 
-          Complexity of rule ~introduccion.2.2- a: 1
-        rule: 22  ~introduccion.3.0-VIAJE u: 
-          Complexity of rule ~introduccion.3.0-VIAJE u: 1
-file: 0  C:/Users/luisc/Downloads/Cosas ChatScript/ChatScript-12.1/RAWDATA/PRUEBA/preguntas.top
-    topic: 1  ~preguntas
-        rule: 3  ~preguntas.0.0 u: 
-          line: 4 0  # Donde te encuentras? 
-          Complexity of rule ~preguntas.0.0- u: 1
-        rule: 6  ~preguntas.1.0 u: 
-          line: 7 0  # A donde iras? 
-          Complexity of rule ~preguntas.1.0- u: 1
-        rule: 9  ~preguntas.2.0 u: 
-          line: 10 0  # Tu iras desde $inicio hasta $f
-          Complexity of rule ~preguntas.2.0- u: 1
+        rule: 3  ~introduccion.0.0-Introduccion t: 
+          line: 4 0  # $sp = null 
+          line: 5 11  # $estado = 
+          Complexity of rule ~introduccion.0.0-INTRODUCCION t: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/correo.top
+    topic: 1  ~correo
+        rule: 3  ~correo.0.0-Correo t: 
+          line: 3 0  # $sp = 0 
+          line: 4 8  # Mucho gusto en conocerte $nomb
+          Complexity of rule ~correo.0.0-CORREO t: 1
+        rule: 6  ~correo.1.0 u: 
+          line: 8 0  # Me puedes indicar tu correo el
+          Complexity of rule ~correo.1.0- u: 1
+        rule: 10  ~correo.1.1-INGRESO_CORREO a: 
+          line: 11 0  # Muchas gracias por responder l
+          line: 12 42  # $estado = ~conclusion 
+          Complexity of rule ~correo.1.1-INGRESO_CORREO a: 1
+        rule: 14  ~correo.1.2-NO_INGRESO_CORREO a: 
+          line: 15 0  # $sp = null 
+          line: 16 11  # $estado = 
+          Complexity of rule ~correo.1.2-NO_INGRESO_CORREO a: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/desarrollo.top
+    topic: 1  ~desarrollo
+        rule: 3  ~desarrollo.0.0-Desarrollo t: 
+          line: 3 0  # $sp = 0 
+          line: 5 8  # Hola! Yo soy Xentric, tu asist
+          line: 6 67  # te hare unas breves preguntas.
+          line: 7 98  # Deseas responder la encuesta? 
+          Complexity of rule ~desarrollo.0.0-DESARROLLO t: 1
+        rule: 9  ~desarrollo.1.0 u: 
+          line: 11 0  # Por favor responda Si o No. 
+          Complexity of rule ~desarrollo.1.0- u: 1
+        rule: 13  ~desarrollo.1.1-CONFIRMACION a: 
+          line: 14 0  # $sp = null 
+          line: 15 11  # $estado = ~nombre 
+          Complexity of rule ~desarrollo.1.1-CONFIRMACION a: 1
+        rule: 17  ~desarrollo.1.2-NO_CONFIRMACION a: 
+          line: 18 0  # Entendido. 
+          line: 19 11  # $estado = ~conclusion 
+          Complexity of rule ~desarrollo.1.2-NO_CONFIRMACION a: 1
+        rule: 21  ~desarrollo.1.3-DESCONOCIDO a: 
+          line: 22 0  # $sp = null 
+          line: 23 11  # $estado = 
+          Complexity of rule ~desarrollo.1.3-DESCONOCIDO a: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/nombre.top
+    topic: 1  ~nombre
+        rule: 3  ~nombre.0.0-Nombre t: 
+          line: 3 0  # $sp = 0 
+          line: 4 8  # Antes de continuar. 
+          Complexity of rule ~nombre.0.0-NOMBRE t: 1
+        rule: 6  ~nombre.1.0 u: 
+          line: 8 0  # Me puedes indicar tu nombre po
+          Complexity of rule ~nombre.1.0- u: 1
+        rule: 10  ~nombre.1.1-INGRESO_NOMBRE a: 
+          line: 11 0  # $sp = null 
+          line: 12 11  # $nombre = '_0 
+          line: 13 25  # $estado = ~correo 
+          Complexity of rule ~nombre.1.1-INGRESO_NOMBRE a: 1
+        rule: 15  ~nombre.1.2-NO_INGRESO_NOMBRE a: 
+          line: 16 0  # $sp = null 
+          line: 17 11  # $estado = 
+          Complexity of rule ~nombre.1.2-NO_INGRESO_NOMBRE a: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/configuracion.top
+    macro: 1  ^xentric
+          line: 3 0  # $cs_token = 256 | 4194304 | 25
+          line: 4 47  # $cs_token -= 2048 | DO_SUBSTIT
+          line: 6 96  # $cs_token = 0 
+          line: 8 110  # $cs_language = spanish 
+          line: 10 133  # $cs_control_main = ~control 
+          line: 12 161  # $userprompt = ^"%user: >" 
+          line: 13 187  # $botprompt = ^"xentric: " 
+          Complexity of ^xentric: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/control.top
+    topic: 1  ~control
+        rule: 3  ~control.0.0 u: 
+          if 6 4  
+          line: 6 0  # ^if 00v( %input < %userfirstli
+          line: 7 40  # ^nofail ( TOPIC ^respond ( ~in
+          line: 8 85  # ^nofail ( TOPIC ^gambit ( ~int
+          ifend 9 134  
+          line: 9 129  # } 004 
+          if 11 139  
+          line: 11 135  # ^if 00w( %input == %userfirstl
+          ifend 13 181  
+          line: 13 176  # } 004 
+          line: 18 182  # ^nofail ( TOPIC ^rejoinder ( )
+          if 23 219  
+          line: 23 215  # ^if 00A( %response == 0 and ! 
+          line: 25 260  # @8 = ^query ( direct_sv topick
+          line: 27 308  # $$respuesta = %response 
+          loop 28 338  
+          line: 28 332  # ^loop ( -1 ) aaa { $$topic = ^
+          line: 29 381  # ^nofail ( TOPIC ^respond ( $$t
+          if 31 424  
+          ifend 31 469  
+          line: 31 420  # ^if 00l( %response > 0 ) 00p{ 
+          loopend 33 472  
+          line: 33 470  # } 
+          if 35 476  
+          line: 35 472  # ^if 00v( %response > $$respues
+          line: 37 512  # $$respuesta_topic = True 
+          if 42 541  
+          line: 42 537  # ^if 00q( ! %outputrejoinder ) 
+          line: 44 572  # ^setrejoinder ( OUTPUT ~help.c
+          ifend 45 618  
+          line: 45 613  # } 004 
+          ifend 47 624  
+          line: 47 619  # } 004 
+          ifend 48 630  
+          line: 48 625  # } 004 
+          if 50 635  
+          ifend 50 685  
+          line: 50 631  # ^if 00p( $$respuesta_topic ) 0
+          line: 54 686  # ^nofail ( TOPIC ^gambit ( $est
+          Complexity of rule ~control.0.0- u: 8
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONCEPTOS/conceptos.top
+    concept: 2  ~sic
+    concept: 3  ~noc
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/DATOS/datos.top
+    macro: 1  ^testfn
+          if 2 4  
+          line: 2 0  # ^if 00l( $__0 == %user ) aaa{ 
+          line: 4 30  # $celular = $__3 
+          line: 5 46  # $dni = $__2 
+          line: 6 58  # $mensaje = $__5 
+          line: 7 74  # $$user = True 
+          ifend 10 93  
+          line: 10 88  # } 004 
+          Complexity of ^testfn: 2
+    macro: 12  ^myfunc1
+          line: 13 0  # ^0 
+          Complexity of ^myfunc1: 1
+    topic: 15  ~datos
+        rule: 18  ~datos.0.0 u: 
+          line: 18 0  # $buendia = una_buena_tarde $bu
+          Complexity of rule ~datos.0.0- u: 1
+        rule: 20  ~datos.1.0 u: 
+          line: 20 0  # $buendia = un_buen_día $bueno
+          Complexity of rule ~datos.1.0- u: 1
+        rule: 22  ~datos.2.0 u: 
+          line: 22 0  # $nombre = ABC 
+          Complexity of rule ~datos.2.0- u: 1
+        rule: 24  ~datos.3.0 u: 
+          line: 24 0  # $uss = %user 
+          Complexity of rule ~datos.3.0- u: 1
+        rule: 35  ~datos.4.0 u: 
+          Complexity of rule ~datos.4.0- u: 1

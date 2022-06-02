@@ -1,0 +1,36 @@
+outputmacro: ^testfn variable ()
+ if ($__0 == %user ) {
+
+  $celular = $__3
+  $dni = $__2
+  $mensaje = $__5
+  $$user = True
+
+
+}
+
+outputmacro: ^myfunc1(^resp)
+^resp
+
+topic: ~datos keep repeat ()
+
+
+u: (%hour>=12) $buendia = una_buena_tarde  $buenosdias = Buenas_Tardes
+
+u: (%hour<12) $buendia = un_buen_día   $buenosdias = Buenos_Dias
+
+u: () $nombre = ABC
+
+u: () $uss = %user
+
+
+
+#u: () ^jsonreadcsv( TAB RAWDATA/WSP_CLINICA_MAITENES/_DATOS/datos.txt '^testfn )
+### u: () $deuda = ^popen(^join( "python3 num2word.py " $deuda) '^myfunc1)
+
+### u: () $fecha = ^popen(^join( "python3 fecha2word.py " $fecha) '^myfunc1)
+
+### u: () $diaspago = ^popen(^join( "python3 num2word.py " $diaspago) '^myfunc1)
+
+u: (\[ _*1 \])  $data = ^jsonparse(transient NOFAIL  _0 ) 
+

@@ -3,7 +3,7 @@ topic: ~introduccion keep repeat[]
 t: Hola, te ayudaré con tu viaje!
    ^respond(~preguntas)
 
-u: PARADA (en _*)
+u: PARADA (estoy_en _*)
    Esta es tu locacion actual? \" '_0 \" ?
    a: (~yes)
        $inicio = '_0

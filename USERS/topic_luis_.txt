@@ -1,0 +1,17 @@
+USERS/topic_luis_.txt
+jul2116 May30'22-00:57:41-1653886661779 May30'22-00:57:41-1653886661791 0 |
+1 0 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+#pending
+#`end topics
+$cs_language=ENGLISH
+$cs_login=luis
+$cs_randindex=2082
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+#`end user
+#`end chatbot

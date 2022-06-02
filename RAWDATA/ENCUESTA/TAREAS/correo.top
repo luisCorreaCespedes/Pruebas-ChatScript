@@ -1,0 +1,16 @@
+topic: ~correo keep repeat ()
+
+t: Correo (!$sp) $sp = 0
+    Mucho gusto en conocerte $nombre .
+
+u: ()
+
+    Me puedes indicar tu correo electronico por favor?
+
+    a: INGRESO_CORREO (_*)
+        Muchas gracias por responder la encuesta.
+        $estado = ~conclusion
+
+    a: NO_INGRESO_CORREO ( )
+        $sp = null 
+        $estado = ~correo

@@ -1,0 +1,23 @@
+topic: ~confirmacion keep repeat ()
+
+t: Desarrollo (!$sp) $sp = 0
+
+    Hola! Yo soy Xentric, tu asistente virtual. 
+    A continuacion te hare unas breves preguntas.
+    Deseas responder la encuesta?
+
+u: () 
+
+    Por favor responda Si o No.
+
+    a: CONFIRMACION ( [ ~sic ] )
+	    $sp = null 
+        $estado = ~nombre
+
+    a: NO_CONFIRMACION ( [ ~noc ] )
+        Entendido. 
+        $sp = null 
+        $estado = ~conclusion
+
+    a: DESCONOCIDO (  )
+	    $estado = ~confirmacion

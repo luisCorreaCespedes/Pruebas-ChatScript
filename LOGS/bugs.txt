@@ -4,3 +4,21 @@ BUG in topic__build mine.txt at 0: ^build mine | No computer id before user load
 BUG in topic__build mine.txt at 0: ^build mine | No computer id before user load?
 BUG in topic__build prueba.txt at 0: ^build prueba | No computer id before user load?
 BUG in topic__build prueba.txt at 0: ^build prueba | No computer id before user load?
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+
+BUG: Mon May 30 00:54:14 2022:  in topic_luis_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:luis callee: at  in sentence: hola
+
+BUG: Mon May 30 00:54:21 2022:  in topic_luis_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:luis callee: at  in sentence: hola
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+
+BUG: Mon May 30 00:57:12 2022:  in topic_luis_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:luis callee: at  in sentence: luis
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+
+BUG: Mon May 30 00:57:36 2022:  in topic_luis_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:luis callee: at  in sentence: hi
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+BUG in topic__build encuesta.txt at 0: ^build encuesta | No computer id before user load?
+BUG in topic__anonymous.txt at 0: ^anonymous | No computer id before user load?

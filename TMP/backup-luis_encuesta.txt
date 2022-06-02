@@ -1,0 +1,39 @@
+﻿USERS/topic_luis_encuesta.txt
+jul2116 May30'22-01:21:51-1653888111930 May30'22-03:05:24-1653894324414 0 |
+1 5 ~saludo ~Mb u8I@7  DY 0 5 5 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~afirmacion ] ) $x = ^jsoncreate ( TRANSIENT object ) $x.intencionContacto = CONFIRMA ...   ),checksum
+~saludo #pending
+~introduccion + 1 uoev ia 0 0 0 
+~saludo + 1 u8I@7 ia 5 0 0 
+#`end topics
+$cs_language=ENGLISH
+$cs_time=0
+$cs_trace=0
+$cs_randindex=2082
+$cs_bot=Encuesta
+$cs_login=luis
+$cs_token=0
+$cs_control_main=~control
+$userprompt=luis: >
+$botprompt=Xentric: 
+$sp=0
+$estado=~saludo
+$x=jo-t+0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ si
+ si
+ si
+ si
+ si
+#`end user
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Por favor responda Si o No.
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Por favor responda Si o No.
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Por favor responda Si o No.
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Por favor responda Si o No.
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Por favor responda Si o No.
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}  Por favor responda Si o No.
+#`end chatbot

@@ -1,4 +1,32 @@
-﻿+ ^harry 
+﻿+ ^xentric 
++ xentric 
 + defaultbot 
-+ loopback PATTERN_WORD 
-+ hacia PATTERN_WORD 
++ sí PATTERN_WORD 
++ sí_sí 
++ sí_sí_sí 
++ si_si 
++ si_si_si 
++ sipis PATTERN_WORD 
++ silla PATTERN_WORD 
++ por_supuesto 
++ así PATTERN_WORD 
++ asi PATTERN_WORD 
++ cicones PATTERN_WORD 
++ cic PATTERN_WORD 
++ prezi PATTERN_WORD 
++ siri PATTERN_WORD 
++ zi PATTERN_WORD 
++ zic PATTERN_WORD 
++ se_habla 
++ no_no 
++ no_no_no 
++ nop PATTERN_WORD 
++ nopis PATTERN_WORD 
++ monótono PATTERN_WORD 
++ no_lo_se 
++ no_se 
++ tampoco PATTERN_WORD 
++ imposible PATTERN_WORD 
++ ay_no 
++ ^testfn 
++ ^myfunc1 
