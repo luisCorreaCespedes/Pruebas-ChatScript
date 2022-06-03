@@ -1,12 +1,12 @@
 ﻿USERS/topic__xentric.txt
-jul2116 May30'22-10:34:20-1653921260835 May30'22-11:46:00-1653925560656 0 |
-1 1 ~nombre ~Mb j6I?1  DY 0 7 7 0 # start, input#, rejoindertopic,rejoinderid (a: INGRESO_NOMBRE ( _* ) $sp = null $nombre = '_0 $estado = ~correo ),checksum
-~desarrollo ~nombre #pending
-~introduccion + 1 GET61 ia 0 0 0 
-~desarrollo + 1 $dPj6 ia 0 0 0 
-~nombre + 1 j6I?1 ia 1 0 0 
+jul2116 Jun02'22-21:08:42-1654218522706 Jun02'22-21:13:50-1654218830679 0 |
+1 1 ~nombre ~Mb @89R6  DY 0 7 7 0 # start, input#, rejoindertopic,rejoinderid (a: INGRESO_NOMBRE ( _* ) $sp = 0 $nombre = '_0 $estado = ^respond ( ~correo ) ),checksum
+~saludo ~nombre #pending
+~introduccion + 1 uoev ia 0 0 0 
+~saludo + 1 ?VfK1 ia 0 0 0 
 #`end topics
 $cs_language=ENGLISH
+$sp=0
 $cs_time=0
 $cs_trace=0
 $cs_randindex=1285
@@ -15,17 +15,15 @@ $cs_token=0
 $cs_control_main=~control
 $userprompt=: >
 $botprompt=xentric: 
-$sp=0
 $estado=~nombre
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~nombre 1 NOMBRE ~conclusion 1 CONCLUSION ~correo 1 INGRESO_CORREO ~nombre 1 NOMBRE ~conclusion 2 CONCLUSION ~desarrollo 2 NO_CONFIRMACION ~conclusion 3 CONCLUSION ~correo 3 INGRESO_CORREO ~nombre 1 NOMBRE ~conclusion 3 CONCLUSION ~correo 3 INGRESO_CORREO ~nombre 1 NOMBRE ~conclusion 1 CONCLUSION ~desarrollo 1 NO_CONFIRMACION ~correo 2 CORREO ~desarrollo 0 DESARROLLO ~correo 1 CORREO ~desarrollo 0 DESARROLLO ~correo 2 CORREO ~nombre 1 NOMBRE ~nombre 1 NOMBRE ~correo 2 INGRESO_CORREO ~conclusion 2 CONCLUSION ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~correo 2 CORREO ~desarrollo 0 DESARROLLO ~correo 2 CORREO ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~correo 1 CORREO ~desarrollo 0 DESARROLLO 
+#context ~conclusion 2 CONCLUSION ~saludo 2 NO_CONFIRMACION ~saludo 0 DESARROLLO ~correo 1 INGRESO_CORREO ~conclusion 1 CONCLUSION ~saludo 0 DESARROLLO ~saludo 0 DESARROLLO ~saludo 0 DESARROLLO 
  si
 #`end user
  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
  Por favor responda Si o No.
- Antes de continuar.
  Me puedes indicar tu nombre porfavor?
 #`end chatbot

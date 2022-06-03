@@ -15,15 +15,18 @@ Reading topic ~introduccion
 ----Reading file correo.top   
 Reading topic ~correo
 
-----Reading file desarrollo.top   
-Reading topic ~desarrollo
-
 ----Reading file nombre.top   
 Reading topic ~nombre
+
+----Reading file saludo.top   
+Reading topic ~saludo
 
 <<end folder RAWDATA/ENCUESTA/TAREAS
 
 >>Reading folder RAWDATA/ENCUESTA/PREGUNTAS/
+
+----Reading file pregunta_uno.top   
+Reading topic ~pregunta_uno
 
 <<end folder RAWDATA/ENCUESTA/PREGUNTAS
 
@@ -43,6 +46,8 @@ Reading topic ~control
 ----Reading file conceptos.top   
 Reading concept ~sic
 Reading concept ~noc
+Reading concept ~rangounosiete
+Reading concept ~rangounodiez
 
 <<end folder RAWDATA/ENCUESTA/CONCEPTOS
 

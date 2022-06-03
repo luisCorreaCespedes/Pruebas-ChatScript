@@ -1,5 +1,5 @@
 topic: ~introduccion keep repeat()
 
 t: Introduccion ()
-    $sp = null
-    $estado = ~confirmacion
+    $estado = 0
+    $topico = ~saludo

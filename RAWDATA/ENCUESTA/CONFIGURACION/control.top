@@ -51,6 +51,6 @@ if ($$respuesta_topic) { ^end(TOPIC) }
 
 # TAREAS 
 
-^nofail(TOPIC ^gambit($estado))
-^nofail(TOPIC ^respond($estado))
+^nofail(TOPIC ^gambit($topico))
+^nofail(TOPIC ^respond($topico))
 

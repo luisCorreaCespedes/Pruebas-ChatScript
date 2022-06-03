@@ -1,40 +1,50 @@
 USERS/topic_luis_xentric.txt
-jul2116 May30'22-03:25:53-1653895553980 May30'22-04:26:18-1653899178285 0 |
-1 4 0 DY 0 6 6 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~nombre ~conclusion ~desarrollo #pending
-~introduccion + 1 GET61 ia 0 0 0 
-~desarrollo + 1 $4Ok3 ia 4 0 0 
-~nombre + 1 $#=%6 ia 2 0 0 
+jul2116 May30'22-03:25:53-1653895553980 Jun02'22-22:25:31-1654223131620 0 |
+6 5 0 DY 0 8 8 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~saludo ~nombre ~correo ~pregunta_uno ~conclusion #pending
+~introduccion + 1 P?G66 ia 0 0 0 
+~correo + 1 mD!C6 ia 2 0 0 
+~nombre + 1 ?Lqt ia 1 0 0 
+~saludo + 1 u1T87 ia 0 0 0 
+~pregunta_uno + 1 q+Y?4 ia 4 0 0 
 #`end topics
 $cs_language=ENGLISH
-$x=jo-t+0
-$estado=~desarrollo
-$botprompt=xentric: 
-$userprompt=luis: >
-$cs_control_main=~control
-$cs_token=0
-$cs_login=luis
-$cs_bot=Xentric
-$cs_randindex=2082
-$cs_trace=0
+$correo=a
 $cs_time=0
+$cs_trace=0
+$cs_randindex=2082
+$cs_bot=Xentric
+$cs_login=luis
+$cs_token=0
+$cs_control_main=~control
+$userprompt=luis: >
+$botprompt=xentric: 
+$estado=0
+$topico=0
+$nombre=luis
+$preg_uno=a
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~desarrollo 4 DESCONOCIDO ~conclusion 4 CONCLUSION ~desarrollo 2 CONFIRMACION ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~desarrollo 1 CONFIRMACION ~desarrollo 3 NO_CONFIRMACION 
+#context ~correo 2 CORREO ~pregunta_uno 3 DESCONOCIDO ~conclusion 5 CONCLUSION 
  si
- si
- no
- no
+ luis
+ a
+ 8
+ 5
 #`end user
  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
  Por favor responda Si o No.
- Por favor responda Si o No.
- {\"intencionContacto\": \"CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}
- Antes de continuar. Me puedes indicar tu nombre porfavor?
- {\"intencionContacto\": \"CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}
- {\"intencionContacto\": \"NO CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}  Entendido.
- Muchas gracias!
- {\"intencionContacto\": \"MENSAJE DESCONOCIDO\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}
+ Antes de continuar.
+ Me puedes indicar tu nombre por favor?
+ Mucho gusto en conocerte luis.
+ Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com
+ Luis. Que te ha parecido el producto/servicio?
+ Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+ La opcion ingresada no es valida.
+ Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+ La opcion ingresada no es valida.
+ Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+ Hasta luego!
 #`end chatbot

@@ -1,15 +1,11 @@
 USERS/topic__xentric.txt
-jul2116 May30'22-10:34:20-1653921260835 May30'22-11:46:00-1653925560656 0 |
-2 1 ~correo ~Mb +3Pr1  DY 0 7 7 0 # start, input#, rejoindertopic,rejoinderid (a: INGRESO_CORREO ( _* ) Muchas gracias por responder la encuesta. $estado = ~conclusion ),checksum
-~desarrollo ~nombre ~correo #pending
-~introduccion + 1 GET61 ia 0 0 0 
-~correo + 1 +3Pr1 ia 1 0 0 
-~desarrollo + 1 $dPj6 ia 0 0 0 
-~nombre + 1 j6I?1 ia 1 0 0 
+jul2116 Jun02'22-21:08:42-1654218522706 Jun02'22-21:13:50-1654218830679 0 |
+2 1 ~correo ~Mb 9VZb4  DY 0 7 7 0 # start, input#, rejoindertopic,rejoinderid (a: INGRESO_CORREO ( _* ) $sp = 0 Muchas gracias por responder la encuesta. $estado = ^respond ( ~conclusion ...   ),checksum
+~saludo ~nombre ~correo #pending
+~introduccion + 1 uoev ia 0 0 0 
+~saludo + 1 ?VfK1 ia 0 0 0 
 #`end topics
 $cs_language=ENGLISH
-$estado=~correo
-$sp=0
 $botprompt=xentric: 
 $userprompt=: >
 $cs_control_main=~control
@@ -18,17 +14,16 @@ $cs_bot=Xentric
 $cs_randindex=1285
 $cs_trace=0
 $cs_time=0
+$sp=0
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~correo 1 CORREO ~desarrollo 0 DESARROLLO ~correo 1 CORREO ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~correo 2 CORREO ~desarrollo 0 DESARROLLO ~correo 2 CORREO ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~conclusion 2 CONCLUSION ~correo 2 INGRESO_CORREO ~nombre 1 NOMBRE ~nombre 1 NOMBRE ~correo 2 CORREO ~desarrollo 0 DESARROLLO ~correo 1 CORREO ~desarrollo 0 DESARROLLO ~correo 2 CORREO ~desarrollo 1 NO_CONFIRMACION ~conclusion 1 CONCLUSION ~nombre 1 NOMBRE ~correo 3 INGRESO_CORREO ~conclusion 3 CONCLUSION ~nombre 1 NOMBRE ~correo 3 INGRESO_CORREO ~conclusion 3 CONCLUSION ~desarrollo 2 NO_CONFIRMACION ~conclusion 2 CONCLUSION ~nombre 1 NOMBRE ~correo 1 INGRESO_CORREO ~conclusion 1 CONCLUSION ~nombre 1 NOMBRE 
+#context ~saludo 0 DESARROLLO ~saludo 0 DESARROLLO ~saludo 0 DESARROLLO ~conclusion 1 CONCLUSION ~correo 1 INGRESO_CORREO ~saludo 0 DESARROLLO ~saludo 2 NO_CONFIRMACION ~conclusion 2 CONCLUSION 
  si
 #`end user
  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
  Por favor responda Si o No.
- Antes de continuar.
  Me puedes indicar tu nombre porfavor?
- Mucho gusto en conocerte.
  Me puedes indicar tu correo electronico por favor?
 #`end chatbot

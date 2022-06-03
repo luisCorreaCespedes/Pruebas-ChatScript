@@ -1,15 +1,17 @@
-﻿00007 May30'22-11:45:50-1653925550562 encuesta 12.1
-TOPIC: ~conclusion 0x3 170753950 1 0 66 conclusion.top
-" all " 00Q u: <CONCLUSION ( ) Hasta luego! $estado = null `000 
-TOPIC: ~introduccion 0x3 34484292 1 1 73 introduccion.top
-" all " 00X t: >INTRODUCCION ( ) $sp = null $estado = ~desarrollo `000 
-TOPIC: ~correo 0x3 43318423 2 1 300 correo.top
-" all " 00^ t: 8CORREO ( !$sp ) $sp = 0 Mucho gusto en conocerte $nombre . `00! u: ( ) Me puedes indicar tu correo electronico por favor? `01k a: @INGRESO_CORREO ( _* ) Muchas gracias por responder la encuesta. $estado = ~conclusion `00Y a: CNO_INGRESO_CORREO ( ) $sp = null $estado = ~correo `000 
-TOPIC: ~desarrollo 0x3 198147291 2 1 404 desarrollo.top
-" all " 027 t: <DESARROLLO ( !$sp ) $sp = 0 Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? `00E u: ( ) Por favor responda Si o No. `00@ a: >CONFIRMACION ( [ ~sic ] ) $sp = null $estado = ~nombre `00? a: ANO_CONFIRMACION ( [ ~noc ] ) Entendido. $estado = ~conclusion `00W a: =DESCONOCIDO ( ) $sp = null $estado = ~desarrollo `000 
-TOPIC: ~nombre 0x3 61841719 2 1 251 nombre.top
-" all " 00R t: 8NOMBRE ( !$sp ) $sp = 0 Antes de continuar. `00O u: ( ) Me puedes indicar tu nombre porfavor? `00= a: @INGRESO_NOMBRE ( _* ) $sp = null $nombre = '_0 $estado = ~correo `00Y a: CNO_INGRESO_NOMBRE ( ) $sp = null $estado = ~nombre `000 
-TOPIC: ~control 0x1b 154994040 1 0 789 control.top
-" all " 0ap u: ( ) ^if 00v( %input < %userfirstline ) 01p{ ^nofail ( TOPIC ^respond ( ~introduccion ) ) ^nofail ( TOPIC ^gambit ( ~introduccion ) ) } 004 ^if 00w( %input == %userfirstline ) 00b{ } 004 ^nofail ( TOPIC ^rejoinder ( ) ) ^if 00A( %response == 0 and ! $$boton ) 051{ @8 = ^query ( direct_sv topickeyword member ? ) $$respuesta = %response ^loop ( -1 ) 01Q { $$topic = ^first ( @8object ) ^nofail ( TOPIC ^respond ( $$topic ) ) ^if 00l( %response > 0 ) 00p{ ^end ( RULE ) } 004 } ^if 00v( %response > $$respuesta ) 01H{ $$respuesta_topic = True ^if 00q( ! %outputrejoinder ) 00Q{ ^setrejoinder ( OUTPUT ~help.continuar ) } 004 } 004 } 004 ^if 00p( $$respuesta_topic ) 00q{ ^end ( TOPIC ) } 004 ^nofail ( TOPIC ^gambit ( $estado ) ) ^nofail ( TOPIC ^respond ( $estado ) ) `000 
+﻿00008 Jun02'22-22:25:12-1654223112205 encuesta 12.1
+TOPIC: ~conclusion 0x3 83792504 1 0 75 conclusion.top
+" all " 00Z u: <CONCLUSION ( ) Hasta luego! $estado = 0 $topico = 0 `000 
+TOPIC: ~introduccion 0x3 192616626 1 1 70 introduccion.top
+" all " 00U t: >INTRODUCCION ( ) $estado = 0 $topico = ~saludo `000 
+TOPIC: ~correo 0x3 206232322 2 1 409 correo.top
+" all " 014 t: 8CORREO ( =9$estado=0 ) $estado = 1 Mucho gusto en conocerte $nombre . `01L u: ( ) Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com `02I a: @INGRESO_CORREO ( _* ) $estado = 0 $correo = '_0 ^if 00h( ! $correo ) 00&{ No has ingresado tu correo electronico. $topico = ~correo } 00P else ( 1 ) 00z { $topico = ~pregunta_uno } 004 `000 
+TOPIC: ~nombre 0x3 12384221 2 1 305 nombre.top
+" all " 00@ t: 8NOMBRE ( =9$estado=0 ) $estado = 1 Antes de continuar. `00P u: ( ) Me puedes indicar tu nombre por favor? `02q a: @INGRESO_NOMBRE ( _* ) $estado = 0 $nombre = '_0 ^if 00h( ! $nombre ) 00V{ No has ingresado tu nombre. $topico = ~nombre } 00J else ( 1 ) 00t { $topico = ~correo } 004 `000 
+TOPIC: ~saludo 0x3 225168855 2 1 413 saludo.top
+" all " 02i t: <DESARROLLO ( =9$estado=0 ) $estado = 1 Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? `00E u: ( ) Por favor responda Si o No. `00# a: >CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~nombre `018 a: ANO_CONFIRMACION ( [ ~noc ] ) Entendido. $estado = 0 $topico = ~conclusion `00H a: =DESCONOCIDO ( ) $topico = ~saludo `000 
+TOPIC: ~pregunta_uno 0x3 156858626 2 1 457 pregunta_uno.top
+" all " 01k t: 8CORREO ( =9$estado=0 ) $estado = 1 $nombre . Que te ha parecido el producto/servicio? `02f u: ( ) Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio. `01p a: CRESPONDE_PREGUNTA ( [ ~rangounosiete ] ) $estado = 0 $preg_uno = '_0 $topico = ~conclusion `018 a: =DESCONOCIDO ( ) La opcion ingresada no es valida. $topico = ~pregunta_uno `000 
+TOPIC: ~control 0x1b 161582164 1 0 789 control.top
+" all " 0ap u: ( ) ^if 00v( %input < %userfirstline ) 01p{ ^nofail ( TOPIC ^respond ( ~introduccion ) ) ^nofail ( TOPIC ^gambit ( ~introduccion ) ) } 004 ^if 00w( %input == %userfirstline ) 00b{ } 004 ^nofail ( TOPIC ^rejoinder ( ) ) ^if 00A( %response == 0 and ! $$boton ) 051{ @8 = ^query ( direct_sv topickeyword member ? ) $$respuesta = %response ^loop ( -1 ) 01Q { $$topic = ^first ( @8object ) ^nofail ( TOPIC ^respond ( $$topic ) ) ^if 00l( %response > 0 ) 00p{ ^end ( RULE ) } 004 } ^if 00v( %response > $$respuesta ) 01H{ $$respuesta_topic = True ^if 00q( ! %outputrejoinder ) 00Q{ ^setrejoinder ( OUTPUT ~help.continuar ) } 004 } 004 } 004 ^if 00p( $$respuesta_topic ) 00q{ ^end ( TOPIC ) } 004 ^nofail ( TOPIC ^gambit ( $topico ) ) ^nofail ( TOPIC ^respond ( $topico ) ) `000 
 TOPIC: ~datos 0x3 157754938 5 0 282 datos.top
 " all " 014 u: ( =7%hour>=12 ) $buendia = una_buena_tarde $buenosdias = Buenas_Tardes `00+ u: ( =7%hour<12 ) $buendia = un_buen_día $buenosdias = Buenos_Dias `00q u: ( ) $nombre = ABC `00p u: ( ) $uss = %user `00# u: ( \[ _*1 \] ) $data = ^jsonparse ( transient NOFAIL _0 ) `000 

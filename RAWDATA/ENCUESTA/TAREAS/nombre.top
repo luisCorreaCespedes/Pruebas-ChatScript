@@ -1,19 +1,22 @@
 topic: ~nombre keep repeat ()
 
-t: Nombre (!$sp) $sp = 0
-Antes de continuar.
+t: Nombre ($estado=0)
+    $estado = 1
+    
+    Antes de continuar.
 
 u: ()
 
-    Me puedes indicar tu nombre porfavor?
+    Me puedes indicar tu nombre por favor?
 
     a: INGRESO_NOMBRE (_*)
-        $sp = null
+        $estado = 0
         $nombre = '_0
-        $estado = ~correo
-
-    a: NO_INGRESO_NOMBRE (  )
-        $sp = null 
-        $estado = ~nombre
+        if(!$nombre) {
+            No has ingresado tu nombre.
+            $topico = ~nombre
+        } else {
+            $topico = ~correo
+        }
 
     

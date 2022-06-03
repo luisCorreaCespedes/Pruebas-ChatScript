@@ -2289,3 +2289,531 @@ May 30 11:46:00.654 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==
 
 May 30 11:46:01.783 2022 ServerPre: pid: 0  (xentric) size=0 
 May 30 11:46:01.783 2022 Start: user: bot:xentric ip: (~correo) 1 ==> Mucho gusto en conocerte. Me puedes indicar tu correo electronico por favor?  When:May 30 11:46:01.787 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16May30'22-11:45:50-1653925550562 Build1:May30'22-11:45:50-1653925550562 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=3980 Compiled:May30'22-11:45:50-1653925550562 by version 12.1 "encuesta"
+
+Jun 02 21:08:40.690 2022 ServerPre: pid: 0  (build encuesta) size=0 
+BUGNo computer id before user load?
+
+Jun 02 21:08:42.706 2022 ServerPre: pid: 0  (xentric) size=4 luis
+Jun 02 21:08:42.706 2022 Respond: user: bot:xentric len:5 ip: () 1 luis  ==>   When:Jun 02 21:08:42.706 2022 0ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:08:49.976 2022 ServerPre: pid: 0  (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4088 Compiled:Jun02'22-21:08:50-1654218530053 by version 12.1 "encuesta"
+
+Jun 02 21:08:51.404 2022 ServerPre: pid: 0  () size=0 
+Jun 02 21:08:51.404 2022 Start: user: bot:xentric ip: (~saludo) 1 ==> Por favor responda Si o No.  When:Jun 02 21:08:51.404 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:08:50-1654218530053 Build1:Jun02'22-21:08:50-1654218530053 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:10:33.690 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+Jun 02 21:10:33.690 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:10:33.705 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:10:36.826 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+Jun 02 21:10:36.826 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:10:36.841 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:12:30.036 2022 ServerPre: pid: 0  (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4092 Compiled:Jun02'22-21:12:30-1654218750124 by version 12.1 "encuesta"
+
+Jun 02 21:12:31.438 2022 ServerPre: pid: 0  () size=0 
+Jun 02 21:12:31.438 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:12:31.438 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:12:30-1654218750124 Build1:Jun02'22-21:12:30-1654218750124 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0 
+
+Jun 02 21:12:59.536 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+Jun 02 21:12:59.536 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:12:59.551 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:02.140 2022 ServerPre: pid: 0  (xentric) size=2 si
+Jun 02 21:13:02.140 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:13:02.140 2022 0ms q 0 Why:~nombre.1.0.~saludo.1.1=CONFIRMACION  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:03.779 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:03.779 2022 Start: user: bot:xentric ip: (~correo) 1 ==> Me puedes indicar tu correo electronico por favor?  When:Jun 02 21:13:03.779 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:12:30-1654218750124 Build1:Jun02'22-21:12:30-1654218750124 Why:~correo.1.0.~nombre.1.1=INGRESO_NOMBRE 
+
+Jun 02 21:13:05.152 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:05.152 2022 Start: user: bot:xentric ip: (~conclusion) 1 ==> Hasta luego! Muchas gracias por responder la encuesta.  When:Jun 02 21:13:05.152 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:12:30-1654218750124 Build1:Jun02'22-21:12:30-1654218750124 Why:~conclusion.0.0=CONCLUSION.~correo.1.1=INGRESO_CORREO ~correo.1.1=INGRESO_CORREO 
+
+Jun 02 21:13:33.603 2022 ServerPre: pid: 0  (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4056 Compiled:Jun02'22-21:13:33-1654218813685 by version 12.1 "encuesta"
+
+Jun 02 21:13:34.894 2022 ServerPre: pid: 0  () size=0 
+Jun 02 21:13:34.894 2022 Start: user: bot:xentric ip: () 1 ==>   When:Jun 02 21:13:34.894 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 
+
+Jun 02 21:13:36.897 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+Jun 02 21:13:36.897 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:13:36.912 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:38.551 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:38.551 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:38.566 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.128 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.128 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.128 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.278 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.278 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.278 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.414 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.414 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.429 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.549 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.549 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.565 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.699 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.699 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.699 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.808 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.808 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.824 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:39.944 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:39.944 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:39.959 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.079 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.079 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.079 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.209 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.209 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.217 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.714 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.714 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.714 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.745 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.745 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.745 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.776 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.776 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.776 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.807 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.807 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.807 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.839 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.839 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.839 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.870 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.870 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.870 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.901 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.901 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.901 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:40.932 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:40.932 2022 Start: user: bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 02 21:13:40.948 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:13:42.321 2022 ServerPre: pid: 0  (xentric) size=9 fdkjhjskf
+Jun 02 21:13:42.321 2022 Respond: user: bot:xentric len:10 ip: (~saludo) 1 fdkjhjskf  ==> Por favor responda Si o No.  When:Jun 02 21:13:42.321 2022 0ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:44.230 2022 ServerPre: pid: 0  (xentric) size=2 no
+Jun 02 21:13:44.230 2022 Respond: user: bot:xentric len:3 ip: (~conclusion) 2 no  ==> Entendido. Hasta luego!  When:Jun 02 21:13:44.230 2022 0ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:45.148 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:45.148 2022 Start: user: bot:xentric ip: () 2 ==>   When:Jun 02 21:13:45.148 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 
+
+Jun 02 21:13:47.050 2022 ServerPre: pid: 0  (xentric) size=2 si
+Jun 02 21:13:47.050 2022 Respond: user: bot:xentric len:3 ip: () 3 si  ==>   When:Jun 02 21:13:47.050 2022 0ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:49.152 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+Jun 02 21:13:49.152 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:13:49.167 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:50.679 2022 ServerPre: pid: 0  (xentric) size=2 si
+Jun 02 21:13:50.679 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:13:50.694 2022 15ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:51.489 2022 ServerPre: pid: 0  (xentric) size=0 
+Jun 02 21:13:51.489 2022 Start: user: bot:xentric ip: (~correo) 1 ==> Me puedes indicar tu correo electronico por favor?  When:Jun 02 21:13:51.489 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~correo.1.0.~nombre.1.1=INGRESO_NOMBRE 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4012 Compiled:Jun02'22-21:13:33-1654218813685 by version 12.1 "encuesta"
+
+Jun 02 21:22:31.434 2022 ServerPre: pid: 0 luis () size=0 
+BUGUser data file CONTEXT inconsistent 1539 USERS/topic_luis_xentric.txt
+jul2116 May30'22-03:25:53-1653895553980 May30'22-04:26:18-1653899178285 0 |
+1 4 0 DY 0 6 6 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~nombre ~conclusion ~desarrollo #pending
+~introduccion + 1 GET61 ia 0 0 0 
+~desarrollo + 1 $4Ok3 ia 4 0 0 
+~nombre + 1 $#=%6 ia 2 0 0 
+#`end topics
+$cs_language=ENGLISH
+$x=jo-t+0
+$estado=~desarrollo
+$botprompt=xentric: 
+$userprompt=luis: >
+$cs_control_main=~control
+$cs_token=0
+$cs_login=luis
+$cs_bot=Xentric
+$cs_randindex=2082
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~desarrollo 4 DESCONOCIDO ~conclusion 4 CONCLUSION ~desarrollo 2 CONFIRMACION ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~desarrollo 1 CONFIRMACION ~desarrollo 3 NO_CONFIRMACION 
+ si
+ si
+ no
+ no
+#`end user
+ Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
+ Por favor responda Si o No.
+ Por favor responda Si o No.
+ {\"intencionContacto\": \"CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}
+ Antes de continuar. Me puedes indicar tu nombre porfavor?
+ {\"intencionContacto\": \"CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}
+ {\"intencionContacto\": \"NO CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}  Entendido.
+ Muchas gracias!
+ {\"intencionContacto\": \"MENSAJE DESCONOCIDO\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}
+#`end chatbot
+ 
+
+Jun 02 21:22:31.434 2022 Start: user:Luis bot:xentric ip: (~saludo) 4 ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:22:31.462 2022 28ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:13:33-1654218813685 Build1:Jun02'22-21:13:33-1654218813685 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0 
+
+Jun 02 21:22:35.439 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4052 Compiled:Jun02'22-21:22:35-1654219355518 by version 12.1 "encuesta"
+
+Jun 02 21:22:36.896 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:22:36.896 2022 Start: user:luis bot:xentric ip: (~saludo) 4 ==> Por favor responda Si o No.  When:Jun 02 21:22:36.896 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:22:40.842 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:22:40.842 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:22:40.857 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:22:42.417 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:22:42.417 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:42.433 2022 16ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:22:43.508 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:43.508 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:43.508 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:44.287 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:44.287 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:44.287 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:44.453 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:44.453 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:44.469 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:44.611 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:44.611 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:44.627 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:44.778 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:44.778 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:44.778 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:44.929 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:44.929 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:44.929 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:45.064 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:45.064 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:45.064 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:45.191 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:45.191 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:45.200 2022 9ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:45.320 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:45.320 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:45.320 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:45.455 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:45.455 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:45.455 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:45.967 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:45.952 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:45.967 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:45.999 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:45.983 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:45.999 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:46.030 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:46.030 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:46.030 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:46.061 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:46.061 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:46.061 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:46.092 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:46.092 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:46.092 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:46.124 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:46.124 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:46.124 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:46.155 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:46.155 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:46.155 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:46.186 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:46.186 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:22:46.186 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:22:47.417 2022 ServerPre: pid: 0 luis (xentric) size=9 asdkjfsad
+Jun 02 21:22:47.417 2022 Respond: user:luis bot:xentric len:10 ip: (~correo) 2 asdkjfsad  ==> Me puedes indicar tu correo electronico por favor?  When:Jun 02 21:22:47.417 2022 0ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:22:49.281 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:22:49.281 2022 Start: user:luis bot:xentric ip: (~conclusion) 2 ==> Hasta luego! Muchas gracias por responder la encuesta.  When:Jun 02 21:22:49.281 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 Why:~conclusion.0.0=CONCLUSION.~correo.1.1=INGRESO_CORREO ~correo.1.1=INGRESO_CORREO 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4008 Compiled:Jun02'22-21:22:35-1654219355518 by version 12.1 "encuesta"
+
+Jun 02 21:32:34.234 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:32:34.234 2022 Start: user:Luis bot:xentric ip: () 2 ==>   When:Jun 02 21:32:34.249 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:22:35-1654219355518 Build1:Jun02'22-21:22:35-1654219355518 
+
+Jun 02 21:32:42.554 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4128 Compiled:Jun02'22-21:32:42-1654219962633 by version 12.1 "encuesta"
+
+Jun 02 21:32:43.908 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:32:43.908 2022 Start: user:luis bot:xentric ip: () 2 ==>   When:Jun 02 21:32:43.924 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:32:42-1654219962633 Build1:Jun02'22-21:32:42-1654219962633 
+
+Jun 02 21:32:46.477 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:32:46.477 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:32:46.492 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:32:53.442 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:32:53.442 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:32:53.442 2022 0ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:32:54.822 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:32:54.822 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:32:54.822 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:32:42-1654219962633 Build1:Jun02'22-21:32:42-1654219962633 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:32:58.187 2022 ServerPre: pid: 0 luis (xentric) size=11 Luis Correa
+Jun 02 21:32:58.187 2022 Respond: user:luis bot:xentric len:12 ip: (~correo) 2 Luis Correa  ==> Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:32:58.187 2022 0ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:33:01.058 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:33:01.058 2022 Start: user:luis bot:xentric ip: (~correo) 2 ==> El correo electronico ingresado no es valido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:33:01.058 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:32:42-1654219962633 Build1:Jun02'22-21:32:42-1654219962633 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 02 21:33:17.556 2022 ServerPre: pid: 0 luis (xentric) size=15 luis@correa.com
+Jun 02 21:33:17.556 2022 Respond: user:luis bot:xentric len:16 ip: (~correo) 3 luis@correa.com  ==> El correo electronico ingresado no es valido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:33:17.572 2022 16ms q 0 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:34:13.994 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4128 Compiled:Jun02'22-21:34:14-1654220054057 by version 12.1 "encuesta"
+
+Jun 02 21:34:15.212 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:34:15.212 2022 Start: user:luis bot:xentric ip: (~correo) 3 ==> Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:34:15.212 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:34:14-1654220054057 Build1:Jun02'22-21:34:14-1654220054057 Why:~correo.1.0.~control.0.0 
+
+Jun 02 21:34:17.106 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:34:17.106 2022 Start: user:luis bot:xentric ip: (~correo) 3 ==> El correo electronico ingresado no es valido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:34:17.106 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:34:14-1654220054057 Build1:Jun02'22-21:34:14-1654220054057 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 02 21:34:19.375 2022 ServerPre: pid: 0 luis (xentric) size=3 aaa
+Jun 02 21:34:19.375 2022 Respond: user:luis bot:xentric len:4 ip: (~conclusion) 4 aaa  ==> Hasta luego!  When:Jun 02 21:34:19.391 2022 16ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:34:23.866 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:34:23.866 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:34:23.881 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:34:25.987 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 02 21:34:25.987 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 1 no  ==> Entendido. Hasta luego!  When:Jun 02 21:34:26.002 2022 15ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:34:28.983 2022 ServerPre: pid: 0 luis (xentric) size=7 :reset{
+Jun 02 21:34:28.983 2022 Respond: user:luis bot:xentric len:8 ip: (~saludo) 0 :reset{  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:34:28.999 2022 16ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:34:30.499 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:34:30.499 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:34:30.499 2022 0ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:34:32.512 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 02 21:34:32.512 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 2 no  ==> Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:34:32.512 2022 0ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:35:38.283 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4124 Compiled:Jun02'22-21:35:38-1654220138390 by version 12.1 "encuesta"
+
+Jun 02 21:35:39.610 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:35:39.610 2022 Start: user:luis bot:xentric ip: (~correo) 2 ==> El correo electronico ingresado no es valido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:35:39.610 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:35:38-1654220138390 Build1:Jun02'22-21:35:38-1654220138390 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 02 21:35:43.172 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:35:43.172 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:35:43.187 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:35:46.446 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:35:46.446 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:35:46.461 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:37:58.158 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4128 Compiled:Jun02'22-21:37:58-1654220278236 by version 12.1 "encuesta"
+
+Jun 02 21:37:59.487 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:37:59.487 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:37:59.487 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:37:58-1654220278236 Build1:Jun02'22-21:37:58-1654220278236 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0 
+
+Jun 02 21:38:02.955 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:38:02.955 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:38:02.972 2022 17ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:38:04.234 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:38:04.234 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre porfavor?  When:Jun 02 21:38:04.234 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:38:06.045 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:38:06.045 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:38:06.060 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:37:58-1654220278236 Build1:Jun02'22-21:37:58-1654220278236 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:38:12.680 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 02 21:38:12.680 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:38:12.680 2022 0ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:39:03.086 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4132 Compiled:Jun02'22-21:39:03-1654220343165 by version 12.1 "encuesta"
+
+Jun 02 21:39:04.329 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:39:04.329 2022 Start: user:luis bot:xentric ip: (~correo) 2 ==> El correo electronico ingresado no es valido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:39:04.329 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:39:03-1654220343165 Build1:Jun02'22-21:39:03-1654220343165 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 02 21:39:16.386 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:39:16.386 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:39:16.386 2022 0ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:39:17.724 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:39:17.724 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre porfavor?  When:Jun 02 21:39:17.724 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:39:19.299 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:39:19.299 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:39:19.299 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:39:03-1654220343165 Build1:Jun02'22-21:39:03-1654220343165 Why:~nombre.1.0.~control.0.0 
+
+Jun 02 21:39:21.304 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 02 21:39:21.304 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:39:21.320 2022 16ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:43:21.974 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4144 Compiled:Jun02'22-21:43:22-1654220602040 by version 12.1 "encuesta"
+
+Jun 02 21:43:23.276 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:43:23.276 2022 Start: user:luis bot:xentric ip: (~saludo) 2 ==> Por favor responda Si o No.  When:Jun 02 21:43:23.276 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:43:22-1654220602040 Build1:Jun02'22-21:43:22-1654220602040 Why:~saludo.1.0.~control.0.0 
+
+Jun 02 21:43:26.725 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:43:26.725 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:43:26.725 2022 0ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:43:50.594 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4148 Compiled:Jun02'22-21:43:50-1654220630672 by version 12.1 "encuesta"
+
+Jun 02 21:43:51.914 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:43:51.914 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:43:51.914 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:43:50-1654220630672 Build1:Jun02'22-21:43:50-1654220630672 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0 
+
+Jun 02 21:43:54.535 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 02 21:43:54.535 2022 Respond: user:luis bot:xentric len:5 ip: (~saludo) 1 luis  ==> Por favor responda Si o No.  When:Jun 02 21:43:54.535 2022 0ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:43:57.127 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:43:57.127 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:43:57.142 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:43:58.719 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:43:58.719 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre por favor?  When:Jun 02 21:43:58.719 2022 0ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:24.262 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4204 Compiled:Jun02'22-21:56:24-1654221384343 by version 12.1 "encuesta"
+
+Jun 02 21:56:25.464 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:56:25.464 2022 Start: user:luis bot:xentric ip: (~saludo) 1 ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:56:25.464 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:56:24-1654221384343 Build1:Jun02'22-21:56:24-1654221384343 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0 
+
+Jun 02 21:56:28.874 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:56:28.874 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:56:28.889 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:34.693 2022 ServerPre: pid: 0 luis (xentric) size=6 :clear
+Jun 02 21:56:34.678 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 1 :clear  ==> Por favor responda Si o No.  When:Jun 02 21:56:34.693 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:40.112 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:56:40.112 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:56:40.127 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:51.627 2022 ServerPre: pid: 0 luis (xentric) size=14 if(!$nombre) {
+Jun 02 21:56:51.627 2022 Respond: user:luis bot:xentric len:15 ip: (~saludo) 1 if(!$nombre) {  ==> Por favor responda Si o No.  When:Jun 02 21:56:51.643 2022 16ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:51.643 2022 ServerPre: pid: 0 luis (xentric) size=17 $estado = ~nombre
+Jun 02 21:56:51.643 2022 Respond: user:luis bot:xentric len:30 ip: (~saludo) 2 $estado = ~nombre  ==> Por favor responda Si o No.  When:Jun 02 21:56:51.658 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:51.674 2022 ServerPre: pid: 0 luis (xentric) size=8 } else {
+Jun 02 21:56:51.674 2022 Respond: user:luis bot:xentric len:17 ip: (~saludo) 3 } else {  ==> Por favor responda Si o No.  When:Jun 02 21:56:51.689 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:51.705 2022 ServerPre: pid: 0 luis (xentric) size=17 $estado = ~correo
+Jun 02 21:56:51.705 2022 Respond: user:luis bot:xentric len:30 ip: (~saludo) 4 $estado = ~correo  ==> Por favor responda Si o No.  When:Jun 02 21:56:51.736 2022 31ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:55.759 2022 ServerPre: pid: 0 luis (xentric) size=15 }if(!$nombre) {
+Jun 02 21:56:55.759 2022 Respond: user:luis bot:xentric len:24 ip: (~saludo) 5 }if(!$nombre) {  ==> Por favor responda Si o No.  When:Jun 02 21:56:55.759 2022 0ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:55.790 2022 ServerPre: pid: 0 luis (xentric) size=17 $estado = ~nombre
+Jun 02 21:56:55.790 2022 Respond: user:luis bot:xentric len:30 ip: (~saludo) 6 $estado = ~nombre  ==> Por favor responda Si o No.  When:Jun 02 21:56:55.805 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:55.821 2022 ServerPre: pid: 0 luis (xentric) size=8 } else {
+Jun 02 21:56:55.821 2022 Respond: user:luis bot:xentric len:17 ip: (~saludo) 7 } else {  ==> Por favor responda Si o No.  When:Jun 02 21:56:55.837 2022 16ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:55.852 2022 ServerPre: pid: 0 luis (xentric) size=17 $estado = ~correo
+Jun 02 21:56:55.852 2022 Respond: user:luis bot:xentric len:30 ip: (~saludo) 8 $estado = ~correo  ==> Por favor responda Si o No.  When:Jun 02 21:56:55.884 2022 32ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:57.731 2022 ServerPre: pid: 0 luis (xentric) size=15 }if(!$nombre) {
+Jun 02 21:56:57.731 2022 Respond: user:luis bot:xentric len:24 ip: (~saludo) 9 }if(!$nombre) {  ==> Por favor responda Si o No.  When:Jun 02 21:56:57.747 2022 16ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:57.762 2022 ServerPre: pid: 0 luis (xentric) size=17 $estado = ~nombre
+Jun 02 21:56:57.762 2022 Respond: user:luis bot:xentric len:30 ip: (~saludo) 10 $estado = ~nombre  ==> Por favor responda Si o No.  When:Jun 02 21:56:57.778 2022 16ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:57.794 2022 ServerPre: pid: 0 luis (xentric) size=8 } else {
+Jun 02 21:56:57.794 2022 Respond: user:luis bot:xentric len:17 ip: (~saludo) 11 } else {  ==> Por favor responda Si o No.  When:Jun 02 21:56:57.809 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:56:57.825 2022 ServerPre: pid: 0 luis (xentric) size=17 $estado = ~correo
+Jun 02 21:56:57.825 2022 Respond: user:luis bot:xentric len:30 ip: (~saludo) 12 $estado = ~correo  ==> Por favor responda Si o No.  When:Jun 02 21:56:57.840 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:57:04.860 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:57:04.860 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:57:04.875 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:57:18.546 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 21:57:18.546 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 21:57:18.546 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:57:22.758 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:57:22.758 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 02 21:57:22.758 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:56:24-1654221384343 Build1:Jun02'22-21:56:24-1654221384343 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 02 21:57:27.826 2022 ServerPre: pid: 0 luis (xentric) size=4 cami
+Jun 02 21:57:27.826 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 cami  ==> Mucho gusto en conocerte cami. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:57:27.826 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:57:38.987 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 21:57:38.986 2022 Start: user:luis bot:xentric ip: (~correo) 2 ==> El correo electronico ingresado no es valido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 21:57:38.991 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:56:24-1654221384343 Build1:Jun02'22-21:56:24-1654221384343 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 02 21:57:49.582 2022 ServerPre: pid: 0 luis (xentric) size=16 camila@gmail.com
+Jun 02 21:57:49.582 2022 Respond: user:luis bot:xentric len:17 ip: (~conclusion) 3 camila@gmail.com  ==> Hasta luego!  When:Jun 02 21:57:49.582 2022 0ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:59:03.786 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=45  fact=35  heap=4196 Compiled:Jun02'22-21:59:03-1654221543864 by version 12.1 "encuesta"
+
+Jun 02 21:59:04.932 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 21:59:04.932 2022 Start: user:luis bot:xentric ip: () 3 ==>   When:Jun 02 21:59:04.932 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-21:59:03-1654221543864 Build1:Jun02'22-21:59:03-1654221543864 
+
+Jun 02 21:59:09.799 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:59:09.799 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:59:09.829 2022 30ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:59:16.617 2022 ServerPre: pid: 0 luis (xentric) size=12 por supuesto
+Jun 02 21:59:16.617 2022 Respond: user:luis bot:xentric len:13 ip: (~nombre) 1 por supuesto  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 21:59:16.617 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:59:24.732 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 21:59:24.732 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:59:24.763 2022 31ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:59:27.994 2022 ServerPre: pid: 0 luis (xentric) size=12 por su pollo
+Jun 02 21:59:27.994 2022 Respond: user:luis bot:xentric len:13 ip: (~saludo) 1 por su pollo  ==> Por favor responda Si o No.  When:Jun 02 21:59:27.994 2022 0ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:59:58.826 2022 ServerPre: pid: 0 luis (xentric) size=5 ay no
+Jun 02 21:59:58.826 2022 Respond: user:luis bot:xentric len:6 ip: (~conclusion) 2 ay no  ==> Entendido. Hasta luego!  When:Jun 02 21:59:58.833 2022 7ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:24:39.383 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=0  fact=0  heap=80 Compiled:42089461591 by version  ""
+
+Jun 02 22:25:05.679 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+Jun 02 22:25:12.126 2022 ServerPre: pid: 0 luis (anonymous) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=48  fact=52  heap=4848 Compiled:Jun02'22-22:25:12-1654223112205 by version 12.1 "encuesta"
+
+Jun 02 22:25:13.296 2022 ServerPre: pid: 0 luis () size=0 
+Jun 02 22:25:13.296 2022 Start: user:luis bot:xentric ip: () 2 ==>   When:Jun 02 22:25:13.311 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 
+
+Jun 02 22:25:15.392 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 02 22:25:15.392 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:25:15.410 2022 18ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:25:16.741 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 02 22:25:16.741 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:25:16.741 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:25:18.622 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 02 22:25:18.622 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:25:18.622 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:25:21.019 2022 ServerPre: pid: 0 luis (xentric) size=1 a
+Jun 02 22:25:21.003 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:25:21.019 2022 16ms q 0 Why:~pregunta_uno.0.0=CORREO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:25:24.799 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 22:25:24.784 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:25:24.799 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 02 22:25:28.833 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 02 22:25:28.833 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 8  ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:25:28.833 2022 0ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:25:31.620 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 02 22:25:31.620 2022 Respond: user:luis bot:xentric len:2 ip: (~conclusion) 5 5  ==> Hasta luego!  When:Jun 02 22:25:31.620 2022 0ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:25:32.812 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 02 22:25:32.812 2022 Start: user:luis bot:xentric ip: () 5 ==>   When:Jun 02 22:25:32.812 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 

@@ -486,3 +486,102 @@ May 30 11:46:00.654 2022 ServerPre: pid: 0  (xentric) size=2 si
 May 30 11:46:00.654 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre porfavor?  When:May 30 11:46:00.658 2022 4ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
 
 May 30 11:46:01.783 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:08:40.690 2022 ServerPre: pid: 0  (build encuesta) size=0 
+No computer id before user load?
+Jun 02 21:08:42.706 2022 ServerPre: pid: 0  (xentric) size=4 luis
+Jun 02 21:08:42.706 2022 Respond: user: bot:xentric len:5 ip: () 1 luis  ==>   When:Jun 02 21:08:42.706 2022 0ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:08:49.976 2022 ServerPre: pid: 0  (xentric) size=15 :build encuesta
+    Command: :build encuesta
+
+Jun 02 21:08:51.404 2022 ServerPre: pid: 0  () size=0 
+
+Jun 02 21:10:33.690 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+    Command: :reset
+Jun 02 21:10:33.690 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:10:33.705 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:10:36.826 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+    Command: :reset
+Jun 02 21:10:36.826 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Por favor responda Si o No.  When:Jun 02 21:10:36.841 2022 15ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:12:30.036 2022 ServerPre: pid: 0  (xentric) size=15 :build encuesta
+    Command: :build encuesta
+
+Jun 02 21:12:31.438 2022 ServerPre: pid: 0  () size=0 
+
+Jun 02 21:12:59.536 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+    Command: :reset
+Jun 02 21:12:59.536 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:12:59.551 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:02.140 2022 ServerPre: pid: 0  (xentric) size=2 si
+Jun 02 21:13:02.140 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:13:02.140 2022 0ms q 0 Why:~nombre.1.0.~saludo.1.1=CONFIRMACION  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:03.779 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:05.152 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:33.603 2022 ServerPre: pid: 0  (xentric) size=15 :build encuesta
+    Command: :build encuesta
+
+Jun 02 21:13:34.894 2022 ServerPre: pid: 0  () size=0 
+
+Jun 02 21:13:36.897 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+    Command: :reset
+Jun 02 21:13:36.897 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:13:36.912 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:38.551 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.128 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.278 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.414 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.549 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.699 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.808 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:39.944 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.079 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.209 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.714 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.745 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.776 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.807 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.839 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.870 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.901 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:40.932 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:42.321 2022 ServerPre: pid: 0  (xentric) size=9 fdkjhjskf
+Jun 02 21:13:42.321 2022 Respond: user: bot:xentric len:10 ip: (~saludo) 1 fdkjhjskf  ==> Por favor responda Si o No.  When:Jun 02 21:13:42.321 2022 0ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:44.230 2022 ServerPre: pid: 0  (xentric) size=2 no
+Jun 02 21:13:44.230 2022 Respond: user: bot:xentric len:3 ip: (~conclusion) 2 no  ==> Entendido. Hasta luego!  When:Jun 02 21:13:44.230 2022 0ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:45.148 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 02 21:13:47.050 2022 ServerPre: pid: 0  (xentric) size=2 si
+Jun 02 21:13:47.050 2022 Respond: user: bot:xentric len:3 ip: () 3 si  ==>   When:Jun 02 21:13:47.050 2022 0ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:49.152 2022 ServerPre: pid: 0  (xentric) size=6 :reset
+    Command: :reset
+Jun 02 21:13:49.152 2022 Respond: user: bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 21:13:49.167 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:50.679 2022 ServerPre: pid: 0  (xentric) size=2 si
+Jun 02 21:13:50.679 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:13:50.694 2022 15ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 21:13:51.489 2022 ServerPre: pid: 0  (xentric) size=0 

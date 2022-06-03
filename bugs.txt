@@ -163,4 +163,50 @@ No computer id before user load?
    in topic__build encuesta.txt at 0: ^build encuesta
     No computer id before user load?
    in topic__anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic__build encuesta.txt at 0: ^build encuesta
+    User data file CONTEXT inconsistent 1539 USERS/topic_luis_xentric.txt
+jul2116 May30'22-03:25:53-1653895553980 May30'22-04:26:18-1653899178285 0 |
+1 4 0 DY 0 6 6 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~nombre ~conclusion ~desarrollo #pending
+~introduccion + 1 GET61 ia 0 0 0 
+~desarrollo + 1 $4Ok3 ia 4 0 0 
+~nombre + 1 $#=%6 ia 2 0 0 
+#`end topics
+$cs_language=ENGLISH
+$x=jo-t+0
+$estado=~desarrollo
+$botprompt=xentric: 
+$userprompt=luis: >
+$cs_control_main=~control
+$cs_token=0
+$cs_login=luis
+$cs_bot=Xentric
+$cs_randindex=2082
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~desarrollo 4 DESCONOCIDO ~conclusion 4 CONCLUSION ~desarrollo 2 CONFIRMACION ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~desarrollo 0 DESARROLLO ~desarrollo 1 CONFIRMACION ~desarrollo 3 NO_CONFIRMACION 
+ si
+ si
+ no
+ no
+#`end user
+ Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
+ Por favor responda Si o No.
+ Por favor responda Si o No.
+ {\"intencionContacto\": \"CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}
+ Antes de continuar. Me puedes indicar tu nombre porfavor?
+ {\"intencionContacto\": \"CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}
+ {\"intencionContacto\": \"NO CONFIRMACION\", \"intencionBot\": \"CONSULTA NOMBRE\"}  Entendido.
+ Muchas gracias!
+ {\"intencionContacto\": \"MENSAJE DESCONOCIDO\", \"intencionBot\": \"CONSULTA CONFIRMACION\"}
+#`end chatbot
+ 
+
+No computer id before user load?
+   in topic_luis_anonymous.txt at 0: ^anonymous
     

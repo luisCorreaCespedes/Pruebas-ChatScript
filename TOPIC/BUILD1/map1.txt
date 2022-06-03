@@ -13,72 +13,100 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLU
     topic: 1  ~conclusion
         rule: 3  ~conclusion.0.0-Conclusion u: 
           line: 4 0  # Hasta luego! 
-          line: 5 13  # $estado = 
+          line: 5 13  # $estado = 0 
+          line: 6 25  # $topico = 
           Complexity of rule ~conclusion.0.0-CONCLUSION u: 1
 file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/introduccion.top
     topic: 1  ~introduccion
         rule: 3  ~introduccion.0.0-Introduccion t: 
-          line: 4 0  # $sp = null 
-          line: 5 11  # $estado = 
+          line: 4 0  # $estado = 0 
+          line: 5 12  # $topico = 
           Complexity of rule ~introduccion.0.0-INTRODUCCION t: 1
 file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/correo.top
     topic: 1  ~correo
         rule: 3  ~correo.0.0-Correo t: 
-          line: 3 0  # $sp = 0 
-          line: 4 8  # Mucho gusto en conocerte $nomb
+          line: 4 0  # $estado = 1 
+          line: 6 12  # Mucho gusto en conocerte $nomb
           Complexity of rule ~correo.0.0-CORREO t: 1
-        rule: 6  ~correo.1.0 u: 
-          line: 8 0  # Me puedes indicar tu correo el
+        rule: 8  ~correo.1.0 u: 
+          line: 10 0  # Me puedes indicar tu correo el
+          line: 11 51  # Recuerda escribir tu correo co
           Complexity of rule ~correo.1.0- u: 1
-        rule: 10  ~correo.1.1-INGRESO_CORREO a: 
-          line: 11 0  # Muchas gracias por responder l
-          line: 12 42  # $estado = ~conclusion 
-          Complexity of rule ~correo.1.1-INGRESO_CORREO a: 1
-        rule: 14  ~correo.1.2-NO_INGRESO_CORREO a: 
-          line: 15 0  # $sp = null 
-          line: 16 11  # $estado = 
-          Complexity of rule ~correo.1.2-NO_INGRESO_CORREO a: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/desarrollo.top
-    topic: 1  ~desarrollo
-        rule: 3  ~desarrollo.0.0-Desarrollo t: 
-          line: 3 0  # $sp = 0 
-          line: 5 8  # Hola! Yo soy Xentric, tu asist
-          line: 6 67  # te hare unas breves preguntas.
-          line: 7 98  # Deseas responder la encuesta? 
-          Complexity of rule ~desarrollo.0.0-DESARROLLO t: 1
-        rule: 9  ~desarrollo.1.0 u: 
-          line: 11 0  # Por favor responda Si o No. 
-          Complexity of rule ~desarrollo.1.0- u: 1
-        rule: 13  ~desarrollo.1.1-CONFIRMACION a: 
-          line: 14 0  # $sp = null 
-          line: 15 11  # $estado = ~nombre 
-          Complexity of rule ~desarrollo.1.1-CONFIRMACION a: 1
-        rule: 17  ~desarrollo.1.2-NO_CONFIRMACION a: 
-          line: 18 0  # Entendido. 
-          line: 19 11  # $estado = ~conclusion 
-          Complexity of rule ~desarrollo.1.2-NO_CONFIRMACION a: 1
-        rule: 21  ~desarrollo.1.3-DESCONOCIDO a: 
-          line: 22 0  # $sp = null 
-          line: 23 11  # $estado = 
-          Complexity of rule ~desarrollo.1.3-DESCONOCIDO a: 1
+        rule: 13  ~correo.1.1-INGRESO_CORREO a: 
+          line: 14 0  # $estado = 0 
+          line: 15 12  # $correo = '_0 
+          if 16 30  
+          line: 16 26  # ^if 00h( ! $correo ) aaa{ 
+          line: 17 52  # No has ingresado tu correo ele
+          line: 18 92  # $topico = ~correo 
+          else 19 121  
+          line: 19 110  # } aaa else ( 1 ) aaa { 
+          line: 20 133  # $topico = ~pregunta_uno 
+          ifend 22 162  
+          Complexity of rule ~correo.1.1-INGRESO_CORREO a: 2
 file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/nombre.top
     topic: 1  ~nombre
         rule: 3  ~nombre.0.0-Nombre t: 
-          line: 3 0  # $sp = 0 
-          line: 4 8  # Antes de continuar. 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # Antes de continuar. 
           Complexity of rule ~nombre.0.0-NOMBRE t: 1
-        rule: 6  ~nombre.1.0 u: 
-          line: 8 0  # Me puedes indicar tu nombre po
+        rule: 8  ~nombre.1.0 u: 
+          line: 10 0  # Me puedes indicar tu nombre po
           Complexity of rule ~nombre.1.0- u: 1
-        rule: 10  ~nombre.1.1-INGRESO_NOMBRE a: 
-          line: 11 0  # $sp = null 
-          line: 12 11  # $nombre = '_0 
-          line: 13 25  # $estado = ~correo 
-          Complexity of rule ~nombre.1.1-INGRESO_NOMBRE a: 1
-        rule: 15  ~nombre.1.2-NO_INGRESO_NOMBRE a: 
-          line: 16 0  # $sp = null 
-          line: 17 11  # $estado = 
-          Complexity of rule ~nombre.1.2-NO_INGRESO_NOMBRE a: 1
+        rule: 12  ~nombre.1.1-INGRESO_NOMBRE a: 
+          line: 13 0  # $estado = 0 
+          line: 14 12  # $nombre = '_0 
+          if 15 30  
+          line: 15 26  # ^if 00h( ! $nombre ) aaa{ 
+          line: 16 52  # No has ingresado tu nombre. 
+          line: 17 80  # $topico = ~nombre 
+          else 18 109  
+          line: 18 98  # } aaa else ( 1 ) aaa { 
+          line: 19 121  # $topico = ~correo 
+          ifend 23 144  
+          Complexity of rule ~nombre.1.1-INGRESO_NOMBRE a: 2
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/saludo.top
+    topic: 1  ~saludo
+        rule: 3  ~saludo.0.0-Desarrollo t: 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # Hola! Yo soy Xentric, tu asist
+          line: 7 56  # A continuacion te hare unas br
+          line: 8 102  # Deseas responder la encuesta? 
+          Complexity of rule ~saludo.0.0-DESARROLLO t: 1
+        rule: 10  ~saludo.1.0 u: 
+          line: 12 0  # Por favor responda Si o No. 
+          Complexity of rule ~saludo.1.0- u: 1
+        rule: 14  ~saludo.1.1-CONFIRMACION a: 
+          line: 15 0  # $estado = 0 
+          line: 16 12  # $topico = ~nombre 
+          Complexity of rule ~saludo.1.1-CONFIRMACION a: 1
+        rule: 18  ~saludo.1.2-NO_CONFIRMACION a: 
+          line: 19 0  # Entendido. 
+          line: 20 11  # $estado = 0 
+          line: 21 23  # $topico = ~conclusion 
+          Complexity of rule ~saludo.1.2-NO_CONFIRMACION a: 1
+        rule: 23  ~saludo.1.3-DESCONOCIDO a: 
+          line: 24 0  # $topico = 
+          Complexity of rule ~saludo.1.3-DESCONOCIDO a: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_uno.top
+    topic: 1  ~pregunta_uno
+        rule: 3  ~pregunta_uno.0.0-Correo t: 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # $nombre . Que te ha parecido e
+          Complexity of rule ~pregunta_uno.0.0-CORREO t: 1
+        rule: 8  ~pregunta_uno.1.0 u: 
+          line: 10 0  # Por favor, indicame con un num
+          line: 11 83  # donde 1 es un mal producto/ser
+          Complexity of rule ~pregunta_uno.1.0- u: 1
+        rule: 13  ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 
+          line: 14 0  # $estado = 0 
+          line: 15 12  # $preg_uno = '_0 
+          line: 16 28  # $topico = ~conclusion 
+          Complexity of rule ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 1
+        rule: 18  ~pregunta_uno.1.2-DESCONOCIDO a: 
+          line: 19 0  # La opcion ingresada no es vali
+          line: 20 34  # $topico = 
+          Complexity of rule ~pregunta_uno.1.2-DESCONOCIDO a: 1
 file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/configuracion.top
     macro: 1  ^xentric
           line: 3 0  # $cs_token = 256 | 4194304 | 25
@@ -130,11 +158,13 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CON
           if 50 635  
           ifend 50 685  
           line: 50 631  # ^if 00p( $$respuesta_topic ) 0
-          line: 54 686  # ^nofail ( TOPIC ^gambit ( $est
+          line: 54 686  # ^nofail ( TOPIC ^gambit ( $top
           Complexity of rule ~control.0.0- u: 8
 file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONCEPTOS/conceptos.top
     concept: 2  ~sic
     concept: 3  ~noc
+    concept: 4  ~rangounosiete
+    concept: 5  ~rangounodiez
 file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/DATOS/datos.top
     macro: 1  ^testfn
           if 2 4  
