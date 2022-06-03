@@ -2817,3 +2817,273 @@ Jun 02 22:25:31.620 2022 Respond: user:luis bot:xentric len:2 ip: (~conclusion) 
 
 Jun 02 22:25:32.812 2022 ServerPre: pid: 0 luis (xentric) size=0 
 Jun 02 22:25:32.812 2022 Start: user:luis bot:xentric ip: () 5 ==>   When:Jun 02 22:25:32.812 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=48  fact=52  heap=4804 Compiled:Jun02'22-22:25:12-1654223112205 by version 12.1 "encuesta"
+
+Jun 02 22:28:38.203 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:28:38.203 2022 Start: user:axel bot:xentric ip: (~saludo) 0 ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:28:38.206 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0 
+
+Jun 02 22:28:41.449 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:28:41.449 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:28:41.453 2022 4ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:28:43.628 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:28:43.628 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 2 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:28:43.630 2022 2ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:28:51.654 2022 ServerPre: pid: 0 axel (xentric) size=14 axel@gmail.com
+Jun 02 22:28:51.654 2022 Respond: user:axel bot:xentric len:15 ip: (~pregunta_uno) 3 axel@gmail.com  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:28:51.656 2022 2ms q 0 Why:~pregunta_uno.0.0=CORREO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:28:55.309 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 22:28:55.309 2022 Respond: user:axel bot:xentric len:2 ip: (~conclusion) 4 5  ==> Hasta luego!  When:Jun 02 22:28:55.312 2022 3ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=48  fact=52  heap=4804 Compiled:Jun02'22-22:25:12-1654223112205 by version 12.1 "encuesta"
+
+Jun 02 22:33:50.491 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:33:50.491 2022 Start: user:axel bot:xentric ip: () 4 ==>   When:Jun 02 22:33:50.494 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 
+
+Jun 02 22:33:52.225 2022 ServerPre: pid: 0 axel (xentric) size=0 
+Jun 02 22:33:52.225 2022 Start: user:axel bot:xentric ip: () 4 ==>   When:Jun 02 22:33:52.227 2022 2ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 
+
+Jun 02 22:33:55.522 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:33:55.521 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:33:55.531 2022 10ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:33:58.458 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:33:58.457 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:33:58.460 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:34:00.135 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 22:34:00.135 2022 Respond: user:axel bot:xentric len:2 ip: (~correo) 2 a  ==> Mucho gusto en conocerte a. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:34:00.138 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:34:02.995 2022 ServerPre: pid: 0 axel (xentric) size=3 a@g
+Jun 02 22:34:02.995 2022 Respond: user:axel bot:xentric len:4 ip: (~pregunta_uno) 3 a@g  ==> A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:34:02.999 2022 4ms q 0 Why:~pregunta_uno.0.0=CORREO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:34:06.359 2022 ServerPre: pid: 0 axel (xentric) size=1  
+Jun 02 22:34:06.358 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:34:06.361 2022 3ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=48  fact=52  heap=4804 Compiled:Jun02'22-22:25:12-1654223112205 by version 12.1 "encuesta"
+
+Jun 02 22:36:59.099 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:36:59.099 2022 Start: user:axel bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:36:59.102 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:25:12-1654223112205 Build1:Jun02'22-22:25:12-1654223112205 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 02 22:37:01.105 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:37:01.104 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:37:01.114 2022 10ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:37:02.761 2022 ServerPre: pid: 0 axel (xentric) size=1 s
+Jun 02 22:37:02.761 2022 Respond: user:axel bot:xentric len:2 ip: (~saludo) 1 s  ==> Por favor responda Si o No.  When:Jun 02 22:37:02.764 2022 3ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:37:04.178 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:37:04.178 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 2 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:37:04.180 2022 2ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:37:05.759 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:37:05.759 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 3 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:37:05.762 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:37:08.269 2022 ServerPre: pid: 0 axel (xentric) size=3 asd
+Jun 02 22:37:08.269 2022 Respond: user:axel bot:xentric len:4 ip: (~pregunta_uno) 4 asd  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:37:08.272 2022 3ms q 0 Why:~pregunta_uno.0.0=CORREO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:37:15.484 2022 ServerPre: pid: 0 axel (xentric) size=1  
+Jun 02 22:37:15.484 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:37:15.487 2022 3ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:40:08.136 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:40:08.135 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:40:08.157 2022 22ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:40:10.040 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:40:10.039 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:40:10.042 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:40:15.154 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 22:40:15.153 2022 Respond: user:axel bot:xentric len:2 ip: (~correo) 2 a  ==> Mucho gusto en conocerte a. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:40:15.156 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:40:16.267 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 22:40:16.266 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:40:16.270 2022 4ms q 0 Why:~pregunta_uno.0.0=CORREO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:40:18.249 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:40:18.248 2022 Respond: user:axel bot:xentric len:2 ip: (~conclusion) 4 4  ==> Hasta luego!  When:Jun 02 22:40:18.251 2022 3ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:08.162 2022 ServerPre: pid: 0 axel (xentric) size=15 :build encuesta
+BUGNo such directory VERIFY/*
+
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=49  fact=52  heap=5496 Compiled:Jun02'22-22:41:08-1654224068271 by version 12.1 "encuesta"
+
+Jun 02 22:41:09.687 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:41:09.687 2022 Start: user:axel bot:xentric ip: () 4 ==>   When:Jun 02 22:41:09.689 2022 2ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:41:08-1654224068271 Build1:Jun02'22-22:41:08-1654224068271 
+
+Jun 02 22:41:12.359 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:41:12.358 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:41:12.368 2022 10ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:13.712 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:41:13.712 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:41:13.715 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:15.159 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:41:15.158 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 2 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:41:15.161 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:16.375 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 22:41:16.375 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:41:16.378 2022 3ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:17.993 2022 ServerPre: pid: 0 axel (xentric) size=1  
+Jun 02 22:41:17.993 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:41:17.995 2022 2ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:37.646 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:41:37.646 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 4 4  ==> Axel. Qué te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:41:37.649 2022 3ms q 0 Why:~pregunta_dos.0.0=PREGUNTA_DOS.~control.0.0 ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:41:56.568 2022 ServerPre: pid: 0 axel (xentric) size=1  
+Jun 02 22:41:56.567 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 4    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:41:56.571 2022 4ms q 0 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:42:00.199 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:42:00.199 2022 Respond: user:axel bot:xentric len:2 ip: (~conclusion) 5 4  ==> Hasta luego!  When:Jun 02 22:42:00.202 2022 3ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:12.341 2022 ServerPre: pid: 0 axel (xentric) size=15 :build encuesta
+BUGNo such directory VERIFY/*
+
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=51  fact=52  heap=6716 Compiled:Jun02'22-22:48:12-1654224492440 by version 12.1 "encuesta"
+
+Jun 02 22:48:13.604 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:48:13.603 2022 Start: user:axel bot:xentric ip: () 5 ==>   When:Jun 02 22:48:13.606 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:48:12-1654224492440 Build1:Jun02'22-22:48:12-1654224492440 
+
+Jun 02 22:48:15.353 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:48:15.353 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:48:15.363 2022 10ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:17.090 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:48:17.090 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:48:17.093 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:17.820 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:48:17.820 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 2 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:48:17.823 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:18.689 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 22:48:18.689 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:48:18.692 2022 3ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:21.666 2022 ServerPre: pid: 0 axel (xentric) size=1  
+Jun 02 22:48:21.665 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:48:21.668 2022 3ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:25.972 2022 ServerPre: pid: 0 axel (xentric) size=1  
+Jun 02 22:48:25.972 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:48:25.975 2022 3ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:27.202 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:48:27.201 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 4 4  ==> Axel. Qué te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:48:27.205 2022 4ms q 0 Why:~pregunta_dos.0.0=PREGUNTA_DOS.~control.0.0 ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:28.980 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:48:28.980 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 5 4  ==> Axel. Qué te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 22:48:28.983 2022 3ms q 0 Why:~pregunta_tres.0.0=PREGUNTA_TRES.~control.0.0 ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:32.682 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:48:32.681 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 6 4  ==> Axel. del 1 al 10 Cómo evaluarías generalmente a empresa? Por favor, indícame con un número del 1 al 10 tu apreciación, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 22:48:32.684 2022 3ms q 0 Why:~pregunta_cuatro.0.0=PREGUNTA_CUATRO.~control.0.0 ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:48:35.874 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:48:35.873 2022 Respond: user:axel bot:xentric len:2 ip: (~conclusion) 7 4  ==> Hasta luego!  When:Jun 02 22:48:35.877 2022 4ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:05.236 2022 ServerPre: pid: 0 axel (xentric) size=15 :build encuesta
+BUGNo such directory VERIFY/*
+
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=52  heap=7644 Compiled:Jun02'22-22:54:05-1654224845335 by version 12.1 "encuesta"
+
+Jun 02 22:54:06.493 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:54:06.492 2022 Start: user:axel bot:xentric ip: () 7 ==>   When:Jun 02 22:54:06.495 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:54:05-1654224845335 Build1:Jun02'22-22:54:05-1654224845335 
+
+Jun 02 22:54:08.700 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:54:08.700 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:54:08.709 2022 9ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:10.137 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:54:10.137 2022 Respond: user:axel bot:xentric len:5 ip: (~saludo) 1 axel  ==> Por favor responda Si o No.  When:Jun 02 22:54:10.140 2022 3ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:11.919 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:54:11.918 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 2 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:54:11.921 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:13.622 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:54:13.622 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 3 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:54:13.625 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:15.127 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:54:15.127 2022 Respond: user:axel bot:xentric len:5 ip: (~pregunta_uno) 4 axel  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:54:15.130 2022 3ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:17.978 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:54:17.978 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 5 4  ==> Axel. Qué te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:54:17.981 2022 3ms q 0 Why:~pregunta_dos.0.0=PREGUNTA_DOS.~control.0.0 ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:19.428 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:54:19.428 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 6 4  ==> Axel. Qué te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 22:54:19.431 2022 3ms q 0 Why:~pregunta_tres.0.0=PREGUNTA_TRES.~control.0.0 ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:21.430 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:54:21.429 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 7 4  ==> Axel. del 1 al 10 Cómo evaluarías generalmente a empresa? Por favor, indícame con un número del 1 al 10 tu apreciación, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 22:54:21.432 2022 3ms q 0 Why:~pregunta_cuatro.0.0=PREGUNTA_CUATRO.~control.0.0 ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:22.395 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:54:22.394 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_validacion) 8 4  ==> Muchas gracias por responder esta encuesta ¿Desea mandar sus respuestas? Indícame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 02 22:54:22.398 2022 4ms q 0 Why:~pregunta_validacion.0.0=PREGUNTA_VALIDACION.~control.0.0 ~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:54:43.664 2022 ServerPre: pid: 0 axel (xentric) size=2 no
+Jun 02 22:54:43.664 2022 Respond: user:axel bot:xentric len:3 ip: (~conclusion) 9 no  ==> Entendido. Muchas gracias axel por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estás participando en un sorteo. Puedes revisar las condiciones del sorteo en la página web oficial. ¡Hasta pronto!  When:Jun 02 22:54:43.667 2022 3ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:56:41.392 2022 ServerPre: pid: 0 axel (xentric) size=16 :build encuensta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=52  heap=7604 Compiled:Jun02'22-22:54:05-1654224845335 by version 12.1 "encuesta"
+
+Jun 02 22:56:42.193 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:56:42.192 2022 Start: user:axel bot:xentric ip: () 9 ==>   When:Jun 02 22:56:42.195 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:54:05-1654224845335 Build1:Jun02'22-22:54:05-1654224845335 
+
+Jun 02 22:56:45.941 2022 ServerPre: pid: 0 axel (xentric) size=15 :build encuesta
+BUGNo such directory VERIFY/*
+
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\blazz\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=52  heap=7632 Compiled:Jun02'22-22:56:46-1654225006037 by version 12.1 "encuesta"
+
+Jun 02 22:56:47.145 2022 ServerPre: pid: 0 axel () size=0 
+Jun 02 22:56:47.144 2022 Start: user:axel bot:xentric ip: () 9 ==>   When:Jun 02 22:56:47.147 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-22:56:46-1654225006037 Build1:Jun02'22-22:56:46-1654225006037 
+
+Jun 02 22:56:48.965 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+Jun 02 22:56:48.965 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 22:56:48.974 2022 9ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:56:50.532 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:56:50.531 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 22:56:50.534 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:56:51.793 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 22:56:51.793 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 2 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 22:56:51.796 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:56:53.480 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 22:56:53.479 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:56:53.482 2022 3ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:56:55.062 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:56:55.062 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 4 4  ==> Axel. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:56:55.065 2022 3ms q 0 Why:~pregunta_dos.0.0=PREGUNTA_DOS.~control.0.0 ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:56:57.396 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:56:57.396 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 5 4  ==> Axel. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 22:56:57.399 2022 3ms q 0 Why:~pregunta_tres.0.0=PREGUNTA_TRES.~control.0.0 ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:00.091 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:57:00.091 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 6 4  ==> Axel. del 1 al 10 Cómo evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 22:57:00.094 2022 3ms q 0 Why:~pregunta_cuatro.0.0=PREGUNTA_CUATRO.~control.0.0 ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:02.434 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:57:02.433 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_validacion) 7 4  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 02 22:57:02.437 2022 4ms q 0 Why:~pregunta_validacion.0.0=PREGUNTA_VALIDACION.~control.0.0 ~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:06.956 2022 ServerPre: pid: 0 axel (xentric) size=2 no
+Jun 02 22:57:06.956 2022 Respond: user:axel bot:xentric len:3 ip: (~pregunta_uno) 8 no  ==> Entendido. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:57:06.959 2022 3ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:24.441 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:57:24.441 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 9 4  ==> Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:57:24.445 2022 4ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:25.186 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:57:25.186 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 10 4  ==> Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 22:57:25.189 2022 3ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:25.971 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 22:57:25.971 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 11 4  ==> Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 22:57:25.974 2022 3ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:42.543 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 22:57:42.542 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_validacion) 12 5  ==> Por favor responda Si o No.  When:Jun 02 22:57:42.546 2022 4ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:47.866 2022 ServerPre: pid: 0 axel (xentric) size=2 no
+Jun 02 22:57:47.866 2022 Respond: user:axel bot:xentric len:3 ip: (~pregunta_uno) 13 no  ==> Entendido. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 22:57:47.869 2022 3ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:51.876 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 22:57:51.876 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 14 5  ==> Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 22:57:51.879 2022 3ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:53.329 2022 ServerPre: pid: 0 axel (xentric) size=1 6
+Jun 02 22:57:53.329 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 15 6  ==> Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 22:57:53.332 2022 3ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:57:56.169 2022 ServerPre: pid: 0 axel (xentric) size=1 7
+Jun 02 22:57:56.168 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 16 7  ==> Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 22:57:56.171 2022 3ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:58:09.380 2022 ServerPre: pid: 0 axel (xentric) size=1 6
+Jun 02 22:58:09.379 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_validacion) 17 6  ==> Por favor responda Si o No.  When:Jun 02 22:58:09.382 2022 3ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 22:59:02.639 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 22:59:02.639 2022 Respond: user:axel bot:xentric len:3 ip: (~conclusion) 18 si  ==> Muchas gracias axel por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 02 22:59:02.643 2022 4ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 

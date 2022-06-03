@@ -1,0 +1,19 @@
+topic: ~pregunta_cuatro keep repeat ()
+
+t: Pregunta_cuatro ($estado=0)
+    $estado = 1
+
+    $nombre . del 1 al 10 Cómo evaluarias generalmente a empresa?
+
+u: ()
+
+    Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
+
+    a: RESPONDE_PREGUNTA ( [ ~rangoUnoDiez ])
+	    $estado = 0
+        $preg_cuatro = '_0
+        $topico = ~pregunta_validacion
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_cuatro

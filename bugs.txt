@@ -209,4 +209,15 @@ $cs_time=0
 
 No computer id before user load?
    in topic_luis_anonymous.txt at 0: ^anonymous
-    
+    No such directory VERIFY/*
+
+4 Thu Jun 02 22:41:08 2022 in sentence:    :build encuesta
+No such directory VERIFY/*
+
+5 Thu Jun 02 22:48:12 2022 in sentence:    :build encuesta
+No such directory VERIFY/*
+
+7 Thu Jun 02 22:54:05 2022 in sentence:    :build encuesta
+No such directory VERIFY/*
+
+9 Thu Jun 02 22:56:46 2022 in sentence:    :build encuesta

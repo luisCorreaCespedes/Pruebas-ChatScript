@@ -9,20 +9,22 @@
 # Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) 
 # bot: name_of_macro_it_happens_in botid (possible bot macro) 
 
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/conclusion.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/conclusion.top
     topic: 1  ~conclusion
         rule: 3  ~conclusion.0.0-Conclusion u: 
-          line: 4 0  # Hasta luego! 
-          line: 5 13  # $estado = 0 
-          line: 6 25  # $topico = 
+          line: 4 0  # Muchas gracias $nombre por res
+          line: 5 84  # Recuerda que por responder est
+          line: 7 226  # Hasta pronto! 
+          line: 8 240  # $estado = 0 
+          line: 9 252  # $topico = 
           Complexity of rule ~conclusion.0.0-CONCLUSION u: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/introduccion.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/FLUJO_BASE/introduccion.top
     topic: 1  ~introduccion
         rule: 3  ~introduccion.0.0-Introduccion t: 
           line: 4 0  # $estado = 0 
           line: 5 12  # $topico = 
           Complexity of rule ~introduccion.0.0-INTRODUCCION t: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/correo.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/correo.top
     topic: 1  ~correo
         rule: 3  ~correo.0.0-Correo t: 
           line: 4 0  # $estado = 1 
@@ -44,7 +46,7 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAR
           line: 20 133  # $topico = ~pregunta_uno 
           ifend 22 162  
           Complexity of rule ~correo.1.1-INGRESO_CORREO a: 2
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/nombre.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/nombre.top
     topic: 1  ~nombre
         rule: 3  ~nombre.0.0-Nombre t: 
           line: 4 0  # $estado = 1 
@@ -65,7 +67,7 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAR
           line: 19 121  # $topico = ~correo 
           ifend 23 144  
           Complexity of rule ~nombre.1.1-INGRESO_NOMBRE a: 2
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/saludo.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAREAS/saludo.top
     topic: 1  ~saludo
         rule: 3  ~saludo.0.0-Desarrollo t: 
           line: 4 0  # $estado = 1 
@@ -88,12 +90,68 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/TAR
         rule: 23  ~saludo.1.3-DESCONOCIDO a: 
           line: 24 0  # $topico = 
           Complexity of rule ~saludo.1.3-DESCONOCIDO a: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_uno.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_cuatro.top
+    topic: 1  ~pregunta_cuatro
+        rule: 3  ~pregunta_cuatro.0.0-Pregunta_cuatro t: 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # $nombre . del 1 al 10 Cómo ev
+          Complexity of rule ~pregunta_cuatro.0.0-PREGUNTA_CUATRO t: 1
+        rule: 8  ~pregunta_cuatro.1.0 u: 
+          line: 10 0  # Por favor, indicame con un num
+          Complexity of rule ~pregunta_cuatro.1.0- u: 1
+        rule: 12  ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 
+          line: 13 0  # $estado = 0 
+          line: 14 12  # $preg_cuatro = '_0 
+          line: 15 31  # $topico = ~pregunta_validacion
+          Complexity of rule ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 1
+        rule: 17  ~pregunta_cuatro.1.2-DESCONOCIDO a: 
+          line: 18 0  # La opcion ingresada no es vali
+          line: 19 34  # $topico = 
+          Complexity of rule ~pregunta_cuatro.1.2-DESCONOCIDO a: 1
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_dos.top
+    topic: 1  ~pregunta_dos
+        rule: 3  ~pregunta_dos.0.0-Pregunta_dos t: 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # $nombre . Que te parece la cal
+          Complexity of rule ~pregunta_dos.0.0-PREGUNTA_DOS t: 1
+        rule: 8  ~pregunta_dos.1.0 u: 
+          line: 10 0  # Por favor, indicame con un num
+          line: 11 83  # donde 1 es un mala calidad y 7
+          Complexity of rule ~pregunta_dos.1.0- u: 1
+        rule: 13  ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 
+          line: 14 0  # $estado = 0 
+          line: 15 12  # $preg_dos = '_0 
+          line: 16 28  # $topico = ~pregunta_tres 
+          Complexity of rule ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 1
+        rule: 18  ~pregunta_dos.1.2-DESCONOCIDO a: 
+          line: 19 0  # La opcion ingresada no es vali
+          line: 20 34  # $topico = 
+          Complexity of rule ~pregunta_dos.1.2-DESCONOCIDO a: 1
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_tres.top
+    topic: 1  ~pregunta_tres
+        rule: 3  ~pregunta_tres.0.0-Pregunta_tres t: 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # $nombre . Que te parece el pre
+          Complexity of rule ~pregunta_tres.0.0-PREGUNTA_TRES t: 1
+        rule: 8  ~pregunta_tres.1.0 u: 
+          line: 10 0  # Por favor, indicame con un num
+          line: 11 83  # donde 1 es caro y 7 es un prec
+          Complexity of rule ~pregunta_tres.1.0- u: 1
+        rule: 13  ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 
+          line: 14 0  # $estado = 0 
+          line: 15 12  # $preg_tres = '_0 
+          line: 16 29  # $topico = ~pregunta_cuatro 
+          Complexity of rule ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 1
+        rule: 18  ~pregunta_tres.1.2-DESCONOCIDO a: 
+          line: 19 0  # La opcion ingresada no es vali
+          line: 20 34  # $topico = 
+          Complexity of rule ~pregunta_tres.1.2-DESCONOCIDO a: 1
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_uno.top
     topic: 1  ~pregunta_uno
-        rule: 3  ~pregunta_uno.0.0-Correo t: 
+        rule: 3  ~pregunta_uno.0.0-Pregunta_uno t: 
           line: 4 0  # $estado = 1 
           line: 6 12  # $nombre . Que te ha parecido e
-          Complexity of rule ~pregunta_uno.0.0-CORREO t: 1
+          Complexity of rule ~pregunta_uno.0.0-PREGUNTA_UNO t: 1
         rule: 8  ~pregunta_uno.1.0 u: 
           line: 10 0  # Por favor, indicame con un num
           line: 11 83  # donde 1 es un mal producto/ser
@@ -101,13 +159,35 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PRE
         rule: 13  ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 
           line: 14 0  # $estado = 0 
           line: 15 12  # $preg_uno = '_0 
-          line: 16 28  # $topico = ~conclusion 
+          line: 16 28  # $topico = ~pregunta_dos 
           Complexity of rule ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 1
         rule: 18  ~pregunta_uno.1.2-DESCONOCIDO a: 
           line: 19 0  # La opcion ingresada no es vali
           line: 20 34  # $topico = 
           Complexity of rule ~pregunta_uno.1.2-DESCONOCIDO a: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/configuracion.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_validacion.top
+    topic: 1  ~pregunta_validacion
+        rule: 3  ~pregunta_validacion.0.0-Pregunta_validacion t: 
+          line: 4 0  # $estado = 1 
+          line: 6 12  # Muchas gracias por responder e
+          line: 7 86  # Indicame con un SI para guarda
+          Complexity of rule ~pregunta_validacion.0.0-PREGUNTA_VALIDACION t: 1
+        rule: 9  ~pregunta_validacion.1.0 u: 
+          line: 11 0  # Por favor responda Si o No. 
+          Complexity of rule ~pregunta_validacion.1.0- u: 1
+        rule: 13  ~pregunta_validacion.1.1-CONFIRMACION a: 
+          line: 14 0  # $estado = 0 
+          line: 15 12  # $topico = ~conclusion 
+          Complexity of rule ~pregunta_validacion.1.1-CONFIRMACION a: 1
+        rule: 17  ~pregunta_validacion.1.2-NO_CONFIRMACION a: 
+          line: 18 0  # Entendido. 
+          line: 19 11  # $estado = 0 
+          line: 20 23  # $topico = ~pregunta_uno 
+          Complexity of rule ~pregunta_validacion.1.2-NO_CONFIRMACION a: 1
+        rule: 22  ~pregunta_validacion.1.3-DESCONOCIDO a: 
+          line: 23 0  # $topico = 
+          Complexity of rule ~pregunta_validacion.1.3-DESCONOCIDO a: 1
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/configuracion.top
     macro: 1  ^xentric
           line: 3 0  # $cs_token = 256 | 4194304 | 25
           line: 4 47  # $cs_token -= 2048 | DO_SUBSTIT
@@ -117,7 +197,7 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CON
           line: 12 161  # $userprompt = ^"%user: >" 
           line: 13 187  # $botprompt = ^"xentric: " 
           Complexity of ^xentric: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/control.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/control.top
     topic: 1  ~control
         rule: 3  ~control.0.0 u: 
           if 6 4  
@@ -160,12 +240,12 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CON
           line: 50 631  # ^if 00p( $$respuesta_topic ) 0
           line: 54 686  # ^nofail ( TOPIC ^gambit ( $top
           Complexity of rule ~control.0.0- u: 8
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONCEPTOS/conceptos.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONCEPTOS/conceptos.top
     concept: 2  ~sic
     concept: 3  ~noc
     concept: 4  ~rangounosiete
     concept: 5  ~rangounodiez
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/DATOS/datos.top
+file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/DATOS/datos.top
     macro: 1  ^testfn
           if 2 4  
           line: 2 0  # ^if 00l( $__0 == %user ) aaa{ 

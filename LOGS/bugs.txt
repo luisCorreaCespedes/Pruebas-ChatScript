@@ -24,3 +24,15 @@ BUG in topic__build encuesta.txt at 0: ^build encuesta | No computer id before u
 BUG in topic__anonymous.txt at 0: ^anonymous | No computer id before user load?
 BUG in topic__build encuesta.txt at 0: ^build encuesta | No computer id before user load?
 BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+
+BUG: Thu Jun 02 22:41:08 2022:  volley:4 No such directory VERIFY/*
+caller:axel callee:xentric at  in sentence: :build encuesta
+
+BUG: Thu Jun 02 22:48:12 2022:  volley:5 No such directory VERIFY/*
+caller:axel callee:xentric at  in sentence: :build encuesta
+
+BUG: Thu Jun 02 22:54:05 2022:  volley:7 No such directory VERIFY/*
+caller:axel callee:xentric at  in sentence: :build encuesta
+
+BUG: Thu Jun 02 22:56:46 2022:  volley:9 No such directory VERIFY/*
+caller:axel callee:xentric at  in sentence: :build encuesta

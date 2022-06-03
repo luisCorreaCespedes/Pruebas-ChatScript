@@ -1,6 +1,6 @@
-﻿00008 Jun02'22-22:25:12-1654223112205 encuesta 12.1
-TOPIC: ~conclusion 0x3 83792504 1 0 75 conclusion.top
-" all " 00Z u: <CONCLUSION ( ) Hasta luego! $estado = 0 $topico = 0 `000 
+﻿00012 Jun02'22-22:56:46-1654225006037 encuesta 12.1
+TOPIC: ~conclusion 0x3 14864606 1 0 302 conclusion.top
+" all " 03! u: <CONCLUSION ( ) Muchas gracias $nombre por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto! $estado = 0 $topico = 0 `000 
 TOPIC: ~introduccion 0x3 192616626 1 1 70 introduccion.top
 " all " 00U t: >INTRODUCCION ( ) $estado = 0 $topico = ~saludo `000 
 TOPIC: ~correo 0x3 206232322 2 1 409 correo.top
@@ -9,8 +9,16 @@ TOPIC: ~nombre 0x3 12384221 2 1 305 nombre.top
 " all " 00@ t: 8NOMBRE ( =9$estado=0 ) $estado = 1 Antes de continuar. `00P u: ( ) Me puedes indicar tu nombre por favor? `02q a: @INGRESO_NOMBRE ( _* ) $estado = 0 $nombre = '_0 ^if 00h( ! $nombre ) 00V{ No has ingresado tu nombre. $topico = ~nombre } 00J else ( 1 ) 00t { $topico = ~correo } 004 `000 
 TOPIC: ~saludo 0x3 225168855 2 1 413 saludo.top
 " all " 02i t: <DESARROLLO ( =9$estado=0 ) $estado = 1 Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? `00E u: ( ) Por favor responda Si o No. `00# a: >CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~nombre `018 a: ANO_CONFIRMACION ( [ ~noc ] ) Entendido. $estado = 0 $topico = ~conclusion `00H a: =DESCONOCIDO ( ) $topico = ~saludo `000 
-TOPIC: ~pregunta_uno 0x3 156858626 2 1 457 pregunta_uno.top
-" all " 01k t: 8CORREO ( =9$estado=0 ) $estado = 1 $nombre . Que te ha parecido el producto/servicio? `02f u: ( ) Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio. `01p a: CRESPONDE_PREGUNTA ( [ ~rangounosiete ] ) $estado = 0 $preg_uno = '_0 $topico = ~conclusion `018 a: =DESCONOCIDO ( ) La opcion ingresada no es valida. $topico = ~pregunta_uno `000 
+TOPIC: ~pregunta_cuatro 0x3 166831966 2 1 438 pregunta_cuatro.top
+" all " 01F t: APREGUNTA_CUATRO ( =9$estado=0 ) $estado = 1 $nombre . del 1 al 10 Cómo evaluarias generalmente a empresa? `01A u: ( ) Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien. `01A a: CRESPONDE_PREGUNTA ( [ ~rangounodiez ] ) $estado = 0 $preg_cuatro = '_0 $topico = ~pregunta_validacion `01b a: =DESCONOCIDO ( ) La opcion ingresada no es valida. $topico = ~pregunta_cuatro `000 
+TOPIC: ~pregunta_dos 0x3 69690979 2 1 484 pregunta_dos.top
+" all " 01E t: >PREGUNTA_DOS ( =9$estado=0 ) $estado = 1 $nombre . Que te parece la calidad de nuestro producto/servicio? `02j u: ( ) Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio. `01s a: CRESPONDE_PREGUNTA ( [ ~rangounosiete ] ) $estado = 0 $preg_dos = '_0 $topico = ~pregunta_tres `018 a: =DESCONOCIDO ( ) La opcion ingresada no es valida. $topico = ~pregunta_dos `000 
+TOPIC: ~pregunta_tres 0x3 3251162 2 1 465 pregunta_tres.top
+" all " 01x t: ?PREGUNTA_TRES ( =9$estado=0 ) $estado = 1 $nombre . Que te parece el precio del producto/servicio? `023 u: ( ) Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio. `01v a: CRESPONDE_PREGUNTA ( [ ~rangounosiete ] ) $estado = 0 $preg_tres = '_0 $topico = ~pregunta_cuatro `019 a: =DESCONOCIDO ( ) La opcion ingresada no es valida. $topico = ~pregunta_tres `000 
+TOPIC: ~pregunta_uno 0x3 228994763 2 1 465 pregunta_uno.top
+" all " 01q t: >PREGUNTA_UNO ( =9$estado=0 ) $estado = 1 $nombre . Que te ha parecido el producto/servicio? `02f u: ( ) Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio. `01r a: CRESPONDE_PREGUNTA ( [ ~rangounosiete ] ) $estado = 0 $preg_uno = '_0 $topico = ~pregunta_dos `018 a: =DESCONOCIDO ( ) La opcion ingresada no es valida. $topico = ~pregunta_uno `000 
+TOPIC: ~pregunta_validacion 0x3 89079670 2 1 519 pregunta_validacion.top
+" all " 03u t: EPREGUNTA_VALIDACION ( =9$estado=0 ) $estado = 1 Muchas gracias por responder esta encuesta . Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. `00E u: ( ) Por favor responda Si o No. `00& a: >CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~conclusion `01a a: ANO_CONFIRMACION ( [ ~noc ] ) Entendido. $estado = 0 $topico = ~pregunta_uno `00U a: =DESCONOCIDO ( ) $topico = ~pregunta_validacion `000 
 TOPIC: ~control 0x1b 161582164 1 0 789 control.top
 " all " 0ap u: ( ) ^if 00v( %input < %userfirstline ) 01p{ ^nofail ( TOPIC ^respond ( ~introduccion ) ) ^nofail ( TOPIC ^gambit ( ~introduccion ) ) } 004 ^if 00w( %input == %userfirstline ) 00b{ } 004 ^nofail ( TOPIC ^rejoinder ( ) ) ^if 00A( %response == 0 and ! $$boton ) 051{ @8 = ^query ( direct_sv topickeyword member ? ) $$respuesta = %response ^loop ( -1 ) 01Q { $$topic = ^first ( @8object ) ^nofail ( TOPIC ^respond ( $$topic ) ) ^if 00l( %response > 0 ) 00p{ ^end ( RULE ) } 004 } ^if 00v( %response > $$respuesta ) 01H{ $$respuesta_topic = True ^if 00q( ! %outputrejoinder ) 00Q{ ^setrejoinder ( OUTPUT ~help.continuar ) } 004 } 004 } 004 ^if 00p( $$respuesta_topic ) 00q{ ^end ( TOPIC ) } 004 ^nofail ( TOPIC ^gambit ( $topico ) ) ^nofail ( TOPIC ^respond ( $topico ) ) `000 
 TOPIC: ~datos 0x3 157754938 5 0 282 datos.top

@@ -1,6 +1,6 @@
 topic: ~pregunta_uno keep repeat ()
 
-t: Correo ($estado=0)
+t: Pregunta_uno ($estado=0)
     $estado = 1
 
     $nombre . Que te ha parecido el producto/servicio?
@@ -13,7 +13,7 @@ u: ()
     a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
 	    $estado = 0
         $preg_uno = '_0
-        $topico = ~conclusion
+        $topico = ~pregunta_dos
 
     a: DESCONOCIDO ()
         La opcion ingresada no es valida.

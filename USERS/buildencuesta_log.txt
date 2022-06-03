@@ -1,4 +1,5 @@
 ﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+    No such directory VERIFY/*
 
 >>Reading folder RAWDATA/ENCUESTA/FLUJO_BASE/
 
@@ -25,8 +26,20 @@ Reading topic ~saludo
 
 >>Reading folder RAWDATA/ENCUESTA/PREGUNTAS/
 
+----Reading file pregunta_cuatro.top   
+Reading topic ~pregunta_cuatro
+
+----Reading file pregunta_dos.top   
+Reading topic ~pregunta_dos
+
+----Reading file pregunta_tres.top   
+Reading topic ~pregunta_tres
+
 ----Reading file pregunta_uno.top   
 Reading topic ~pregunta_uno
+
+----Reading file pregunta_validacion.top   
+Reading topic ~pregunta_validacion
 
 <<end folder RAWDATA/ENCUESTA/PREGUNTAS
 
