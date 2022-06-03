@@ -36,3 +36,6 @@ caller:axel callee:xentric at  in sentence: :build encuesta
 
 BUG: Thu Jun 02 22:56:46 2022:  volley:9 No such directory VERIFY/*
 caller:axel callee:xentric at  in sentence: :build encuesta
+
+BUG: Thu Jun 02 23:07:42 2022:  volley:18 No such directory VERIFY/*
+caller:axel callee:xentric at  in sentence: :build encuesta

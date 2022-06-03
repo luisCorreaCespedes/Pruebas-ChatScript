@@ -1,40 +1,40 @@
 ﻿USERS/topic_axel_xentric.txt
-jul2116 Jun02'22-22:28:38-1654223318204 Jun02'22-22:58:09-1654225089381 1654225073-8.1.0.11.0.0 |
-1 17 ~pregunta_validacion ~Mb *sbZ2  DY 0 12 12 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~conclusion ),checksum
+jul2116 Jun02'22-22:28:38-1654223318204 Jun02'22-23:08:17-1654225697761 1654225073-8.1.0.11.0.0 |
+1 12 ~pregunta_validacion ~Mb %e$D2  DY 0 12 12 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~conclusion ),checksum
 ~saludo ~nombre ~correo ~pregunta_uno ~pregunta_dos ~pregunta_tres ~pregunta_cuatro ~pregunta_validacion #pending
 ~introduccion + 1 P?G66 ia 0 0 0 
 ~correo + 1 mD!C6 ia 2 0 0 
 ~nombre + 1 ?Lqt ia 1 0 0 
 ~saludo + 1 u1T87 ia 0 0 0 
-~pregunta_cuatro + 1 g1yk5 ia g 0 0 
-~pregunta_dos + 1 4Cef2 ia e 0 0 
-~pregunta_tres + 1 ~+Q7 ia f 0 0 
-~pregunta_uno + 1 CdYh7 ia d 0 0 
-~pregunta_validacion + 1 *sbZ2 ia h 0 0 
+~pregunta_cuatro + 1 %JCg ia b 0 0 
+~pregunta_dos + 1 8I&03 ia 9 0 0 
+~pregunta_tres + 1 3w8%3 ia a 0 0 
+~pregunta_uno + 1 xS^~5 ia 8 0 0 
+~pregunta_validacion + 1 %e$D2 ia c 0 0 
 #`end topics
 $cs_language=ENGLISH
-$preg_cuatro=a
-$preg_dos=a
-$correo=a
-$cs_time=0
-$cs_trace=0
-$cs_randindex=3119
-$cs_bot=Xentric
-$cs_login=axel
-$cs_token=0
-$cs_control_main=~control
-$userprompt=axel: >
-$botprompt=xentric: 
-$estado=0
-$topico=~pregunta_validacion
-$nombre=axel
-$preg_uno=a
 $preg_tres=a
+$preg_uno=a
+$nombre=axel
+$topico=~pregunta_validacion
+$estado=0
+$botprompt=xentric: 
+$userprompt=axel: >
+$cs_control_main=~control
+$cs_token=0
+$cs_login=axel
+$cs_bot=Xentric
+$cs_randindex=3119
+$cs_trace=0
+$cs_time=0
+$correo=a
+$preg_dos=a
+$preg_cuatro=a
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~pregunta_validacion 13 NO_CONFIRMACION 
+#context ~pregunta_validacion 8 NO_CONFIRMACION ~conclusion 18 CONCLUSION 
  si
  axel
  a
@@ -43,15 +43,10 @@ $preg_tres=a
  4
  4
  no
- 4
- 4
- 4
  5
- no
  5
- 6
- 7
- 6
+ 5
+ 5
 #`end user
  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta?
  Por favor responda Si o No.
@@ -59,26 +54,15 @@ $preg_tres=a
  Me puedes indicar tu nombre por favor?
  Mucho gusto en conocerte axel.
  Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com
- Axel. Que te ha parecido el producto/servicio?
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
- Axel. Que te parece la calidad de nuestro producto/servicio?
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.
- Axel. Que te parece el precio del producto/servicio?
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
- Axel. del 1 al 10 Cómo evaluarias generalmente a empresa?
- Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
- Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta.
- Por favor responda Si o No.
+ Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+ Axel. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del 
+ Axel. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
+ Axel. del 1 al 10 Cómo evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
+ Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Po
  Entendido.
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
- Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
- Por favor responda Si o No.
- Entendido.
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.
- Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
- Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
- Por favor responda Si o No.
+ Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+ Axel. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del 
+ Axel. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
+ Axel. del 1 al 10 Cómo evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
+ Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Po
 #`end chatbot

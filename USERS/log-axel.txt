@@ -239,3 +239,58 @@ Jun 02 22:58:09.379 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_val
 
 Jun 02 22:59:02.639 2022 ServerPre: pid: 0 axel (xentric) size=2 si
 Jun 02 22:59:02.639 2022 Respond: user:axel bot:xentric len:3 ip: (~conclusion) 18 si  ==> Muchas gracias axel por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 02 22:59:02.643 2022 4ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:35.436 2022 ServerPre: pid: 0 axel () size=0 
+
+Jun 02 23:07:38.816 2022 ServerPre: pid: 0 axel (xentric) size=15 :build encuestq
+    Command: :build encuestq
+
+Jun 02 23:07:39.584 2022 ServerPre: pid: 0 axel () size=0 
+
+Jun 02 23:07:42.325 2022 ServerPre: pid: 0 axel (xentric) size=15 :build encuesta
+    Command: :build encuesta
+
+Jun 02 23:07:43.569 2022 ServerPre: pid: 0 axel () size=0 
+
+Jun 02 23:07:45.673 2022 ServerPre: pid: 0 axel (xentric) size=6 :reset
+    Command: :reset
+Jun 02 23:07:45.673 2022 Respond: user:axel bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 02 23:07:45.683 2022 10ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:48.307 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 23:07:48.307 2022 Respond: user:axel bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 02 23:07:48.310 2022 3ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:50.081 2022 ServerPre: pid: 0 axel (xentric) size=4 axel
+Jun 02 23:07:50.081 2022 Respond: user:axel bot:xentric len:5 ip: (~correo) 2 axel  ==> Mucho gusto en conocerte axel. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 02 23:07:50.084 2022 3ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:53.699 2022 ServerPre: pid: 0 axel (xentric) size=1 a
+Jun 02 23:07:53.698 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 23:07:53.702 2022 4ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:55.881 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 23:07:55.880 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 4 4  ==> Axel. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 23:07:55.884 2022 4ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:56.870 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 23:07:56.870 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 5 4  ==> Axel. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 23:07:56.873 2022 3ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:57.776 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 23:07:57.775 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 6 4  ==> Axel. del 1 al 10 Cómo evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 23:07:57.778 2022 3ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:07:58.772 2022 ServerPre: pid: 0 axel (xentric) size=1 4
+Jun 02 23:07:58.771 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_validacion) 7 4  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 02 23:07:58.775 2022 4ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:08:06.569 2022 ServerPre: pid: 0 axel (xentric) size=2 no
+Jun 02 23:08:06.569 2022 Respond: user:axel bot:xentric len:3 ip: (~pregunta_uno) 8 no  ==> Entendido. Axel. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 02 23:08:06.572 2022 3ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:08:11.152 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 23:08:11.151 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_dos) 9 5  ==> Axel. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 02 23:08:11.155 2022 4ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:08:13.515 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 23:08:13.514 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_tres) 10 5  ==> Axel. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 02 23:08:13.517 2022 3ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:08:15.055 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 23:08:15.055 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_cuatro) 11 5  ==> Axel. del 1 al 10 Cómo evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 02 23:08:15.058 2022 3ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:08:17.759 2022 ServerPre: pid: 0 axel (xentric) size=1 5
+Jun 02 23:08:17.759 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_validacion) 12 5  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 02 23:08:17.762 2022 3ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 02 23:08:19.853 2022 ServerPre: pid: 0 axel (xentric) size=2 si
+Jun 02 23:08:19.853 2022 Respond: user:axel bot:xentric len:3 ip: (~conclusion) 13 si  ==> Muchas gracias axel por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 02 23:08:19.856 2022 3ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 

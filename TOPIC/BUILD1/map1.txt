@@ -94,98 +94,98 @@ file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PRE
     topic: 1  ~pregunta_cuatro
         rule: 3  ~pregunta_cuatro.0.0-Pregunta_cuatro t: 
           line: 4 0  # $estado = 1 
-          line: 6 12  # $nombre . del 1 al 10 Cómo ev
           Complexity of rule ~pregunta_cuatro.0.0-PREGUNTA_CUATRO t: 1
         rule: 8  ~pregunta_cuatro.1.0 u: 
-          line: 10 0  # Por favor, indicame con un num
+          line: 10 0  # $nombre . del 1 al 10 Cómo ev
+          line: 12 63  # Por favor, indicame con un num
           Complexity of rule ~pregunta_cuatro.1.0- u: 1
-        rule: 12  ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 
-          line: 13 0  # $estado = 0 
-          line: 14 12  # $preg_cuatro = '_0 
-          line: 15 31  # $topico = ~pregunta_validacion
+        rule: 14  ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 
+          line: 15 0  # $estado = 0 
+          line: 16 12  # $preg_cuatro = '_0 
+          line: 17 31  # $topico = ~pregunta_validacion
           Complexity of rule ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 17  ~pregunta_cuatro.1.2-DESCONOCIDO a: 
-          line: 18 0  # La opcion ingresada no es vali
-          line: 19 34  # $topico = 
+        rule: 19  ~pregunta_cuatro.1.2-DESCONOCIDO a: 
+          line: 20 0  # La opcion ingresada no es vali
+          line: 21 34  # $topico = 
           Complexity of rule ~pregunta_cuatro.1.2-DESCONOCIDO a: 1
 file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_dos.top
     topic: 1  ~pregunta_dos
         rule: 3  ~pregunta_dos.0.0-Pregunta_dos t: 
           line: 4 0  # $estado = 1 
-          line: 6 12  # $nombre . Que te parece la cal
           Complexity of rule ~pregunta_dos.0.0-PREGUNTA_DOS t: 1
         rule: 8  ~pregunta_dos.1.0 u: 
-          line: 10 0  # Por favor, indicame con un num
-          line: 11 83  # donde 1 es un mala calidad y 7
+          line: 10 0  # $nombre . Que te parece la cal
+          line: 12 65  # Por favor, indicame con un num
+          line: 13 148  # donde 1 es un mala calidad y 7
           Complexity of rule ~pregunta_dos.1.0- u: 1
-        rule: 13  ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 
-          line: 14 0  # $estado = 0 
-          line: 15 12  # $preg_dos = '_0 
-          line: 16 28  # $topico = ~pregunta_tres 
+        rule: 15  ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 
+          line: 16 0  # $estado = 0 
+          line: 17 12  # $preg_dos = '_0 
+          line: 18 28  # $topico = ~pregunta_tres 
           Complexity of rule ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 18  ~pregunta_dos.1.2-DESCONOCIDO a: 
-          line: 19 0  # La opcion ingresada no es vali
-          line: 20 34  # $topico = 
+        rule: 20  ~pregunta_dos.1.2-DESCONOCIDO a: 
+          line: 21 0  # La opcion ingresada no es vali
+          line: 22 34  # $topico = 
           Complexity of rule ~pregunta_dos.1.2-DESCONOCIDO a: 1
 file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_tres.top
     topic: 1  ~pregunta_tres
         rule: 3  ~pregunta_tres.0.0-Pregunta_tres t: 
           line: 4 0  # $estado = 1 
-          line: 6 12  # $nombre . Que te parece el pre
           Complexity of rule ~pregunta_tres.0.0-PREGUNTA_TRES t: 1
         rule: 8  ~pregunta_tres.1.0 u: 
-          line: 10 0  # Por favor, indicame con un num
-          line: 11 83  # donde 1 es caro y 7 es un prec
+          line: 10 0  # $nombre . Que te parece el pre
+          line: 12 57  # Por favor, indicame con un num
+          line: 13 140  # donde 1 es caro y 7 es un prec
           Complexity of rule ~pregunta_tres.1.0- u: 1
-        rule: 13  ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 
-          line: 14 0  # $estado = 0 
-          line: 15 12  # $preg_tres = '_0 
-          line: 16 29  # $topico = ~pregunta_cuatro 
+        rule: 15  ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 
+          line: 16 0  # $estado = 0 
+          line: 17 12  # $preg_tres = '_0 
+          line: 18 29  # $topico = ~pregunta_cuatro 
           Complexity of rule ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 18  ~pregunta_tres.1.2-DESCONOCIDO a: 
-          line: 19 0  # La opcion ingresada no es vali
-          line: 20 34  # $topico = 
+        rule: 20  ~pregunta_tres.1.2-DESCONOCIDO a: 
+          line: 21 0  # La opcion ingresada no es vali
+          line: 22 34  # $topico = 
           Complexity of rule ~pregunta_tres.1.2-DESCONOCIDO a: 1
 file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_uno.top
     topic: 1  ~pregunta_uno
         rule: 3  ~pregunta_uno.0.0-Pregunta_uno t: 
           line: 4 0  # $estado = 1 
-          line: 6 12  # $nombre . Que te ha parecido e
           Complexity of rule ~pregunta_uno.0.0-PREGUNTA_UNO t: 1
         rule: 8  ~pregunta_uno.1.0 u: 
-          line: 10 0  # Por favor, indicame con un num
-          line: 11 83  # donde 1 es un mal producto/ser
+          line: 10 0  # $nombre . Que te ha parecido e
+          line: 12 51  # Por favor, indicame con un num
+          line: 13 134  # donde 1 es un mal producto/ser
           Complexity of rule ~pregunta_uno.1.0- u: 1
-        rule: 13  ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 
-          line: 14 0  # $estado = 0 
-          line: 15 12  # $preg_uno = '_0 
-          line: 16 28  # $topico = ~pregunta_dos 
+        rule: 15  ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 
+          line: 16 0  # $estado = 0 
+          line: 17 12  # $preg_uno = '_0 
+          line: 18 28  # $topico = ~pregunta_dos 
           Complexity of rule ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 18  ~pregunta_uno.1.2-DESCONOCIDO a: 
-          line: 19 0  # La opcion ingresada no es vali
-          line: 20 34  # $topico = 
+        rule: 20  ~pregunta_uno.1.2-DESCONOCIDO a: 
+          line: 21 0  # La opcion ingresada no es vali
+          line: 22 34  # $topico = 
           Complexity of rule ~pregunta_uno.1.2-DESCONOCIDO a: 1
 file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/PREGUNTAS/pregunta_validacion.top
     topic: 1  ~pregunta_validacion
         rule: 3  ~pregunta_validacion.0.0-Pregunta_validacion t: 
           line: 4 0  # $estado = 1 
-          line: 6 12  # Muchas gracias por responder e
-          line: 7 86  # Indicame con un SI para guarda
           Complexity of rule ~pregunta_validacion.0.0-PREGUNTA_VALIDACION t: 1
-        rule: 9  ~pregunta_validacion.1.0 u: 
-          line: 11 0  # Por favor responda Si o No. 
+        rule: 7  ~pregunta_validacion.1.0 u: 
+          line: 9 0  # Muchas gracias por responder e
+          line: 10 74  # Indicame con un SI para guarda
+          line: 12 198  # Por favor responda Si o No. 
           Complexity of rule ~pregunta_validacion.1.0- u: 1
-        rule: 13  ~pregunta_validacion.1.1-CONFIRMACION a: 
-          line: 14 0  # $estado = 0 
-          line: 15 12  # $topico = ~conclusion 
+        rule: 14  ~pregunta_validacion.1.1-CONFIRMACION a: 
+          line: 15 0  # $estado = 0 
+          line: 16 12  # $topico = ~conclusion 
           Complexity of rule ~pregunta_validacion.1.1-CONFIRMACION a: 1
-        rule: 17  ~pregunta_validacion.1.2-NO_CONFIRMACION a: 
-          line: 18 0  # Entendido. 
-          line: 19 11  # $estado = 0 
-          line: 20 23  # $topico = ~pregunta_uno 
+        rule: 18  ~pregunta_validacion.1.2-NO_CONFIRMACION a: 
+          line: 19 0  # Entendido. 
+          line: 20 11  # $estado = 0 
+          line: 21 23  # $topico = ~pregunta_uno 
           Complexity of rule ~pregunta_validacion.1.2-NO_CONFIRMACION a: 1
-        rule: 22  ~pregunta_validacion.1.3-DESCONOCIDO a: 
-          line: 23 0  # $topico = 
+        rule: 23  ~pregunta_validacion.1.3-DESCONOCIDO a: 
+          line: 24 0  # $topico = 
           Complexity of rule ~pregunta_validacion.1.3-DESCONOCIDO a: 1
 file: 0  C:/Users/blazz/Documents/GitHub/Pruebas-ChatScript/RAWDATA/ENCUESTA/CONFIGURACION/configuracion.top
     macro: 1  ^xentric

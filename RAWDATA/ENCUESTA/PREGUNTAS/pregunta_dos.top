@@ -3,10 +3,12 @@ topic: ~pregunta_dos keep repeat ()
 t: Pregunta_dos ($estado=0)
     $estado = 1
 
-    $nombre . Que te parece la calidad de nuestro producto/servicio?
+
 
 u: ()
 
+    $nombre . Que te parece la calidad de nuestro producto/servicio?
+    
     Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio,
     donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.
 

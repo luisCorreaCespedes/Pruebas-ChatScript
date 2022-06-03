@@ -221,3 +221,6 @@ No such directory VERIFY/*
 No such directory VERIFY/*
 
 9 Thu Jun 02 22:56:46 2022 in sentence:    :build encuesta
+No such directory VERIFY/*
+
+18 Thu Jun 02 23:07:42 2022 in sentence:    :build encuesta

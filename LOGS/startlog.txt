@@ -267,3 +267,8 @@ System startup encuensta Thu Jun 02 22:56:41 2022
 System startup createsystem Thu Jun 02 22:56:41 2022
 System startup encuesta Thu Jun 02 22:56:45 2022
 System startup createsystem Thu Jun 02 22:56:46 2022
+System startup createsystem Thu Jun 02 23:07:33 2022
+System startup encuestq Thu Jun 02 23:07:38 2022
+System startup createsystem Thu Jun 02 23:07:38 2022
+System startup encuesta Thu Jun 02 23:07:42 2022
+System startup createsystem Thu Jun 02 23:07:42 2022

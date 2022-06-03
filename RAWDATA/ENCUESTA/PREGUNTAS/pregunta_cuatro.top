@@ -3,9 +3,11 @@ topic: ~pregunta_cuatro keep repeat ()
 t: Pregunta_cuatro ($estado=0)
     $estado = 1
 
-    $nombre . del 1 al 10 Cómo evaluarias generalmente a empresa?
+
 
 u: ()
+
+    $nombre . del 1 al 10 Como evaluarias generalmente a empresa?
 
     Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
 
