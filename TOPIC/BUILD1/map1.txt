@@ -9,14 +9,69 @@
 # Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) 
 # bot: name_of_macro_it_happens_in botid (possible bot macro) 
 
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/FLUJO_BASE/conclusion.top
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/CONFIGURACION/configuracion.top
+    macro: 1  ^xentric
+          line: 3 0  # $cs_token = 256 | 4194304 | 25
+          line: 4 47  # $cs_token -= 2048 | DO_SUBSTIT
+          line: 6 96  # $cs_response = 32 
+          line: 8 114  # $cs_token = 0 
+          line: 10 128  # $cs_language = spanish 
+          line: 12 151  # $cs_control_main = ~control 
+          line: 14 179  # $userprompt = ^"%user: >" 
+          line: 15 205  # $botprompt = ^"xentric: " 
+          Complexity of ^xentric: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/CONFIGURACION/control.top
+    topic: 1  ~control
+        rule: 3  ~control.0.0 u: 
+          if 6 4  
+          line: 6 0  # ^if 00v( %input < %userfirstli
+          if 8 44  
+          line: 8 40  # ^if 00w( %input == %userfirstl
+          line: 9 81  # ^respond ( ~datos ) 
+          line: 10 101  # ^nofail ( TOPIC ^respond ( ~in
+          line: 11 146  # ^nofail ( TOPIC ^gambit ( ~int
+          ifend 12 195  
+          line: 12 190  # } 004 
+          ifend 13 201  
+          line: 13 196  # } 004 
+          line: 18 202  # ^nofail ( TOPIC ^rejoinder ( )
+          if 23 239  
+          line: 23 235  # ^if 00A( %response == 0 and ! 
+          line: 25 280  # @8 = ^query ( direct_sv topick
+          line: 27 328  # $$respuesta = %response 
+          loop 28 358  
+          line: 28 352  # ^loop ( -1 ) aaa { $$topic = ^
+          line: 29 401  # ^nofail ( TOPIC ^respond ( $$t
+          if 31 444  
+          ifend 31 489  
+          line: 31 440  # ^if 00l( %response > 0 ) 00p{ 
+          loopend 33 492  
+          line: 33 490  # } 
+          if 35 496  
+          line: 35 492  # ^if 00v( %response > $$respues
+          line: 37 532  # $$respuesta_topic = True 
+          if 42 561  
+          line: 42 557  # ^if 00q( ! %outputrejoinder ) 
+          line: 44 592  # ^setrejoinder ( OUTPUT ~help.c
+          ifend 45 638  
+          line: 45 633  # } 004 
+          ifend 47 644  
+          line: 47 639  # } 004 
+          ifend 48 650  
+          line: 48 645  # } 004 
+          if 50 655  
+          ifend 50 705  
+          line: 50 651  # ^if 00p( $$respuesta_topic ) 0
+          line: 54 706  # ^nofail ( TOPIC ^gambit ( $top
+          Complexity of rule ~control.0.0- u: 8
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/FLUJO_BASE/conclusion.top
     topic: 1  ~conclusion
         rule: 3  ~conclusion.0.0-Conclusion u: 
           line: 4 0  # Muchas gracias $nombre por res
-          line: 5 84  # Recuerda que por responder est
-          line: 7 226  # Hasta pronto! 
-          line: 8 240  # $estado = 0 
-          line: 9 252  # $topico = 0 
+          line: 5 83  # Recuerda que por responder est
+          line: 7 225  # Hasta pronto! 
+          line: 8 239  # $estado = 0 
+          line: 9 251  # $topico = 0 
           Complexity of rule ~conclusion.0.0-CONCLUSION u: 1
     topic: 11  ~salir
         rule: 13  ~salir.0.0-Salir u: 
@@ -24,28 +79,30 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/FLUJ
           line: 16 14  # $estado = 0 
           line: 17 26  # $topico = 
           Complexity of rule ~salir.0.0-SALIR u: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/FLUJO_BASE/introduccion.top
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/FLUJO_BASE/introduccion.top
     topic: 1  ~introduccion
         rule: 3  ~introduccion.0.0-Introduccion t: 
-          line: 4 0  # $estado = 0 
-          line: 5 12  # $topico = 
           Complexity of rule ~introduccion.0.0-INTRODUCCION t: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/TAREAS/saludo.top
+        rule: 5  ~introduccion.1.0-SALUDO u: 
+          line: 6 0  # $estado = 0 
+          line: 7 12  # $topico = 
+          Complexity of rule ~introduccion.1.0-SALUDO u: 1
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/TAREAS/saludo.top
     topic: 1  ~saludo
         rule: 3  ~saludo.0.0-Saludo t: 
           line: 4 0  # $estado = 1 
-          line: 6 12  # Hola! Yo soy Xentric, tu asist
-          line: 7 56  # A continuacion te hare unas br
-          line: 8 110  # a un producto/servicio de nues
-          line: 9 198  # participando de un sorteo. 
-          line: 10 225  # Deseas responder la encuesta? 
+          line: 6 12  # Hola $nombre ! Yo soy Xentric,
+          line: 7 65  # A continuacion te hare unas br
+          line: 8 119  # a un $tipo de nuestra empresa 
+          line: 9 195  # participando de un sorteo. 
           Complexity of rule ~saludo.0.0-SALUDO t: 1
-        rule: 12  ~saludo.1.0 u: 
-          line: 14 0  # Por favor responda SI o NO. 
+        rule: 11  ~saludo.1.0 u: 
+          line: 13 0  # Deseas responder la encuesta? 
+          line: 14 30  # Por favor responde SI o NO. 
           Complexity of rule ~saludo.1.0- u: 1
         rule: 16  ~saludo.1.1-CONFIRMACION a: 
           line: 17 0  # $estado = 0 
-          line: 18 12  # $topico = ~nombre 
+          line: 18 12  # $topico = ~correo 
           Complexity of rule ~saludo.1.1-CONFIRMACION a: 1
         rule: 20  ~saludo.1.2-NO_CONFIRMACION a: 
           line: 21 0  # Entendido. 
@@ -56,250 +113,165 @@ file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/TARE
           line: 26 0  # La opcion ingresada no es vali
           line: 27 34  # $topico = 
           Complexity of rule ~saludo.1.3-DESCONOCIDO a: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/TAREAS/usted_es.top
-    topic: 2  ~nombre
-        rule: 4  ~nombre.0.0-Nombre t: 
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/TAREAS/usted_es.top
+    topic: 2  ~correo
+        rule: 4  ~correo.0.0-Correo t: 
           line: 5 0  # $estado = 1 
-          line: 6 12  # Antes de continuar. 
-          Complexity of rule ~nombre.0.0-NOMBRE t: 1
-        rule: 8  ~nombre.1.0 u: 
-          line: 10 0  # Me puedes indicar tu nombre po
-          Complexity of rule ~nombre.1.0- u: 1
-        rule: 12  ~nombre.1.1-INGRESO_NOMBRE a: 
-          line: 13 0  # $estado = 0 
-          line: 14 12  # $nombre = '_0 
-          if 15 30  
-          line: 15 26  # ^if 00h( ! $nombre ) aaa{ 
-          line: 16 52  # No has ingresado tu nombre. 
-          line: 17 80  # $topico = ~nombre 
-          else 18 109  
-          line: 18 98  # } aaa else ( 1 ) aaa { 
-          line: 19 121  # $topico = ~confirma_nombre 
-          ifend 20 153  
-          line: 20 148  # } 004 
-          Complexity of rule ~nombre.1.1-INGRESO_NOMBRE a: 2
-    topic: 22  ~confirma_nombre
-        rule: 24  ~confirma_nombre.0.0-ConfirmaNombre t: 
-          line: 25 0  # $estado = 1 
-          Complexity of rule ~confirma_nombre.0.0-CONFIRMANOMBRE t: 1
-        rule: 27  ~confirma_nombre.1.0 u: 
-          line: 29 0  # Tu nombre es $nombre ? 
-          line: 30 23  # Por favor responda SI o NO. 
-          Complexity of rule ~confirma_nombre.1.0- u: 1
-        rule: 32  ~confirma_nombre.1.1-CONFIRMACION a: 
-          line: 33 0  # $estado = 0 
-          line: 34 12  # $topico = ~correo 
-          Complexity of rule ~confirma_nombre.1.1-CONFIRMACION a: 1
-        rule: 36  ~confirma_nombre.1.2-NO_CONFIRMACION a: 
-          line: 37 0  # Entendido. 
-          line: 38 11  # $estado = 0 
-          line: 39 23  # $topico = ~nombre 
-          Complexity of rule ~confirma_nombre.1.2-NO_CONFIRMACION a: 1
-        rule: 41  ~confirma_nombre.1.3-DESCONOCIDO a: 
-          line: 42 0  # La opcion ingresada no es vali
-          line: 43 34  # $topico = ~confirma_nombre 
-          Complexity of rule ~confirma_nombre.1.3-DESCONOCIDO a: 1
-    topic: 47  ~correo
-        rule: 49  ~correo.0.0-Correo t: 
-          line: 50 0  # $estado = 1 
-          line: 51 12  # Mucho gusto en conocerte $nomb
+          line: 6 12  # Gracias por participar $nombre
           Complexity of rule ~correo.0.0-CORREO t: 1
-        rule: 53  ~correo.1.0 u: 
-          line: 55 0  # Me puedes indicar tu correo el
-          line: 56 51  # Recuerda escribir tu correo co
+        rule: 8  ~correo.1.0 u: 
+          line: 10 0  # Me puedes indicar tu correo el
+          line: 11 51  # Recuerda escribir tu correo co
           Complexity of rule ~correo.1.0- u: 1
-        rule: 58  ~correo.1.1-INGRESO_CORREO a: 
-          line: 59 0  # $estado = 0 
-          line: 60 12  # $correo = '_0 
-          if 61 30  
-          line: 61 26  # ^if 00h( ! $correo ) aaa{ 
-          line: 62 52  # No has ingresado tu correo ele
-          line: 63 92  # $topico = ~correo 
-          else 64 121  
-          line: 64 110  # } aaa else ( 1 ) aaa { 
-          line: 65 133  # $topico = ~confirma_correo 
-          ifend 66 165  
-          line: 66 160  # } 004 
+        rule: 13  ~correo.1.1-INGRESO_CORREO a: 
+          line: 14 0  # $estado = 0 
+          line: 15 12  # $correo = '_0 
+          if 16 30  
+          line: 16 26  # ^if 00h( ! $correo ) aaa{ 
+          line: 17 52  # No has ingresado tu correo ele
+          line: 18 92  # $topico = ~correo 
+          else 19 121  
+          line: 19 110  # } aaa else ( 1 ) aaa { 
+          line: 20 133  # $topico = ~confirma_correo 
+          ifend 21 165  
+          line: 21 160  # } 004 
           Complexity of rule ~correo.1.1-INGRESO_CORREO a: 2
-    topic: 68  ~confirma_correo
-        rule: 70  ~confirma_correo.0.0-ConfirmaCorreo t: 
-          line: 71 0  # $estado = 1 
+    topic: 23  ~confirma_correo
+        rule: 25  ~confirma_correo.0.0-ConfirmaCorreo t: 
+          line: 26 0  # $estado = 1 
           Complexity of rule ~confirma_correo.0.0-CONFIRMACORREO t: 1
-        rule: 73  ~confirma_correo.1.0 u: 
-          line: 75 0  # Tu correo es $correo ? 
-          line: 76 23  # Por favor responda SI o NO. 
+        rule: 28  ~confirma_correo.1.0 u: 
+          line: 30 0  # Tu correo es $correo ? 
+          line: 31 23  # Por favor responda SI o NO. 
           Complexity of rule ~confirma_correo.1.0- u: 1
-        rule: 78  ~confirma_correo.1.1-CONFIRMACION a: 
-          line: 79 0  # $estado = 0 
-          line: 80 12  # $topico = ~pregunta_uno 
+        rule: 33  ~confirma_correo.1.1-CONFIRMACION a: 
+          line: 34 0  # $estado = 0 
+          line: 35 12  # $topico = ~pregunta_uno 
           Complexity of rule ~confirma_correo.1.1-CONFIRMACION a: 1
-        rule: 82  ~confirma_correo.1.2-NO_CONFIRMACION a: 
-          line: 83 0  # Entendido. 
-          line: 84 11  # $estado = 0 
-          line: 85 23  # $topico = ~correo 
+        rule: 37  ~confirma_correo.1.2-NO_CONFIRMACION a: 
+          line: 38 0  # Entendido. 
+          line: 39 11  # $estado = 0 
+          line: 40 23  # $topico = ~correo 
           Complexity of rule ~confirma_correo.1.2-NO_CONFIRMACION a: 1
-        rule: 87  ~confirma_correo.1.3-DESCONOCIDO a: 
-          line: 88 0  # La opcion ingresada no es vali
-          line: 89 34  # $topico = ~confirma_correo 
+        rule: 42  ~confirma_correo.1.3-DESCONOCIDO a: 
+          line: 43 0  # La opcion ingresada no es vali
+          line: 44 34  # $topico = ~confirma_correo 
           Complexity of rule ~confirma_correo.1.3-DESCONOCIDO a: 1
-    topic: 93  ~pregunta_uno
-        rule: 95  ~pregunta_uno.0.0-Pregunta_uno t: 
-          line: 96 0  # $estado = 1 
+    topic: 48  ~pregunta_uno
+        rule: 50  ~pregunta_uno.0.0-Pregunta_uno t: 
+          line: 51 0  # $estado = 1 
+          line: 52 12  # Muy bien $nombre . 
           Complexity of rule ~pregunta_uno.0.0-PREGUNTA_UNO t: 1
-        rule: 98  ~pregunta_uno.1.0 u: 
-          line: 100 0  # $nombre . Que te ha parecido e
-          line: 101 51  # Por favor, indicame con un num
-          line: 102 134  # donde 1 es un mal producto/ser
+        rule: 54  ~pregunta_uno.1.0 u: 
+          line: 56 0  # Que te ha parecido el $tipo $p
+          line: 57 40  # Por favor, indicame con un num
+          line: 58 112  # donde 1 es un Mal $tipo y 7 es
           Complexity of rule ~pregunta_uno.1.0- u: 1
-        rule: 104  ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 
-          line: 105 0  # $estado = 0 
-          line: 106 12  # $preg_uno = '_0 
-          line: 107 28  # $topico = ~pregunta_dos 
+        rule: 60  ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 
+          line: 61 0  # $estado = 0 
+          line: 62 12  # $preg_uno = '_0 
+          line: 63 28  # $topico = ~pregunta_dos 
           Complexity of rule ~pregunta_uno.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 109  ~pregunta_uno.1.2-DESCONOCIDO a: 
-          line: 110 0  # La opcion ingresada no es vali
-          line: 111 34  # $topico = ~pregunta_uno 
+        rule: 65  ~pregunta_uno.1.2-DESCONOCIDO a: 
+          line: 66 0  # La opcion ingresada no es vali
+          line: 67 34  # $topico = ~pregunta_uno 
           Complexity of rule ~pregunta_uno.1.2-DESCONOCIDO a: 1
-    topic: 115  ~pregunta_dos
-        rule: 117  ~pregunta_dos.0.0-Pregunta_dos t: 
-          line: 118 0  # $estado = 1 
+    topic: 71  ~pregunta_dos
+        rule: 73  ~pregunta_dos.0.0-Pregunta_dos t: 
+          line: 74 0  # $estado = 1 
           Complexity of rule ~pregunta_dos.0.0-PREGUNTA_DOS t: 1
-        rule: 120  ~pregunta_dos.1.0 u: 
-          line: 122 0  # $nombre . Que te parece la cal
-          line: 124 65  # Por favor, indicame con un num
-          line: 125 148  # donde 1 es un mala calidad y 7
+        rule: 76  ~pregunta_dos.1.0 u: 
+          line: 78 0  # Que te parece la calidad de nu
+          line: 80 54  # Por favor, indicame con un num
+          line: 81 126  # donde 1 es una Mala Calidad de
           Complexity of rule ~pregunta_dos.1.0- u: 1
-        rule: 127  ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 
-          line: 128 0  # $estado = 0 
-          line: 129 12  # $preg_dos = '_0 
-          line: 130 28  # $topico = ~pregunta_tres 
+        rule: 83  ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 
+          line: 84 0  # $estado = 0 
+          line: 85 12  # $preg_dos = '_0 
+          line: 86 28  # $topico = ~pregunta_tres 
           Complexity of rule ~pregunta_dos.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 132  ~pregunta_dos.1.2-DESCONOCIDO a: 
-          line: 133 0  # La opcion ingresada no es vali
-          line: 134 34  # $topico = ~pregunta_dos 
+        rule: 88  ~pregunta_dos.1.2-DESCONOCIDO a: 
+          line: 89 0  # La opcion ingresada no es vali
+          line: 90 34  # $topico = ~pregunta_dos 
           Complexity of rule ~pregunta_dos.1.2-DESCONOCIDO a: 1
-    topic: 138  ~pregunta_tres
-        rule: 140  ~pregunta_tres.0.0-Pregunta_tres t: 
-          line: 141 0  # $estado = 1 
+    topic: 94  ~pregunta_tres
+        rule: 96  ~pregunta_tres.0.0-Pregunta_tres t: 
+          line: 97 0  # $estado = 1 
           Complexity of rule ~pregunta_tres.0.0-PREGUNTA_TRES t: 1
-        rule: 143  ~pregunta_tres.1.0 u: 
-          line: 145 0  # $nombre . Que te parece el pre
-          line: 147 57  # Por favor, indicame con un num
-          line: 148 140  # donde 1 es caro y 7 es un prec
+        rule: 99  ~pregunta_tres.1.0 u: 
+          line: 101 0  # Que te parece el precio del $t
+          line: 103 46  # Por favor, indicame con un num
+          line: 104 118  # donde 1 es un Precio Caro del 
           Complexity of rule ~pregunta_tres.1.0- u: 1
-        rule: 150  ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 
-          line: 151 0  # $estado = 0 
-          line: 152 12  # $preg_tres = '_0 
-          line: 153 29  # $topico = ~pregunta_cuatro 
+        rule: 106  ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 
+          line: 107 0  # $estado = 0 
+          line: 108 12  # $preg_tres = '_0 
+          line: 109 29  # $topico = ~pregunta_cuatro 
           Complexity of rule ~pregunta_tres.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 155  ~pregunta_tres.1.2-DESCONOCIDO a: 
-          line: 156 0  # La opcion ingresada no es vali
-          line: 157 34  # $topico = ~pregunta_tres 
+        rule: 111  ~pregunta_tres.1.2-DESCONOCIDO a: 
+          line: 112 0  # La opcion ingresada no es vali
+          line: 113 34  # $topico = ~pregunta_tres 
           Complexity of rule ~pregunta_tres.1.2-DESCONOCIDO a: 1
-    topic: 161  ~pregunta_cuatro
-        rule: 163  ~pregunta_cuatro.0.0-Pregunta_cuatro t: 
-          line: 164 0  # $estado = 1 
+    topic: 117  ~pregunta_cuatro
+        rule: 119  ~pregunta_cuatro.0.0-Pregunta_cuatro t: 
+          line: 120 0  # $estado = 1 
           Complexity of rule ~pregunta_cuatro.0.0-PREGUNTA_CUATRO t: 1
-        rule: 166  ~pregunta_cuatro.1.0 u: 
-          line: 168 0  # $nombre . del 1 al 10 Como eva
-          line: 170 62  # Por favor, indicame con un num
+        rule: 122  ~pregunta_cuatro.1.0 u: 
+          line: 124 0  # Como evaluarias generalmente a
+          line: 126 58  # Por favor, indicame con un num
           Complexity of rule ~pregunta_cuatro.1.0- u: 1
-        rule: 172  ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 
-          line: 173 0  # $estado = 0 
-          line: 174 12  # $preg_cuatro = '_0 
-          line: 175 31  # $topico = ~pregunta_validacion
+        rule: 128  ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 
+          line: 129 0  # $estado = 0 
+          line: 130 12  # $preg_cuatro = '_0 
+          line: 131 31  # $topico = ~pregunta_validacion
           Complexity of rule ~pregunta_cuatro.1.1-RESPONDE_PREGUNTA a: 1
-        rule: 177  ~pregunta_cuatro.1.2-DESCONOCIDO a: 
-          line: 178 0  # La opcion ingresada no es vali
-          line: 179 34  # $topico = ~pregunta_cuatro 
+        rule: 133  ~pregunta_cuatro.1.2-DESCONOCIDO a: 
+          line: 134 0  # La opcion ingresada no es vali
+          line: 135 34  # $topico = ~pregunta_cuatro 
           Complexity of rule ~pregunta_cuatro.1.2-DESCONOCIDO a: 1
-    topic: 183  ~pregunta_validacion
-        rule: 185  ~pregunta_validacion.0.0-Pregunta_validacion t: 
-          line: 186 0  # $estado = 1 
-          line: 187 12  # Muchas gracias por responder e
+    topic: 139  ~pregunta_validacion
+        rule: 141  ~pregunta_validacion.0.0-Pregunta_validacion t: 
+          line: 142 0  # $estado = 1 
+          line: 143 12  # Muchas gracias por responder $
           Complexity of rule ~pregunta_validacion.0.0-PREGUNTA_VALIDACION t: 1
-        rule: 189  ~pregunta_validacion.1.0 u: 
-          line: 191 0  # Desea mandar sus respuestas? 
-          line: 192 29  # Por favor responda SI para gua
+        rule: 145  ~pregunta_validacion.1.0 u: 
+          line: 147 0  # Deseas mandar tus respuestas? 
+          line: 148 30  # Por favor responde SI para gua
           Complexity of rule ~pregunta_validacion.1.0- u: 1
-        rule: 194  ~pregunta_validacion.1.1-CONFIRMACION a: 
-          line: 195 0  # $estado = 0 
-          line: 196 12  # $topico = ~conclusion 
+        rule: 150  ~pregunta_validacion.1.1-CONFIRMACION a: 
+          line: 151 0  # $estado = 0 
+          line: 152 12  # $topico = ~conclusion 
           Complexity of rule ~pregunta_validacion.1.1-CONFIRMACION a: 1
-        rule: 198  ~pregunta_validacion.1.2-NO_CONFIRMACION a: 
-          line: 199 0  # Entendido. 
-          line: 200 11  # $estado = 0 
-          line: 201 23  # $topico = ~pregunta_uno 
+        rule: 154  ~pregunta_validacion.1.2-NO_CONFIRMACION a: 
+          line: 155 0  # Entendido. 
+          line: 156 11  # $estado = 0 
+          line: 157 23  # $topico = ~pregunta_uno 
           Complexity of rule ~pregunta_validacion.1.2-NO_CONFIRMACION a: 1
-        rule: 203  ~pregunta_validacion.1.3-DESCONOCIDO a: 
-          line: 204 0  # La opcion ingresada no es vali
-          line: 205 34  # $topico = 
+        rule: 159  ~pregunta_validacion.1.3-DESCONOCIDO a: 
+          line: 160 0  # La opcion ingresada no es vali
+          line: 161 34  # $topico = 
           Complexity of rule ~pregunta_validacion.1.3-DESCONOCIDO a: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/CONFIGURACION/configuracion.top
-    macro: 1  ^xentric
-          line: 3 0  # $cs_token = 256 | 4194304 | 25
-          line: 4 47  # $cs_token -= 2048 | DO_SUBSTIT
-          line: 6 96  # $cs_token = 0 
-          line: 8 110  # $cs_language = spanish 
-          line: 10 133  # $cs_control_main = ~control 
-          line: 12 161  # $userprompt = ^"%user: >" 
-          line: 13 187  # $botprompt = ^"xentric: " 
-          Complexity of ^xentric: 1
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/CONFIGURACION/control.top
-    topic: 1  ~control
-        rule: 3  ~control.0.0 u: 
-          if 6 4  
-          line: 6 0  # ^if 00v( %input < %userfirstli
-          line: 7 40  # ^nofail ( TOPIC ^respond ( ~in
-          line: 8 85  # ^nofail ( TOPIC ^gambit ( ~int
-          ifend 9 134  
-          line: 9 129  # } 004 
-          if 11 139  
-          line: 11 135  # ^if 00w( %input == %userfirstl
-          ifend 13 181  
-          line: 13 176  # } 004 
-          line: 18 182  # ^nofail ( TOPIC ^rejoinder ( )
-          if 23 219  
-          line: 23 215  # ^if 00A( %response == 0 and ! 
-          line: 25 260  # @8 = ^query ( direct_sv topick
-          line: 27 308  # $$respuesta = %response 
-          loop 28 338  
-          line: 28 332  # ^loop ( -1 ) aaa { $$topic = ^
-          line: 29 381  # ^nofail ( TOPIC ^respond ( $$t
-          if 31 424  
-          ifend 31 469  
-          line: 31 420  # ^if 00l( %response > 0 ) 00p{ 
-          loopend 33 472  
-          line: 33 470  # } 
-          if 35 476  
-          line: 35 472  # ^if 00v( %response > $$respues
-          line: 37 512  # $$respuesta_topic = True 
-          if 42 541  
-          line: 42 537  # ^if 00q( ! %outputrejoinder ) 
-          line: 44 572  # ^setrejoinder ( OUTPUT ~help.c
-          ifend 45 618  
-          line: 45 613  # } 004 
-          ifend 47 624  
-          line: 47 619  # } 004 
-          ifend 48 630  
-          line: 48 625  # } 004 
-          if 50 635  
-          ifend 50 685  
-          line: 50 631  # ^if 00p( $$respuesta_topic ) 0
-          line: 54 686  # ^nofail ( TOPIC ^gambit ( $top
-          Complexity of rule ~control.0.0- u: 8
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/CONCEPTOS/conceptos.top
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/CONCEPTOS/conceptos.top
     concept: 2  ~sic
     concept: 3  ~noc
     concept: 4  ~rangounosiete
     concept: 5  ~rangounodiez
-file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/INBOUND/DATOS/datos.top
+file: 0  C:/Users/luisc/Documents/GitHub/Pruebas-ChatScript/RAWDATA/OUTBOUND/DATOS/datos.top
     macro: 1  ^testfn
           Complexity of ^testfn: 1
     macro: 3  ^myfunc1
           line: 4 0  # ^0 
           Complexity of ^myfunc1: 1
     topic: 6  ~datos
-        rule: 8  ~datos.0.0 u: 
-          line: 8 0  # $empresa = 
+        rule: 10  ~datos.0.0 u: 
+          line: 10 0  # $nombre = JUANITO 
           Complexity of rule ~datos.0.0- u: 1
+        rule: 12  ~datos.1.0 u: 
+          line: 12 0  # $empresa = COCA_COLA 
+          Complexity of rule ~datos.1.0- u: 1
+        rule: 14  ~datos.2.0 u: 
+          line: 14 0  # $tipo = PRODUCTO 
+          Complexity of rule ~datos.2.0- u: 1
+        rule: 16  ~datos.3.0 u: 
+          line: 16 0  # $producto = 
+          Complexity of rule ~datos.3.0- u: 1

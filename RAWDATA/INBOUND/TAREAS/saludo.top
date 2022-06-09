@@ -5,13 +5,13 @@ t: Saludo ($estado=0)
 
     Hola! Yo soy Xentric, tu asistente virtual. 
     A continuacion te hare unas breves preguntas respecto
-    a un producto/servicio de nuestra empresa $empresa . Al responder esta encuesta estaras
+    a un $tipo de nuestra empresa $empresa . Al responder esta encuesta estaras
     participando de un sorteo.
-    Deseas responder la encuesta?
 
 u: () 
 
-    Por favor responda SI o NO.
+    Deseas responder la encuesta?
+    Por favor responde SI o NO.
 
     a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0

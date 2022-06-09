@@ -3,7 +3,8 @@ topic: ~control repeat system ()
 u: ()
 
 # INICIO CONVERSACION
-if ( %input < %userfirstline) { 	
+if ( %input < %userfirstline) {
+	^respond(~datos) 	
 	^nofail(TOPIC ^respond(~introduccion))
 	^nofail(TOPIC ^gambit(~introduccion))
 	}

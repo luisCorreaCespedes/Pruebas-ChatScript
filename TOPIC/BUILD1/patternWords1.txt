@@ -1,4 +1,7 @@
-﻿sí
+﻿hola
+buenos_dias
+buenas_tardes
+sí
 sipis
 silla
 así

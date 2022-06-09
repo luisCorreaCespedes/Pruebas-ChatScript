@@ -1,70 +1,29 @@
 USERS/topic_luis_xentric.txt
-jul2116 May30'22-03:25:53-1653895553980 Jun08'22-21:29:58-1654738198356 1654269761-11.1.0.12.0.0 |
-1 20 0 DY 0 15 15 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~saludo ~nombre ~confirma_nombre ~correo ~confirma_correo ~pregunta_uno ~pregunta_dos ~pregunta_tres ~pregunta_cuatro ~pregunta_validacion ~conclusion #pending
-~introduccion + 1 P?G66 ia 0 0 0 
-~saludo + 1 QMg74 ia 0 0 0 
-~nombre + 1 -p#~7 ia 1 0 0 
-~confirma_nombre + 1 S=HL6 ia 2 0 0 
-~correo + 1 qclN4 ia 3 0 0 
-~confirma_correo + 1 am&F2 ia 5 0 0 
-~pregunta_uno + 1 PqyD4 ia 6 0 0 
-~pregunta_dos + 1 8I&03 ia 7 0 0 
-~pregunta_tres + 1 3w8%3 ia g 0 0 
-~pregunta_cuatro + 1 m=?o5 ia i 0 0 
-~pregunta_validacion + 1 2eP42 ia j 0 0 
+jul2116 May30'22-03:25:53-1653895553980 Jun09'22-16:42:47-1654807367350 1654269761-11.1.0.12.0.0 |
+2 6 0 DY 0 13 13 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+#pending
 #`end topics
 $cs_language=ENGLISH
-$preg_uno=s
-$correo=s
-$nombre=Luis
-$topico=0
-$estado=0
 $botprompt=xentric: 
 $userprompt=luis: >
 $cs_control_main=~control
+$cs_response=32
 $cs_token=0
 $cs_login=luis
 $cs_bot=Xentric
 $cs_randindex=2082
 $cs_trace=0
 $cs_time=0
-$preg_dos=s
-$preg_tres=s
-$preg_cuatro=s
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~conclusion 20 CONCLUSION ~pregunta_cuatro 18 DESCONOCIDO 
- si
- Luis
- si
- s
- a
- si
- 5
- 4
- 0
- .
- dfgdsfghjhgfd
- @@@@
- @build
- :aaa
- a
- 8
- 7
- 0
- 9
- si
+#context ~conclusion 14 CONCLUSION 
+ hola
+ fghgfgf
+ df
+ gf
+ gf
+ dh
 #`end user
- Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
- La opcion ingresada no es valida.
- Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.
- Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
- La opcion ingresada no es valida.
- Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
- Muchas gracias por responder esta encuesta.
- Desea mandar sus respuestas? Por favor responda SI para guardar sus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.
- Muchas gracias Luis por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en
 #`end chatbot

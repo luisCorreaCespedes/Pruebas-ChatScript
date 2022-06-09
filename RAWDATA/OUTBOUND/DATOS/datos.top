@@ -1,0 +1,18 @@
+outputmacro: ^testfn variable ()
+
+outputmacro: ^myfunc1(^resp)
+^resp
+
+topic: ~datos keep repeat ()
+
+#u: () $data = ^jsonreadcsv( TAB RAWDATA/INBOUND/DATOS/datos.txt '^testfn )
+
+u: () $nombre = JUANITO
+
+u: () $empresa = COCA_COLA
+
+u: () $tipo = PRODUCTO
+
+u: () $producto = COCA_COLA_LIGHT
+
+

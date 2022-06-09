@@ -3,6 +3,7 @@ topic: ~nombre keep repeat ()
 
 t: Nombre ($estado=0)
     $estado = 1
+
     Antes de continuar.
 
 u: ()
@@ -94,12 +95,13 @@ topic: ~pregunta_uno keep repeat ()
 
 t: Pregunta_uno ($estado=0)
     $estado = 1
+    Muy bien $nombre .
 
 u: ()
 
-    $nombre . Que te ha parecido el producto/servicio?
-    Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio,
-    donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+    Que te ha parecido el $tipo $producto?
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del $tipo,
+    donde 1 es un Mal $tipo y 7 es un Buen $tipo.
 
     a: RESPONDE_PREGUNTA (~rangoUnoSiete)
 	    $estado = 0
@@ -119,10 +121,10 @@ t: Pregunta_dos ($estado=0)
 
 u: ()
 
-    $nombre . Que te parece la calidad de nuestro producto/servicio?
+    Que te parece la calidad de nuestro $tipo $producto?
     
-    Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio,
-    donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del $tipo,
+    donde 1 es una Mala Calidad del $tipo y 7 es una Buena Calidad del $tipo.
 
     a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
 	    $estado = 0
@@ -142,10 +144,10 @@ t: Pregunta_tres ($estado=0)
 
 u: ()
 
-    $nombre . Que te parece el precio del producto/servicio?
+    Que te parece el precio del $tipo $producto?
     
-    Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio,
-    donde 1 es caro y 7 es un precio justo producto/servicio.
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del $tipo,
+    donde 1 es un Precio Caro del $tipo y 7 es un Precio Justo del $tipo.
 
     a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
 	    $estado = 0
@@ -165,7 +167,7 @@ t: Pregunta_cuatro ($estado=0)
 
 u: ()
 
-    $nombre . del 1 al 10 Como evaluarias generalmente a empresa?
+    Como evaluarias generalmente a nuestra empresa $empresa?
 
     Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
 
@@ -184,12 +186,12 @@ topic: ~pregunta_validacion keep repeat ()
 
 t: Pregunta_validacion ($estado=0) 
     $estado = 1
-    Muchas gracias por responder esta encuesta.
+    Muchas gracias por responder $nombre .
 
 u: () 
 
-    Desea mandar sus respuestas?
-    Por favor responda SI para guardar sus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.
+    Deseas mandar tus respuestas?
+    Por favor responde SI para guardar tus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.
 
     a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0

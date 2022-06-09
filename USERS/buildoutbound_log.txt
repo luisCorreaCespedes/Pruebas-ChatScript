@@ -1,0 +1,64 @@
+﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+
+>>Reading folder RAWDATA/OUTBOUND/CONFIGURACION/
+
+----Reading file configuracion.top   
+Reading outputmacro: ^xentric
+Reading table ^tbl:defaultbot
+
+----Reading file control.top   
+Reading topic ~control
+
+<<end folder RAWDATA/OUTBOUND/CONFIGURACION
+
+>>Reading folder RAWDATA/OUTBOUND/FLUJO_BASE/
+
+----Reading file conclusion.top   
+Reading topic ~conclusion
+Reading topic ~salir
+
+----Reading file introduccion.top   
+Reading topic ~introduccion
+
+<<end folder RAWDATA/OUTBOUND/FLUJO_BASE
+
+>>Reading folder RAWDATA/OUTBOUND/TAREAS/
+
+----Reading file saludo.top   
+Reading topic ~saludo
+
+----Reading file usted_es.top   
+Reading topic ~correo
+Reading topic ~confirma_correo
+Reading topic ~pregunta_uno
+Reading topic ~pregunta_dos
+Reading topic ~pregunta_tres
+Reading topic ~pregunta_cuatro
+Reading topic ~pregunta_validacion
+
+<<end folder RAWDATA/OUTBOUND/TAREAS
+
+>>Reading folder RAWDATA/OUTBOUND/CONCEPTOS/
+
+----Reading file conceptos.top   
+Reading concept ~sic
+Reading concept ~noc
+Reading concept ~rangounosiete
+Reading concept ~rangounodiez
+
+<<end folder RAWDATA/OUTBOUND/CONCEPTOS
+
+>>Reading folder RAWDATA/OUTBOUND/DATOS/
+
+----Reading file datos.top   
+Reading outputmacro: ^testfn
+Reading outputmacro: ^myfunc1
+Reading topic ~datos
+
+<<end folder RAWDATA/OUTBOUND/DATOS
+    No errors or warnings
+
+
+
+    Finished compile
+

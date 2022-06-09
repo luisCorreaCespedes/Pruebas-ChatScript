@@ -1,0 +1,161 @@
+#----------------- CORREO -------------------
+topic: ~correo keep repeat ()
+
+t: Correo ($estado=0)
+    $estado = 1
+    Gracias por participar $nombre .
+
+u: ()
+
+    Me puedes indicar tu correo electronico por favor?
+    Recuerda escribir tu correo con el formato nombre@mail.com
+
+    a: INGRESO_CORREO (_*)
+        $estado = 0
+        $correo = '_0
+        if(!$correo) {
+            No has ingresado tu correo electronico.
+            $topico = ~correo
+        } else {
+            $topico = ~confirma_correo
+        }
+
+topic: ~confirma_correo keep repeat ()
+
+t: ConfirmaCorreo ($estado=0)
+    $estado = 1
+
+u: ()
+
+    Tu correo es $correo ?
+    Por favor responda SI o NO.
+
+   a: CONFIRMACION ( [ ~sic ] )
+	    $estado = 0
+        $topico = ~pregunta_uno
+
+    a: NO_CONFIRMACION ( [ ~noc ] )
+        Entendido. 
+        $estado = 0
+        $topico = ~correo
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~confirma_correo
+
+
+#------------------- PREGUNTA UNO -------------------
+topic: ~pregunta_uno keep repeat ()
+
+t: Pregunta_uno ($estado=0)
+    $estado = 1
+    Muy bien $nombre .
+
+u: ()
+
+    Que te ha parecido el $tipo $producto?
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del $tipo,
+    donde 1 es un Mal $tipo y 7 es un Buen $tipo.
+
+    a: RESPONDE_PREGUNTA (~rangoUnoSiete)
+	    $estado = 0
+        $preg_uno = '_0
+        $topico = ~pregunta_dos
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_uno
+
+
+#------------------- PREGUNTA DOS -------------------
+topic: ~pregunta_dos keep repeat ()
+
+t: Pregunta_dos ($estado=0)
+    $estado = 1
+
+u: ()
+
+    Que te parece la calidad de nuestro $tipo $producto?
+    
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del $tipo,
+    donde 1 es una Mala Calidad del $tipo y 7 es una Buena Calidad del $tipo.
+
+    a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
+	    $estado = 0
+        $preg_dos = '_0
+        $topico = ~pregunta_tres
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_dos
+
+
+#------------------- PREGUNTA TRES ------------------
+topic: ~pregunta_tres keep repeat ()
+
+t: Pregunta_tres ($estado=0)
+    $estado = 1
+
+u: ()
+
+    Que te parece el precio del $tipo $producto?
+    
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del $tipo,
+    donde 1 es un Precio Caro del $tipo y 7 es un Precio Justo del $tipo.
+
+    a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
+	    $estado = 0
+        $preg_tres = '_0
+        $topico = ~pregunta_cuatro
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_tres
+
+
+#---------------- PREGUNTA CUATRO -------------------
+topic: ~pregunta_cuatro keep repeat ()
+
+t: Pregunta_cuatro ($estado=0)
+    $estado = 1
+
+u: ()
+
+    Como evaluarias generalmente a nuestra empresa $empresa?
+
+    Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
+
+    a: RESPONDE_PREGUNTA ( [ ~rangoUnoDiez ])
+	    $estado = 0
+        $preg_cuatro = '_0
+        $topico = ~pregunta_validacion
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_cuatro
+
+
+#-------------- PREGUNTA VALIDACIÓN -------------------
+topic: ~pregunta_validacion keep repeat ()
+
+t: Pregunta_validacion ($estado=0) 
+    $estado = 1
+    Muchas gracias por responder $nombre .
+
+u: () 
+
+    Deseas mandar tus respuestas?
+    Por favor responde SI para guardar tus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.
+
+    a: CONFIRMACION ( [ ~sic ] )
+	    $estado = 0
+        $topico = ~conclusion
+
+    a: NO_CONFIRMACION ( [ ~noc ] )
+        Entendido. 
+        $estado = 0
+        $topico = ~pregunta_uno
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_validacion
