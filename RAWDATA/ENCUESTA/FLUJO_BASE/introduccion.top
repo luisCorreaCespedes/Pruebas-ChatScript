@@ -1,5 +1,0 @@
-topic: ~introduccion keep repeat()
-
-t: Introduccion ()
-    $estado = 0
-    $topico = ~saludo

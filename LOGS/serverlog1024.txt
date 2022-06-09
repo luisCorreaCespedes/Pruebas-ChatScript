@@ -3153,3 +3153,1376 @@ Jun 02 23:08:17.759 2022 Respond: user:axel bot:xentric len:2 ip: (~pregunta_val
 
 Jun 02 23:08:19.853 2022 ServerPre: pid: 0 axel (xentric) size=2 si
 Jun 02 23:08:19.853 2022 Respond: user:axel bot:xentric len:3 ip: (~conclusion) 13 si  ==> Muchas gracias axel por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 02 23:08:19.856 2022 3ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=52  heap=7592 Compiled:Jun02'22-23:07:42-1654225662423 by version 12.1 "encuesta"
+
+Jun 03 11:16:12.572 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:16:12.572 2022 Start: user:Luis bot:xentric ip: () 5 ==>   When:Jun 03 11:16:12.604 2022 32ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun02'22-23:07:42-1654225662423 Build1:Jun02'22-23:07:42-1654225662423 
+
+Jun 03 11:16:17.485 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=52  heap=7632 Compiled:Jun03'22-11:16:17-1654269377568 by version 12.1 "encuesta"
+
+Jun 03 11:16:18.851 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:16:18.851 2022 Start: user:luis bot:xentric ip: () 5 ==>   When:Jun 03 11:16:18.867 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:16:17-1654269377568 Build1:Jun03'22-11:16:17-1654269377568 
+
+Jun 03 11:16:22.108 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:16:22.108 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:16:22.139 2022 31ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:16:32.130 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 03 11:16:32.130 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 1 no  ==> Entendido. Muchas gracias por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 03 11:16:32.130 2022 0ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=52  heap=7592 Compiled:Jun03'22-11:16:17-1654269377568 by version 12.1 "encuesta"
+
+Jun 03 11:17:50.182 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:17:50.182 2022 Start: user:Luis bot:xentric ip: () 1 ==>   When:Jun 03 11:17:50.182 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:16:17-1654269377568 Build1:Jun03'22-11:16:17-1654269377568 
+
+Jun 03 11:17:54.224 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7832 Compiled:Jun03'22-11:17:54-1654269474306 by version 12.1 "encuesta"
+
+Jun 03 11:17:55.580 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:17:55.580 2022 Start: user:luis bot:xentric ip: () 1 ==>   When:Jun 03 11:17:55.580 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:17:54-1654269474306 Build1:Jun03'22-11:17:54-1654269474306 
+
+Jun 03 11:17:59.198 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:17:59.198 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:17:59.213 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:18:05.609 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 03 11:18:05.609 2022 Respond: user:luis bot:xentric len:3 ip: (~salir) 1 no  ==> Entendido. Hasta pronto!  When:Jun 03 11:18:05.609 2022 0ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~salir.0.0=SALIR.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:18:08.209 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:18:08.209 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:18:08.209 2022 0ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:18:09.760 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:18:09.760 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 03 11:18:09.776 2022 16ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:18:11.608 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:18:11.608 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 03 11:18:11.608 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:17:54-1654269474306 Build1:Jun03'22-11:17:54-1654269474306 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 03 11:18:15.114 2022 ServerPre: pid: 0 luis (xentric) size=11 Luis Correa
+Jun 03 11:18:15.114 2022 Respond: user:luis bot:xentric len:12 ip: (~correo) 2 Luis Correa  ==> Mucho gusto en conocerte Luis Correa. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:18:15.114 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:18:18.856 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:18:18.856 2022 Start: user:luis bot:xentric ip: (~correo) 2 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:18:18.871 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:17:54-1654269474306 Build1:Jun03'22-11:17:54-1654269474306 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 03 11:18:25.800 2022 ServerPre: pid: 0 luis (xentric) size=14 luis@correa.cl
+Jun 03 11:18:25.800 2022 Respond: user:luis bot:xentric len:15 ip: (~pregunta_uno) 3 luis@correa.cl  ==> Luis Correa. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:18:25.815 2022 15ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:19:26.888 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:19:26.888 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Luis Correa. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:19:26.903 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:17:54-1654269474306 Build1:Jun03'22-11:17:54-1654269474306 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7792 Compiled:Jun03'22-11:17:54-1654269474306 by version 12.1 "encuesta"
+
+Jun 03 11:19:57.709 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:19:57.709 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Luis Correa. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:19:57.714 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:17:54-1654269474306 Build1:Jun03'22-11:17:54-1654269474306 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:02.446 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7832 Compiled:Jun03'22-11:20:02-1654269602528 by version 12.1 "encuesta"
+
+Jun 03 11:20:03.747 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:20:03.747 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:03.762 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:13.925 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:20:13.925 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:20:13.941 2022 16ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:15.612 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:20:15.612 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 03 11:20:15.612 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:17.616 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 03 11:20:17.616 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:20:17.616 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:24.405 2022 ServerPre: pid: 0 luis (xentric) size=3 sss
+Jun 03 11:20:24.405 2022 Respond: user:luis bot:xentric len:4 ip: (~pregunta_uno) 3 sss  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:24.420 2022 15ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:26.599 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:26.599 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:26.599 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:37.106 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:37.106 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:37.106 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:37.845 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:37.845 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:37.860 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:38.301 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:38.301 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:38.317 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:38.493 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:38.493 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:38.493 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:38.638 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:38.638 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:38.638 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:38.783 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:38.783 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:38.783 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:38.912 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:38.897 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:38.912 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:39.026 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:39.026 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:39.026 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:39.171 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:39.171 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:39.171 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:39.300 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:39.300 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:39.300 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:39.429 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:39.429 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:39.429 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:39.558 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:39.558 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:39.558 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.062 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.062 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.062 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.094 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.094 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.094 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.125 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.125 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.125 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.156 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.156 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.172 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.187 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.187 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.203 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.219 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.219 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.234 2022 15ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.266 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.250 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.266 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.297 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.297 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.297 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:40.328 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:20:40.328 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:40.328 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:20:42.663 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:20:42.663 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:20:42.678 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:44.339 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:20:44.339 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 03 11:20:44.339 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:46.660 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 03 11:20:46.660 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:20:46.660 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:49.276 2022 ServerPre: pid: 0 luis (xentric) size=8 skskjdks
+Jun 03 11:20:49.276 2022 Respond: user:luis bot:xentric len:9 ip: (~pregunta_uno) 3 skskjdks  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:49.276 2022 0ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:50.805 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:20:50.805 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:50.821 2022 16ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:56.784 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:20:56.784 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:56.784 2022 0ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:58.178 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:20:58.178 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:58.178 2022 0ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:58.854 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:20:58.854 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3    ==> La opcion ingresada no es valida. Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:20:58.854 2022 0ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:59.375 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 03 11:20:59.375 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 4 4  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:20:59.390 2022 15ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:20:59.831 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 03 11:20:59.831 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 5 5  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:20:59.831 2022 0ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:00.570 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:21:00.570 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 6 6  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:21:00.570 2022 0ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:00.965 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 03 11:21:00.965 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 7 7  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:21:00.980 2022 15ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7792 Compiled:Jun03'22-11:20:02-1654269602528 by version 12.1 "encuesta"
+
+Jun 03 11:21:28.098 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:21:28.098 2022 Start: user:luis bot:xentric ip: (~pregunta_validacion) 7 ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:21:28.098 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:20:02-1654269602528 Build1:Jun03'22-11:20:02-1654269602528 Why:~pregunta_validacion.1.0.~control.0.0 
+
+Jun 03 11:21:31.192 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7832 Compiled:Jun03'22-11:21:31-1654269691270 by version 12.1 "encuesta"
+
+Jun 03 11:21:32.461 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:21:32.461 2022 Start: user:luis bot:xentric ip: (~pregunta_validacion) 7 ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:21:32.477 2022 16ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:21:31-1654269691270 Build1:Jun03'22-11:21:31-1654269691270 Why:~pregunta_validacion.1.0.~control.0.0 
+
+Jun 03 11:21:35.312 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:21:35.312 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:21:35.327 2022 15ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:38.879 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:21:38.879 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 03 11:21:38.879 2022 0ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:40.446 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 03 11:21:40.446 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:21:40.446 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:45.718 2022 ServerPre: pid: 0 luis (xentric) size=5 a@a.a
+Jun 03 11:21:45.718 2022 Respond: user:luis bot:xentric len:6 ip: (~pregunta_uno) 3 a@a.a  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:21:45.733 2022 15ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:47.348 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:21:47.348 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:21:47.348 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:21:31-1654269691270 Build1:Jun03'22-11:21:31-1654269691270 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 03 11:21:52.433 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 03 11:21:52.433 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 8  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:21:52.448 2022 15ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:21:54.187 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:21:54.187 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:21:54.187 2022 0ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:00.038 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:22:00.038 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:22:00.038 2022 0ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:02.154 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:22:02.154 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:22:02.169 2022 15ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:05.098 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 03 11:22:05.098 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 5 4  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:22:05.098 2022 0ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:09.248 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:22:09.248 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 5    ==> La opcion ingresada no es valida. Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:22:09.248 2022 0ms q 0 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:12.286 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 03 11:22:12.286 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 6 4  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:22:12.300 2022 14ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:18.091 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 03 11:22:18.091 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 6    ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:22:18.106 2022 15ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:20.614 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 03 11:22:20.614 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 7 8  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:22:20.614 2022 0ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:22.008 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:22:22.008 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 8 6  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:22:22.008 2022 0ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:24.531 2022 ServerPre: pid: 0 luis (xentric) size=2  0
+Jun 03 11:22:24.531 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 9  0  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:22:24.546 2022 15ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:26.856 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:22:26.856 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 10 6  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:22:26.871 2022 15ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:33.864 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 03 11:22:33.864 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 11 no  ==> Entendido. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:22:33.864 2022 0ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:38.198 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:22:38.183 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 12 6  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:22:38.198 2022 15ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:39.375 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:22:39.375 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 13 6  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:22:39.390 2022 15ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:40.353 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:22:40.353 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 14 6  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:22:40.369 2022 16ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:41.794 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:22:41.794 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 15 6  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:22:41.810 2022 16ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:22:45.537 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:22:45.522 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 16 si  ==> Muchas gracias luis por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 03 11:22:45.537 2022 15ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7792 Compiled:Jun03'22-11:21:31-1654269691270 by version 12.1 "encuesta"
+
+Jun 03 11:25:55.994 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:25:55.994 2022 Start: user:luis bot:xentric ip: () 16 ==>   When:Jun 03 11:25:56.001 2022 7ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:21:31-1654269691270 Build1:Jun03'22-11:21:31-1654269691270 
+
+Jun 03 11:25:59.809 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7832 Compiled:Jun03'22-11:25:59-1654269959892 by version 12.1 "encuesta"
+
+Jun 03 11:26:01.283 2022 ServerPre: pid: 0 luis () size=0 
+Jun 03 11:26:01.283 2022 Start: user:luis bot:xentric ip: () 16 ==>   When:Jun 03 11:26:01.288 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:25:59-1654269959892 Build1:Jun03'22-11:25:59-1654269959892 
+
+Jun 03 11:26:03.603 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:26:03.603 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:26:03.620 2022 17ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:14.656 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:31:14.656 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 03 11:31:14.664 2022 8ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:18.130 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 03 11:31:18.129 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:31:18.134 2022 5ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:22.707 2022 ServerPre: pid: 0 luis (xentric) size=8 luis@a.a
+Jun 03 11:31:22.707 2022 Respond: user:luis bot:xentric len:9 ip: (~pregunta_uno) 3 luis@a.a  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:31:22.712 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:26.023 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 03 11:31:26.023 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 4 5  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:31:26.034 2022 11ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:28.652 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:31:28.652 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 5 6  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:31:28.656 2022 4ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:30.994 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 03 11:31:30.993 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 6 5  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:31:30.998 2022 5ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:33.062 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 03 11:31:33.061 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 7 7  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:31:33.068 2022 7ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:38.346 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 03 11:31:38.345 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 8 no  ==> Entendido. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:31:38.350 2022 5ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:41.315 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:31:41.314 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 9 6  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:31:41.319 2022 5ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:41.980 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 03 11:31:41.980 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 10 5  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:31:41.984 2022 4ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:42.638 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:31:42.637 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 11 6  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:31:42.644 2022 7ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:43.367 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:31:43.366 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 12 6  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:31:43.372 2022 6ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:45.830 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:31:45.829 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 13 si  ==> Muchas gracias luis por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 03 11:31:45.835 2022 6ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:31:49.209 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 03 11:31:49.208 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 03 11:31:49.227 2022 19ms q 0 Why:~saludo.0.0=DESARROLLO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:33:33.930 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 03 11:33:33.929 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 03 11:33:33.934 2022 5ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:33:43.389 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 03 11:33:43.388 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 03 11:33:43.393 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:25:59-1654269959892 Build1:Jun03'22-11:25:59-1654269959892 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 03 11:33:56.743 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 03 11:33:56.743 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 Luis  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 03 11:33:56.748 2022 5ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:34:22.478 2022 ServerPre: pid: 0 luis (xentric) size=5 a@a.a
+Jun 03 11:34:22.477 2022 Respond: user:luis bot:xentric len:6 ip: (~pregunta_uno) 3 a@a.a  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:34:22.482 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:34:30.130 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 03 11:34:30.130 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 4 5  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 03 11:34:30.134 2022 4ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:34:35.117 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 03 11:34:35.117 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 5 6  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 03 11:34:35.122 2022 5ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:34:39.010 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 03 11:34:39.009 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 6 5  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 03 11:34:39.015 2022 6ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:34:42.824 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 03 11:34:42.824 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 7 7  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 03 11:34:42.829 2022 5ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 03 11:35:01.643 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 03 11:35:01.643 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 8 no  ==> Entendido. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 03 11:35:01.648 2022 5ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7792 Compiled:Jun03'22-11:25:59-1654269959892 by version 12.1 "encuesta"
+
+Jun 07 00:33:35.475 2022 ServerPre: pid: 0 luis () size=0 
+Jun 07 00:33:35.475 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 8 ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:33:35.508 2022 33ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun03'22-11:25:59-1654269959892 Build1:Jun03'22-11:25:59-1654269959892 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 07 00:33:41.371 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+BUGNo such directory RAWDATA/ENCUESTA/PREGUNTAS/*
+
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=0  fact=0  heap=80 Compiled:42089461591 by version  ""
+
+Jun 07 00:34:11.118 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+Jun 07 00:34:13.517 2022 ServerPre: pid: 0 luis (anonymous) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7812 Compiled:Jun07'22-00:34:13-1654576453607 by version 12.1 "encuesta"
+
+Jun 07 00:34:15.077 2022 ServerPre: pid: 0 luis () size=0 
+Jun 07 00:34:15.077 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 8 ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:34:15.084 2022 7ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 07 00:34:19.159 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 07 00:34:19.159 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 07 00:34:19.180 2022 21ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:06.002 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 07 00:40:06.001 2022 Respond: user:luis bot:xentric len:3 ip: (~salir) 1 no  ==> Entendido. Hasta pronto!  When:Jun 07 00:40:06.007 2022 6ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~salir.0.0=SALIR.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:09.476 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 07 00:40:09.476 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 07 00:40:09.495 2022 19ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:11.214 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 07 00:40:11.214 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 07 00:40:11.219 2022 5ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:12.944 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 07 00:40:12.943 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 07 00:40:12.949 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 07 00:40:17.084 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 07 00:40:17.084 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 Luis  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 07 00:40:17.089 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:19.738 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 07 00:40:19.738 2022 Start: user:luis bot:xentric ip: (~correo) 2 ==> No has ingresado tu correo electronico. Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 07 00:40:19.742 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 07 00:40:31.743 2022 ServerPre: pid: 0 luis (xentric) size=14 luis@gmail.com
+Jun 07 00:40:31.742 2022 Respond: user:luis bot:xentric len:15 ip: (~pregunta_uno) 3 luis@gmail.com  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:40:31.750 2022 8ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:44.196 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 07 00:40:44.195 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 3 ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:40:44.201 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0 
+
+Jun 07 00:40:48.900 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 07 00:40:48.900 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 8  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:40:48.904 2022 4ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:40:53.665 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 00:40:53.664 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:40:53.668 2022 4ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:02.866 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 00:41:02.865 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:41:02.870 2022 5ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:06.157 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 00:41:06.156 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:41:06.163 2022 7ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:07.828 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 07 00:41:07.827 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 5 4  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 07 00:41:07.833 2022 6ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:09.971 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 07 00:41:09.970 2022 Start: user:luis bot:xentric ip: (~pregunta_dos) 5 ==> La opcion ingresada no es valida. Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 07 00:41:09.977 2022 7ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0 
+
+Jun 07 00:41:15.328 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 00:41:15.327 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 5    ==> La opcion ingresada no es valida. Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 07 00:41:15.333 2022 6ms q 0 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:17.870 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 00:41:17.869 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 6 5  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 07 00:41:17.875 2022 6ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:21.467 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 07 00:41:21.466 2022 Start: user:luis bot:xentric ip: (~pregunta_tres) 6 ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 07 00:41:21.471 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0 
+
+Jun 07 00:41:22.845 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 00:41:22.845 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 7 5  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 07 00:41:22.850 2022 5ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:25.415 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 00:41:25.414 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 7    ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 07 00:41:25.419 2022 5ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:28.626 2022 ServerPre: pid: 0 luis (xentric) size=2  0
+Jun 07 00:41:28.626 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 8  0  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 07 00:41:28.631 2022 5ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:30.869 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 07 00:41:30.869 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 9 6  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 07 00:41:30.875 2022 6ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:41.134 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 07 00:41:41.134 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 10 no  ==> Entendido. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 00:41:41.140 2022 6ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:45.057 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 00:41:45.056 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 11 5  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 07 00:41:45.063 2022 7ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:45.756 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 00:41:45.755 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 12 5  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 07 00:41:45.761 2022 6ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:46.387 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 00:41:46.387 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 13 5  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 07 00:41:46.394 2022 7ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:47.031 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 00:41:47.031 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 14 5  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 07 00:41:47.036 2022 5ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:41:49.141 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 07 00:41:49.140 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 15 si  ==> Muchas gracias Luis por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 07 00:41:49.147 2022 7ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 00:42:26.309 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 07 00:42:26.308 2022 Start: user:luis bot:xentric ip: () 15 ==>   When:Jun 07 00:42:26.314 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-00:34:13-1654576453607 Build1:Jun07'22-00:34:13-1654576453607 
+
+Jun 07 00:42:27.761 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 07 00:42:27.761 2022 Respond: user:luis bot:xentric len:2 ip: () 16 s  ==>   When:Jun 07 00:42:27.765 2022 4ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:18:59.887 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 07 01:18:59.885 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 07 01:18:59.928 2022 43ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:02.771 2022 ServerPre: pid: 0 luis (xentric) size=15 :build encuesta
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=45  heap=7888 Compiled:Jun07'22-01:19:02-1654579142979 by version 12.1 "encuesta"
+
+Jun 07 01:19:04.511 2022 ServerPre: pid: 0 luis () size=0 
+Jun 07 01:19:04.511 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 07 01:19:04.516 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-01:19:02-1654579142979 Build1:Jun07'22-01:19:02-1654579142979 Why:~saludo.1.0.~control.0.0 
+
+Jun 07 01:19:18.484 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 07 01:19:18.483 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio. Al responder esta encuesta estarás participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 07 01:19:18.504 2022 21ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:21.661 2022 ServerPre: pid: 0 luis (xentric) size=1 i
+Jun 07 01:19:21.660 2022 Respond: user:luis bot:xentric len:2 ip: (~saludo) 1 i  ==> Por favor responda Si o No.  When:Jun 07 01:19:21.670 2022 10ms q 0 Why:~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:25.692 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 07 01:19:25.691 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 2 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 07 01:19:25.696 2022 5ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:28.327 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 07 01:19:28.326 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 3 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 07 01:19:28.331 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:32.890 2022 ServerPre: pid: 0 luis (xentric) size=1 a
+Jun 07 01:19:32.889 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 a  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 01:19:32.896 2022 7ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:35.876 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 01:19:35.876 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 01:19:35.882 2022 6ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:42.193 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 07 01:19:42.193 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 07 01:19:42.197 2022 4ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 07 01:19:44.611 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 07 01:19:44.611 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 5 5  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 07 01:19:44.616 2022 5ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=52  fact=45  heap=7848 Compiled:Jun07'22-01:19:02-1654579142979 by version 12.1 "encuesta"
+
+Jun 08 18:50:55.250 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 18:50:55.250 2022 Start: user:luis bot:xentric ip: (~pregunta_dos) 5 ==> La opcion ingresada no es valida. Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 18:50:55.270 2022 20ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun07'22-01:19:02-1654579142979 Build1:Jun07'22-01:19:02-1654579142979 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0 
+
+Jun 08 18:51:02.063 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=0  fact=0  heap=80 Compiled:42089461591 by version  ""
+
+Jun 08 18:51:26.747 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+Jun 08 18:51:28.960 2022 ServerPre: pid: 0 luis (anonymous) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7760 Compiled:Jun08'22-18:51:29-1654728689048 by version 12.1 "inbound"
+
+Jun 08 18:51:30.783 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 18:51:30.783 2022 Start: user:luis bot:xentric ip: (~pregunta_dos) 5 ==> La opcion ingresada no es valida. Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 18:51:30.791 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-18:51:29-1654728689048 Build1:Jun08'22-18:51:29-1654728689048 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0 
+
+Jun 08 18:51:33.804 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 18:51:33.804 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estarás participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 18:51:33.820 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 18:52:28.288 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7756 Compiled:Jun08'22-18:52:28-1654728748368 by version 12.1 "inbound"
+
+Jun 08 18:52:29.928 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 18:52:29.928 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 18:52:29.936 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-18:52:28-1654728748368 Build1:Jun08'22-18:52:28-1654728748368 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 18:52:34.394 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 18:52:34.394 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estarás participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 18:52:34.410 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 18:53:34.219 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7760 Compiled:Jun08'22-18:53:34-1654728814307 by version 12.1 "inbound"
+
+Jun 08 18:53:36.086 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 18:53:36.086 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 18:53:36.086 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-18:53:34-1654728814307 Build1:Jun08'22-18:53:34-1654728814307 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 18:53:38.719 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 18:53:38.711 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estarás participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 18:53:38.727 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:00:11.024 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7740 Compiled:Jun08'22-19:00:11-1654729211112 by version 12.1 "inbound"
+
+Jun 08 19:00:12.659 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:00:12.659 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 19:00:12.659 2022 0ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:00:11-1654729211112 Build1:Jun08'22-19:00:11-1654729211112 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 19:00:18.761 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:00:18.761 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estarás participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:00:18.777 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:01:07.073 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7724 Compiled:Jun08'22-19:01:07-1654729267158 by version 12.1 "inbound"
+
+Jun 08 19:01:08.770 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:01:08.770 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 19:01:08.778 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:01:07-1654729267158 Build1:Jun08'22-19:01:07-1654729267158 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 19:01:10.745 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:01:10.745 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estarás participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:01:10.761 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:05:42.482 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7716 Compiled:Jun08'22-19:05:42-1654729542557 by version 12.1 "inbound"
+
+Jun 08 19:05:44.133 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:05:44.133 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 19:05:44.141 2022 8ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:05:42-1654729542557 Build1:Jun08'22-19:05:42-1654729542557 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 19:05:45.294 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:05:45.294 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:05:45.310 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:16:35.673 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7556 Compiled:Jun08'22-19:16:35-1654730195752 by version 12.1 "inbound"
+
+Jun 08 19:16:36.909 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:16:36.908 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 19:16:36.913 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:16:35-1654730195752 Build1:Jun08'22-19:16:35-1654730195752 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 19:16:39.449 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:16:39.448 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:16:39.465 2022 17ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:24:14.121 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=0  fact=0  heap=80 Compiled:42089461591 by version  ""
+
+Jun 08 19:25:17.116 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+Jun 08 19:25:18.724 2022 ServerPre: pid: 0 luis (anonymous) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=0  fact=0  heap=80 Compiled:42089461591 by version  ""
+
+Jun 08 19:26:15.282 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+Jun 08 19:26:17.376 2022 ServerPre: pid: 0 luis (anonymous) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=0  fact=0  heap=80 Compiled:42089461591 by version  ""
+
+Jun 08 19:27:53.515 2022 ServerPre: pid: 0 luis () size=0 
+BUGNo computer id before user load?
+
+Jun 08 19:27:54.962 2022 ServerPre: pid: 0 luis (anonymous) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7716 Compiled:Jun08'22-19:27:55-1654730875043 by version 12.1 "inbound"
+
+Jun 08 19:27:56.275 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:27:56.275 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 19:27:56.280 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:27:55-1654730875043 Build1:Jun08'22-19:27:55-1654730875043 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 19:27:58.362 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:27:58.362 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:27:58.377 2022 15ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:28:01.626 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 19:28:01.625 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 19:28:01.631 2022 6ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:28:03.827 2022 ServerPre: pid: 0 luis (xentric) size=4 luis
+Jun 08 19:28:03.826 2022 Respond: user:luis bot:xentric len:5 ip: (~correo) 2 luis  ==> Mucho gusto en conocerte luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 19:28:03.832 2022 6ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:28:05.386 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:28:05.385 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3 s  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:28:05.391 2022 6ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:28:09.913 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 19:28:09.912 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 0  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:28:09.917 2022 5ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:28:19.595 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:28:19.595 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5 8  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:28:19.600 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:16.270 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7796 Compiled:Jun08'22-19:29:16-1654730956354 by version 12.1 "inbound"
+
+Jun 08 19:29:17.581 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:29:17.581 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 5 ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:29:17.585 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:29:16-1654730956354 Build1:Jun08'22-19:29:16-1654730956354 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:29:19.332 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:29:19.331 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:29:19.351 2022 20ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:21.601 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 19:29:21.600 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 19:29:21.607 2022 7ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:22.583 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:29:22.583 2022 Respond: user:luis bot:xentric len:2 ip: (~correo) 2 s  ==> Mucho gusto en conocerte s. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 19:29:22.588 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:24.863 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:29:24.862 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3 s  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:29:24.869 2022 7ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:27.935 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 19:29:27.934 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 0  ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:29:27.941 2022 7ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:37.314 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 19:29:37.313 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5 0  ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:29:37.319 2022 6ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:43.420 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:29:43.420 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 6 8  ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:29:43.425 2022 5ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:46.571 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:29:46.570 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 6    ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:29:46.576 2022 6ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:29:50.762 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:29:50.762 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 7 5  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:29:50.767 2022 5ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:03.622 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7608 Compiled:Jun08'22-19:33:03-1654731183703 by version 12.1 "inbound"
+
+Jun 08 19:33:04.998 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:33:04.998 2022 Start: user:luis bot:xentric ip: (~pregunta_dos) 7 ==> La opcion ingresada no es valida. S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:33:05.002 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0 
+
+Jun 08 19:33:07.475 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:33:07.475 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:33:07.490 2022 15ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:10.237 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 19:33:10.237 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 19:33:10.243 2022 6ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:11.805 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:33:11.804 2022 Respond: user:luis bot:xentric len:2 ip: (~correo) 2 s  ==> Mucho gusto en conocerte s. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 19:33:11.809 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:12.511 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:33:12.510 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3 s  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:12.516 2022 6ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:28.905 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 19:33:28.905 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 0  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:28.909 2022 4ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:35.599 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:33:35.598 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5 8  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:35.603 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:39.112 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:33:39.111 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:39.116 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:41.263 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:33:41.262 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:41.267 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:42.678 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 19:33:42.677 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 6 4  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:42.681 2022 4ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:44.128 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:33:44.127 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 7 5  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:44.134 2022 7ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:45.220 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:33:45.220 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 8 8  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:45.226 2022 6ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:46.538 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 08 19:33:46.537 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 9 7  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:46.542 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:47.680 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:33:47.679 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 9    ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:47.686 2022 7ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:48.361 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:33:48.361 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 10 5  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:48.366 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:48.932 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:33:48.931 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 11 5  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:48.938 2022 7ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:49.876 2022 ServerPre: pid: 0 luis (xentric) size=3 555
+Jun 08 19:33:49.876 2022 Respond: user:luis bot:xentric len:4 ip: (~pregunta_uno) 12 555  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:49.881 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:33:50.399 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:50.398 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:50.404 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:33:50.557 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:50.557 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:50.563 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:33:50.709 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:50.709 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:50.715 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:33:50.854 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:50.853 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:50.859 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:33:50.994 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:50.994 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:51.000 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:33:51.115 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:51.115 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:51.120 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:33:51.371 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:33:51.370 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:33:51.376 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:33:03-1654731183703 Build1:Jun08'22-19:33:03-1654731183703 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:35:46.871 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7672 Compiled:Jun08'22-19:35:46-1654731346960 by version 12.1 "inbound"
+
+Jun 08 19:35:48.253 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 19:35:48.253 2022 Start: user:luis bot:xentric ip: (~pregunta_uno) 12 ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:35:48.259 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:35:46-1654731346960 Build1:Jun08'22-19:35:46-1654731346960 Why:~pregunta_uno.1.0.~control.0.0 
+
+Jun 08 19:35:51.365 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 19:35:51.364 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 19:35:51.380 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:35:53.115 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 19:35:53.115 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 19:35:53.120 2022 5ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:35:54.366 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:35:54.365 2022 Respond: user:luis bot:xentric len:2 ip: (~correo) 2 s  ==> Mucho gusto en conocerte s. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 19:35:54.371 2022 6ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:35:55.011 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 19:35:55.011 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3 s  ==> S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:35:55.016 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:35:59.809 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 19:35:59.809 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 0  ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:35:59.813 2022 4ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:03.687 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:36:03.687 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5 8  ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:36:03.692 2022 5ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:06.500 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:36:06.499 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:36:06.504 2022 5ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:08.513 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:36:08.512 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:36:08.517 2022 5ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:10.121 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:36:10.120 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:36:10.126 2022 6ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:11.256 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 19:36:11.255 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 6 4  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:36:11.262 2022 7ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:54.264 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:36:54.263 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 6    ==> La opcion ingresada no es valida. S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:36:54.269 2022 6ms q 0 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:55.719 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:36:55.719 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 6    ==> La opcion ingresada no es valida. S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:36:55.724 2022 5ms q 0 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:56.745 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:36:56.744 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 6    ==> La opcion ingresada no es valida. S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:36:56.750 2022 6ms q 0 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:36:58.131 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 19:36:58.131 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 7 4  ==> S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:36:58.137 2022 6ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:01.119 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:01.118 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 8 5  ==> S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:37:01.124 2022 6ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:02.485 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 08 19:37:02.484 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 9 6  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 19:37:02.492 2022 8ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:07.136 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 19:37:07.135 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 10 no  ==> Entendido. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:37:07.142 2022 7ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:09.139 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:37:09.138 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 10    ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:37:09.144 2022 6ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:13.182 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 08 19:37:13.181 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 11 6  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:37:13.188 2022 7ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:15.456 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 08 19:37:15.456 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 12 7  ==> S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:15.461 2022 5ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:19.946 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:37:19.945 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 13 8  ==> La opcion ingresada no es valida. S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:19.951 2022 6ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:23.384 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:37:23.383 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 13    ==> La opcion ingresada no es valida. S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:23.390 2022 7ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:24.715 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:37:24.715 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 13    ==> La opcion ingresada no es valida. S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:24.720 2022 5ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:25.605 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:37:25.605 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 13    ==> La opcion ingresada no es valida. S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:25.610 2022 5ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:27.164 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:37:27.163 2022 Start: user:luis bot:xentric ip: (~pregunta_tres) 13 ==> La opcion ingresada no es valida. S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:27.169 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:35:46-1654731346960 Build1:Jun08'22-19:35:46-1654731346960 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0 
+
+Jun 08 19:37:28.178 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 19:37:28.177 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 14 4  ==> S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:37:28.184 2022 7ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:29.502 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:29.502 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 15 5  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 19:37:29.508 2022 6ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:34.189 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 19:37:34.188 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 16 no  ==> Entendido. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:37:34.194 2022 6ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:41.867 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:41.866 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 17 5  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:37:41.872 2022 6ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:42.382 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:42.382 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 18 5  ==> S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:42.387 2022 5ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:43.194 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:43.194 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 19 5  ==> S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:37:43.199 2022 5ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:46.118 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 08 19:37:46.118 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 20 7  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 19:37:46.122 2022 4ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:49.664 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 19:37:49.664 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 21 no  ==> Entendido. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:37:49.670 2022 6ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:50.602 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:50.602 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 22 5  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:37:50.607 2022 5ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:50.984 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:50.983 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 23 5  ==> S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:50.988 2022 5ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:51.345 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:51.345 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 24 5  ==> S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:37:51.350 2022 5ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:53.104 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 19:37:53.104 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 25 8  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 19:37:53.109 2022 5ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:56.673 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 19:37:56.672 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 26 no  ==> Entendido. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:37:56.679 2022 7ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:57.471 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:57.470 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 27 5  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:37:57.479 2022 9ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:57.828 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:57.827 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 28 5  ==> S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:37:57.834 2022 7ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:37:58.558 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:37:58.557 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 29 5  ==> S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:37:58.562 2022 5ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:00.507 2022 ServerPre: pid: 0 luis (xentric) size=1 9
+Jun 08 19:38:00.506 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 30 9  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 19:38:00.512 2022 6ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:04.044 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 19:38:04.043 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 31 no  ==> Entendido. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:38:04.049 2022 6ms q 0 Why:~pregunta_validacion.1.2=NO_CONFIRMACION ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:08.582 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:38:08.582 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 31    ==> La opcion ingresada no es valida. S. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 19:38:08.587 2022 5ms q 0 Why:~pregunta_uno.1.1=RESPONDE_PREGUNTA ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:09.572 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:38:09.572 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 32 5  ==> S. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 19:38:09.577 2022 5ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:10.133 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:38:10.132 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 33 5  ==> S. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 19:38:10.138 2022 6ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:10.847 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 19:38:10.846 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 34 5  ==> S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:38:10.852 2022 6ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:12.993 2022 ServerPre: pid: 0 luis (xentric) size=2  0
+Jun 08 19:38:12.992 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 35  0  ==> La opcion ingresada no es valida. S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:38:12.998 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:17.293 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 19:38:17.292 2022 Start: user:luis bot:xentric ip: (~pregunta_cuatro) 35 ==> La opcion ingresada no es valida. S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:38:17.298 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-19:35:46-1654731346960 Build1:Jun08'22-19:35:46-1654731346960 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0 
+
+Jun 08 19:38:18.254 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:38:18.254 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 35    ==> La opcion ingresada no es valida. S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:38:18.259 2022 5ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:18.982 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:38:18.981 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 35    ==> La opcion ingresada no es valida. S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:38:18.987 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:19.589 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 19:38:19.588 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 35    ==> La opcion ingresada no es valida. S. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 19:38:19.594 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 19:38:21.448 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 19:38:21.447 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 36 4  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 19:38:21.454 2022 7ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:21:45.685 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7548 Compiled:Jun08'22-20:21:45-1654734105770 by version 12.1 "inbound"
+
+Jun 08 20:21:47.101 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:21:47.101 2022 Start: user:luis bot:xentric ip: (~pregunta_validacion) 36 ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 20:21:47.106 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:21:45-1654734105770 Build1:Jun08'22-20:21:45-1654734105770 Why:~pregunta_validacion.1.0.~control.0.0 
+
+Jun 08 20:21:53.303 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:21:53.303 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:21:53.319 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:23:43.155 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=53  fact=52  heap=7916 Compiled:Jun08'22-20:23:43-1654734223238 by version 12.1 "inbound"
+
+Jun 08 20:23:44.423 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:23:44.423 2022 Start: user:luis bot:xentric ip: (~saludo) 0 ==> Por favor responda Si o No.  When:Jun 08 20:23:44.427 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:23:43-1654734223238 Build1:Jun08'22-20:23:43-1654734223238 Why:~saludo.1.0.~control.0.0 
+
+Jun 08 20:23:47.508 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:23:47.508 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:23:47.523 2022 15ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:23:50.740 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:23:50.740 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:23:50.745 2022 5ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:23:52.018 2022 ServerPre: pid: 0 luis (xentric) size=1 a
+Jun 08 20:23:52.017 2022 Respond: user:luis bot:xentric len:2 ip: (~correo) 2 a  ==> Mucho gusto en conocerte a. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:23:52.022 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:23:54.008 2022 ServerPre: pid: 0 luis (xentric) size=1 a
+Jun 08 20:23:54.008 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 3 a  ==> A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:23:54.013 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:23:57.233 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 20:23:57.232 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 4 0  ==> La opcion ingresada no es valida. A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:23:57.239 2022 7ms q 0 Why:~pregunta_uno.1.8=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:23:59.734 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 20:23:59.733 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5 8  ==> La opcion ingresada no es valida. A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:23:59.739 2022 6ms q 0 Why:~pregunta_uno.1.8=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:24:01.364 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 20:24:01.364 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:24:01.368 2022 4ms q 0 Why:~pregunta_uno.1.8=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:24:03.037 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 20:24:03.037 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:24:03.044 2022 7ms q 0 Why:~pregunta_uno.1.8=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:24:04.515 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 20:24:04.514 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. A. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:24:04.520 2022 6ms q 0 Why:~pregunta_uno.1.8=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:24:05.804 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 20:24:05.803 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 6 4  ==> A. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 20:24:05.809 2022 6ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:31:50.044 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8632 Compiled:Jun08'22-20:31:50-1654734710123 by version 12.1 "inbound"
+
+Jun 08 20:31:51.447 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:31:51.446 2022 Start: user:luis bot:xentric ip: (~pregunta_dos) 6 ==> La opcion ingresada no es valida. A. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 20:31:51.451 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:31:50-1654734710123 Build1:Jun08'22-20:31:50-1654734710123 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0 
+
+Jun 08 20:31:53.448 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:31:53.447 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:31:53.464 2022 17ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:00.766 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:32:00.766 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:32:00.770 2022 4ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:03.578 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:32:03.577 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:32:03.582 2022 5ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:07.538 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:32:07.538 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 3 no  ==> Entendido. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:32:07.543 2022 5ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:10.895 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:32:10.894 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 4 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:32:10.899 2022 5ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:13.322 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:32:13.322 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 5 si  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:32:13.326 2022 4ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:19.542 2022 ServerPre: pid: 0 luis (xentric) size=3 aaa
+Jun 08 20:32:19.541 2022 Respond: user:luis bot:xentric len:4 ip: (~confirma_correo) 6 aaa  ==> Tu correo es aaa? Por favor responda Si o No.  When:Jun 08 20:32:19.546 2022 5ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:22.388 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:32:22.388 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 7 no  ==> Entendido. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:32:22.392 2022 4ms q 0 Why:~confirma_correo.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:32:37.712 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:32:37.711 2022 Start: user:luis bot:xentric ip: (~nombre) 7 ==> No has ingresado tu nombre. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:32:37.715 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:31:50-1654734710123 Build1:Jun08'22-20:31:50-1654734710123 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:32:53.867 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8632 Compiled:Jun08'22-20:32:53-1654734773945 by version 12.1 "inbound"
+
+Jun 08 20:32:55.154 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:32:55.154 2022 Start: user:luis bot:xentric ip: (~nombre) 7 ==> No has ingresado tu nombre. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:32:55.159 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:32:53-1654734773945 Build1:Jun08'22-20:32:53-1654734773945 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:32:57.857 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:32:57.856 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:32:57.874 2022 18ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:00.821 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:33:00.820 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:33:00.825 2022 5ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:03.165 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:33:03.165 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:33:03.169 2022 4ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:05.013 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:33:05.012 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 3 no  ==> Entendido. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:33:05.016 2022 4ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:06.203 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:33:06.203 2022 Start: user:luis bot:xentric ip: (~nombre) 3 ==> No has ingresado tu nombre. Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:33:06.207 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:32:53-1654734773945 Build1:Jun08'22-20:32:53-1654734773945 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:33:09.313 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:33:09.312 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 4 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:33:09.316 2022 4ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:10.972 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:33:10.971 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 5 si  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:33:10.976 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:15.313 2022 ServerPre: pid: 0 luis (xentric) size=3 aaa
+Jun 08 20:33:15.313 2022 Respond: user:luis bot:xentric len:4 ip: (~confirma_correo) 6 aaa  ==> Tu correo es aaa? Por favor responda Si o No.  When:Jun 08 20:33:15.317 2022 4ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:33:16.664 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:33:16.663 2022 Start: user:luis bot:xentric ip: (~confirma_correo) 6 ==> La opcion ingresada no es valida. Tu correo es aaa? Por favor responda Si o No.  When:Jun 08 20:33:16.667 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:32:53-1654734773945 Build1:Jun08'22-20:32:53-1654734773945 Why:~confirma_correo.1.3=DESCONOCIDO ~confirma_correo.1.0.~control.0.0 
+
+Jun 08 20:33:19.192 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:33:19.191 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 7 no  ==> Entendido. Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:33:19.196 2022 5ms q 0 Why:~confirma_correo.1.2=NO_CONFIRMACION ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:18.842 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8632 Compiled:Jun08'22-20:34:18-1654734858924 by version 12.1 "inbound"
+
+Jun 08 20:34:20.135 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:34:20.135 2022 Start: user:luis bot:xentric ip: (~correo) 7 ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:34:20.141 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:34:18-1654734858924 Build1:Jun08'22-20:34:18-1654734858924 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0 
+
+Jun 08 20:34:22.230 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:34:22.229 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:34:22.247 2022 18ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:25.606 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:34:25.605 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:34:25.610 2022 5ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:27.791 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:34:27.791 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:34:27.795 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:34:18-1654734858924 Build1:Jun08'22-20:34:18-1654734858924 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:34:31.005 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:34:31.005 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:34:31.009 2022 4ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:34.073 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:34:34.073 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 3 no  ==> Entendido. Me puedes indicar tu nombre por favor?  When:Jun 08 20:34:34.077 2022 4ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:37.604 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:34:37.603 2022 Start: user:luis bot:xentric ip: (~nombre) 3 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:34:37.607 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:34:18-1654734858924 Build1:Jun08'22-20:34:18-1654734858924 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:34:42.048 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:34:42.047 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 4 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:34:42.053 2022 6ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:43.973 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:34:43.972 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 5 no  ==> Entendido. Me puedes indicar tu nombre por favor?  When:Jun 08 20:34:43.976 2022 4ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:47.180 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:34:47.179 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 6 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:34:47.184 2022 5ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:48.693 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:34:48.693 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 7 si  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:34:48.697 2022 4ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:34:51.492 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:34:51.491 2022 Start: user:luis bot:xentric ip: (~correo) 7 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:34:51.496 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:34:18-1654734858924 Build1:Jun08'22-20:34:18-1654734858924 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:34:59.693 2022 ServerPre: pid: 0 luis (xentric) size=12 luis@aaa.aaa
+Jun 08 20:34:59.693 2022 Respond: user:luis bot:xentric len:13 ip: (~confirma_correo) 8 luis@aaa.aaa  ==> Tu correo es luis@aaa.aaa? Por favor responda Si o No.  When:Jun 08 20:34:59.697 2022 4ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:35:04.882 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:35:04.881 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 9 no  ==> Entendido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:35:04.886 2022 5ms q 0 Why:~confirma_correo.1.2=NO_CONFIRMACION ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:35:09.421 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:35:09.420 2022 Start: user:luis bot:xentric ip: (~correo) 9 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:35:09.424 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:34:18-1654734858924 Build1:Jun08'22-20:34:18-1654734858924 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:35:13.044 2022 ServerPre: pid: 0 luis (xentric) size=12 luis@aaa.aaa
+Jun 08 20:35:13.044 2022 Respond: user:luis bot:xentric len:13 ip: (~confirma_correo) 10 luis@aaa.aaa  ==> Tu correo es luis@aaa.aaa? Por favor responda Si o No.  When:Jun 08 20:35:13.048 2022 4ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:35:15.702 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:35:15.702 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 11 si  ==> Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:35:15.707 2022 5ms q 0 Why:~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:35:58.509 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8636 Compiled:Jun08'22-20:35:58-1654734958604 by version 12.1 "inbound"
+
+Jun 08 20:35:59.898 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:35:59.898 2022 Start: user:luis bot:xentric ip: (~correo) 11 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:35:59.903 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:35:58-1654734958604 Build1:Jun08'22-20:35:58-1654734958604 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:36:26.777 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8640 Compiled:Jun08'22-20:36:26-1654734986855 by version 12.1 "inbound"
+
+Jun 08 20:36:28.117 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:36:28.117 2022 Start: user:luis bot:xentric ip: (~correo) 11 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:36:28.124 2022 7ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:36:29.841 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:36:29.840 2022 Respond: user:luis bot:xentric len:3 ip: (~confirma_correo) 12 si  ==> Tu correo es si? Por favor responda Si o No.  When:Jun 08 20:36:29.846 2022 6ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:36:33.615 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:36:33.615 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:36:33.634 2022 19ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:02.671 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:37:02.670 2022 Respond: user:luis bot:xentric len:3 ip: (~salir) 1 no  ==> Entendido. Hasta pronto!  When:Jun 08 20:37:02.675 2022 5ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~salir.0.0=SALIR.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:05.635 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:37:05.635 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda Si o No.  When:Jun 08 20:37:05.650 2022 15ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:08.428 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:37:08.428 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:08.432 2022 4ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:09.941 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:09.941 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:09.945 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:10.642 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:10.641 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:10.646 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:11.088 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:11.087 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:11.091 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:11.242 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:11.241 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:11.245 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:11.390 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:11.389 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:11.393 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:11.527 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:11.526 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:11.530 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:11.648 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:11.648 2022 Start: user:luis bot:xentric ip: (~nombre) 1 ==> No has ingresado tu nombre. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:11.652 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~nombre.1.1=INGRESO_NOMBRE ~nombre.1.0.~control.0.0 
+
+Jun 08 20:37:13.474 2022 ServerPre: pid: 0 luis (xentric) size=4 Kuis
+Jun 08 20:37:13.474 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Kuis  ==> Tu nombre es Kuis? Por favor responda Si o No.  When:Jun 08 20:37:13.478 2022 4ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:17.459 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:37:17.459 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 3 no  ==> Entendido. Me puedes indicar tu nombre por favor?  When:Jun 08 20:37:17.463 2022 4ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:19.984 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:37:19.984 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 4 Luis  ==> Tu nombre es Luis? Por favor responda Si o No.  When:Jun 08 20:37:19.989 2022 5ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:21.289 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:37:21.288 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 5 si  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:21.293 2022 5ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:22.764 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:22.764 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:22.768 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:22.938 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:22.938 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:22.941 2022 3ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:23.094 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:23.094 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:23.099 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:23.225 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:23.224 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:23.230 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:23.359 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:23.358 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:23.364 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:23.492 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:23.491 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:23.497 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:23.616 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:23.615 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:23.621 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:23.729 2022 ServerPre: pid: 0 luis (xentric) size=0 
+Jun 08 20:37:23.728 2022 Start: user:luis bot:xentric ip: (~correo) 5 ==> No has ingresado tu correo electronico. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:23.734 2022 6ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:36:26-1654734986855 Build1:Jun08'22-20:36:26-1654734986855 Why:~correo.1.1=INGRESO_CORREO ~correo.1.0.~control.0.0 
+
+Jun 08 20:37:26.594 2022 ServerPre: pid: 0 luis (xentric) size=3 aaa
+Jun 08 20:37:26.594 2022 Respond: user:luis bot:xentric len:4 ip: (~confirma_correo) 6 aaa  ==> Tu correo es aaa? Por favor responda Si o No.  When:Jun 08 20:37:26.598 2022 4ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:28.513 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:37:28.513 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 7 no  ==> Entendido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:28.517 2022 4ms q 0 Why:~confirma_correo.1.2=NO_CONFIRMACION ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:35.464 2022 ServerPre: pid: 0 luis (xentric) size=14 luis@correa.cl
+Jun 08 20:37:35.463 2022 Respond: user:luis bot:xentric len:15 ip: (~confirma_correo) 8 luis@correa.cl  ==> Tu correo es luis@correa.cl? Por favor responda Si o No.  When:Jun 08 20:37:35.468 2022 5ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:37.708 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 08 20:37:37.707 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 9 no  ==> Entendido. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:37:37.712 2022 5ms q 0 Why:~confirma_correo.1.2=NO_CONFIRMACION ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:41.493 2022 ServerPre: pid: 0 luis (xentric) size=14 luis@correa.cl
+Jun 08 20:37:41.492 2022 Respond: user:luis bot:xentric len:15 ip: (~confirma_correo) 10 luis@correa.cl  ==> Tu correo es luis@correa.cl? Por favor responda Si o No.  When:Jun 08 20:37:41.497 2022 5ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:37:47.066 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:37:47.065 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 11 si  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:37:47.070 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:19.723 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 20:38:19.722 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 11    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:38:19.727 2022 5ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:21.821 2022 ServerPre: pid: 0 luis (xentric) size=2  1
+Jun 08 20:38:21.820 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_dos) 12  1  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 20:38:21.825 2022 5ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:29.757 2022 ServerPre: pid: 0 luis (xentric) size=2  2
+Jun 08 20:38:29.756 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_tres) 13  2  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 20:38:29.762 2022 6ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:35.013 2022 ServerPre: pid: 0 luis (xentric) size=2 55
+Jun 08 20:38:35.013 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_tres) 14 55  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 20:38:35.018 2022 5ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:38.021 2022 ServerPre: pid: 0 luis (xentric) size=2  3
+Jun 08 20:38:38.020 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 15  3  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 20:38:38.026 2022 6ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:41.124 2022 ServerPre: pid: 0 luis (xentric) size=3  00
+Jun 08 20:38:41.124 2022 Respond: user:luis bot:xentric len:4 ip: (~pregunta_cuatro) 16  00  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 20:38:41.129 2022 5ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:45.421 2022 ServerPre: pid: 0 luis (xentric) size=6  11000
+Jun 08 20:38:45.420 2022 Respond: user:luis bot:xentric len:7 ip: (~pregunta_cuatro) 17  11000  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 20:38:45.426 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:48.103 2022 ServerPre: pid: 0 luis (xentric) size=6  00100
+Jun 08 20:38:48.102 2022 Respond: user:luis bot:xentric len:7 ip: (~pregunta_cuatro) 18  00100  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 20:38:48.108 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:51.247 2022 ServerPre: pid: 0 luis (xentric) size=2 44
+Jun 08 20:38:51.246 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 19 44  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 20:38:51.252 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:52.887 2022 ServerPre: pid: 0 luis (xentric) size=2 55
+Jun 08 20:38:52.886 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 20 55  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 20:38:52.892 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:38:53.986 2022 ServerPre: pid: 0 luis (xentric) size=2  1
+Jun 08 20:38:53.985 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_validacion) 21  1  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Indicame con un SI para guardar sus respuestas y terminar con la encuesta, o con un NO para volver a contestar la encuesta. Por favor responda Si o No.  When:Jun 08 20:38:53.992 2022 7ms q 0 Why:~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:39:05.201 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:39:05.201 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 22 si  ==> Muchas gracias Luis por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 08 20:39:05.206 2022 5ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:39:15.512 2022 ServerPre: pid: 0 luis (xentric) size=5 adios
+Jun 08 20:39:15.512 2022 Respond: user:luis bot:xentric len:6 ip: () 23 adios  ==>   When:Jun 08 20:39:15.516 2022 4ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:43:40.347 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8640 Compiled:Jun08'22-20:43:40-1654735420427 by version 12.1 "inbound"
+
+Jun 08 20:43:41.687 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 20:43:41.686 2022 Start: user:luis bot:xentric ip: () 23 ==>   When:Jun 08 20:43:41.690 2022 4ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-20:43:40-1654735420427 Build1:Jun08'22-20:43:40-1654735420427 
+
+Jun 08 20:43:46.374 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 20:43:46.373 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda SI o NO.  When:Jun 08 20:43:46.393 2022 20ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:43:50.447 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:43:50.447 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 20:43:50.452 2022 5ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:43:53.096 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 20:43:53.095 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Luis  ==> Tu nombre es Luis? Por favor responda SI o NO.  When:Jun 08 20:43:53.100 2022 5ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:43:54.873 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:43:54.872 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 3 si  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 20:43:54.878 2022 6ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:03.617 2022 ServerPre: pid: 0 luis (xentric) size=14 luis@correa.cl
+Jun 08 20:44:03.617 2022 Respond: user:luis bot:xentric len:15 ip: (~confirma_correo) 4 luis@correa.cl  ==> Tu correo es luis@correa.cl? Por favor responda SI o NO.  When:Jun 08 20:44:03.622 2022 5ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:05.622 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 20:44:05.622 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 5 si  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:44:05.627 2022 5ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:11.583 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 20:44:11.582 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 5    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:44:11.589 2022 7ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:14.676 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 20:44:14.675 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 6 5  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:44:14.682 2022 7ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:17.794 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 20:44:17.793 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 7 4  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:44:17.799 2022 6ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:19.078 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 20:44:19.077 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 8 8  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:44:19.083 2022 6ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:24.233 2022 ServerPre: pid: 0 luis (xentric) size=3 uno
+Jun 08 20:44:24.232 2022 Respond: user:luis bot:xentric len:4 ip: (~pregunta_uno) 9 uno  ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 20:44:24.238 2022 6ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 20:44:27.845 2022 ServerPre: pid: 0 luis (xentric) size=3 one
+Jun 08 20:44:27.845 2022 Respond: user:luis bot:xentric len:4 ip: (~pregunta_dos) 10 one  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 20:44:27.851 2022 6ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:28:50.318 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+ChatScript Release 12.1 pid:0 os:32-bit Windows compiled: Apr 24 2022 11:16:22 rootdir:C:\Users\luisc\Documents\GitHub\Pruebas-ChatScript host:local
+Build0:  dict=8140  fact=59582  heap=108896 Compiled:Jan13'22-15:57:41-1642089461591 by version 11.6 "multi0"
+Build1:  dict=55  fact=52  heap=8636 Compiled:Jun08'22-21:28:50-1654738130406 by version 12.1 "inbound"
+
+Jun 08 21:28:51.794 2022 ServerPre: pid: 0 luis () size=0 
+Jun 08 21:28:51.793 2022 Start: user:luis bot:xentric ip: (~pregunta_dos) 10 ==> La opcion ingresada no es valida. Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 21:28:51.798 2022 5ms 0 Version:12.1 Build0:Jan13'22-15:57:41-16Jun08'22-21:28:50-1654738130406 Build1:Jun08'22-21:28:50-1654738130406 Why:~pregunta_dos.1.2=DESCONOCIDO ~pregunta_dos.1.0.~control.0.0 
+
+Jun 08 21:28:54.001 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+Jun 08 21:28:54.000 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un producto/servicio de nuestra empresa. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responda SI o NO.  When:Jun 08 21:28:54.018 2022 18ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:28:56.817 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 21:28:56.816 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 08 21:28:56.822 2022 6ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:28:59.572 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 08 21:28:59.572 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Luis  ==> Tu nombre es Luis? Por favor responda SI o NO.  When:Jun 08 21:28:59.577 2022 5ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:01.353 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 21:29:01.352 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 3 si  ==> Mucho gusto en conocerte Luis. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 08 21:29:01.358 2022 6ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:02.788 2022 ServerPre: pid: 0 luis (xentric) size=1 s
+Jun 08 21:29:02.787 2022 Respond: user:luis bot:xentric len:2 ip: (~confirma_correo) 4 s  ==> Tu correo es s? Por favor responda SI o NO.  When:Jun 08 21:29:02.793 2022 6ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:05.175 2022 ServerPre: pid: 0 luis (xentric) size=1 a
+Jun 08 21:29:05.175 2022 Respond: user:luis bot:xentric len:2 ip: (~confirma_correo) 5 a  ==> La opcion ingresada no es valida. Tu correo es s? Por favor responda SI o NO.  When:Jun 08 21:29:05.179 2022 4ms q 0 Why:~confirma_correo.1.3=DESCONOCIDO ~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:06.890 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 21:29:06.889 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 6 si  ==> Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 21:29:06.895 2022 6ms q 0 Why:~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:09.769 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 21:29:09.768 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 6    ==> La opcion ingresada no es valida. Luis. Que te ha parecido el producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.  When:Jun 08 21:29:09.773 2022 5ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:11.704 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 08 21:29:11.703 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 7 5  ==> Luis. Que te parece la calidad de nuestro producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es un mala calidad y 7 es un buena calidad del producto/servicio.  When:Jun 08 21:29:11.710 2022 7ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:14.795 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 08 21:29:14.794 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 8 4  ==> Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:14.799 2022 5ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:17.089 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 08 21:29:17.088 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 8    ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:17.094 2022 6ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:19.164 2022 ServerPre: pid: 0 luis (xentric) size=1 0
+Jun 08 21:29:19.163 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 9 0  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:19.169 2022 6ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:20.055 2022 ServerPre: pid: 0 luis (xentric) size=1 .
+Jun 08 21:29:20.054 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 10 .  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:20.061 2022 7ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:22.507 2022 ServerPre: pid: 0 luis (xentric) size=13 dfgdsfghjhgfd
+Jun 08 21:29:22.506 2022 Respond: user:luis bot:xentric len:14 ip: (~pregunta_tres) 11 dfgdsfghjhgfd  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:22.511 2022 5ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:24.933 2022 ServerPre: pid: 0 luis (xentric) size=4 @@@@
+Jun 08 21:29:24.933 2022 Respond: user:luis bot:xentric len:5 ip: (~pregunta_tres) 12 @@@@  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:24.938 2022 5ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:28.135 2022 ServerPre: pid: 0 luis (xentric) size=6 @build
+Jun 08 21:29:28.135 2022 Respond: user:luis bot:xentric len:7 ip: (~pregunta_tres) 13 @build  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:28.140 2022 5ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:31.834 2022 ServerPre: pid: 0 luis (xentric) size=4 :aaa
+Jun 08 21:29:31.833 2022 Respond: user:luis bot:xentric len:5 ip: (~pregunta_tres) 14 :aaa  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:31.850 2022 17ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:35.327 2022 ServerPre: pid: 0 luis (xentric) size=6 :debug
+
+Jun 08 21:29:38.597 2022 ServerPre: pid: 0 luis (xentric) size=1 a
+Jun 08 21:29:38.596 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 15 a  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:38.603 2022 7ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:48.705 2022 ServerPre: pid: 0 luis (xentric) size=1 8
+Jun 08 21:29:48.704 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 16 8  ==> La opcion ingresada no es valida. Luis. Que te parece el precio del producto/servicio? Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio, donde 1 es caro y 7 es un precio justo producto/servicio.  When:Jun 08 21:29:48.711 2022 7ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:50.110 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 08 21:29:50.110 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 17 7  ==> Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 21:29:50.115 2022 5ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:52.329 2022 ServerPre: pid: 0 luis (xentric) size=2  0
+Jun 08 21:29:52.328 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_cuatro) 18  0  ==> La opcion ingresada no es valida. Luis. del 1 al 10 Como evaluarias generalmente a empresa? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 08 21:29:52.334 2022 6ms q 0 Why:~pregunta_cuatro.1.2=DESCONOCIDO ~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:54.148 2022 ServerPre: pid: 0 luis (xentric) size=1 9
+Jun 08 21:29:54.148 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 19 9  ==> Muchas gracias por responder esta encuesta. Desea mandar sus respuestas? Por favor responda SI para guardar sus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.  When:Jun 08 21:29:54.153 2022 5ms q 0 Why:~pregunta_validacion.0.0=PREGUNTA_VALIDACION.~control.0.0 ~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 08 21:29:58.354 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 08 21:29:58.353 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 20 si  ==> Muchas gracias Luis por responder esta encuesta sobre nuestro producto/servicio. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 08 21:29:58.360 2022 7ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 

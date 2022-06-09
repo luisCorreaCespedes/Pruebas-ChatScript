@@ -1,0 +1,21 @@
+topic: ~correo keep repeat ()
+
+t: Correo ($estado=0)
+    $estado = 1
+
+    Mucho gusto en conocerte $nombre .
+
+u: ()
+
+    Me puedes indicar tu correo electronico por favor?
+    Recuerda escribir tu correo con el formato nombre@mail.com
+
+    a: INGRESO_CORREO (_*)
+        $estado = 0
+        $correo = '_0
+        if(!$correo) {
+            No has ingresado tu correo electronico.
+            $topico = ~correo
+        } else {
+            $topico = ~pregunta_uno
+        }

@@ -224,3 +224,17 @@ No such directory VERIFY/*
 No such directory VERIFY/*
 
 18 Thu Jun 02 23:07:42 2022 in sentence:    :build encuesta
+No such directory RAWDATA/ENCUESTA/PREGUNTAS/*
+
+8 Tue Jun 07 00:33:41 2022 in sentence:    :build encuesta
+No computer id before user load?
+   in topic_luis_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_luis_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_luis_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_luis_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_luis_anonymous.txt at 0: ^anonymous
+    

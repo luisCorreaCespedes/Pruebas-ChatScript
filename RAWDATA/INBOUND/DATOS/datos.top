@@ -1,0 +1,9 @@
+outputmacro: ^testfn variable ()
+
+outputmacro: ^myfunc1(^resp)
+^resp
+
+topic: ~datos keep repeat ()
+
+u: () $empresa = "COCACOLA"
+

@@ -1,0 +1,21 @@
+topic: ~pregunta_uno keep repeat ()
+
+t: Pregunta_uno ($estado=0)
+    $estado = 1
+
+    
+
+u: ()
+
+    $nombre . Que te ha parecido el producto/servicio?
+    Por favor, indicame con un numero del 1 al 7 tu apreciacion del producto/servicio,
+    donde 1 es un mal producto/servicio y 7 es un buen producto/servicio.
+
+    a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
+	    $estado = 0
+        $preg_uno = '_0
+        $topico = ~pregunta_dos
+
+    a: DESCONOCIDO ()
+        La opcion ingresada no es valida.
+	    $topico = ~pregunta_uno

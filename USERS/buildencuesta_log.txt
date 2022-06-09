@@ -1,10 +1,10 @@
 ﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
-    No such directory VERIFY/*
 
 >>Reading folder RAWDATA/ENCUESTA/FLUJO_BASE/
 
 ----Reading file conclusion.top   
 Reading topic ~conclusion
+Reading topic ~salir
 
 ----Reading file introduccion.top   
 Reading topic ~introduccion
@@ -13,35 +13,19 @@ Reading topic ~introduccion
 
 >>Reading folder RAWDATA/ENCUESTA/TAREAS/
 
-----Reading file correo.top   
-Reading topic ~correo
-
-----Reading file nombre.top   
-Reading topic ~nombre
-
 ----Reading file saludo.top   
 Reading topic ~saludo
 
-<<end folder RAWDATA/ENCUESTA/TAREAS
-
->>Reading folder RAWDATA/ENCUESTA/PREGUNTAS/
-
-----Reading file pregunta_cuatro.top   
-Reading topic ~pregunta_cuatro
-
-----Reading file pregunta_dos.top   
-Reading topic ~pregunta_dos
-
-----Reading file pregunta_tres.top   
-Reading topic ~pregunta_tres
-
-----Reading file pregunta_uno.top   
+----Reading file usted_es.top   
+Reading topic ~nombre
+Reading topic ~correo
 Reading topic ~pregunta_uno
-
-----Reading file pregunta_validacion.top   
+Reading topic ~pregunta_dos
+Reading topic ~pregunta_tres
+Reading topic ~pregunta_cuatro
 Reading topic ~pregunta_validacion
 
-<<end folder RAWDATA/ENCUESTA/PREGUNTAS
+<<end folder RAWDATA/ENCUESTA/TAREAS
 
 >>Reading folder RAWDATA/ENCUESTA/CONFIGURACION/
 
@@ -59,7 +43,6 @@ Reading topic ~control
 ----Reading file conceptos.top   
 Reading concept ~sic
 Reading concept ~noc
-Reading concept ~rangounosiete
 Reading concept ~rangounodiez
 
 <<end folder RAWDATA/ENCUESTA/CONCEPTOS
@@ -72,8 +55,11 @@ Reading outputmacro: ^myfunc1
 Reading topic ~datos
 
 <<end folder RAWDATA/ENCUESTA/DATOS
-    No errors or warnings
-
+*** Warning- line 81 col 43 of usted_es.top: Undefined set or topic ~rangounosiete
+WARNING SUMMARY: 
+      Undefined set or topic ~rangounosiete ending line 81 col 43 of usted_es.top
+    1 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings
+    
 
 
     Finished compile

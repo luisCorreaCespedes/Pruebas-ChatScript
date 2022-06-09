@@ -1,0 +1,56 @@
+topic: ~control repeat system ()
+
+u: ()
+
+# INICIO CONVERSACION
+if ( %input < %userfirstline) { 	
+	^nofail(TOPIC ^respond(~introduccion))
+	^nofail(TOPIC ^gambit(~introduccion))
+	}
+
+if ( %input == %userfirstline) { 
+
+  }
+
+
+# REPLICAS
+
+^nofail(TOPIC ^rejoinder())
+
+
+# TEMAS
+
+if ( %response == 0 AND !$$boton ){
+
+@8 = ^query( direct_sv topickeyword member ? )	
+
+$$respuesta = %response
+loop() { $$topic = first(@8object)
+	 nofail(TOPIC ^respond($$topic)) 
+
+	if (%response > 0) { ^end(RULE) }
+
+	}
+
+	if ( %response > $$respuesta ){
+
+		$$respuesta_topic = True
+
+#if ( !$estado AND !%outputrejoinder ){
+#OJO, al combinar respuesta con tarea. El primer rejoinder es el que cuenta (~help.CONTINUAR), el de la tarea no se agregará. Arreglar eso.
+
+		if ( !%outputrejoinder ){
+
+			^setrejoinder( OUTPUT ~help.CONTINUAR ) 
+		}
+
+	}
+}
+
+if ($$respuesta_topic) { ^end(TOPIC) }
+
+# TAREAS 
+
+^nofail(TOPIC ^gambit($topico))
+^nofail(TOPIC ^respond($topico))
+
