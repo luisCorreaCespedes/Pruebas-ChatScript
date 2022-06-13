@@ -3289,3 +3289,122 @@ Jun 09 16:42:47.195 2022 Respond: user:luis bot:xentric len:3 ip: () 5 gf  ==>  
 
 Jun 09 16:42:47.350 2022 ServerPre: pid: 0 luis (xentric) size=2 dh
 Jun 09 16:42:47.350 2022 Respond: user:luis bot:xentric len:3 ip: () 6 dh  ==>   When:Jun 09 16:42:47.350 2022 0ms q 0  JOpen:0/0 Timeout:0 
+
+Jun 09 16:46:39.639 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 09 16:46:45.152 2022 ServerPre: pid: 0 luis (xentric) size=15 :build outbound
+    Command: :build outbound
+
+Jun 09 16:46:46.958 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 09 16:46:58.514 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 09 16:46:58.514 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola JUANITO! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 09 16:46:58.530 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 09 16:47:14.504 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+    Command: :build inbound
+
+Jun 09 16:47:16.245 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 09 16:47:19.624 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 09 16:47:19.624 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 09 16:47:19.632 2022 8ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 09 16:49:10.392 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 13 11:12:33.028 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 13 11:12:41.713 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+    Command: :build inbound
+
+Jun 13 11:12:44.139 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 13 11:13:04.496 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 13 11:13:04.496 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 13 11:13:04.510 2022 14ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:13:16.180 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 13 11:13:18.847 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 13 11:13:18.847 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 13 11:13:18.870 2022 23ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:13:23.040 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 13 11:13:23.457 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 13 11:13:23.612 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 13 11:13:33.999 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+    Command: :build inbound
+
+Jun 13 11:13:35.990 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 13 11:13:38.297 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 13 11:13:38.289 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 13 11:13:38.313 2022 24ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:44.078 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 13 11:14:44.078 2022 Respond: user:luis bot:xentric len:3 ip: (~salir) 1 no  ==> Entendido. Hasta pronto!  When:Jun 13 11:14:44.078 2022 0ms q 0 Why:~saludo.1.2=NO_CONFIRMACION ~salir.0.0=SALIR.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:46.654 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 13 11:14:46.654 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 13 11:14:46.670 2022 16ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:48.665 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 13 11:14:48.665 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 1 si  ==> Antes de continuar. Me puedes indicar tu nombre por favor?  When:Jun 13 11:14:48.673 2022 8ms q 0 Why:~nombre.0.0=NOMBRE.~control.0.0 ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:51.196 2022 ServerPre: pid: 0 luis (xentric) size=4 Luis
+Jun 13 11:14:51.196 2022 Respond: user:luis bot:xentric len:5 ip: (~confirma_nombre) 2 Luis  ==> Tu nombre es Luis? Por favor responda SI o NO.  When:Jun 13 11:14:51.196 2022 0ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:52.636 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 13 11:14:52.636 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 3 no  ==> Entendido. Me puedes indicar tu nombre por favor?  When:Jun 13 11:14:52.644 2022 8ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:54.777 2022 ServerPre: pid: 0 luis (xentric) size=1 }
+Jun 13 11:14:54.777 2022 Respond: user:luis bot:xentric len:2 ip: (~confirma_nombre) 4 }  ==> Tu nombre es }? Por favor responda SI o NO.  When:Jun 13 11:14:54.777 2022 0ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:14:57.305 2022 ServerPre: pid: 0 luis (xentric) size=2 no
+Jun 13 11:14:57.305 2022 Respond: user:luis bot:xentric len:3 ip: (~nombre) 5 no  ==> Entendido. Me puedes indicar tu nombre por favor?  When:Jun 13 11:14:57.305 2022 0ms q 0 Why:~confirma_nombre.1.2=NO_CONFIRMACION ~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:15:07.301 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 13 11:15:12.001 2022 ServerPre: pid: 0 luis (xentric) size=11 Luis Correa
+Jun 13 11:15:12.001 2022 Respond: user:luis bot:xentric len:12 ip: (~confirma_nombre) 6 Luis Correa  ==> Tu nombre es Luis Correa? Por favor responda SI o NO.  When:Jun 13 11:15:12.001 2022 0ms q 0 Why:~confirma_nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:15:23.817 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 13 11:15:23.817 2022 Respond: user:luis bot:xentric len:3 ip: (~correo) 7 si  ==> Mucho gusto en conocerte Luis Correa. Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com  When:Jun 13 11:15:23.817 2022 0ms q 0 Why:~correo.0.0=CORREO.~control.0.0 ~correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:15:30.651 2022 ServerPre: pid: 0 luis (xentric) size=5 a@a.a
+Jun 13 11:15:30.651 2022 Respond: user:luis bot:xentric len:6 ip: (~confirma_correo) 8 a@a.a  ==> Tu correo es a@a.a? Por favor responda SI o NO.  When:Jun 13 11:15:30.660 2022 9ms q 0 Why:~confirma_correo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:15:32.132 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 13 11:15:32.132 2022 Respond: user:luis bot:xentric len:3 ip: (~pregunta_uno) 9 si  ==> Muy bien Luis Correa. Que te ha parecido el PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Mal PRODUCTO y 7 es un Buen PRODUCTO.  When:Jun 13 11:15:32.140 2022 8ms q 0 Why:~pregunta_uno.0.0=PREGUNTA_UNO.~control.0.0 ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:15:56.994 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 13 11:15:56.986 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_uno) 9    ==> La opcion ingresada no es valida. Que te ha parecido el PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Mal PRODUCTO y 7 es un Buen PRODUCTO.  When:Jun 13 11:15:56.994 2022 8ms q 0 Why:~pregunta_uno.1.2=DESCONOCIDO ~pregunta_uno.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:15:58.901 2022 ServerPre: pid: 0 luis (xentric) size=1 5
+Jun 13 11:15:58.901 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_dos) 10 5  ==> Que te parece la calidad de nuestro PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es una Mala Calidad del PRODUCTO y 7 es una Buena Calidad del PRODUCTO.  When:Jun 13 11:15:58.909 2022 8ms q 0 Why:~pregunta_dos.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:16:04.010 2022 ServerPre: pid: 0 luis (xentric) size=1 4
+Jun 13 11:16:04.010 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 11 4  ==> Que te parece el precio del PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Precio Caro del PRODUCTO y 7 es un Precio Justo del PRODUCTO.  When:Jun 13 11:16:04.018 2022 8ms q 0 Why:~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:16:06.333 2022 ServerPre: pid: 0 luis (xentric) size=1  
+Jun 13 11:16:06.333 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_tres) 11    ==> La opcion ingresada no es valida. Que te parece el precio del PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Precio Caro del PRODUCTO y 7 es un Precio Justo del PRODUCTO.  When:Jun 13 11:16:06.341 2022 8ms q 0 Why:~pregunta_tres.1.2=DESCONOCIDO ~pregunta_tres.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:16:07.963 2022 ServerPre: pid: 0 luis (xentric) size=1 6
+Jun 13 11:16:07.963 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_cuatro) 12 6  ==> Como evaluarias generalmente a nuestra empresa COCA_COLA? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.  When:Jun 13 11:16:07.972 2022 9ms q 0 Why:~pregunta_cuatro.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:16:13.070 2022 ServerPre: pid: 0 luis (xentric) size=1 7
+Jun 13 11:16:13.070 2022 Respond: user:luis bot:xentric len:2 ip: (~pregunta_validacion) 13 7  ==> Muchas gracias por responder Luis Correa. Deseas mandar tus respuestas? Por favor responde SI para guardar tus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.  When:Jun 13 11:16:13.072 2022 2ms q 0 Why:~pregunta_validacion.0.0=PREGUNTA_VALIDACION.~control.0.0 ~pregunta_validacion.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:16:19.924 2022 ServerPre: pid: 0 luis (xentric) size=2 si
+Jun 13 11:16:19.924 2022 Respond: user:luis bot:xentric len:3 ip: (~conclusion) 14 si  ==> Muchas gracias Luis Correa por responder esta encuesta sobre nuestro PRODUCTO COCA_COLA_LIGHT. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial. Hasta pronto!  When:Jun 13 11:16:19.932 2022 8ms q 0 Why:~conclusion.0.0=CONCLUSION.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 13 11:16:38.254 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 13 11:16:38.708 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 13 11:16:42.857 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 13 11:16:42.857 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 13 11:16:42.881 2022 24ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 

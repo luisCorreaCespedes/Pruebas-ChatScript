@@ -191,7 +191,8 @@ t: Pregunta_validacion ($estado=0)
 u: () 
 
     Deseas mandar tus respuestas?
-    Por favor responde SI para guardar tus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.
+    Por favor responde SI para guardar tus respuestas y terminar con la encuesta,
+    o NO para volver a contestar la encuesta.
 
     a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0

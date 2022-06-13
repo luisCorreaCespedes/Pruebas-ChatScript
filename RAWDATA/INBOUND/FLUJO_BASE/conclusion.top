@@ -2,11 +2,13 @@ topic: ~conclusion keep repeat()
 
 u: Conclusion ()
     Muchas gracias $nombre por responder esta encuesta sobre nuestro $tipo $producto.
-    Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones del sorteo en la pagina web oficial.
+    Recuerda que por responder esta encuesta estas participando en un sorteo.
+    Puedes revisar las condiciones del sorteo en la pagina web oficial.
 
     Hasta pronto!
     $estado = 0
     $topico = 0
+    $salida = 3
 
 topic: ~salir keep repeat()
 
@@ -15,3 +17,4 @@ u: Salir ()
     Hasta pronto!
     $estado = 0
     $topico = 0
+    $salida = 1

@@ -44,3 +44,4 @@ BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user lo
 BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
 BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
 BUG in topic_luis_anonymous.txt at 0: ^anonymous | No computer id before user load?
+BUG in topic__build inbound.txt at 0: ^build inbound | No computer id before user load?

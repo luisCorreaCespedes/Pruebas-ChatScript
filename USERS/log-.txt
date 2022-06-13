@@ -585,3 +585,10 @@ Jun 02 21:13:50.679 2022 ServerPre: pid: 0  (xentric) size=2 si
 Jun 02 21:13:50.679 2022 Respond: user: bot:xentric len:3 ip: (~nombre) 1 si  ==> Me puedes indicar tu nombre porfavor?  When:Jun 02 21:13:50.694 2022 15ms q 0 Why:~nombre.1.0.~control.0.0  JOpen:0/0 Timeout:0 
 
 Jun 02 21:13:51.489 2022 ServerPre: pid: 0  (xentric) size=0 
+
+Jun 09 16:51:13.386 2022 ServerPre: pid: 0  (build inbound) size=0 
+No computer id before user load?
+Jun 09 16:51:17.497 2022 ServerPre: pid: 0  (xentric) size=14 :build inbound
+    Command: :build inbound
+
+Jun 09 16:51:19.063 2022 ServerPre: pid: 0  () size=0 

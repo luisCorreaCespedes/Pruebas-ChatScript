@@ -1,9 +1,6 @@
-﻿+ hola PATTERN_WORD 
-+ ^xentric 
+﻿+ ^xentric 
 + xentric 
 + defaultbot 
-+ buenos_dias PATTERN_WORD 
-+ buenas_tardes PATTERN_WORD 
 + sí PATTERN_WORD 
 + sí_sí 
 + sí_sí_sí 

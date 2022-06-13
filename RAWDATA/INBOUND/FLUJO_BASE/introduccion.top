@@ -2,4 +2,11 @@ topic: ~introduccion keep repeat()
 
 t: Introduccion ()
     $estado = 0
+    $salida = 0
     $topico = ~saludo
+
+# SALIDAS
+# 0 = Inicio de conversación
+# 1 = No desea responder la encuesta
+# 2 = No termina de responder la encuesta o no responde nada
+# 3 = Responde la encuesta en su totalidad

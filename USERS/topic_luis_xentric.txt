@@ -1,9 +1,17 @@
 USERS/topic_luis_xentric.txt
-jul2116 May30'22-03:25:53-1653895553980 Jun09'22-16:42:47-1654807367350 1654269761-11.1.0.12.0.0 |
-2 6 0 DY 0 13 13 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-#pending
+jul2116 May30'22-03:25:53-1653895553980 Jun13'22-11:16:42-1655133402881 1654269761-11.1.0.12.0.0 |
+1 0 ~saludo ~Mb 1Nvn2  DY 0 15 15 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~nombre ),checksum
+~saludo #pending
+~introduccion + 1 QscC1 ia 0 0 0 
+~saludo + 1 1Nvn2 ia 0 0 0 
 #`end topics
 $cs_language=ENGLISH
+$topico=~saludo
+$salida=2
+$estado=1
+$producto=COCA_COLA_LIGHT
+$tipo=PRODUCTO
+$empresa=COCA_COLA
 $botprompt=xentric: 
 $userprompt=luis: >
 $cs_control_main=~control
@@ -18,12 +26,8 @@ $cs_time=0
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~conclusion 14 CONCLUSION 
- hola
- fghgfgf
- df
- gf
- gf
- dh
+#context ~saludo 0 SALUDO ~conclusion 14 CONCLUSION 
 #`end user
+ Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sor
+ Deseas responder la encuesta? Por favor responde SI o NO.
 #`end chatbot

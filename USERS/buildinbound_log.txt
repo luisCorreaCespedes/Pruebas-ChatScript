@@ -1,6 +1,6 @@
 ﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
 
->>Reading folder RAWDATA/INBOUND/_CONFIGURACION/
+>>Reading folder RAWDATA/INBOUND/CONFIGURACION/
 
 ----Reading file configuracion.top   
 Reading outputmacro: ^xentric
@@ -9,7 +9,7 @@ Reading table ^tbl:defaultbot
 ----Reading file control.top   
 Reading topic ~control
 
-<<end folder RAWDATA/INBOUND/_CONFIGURACION
+<<end folder RAWDATA/INBOUND/CONFIGURACION
 
 >>Reading folder RAWDATA/INBOUND/FLUJO_BASE/
 

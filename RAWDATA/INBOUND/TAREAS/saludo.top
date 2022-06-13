@@ -2,6 +2,7 @@ topic: ~saludo keep repeat ()
 
 t: Saludo ($estado=0) 
     $estado = 1
+    $salida = 2
 
     Hola! Yo soy Xentric, tu asistente virtual. 
     A continuacion te hare unas breves preguntas respecto
