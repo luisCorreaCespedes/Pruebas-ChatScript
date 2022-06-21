@@ -4,7 +4,7 @@ entrada = open("../ARCHIVO_CARGA/Base-Cocacola-17-06-2022.csv")
 datos = csv.reader(entrada)
 
 #Exportación archivo .txt con datos del .csv
-salida = open("../DATOS/datos.txt", "w")
+salida = open("../DATOS/datos.txt", "w", encoding="utf-8")
 for fila in datos:
     for columna in fila:
         salida.write(columna)

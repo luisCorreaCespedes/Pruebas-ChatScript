@@ -1,0 +1,6 @@
+[Unit]
+Description= Servicio de Ejecución de Script CSVtoTXT
+
+[Service]
+Type=simple
+ExecStart=../SCRIPTS/CSVtoTXT.py
