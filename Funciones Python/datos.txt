@@ -1,2 +1,0 @@
-producto,tipo,empresa,extra,nombreC
-COCACOLA,Producto,Coca-Cola,Light,AGUSTIN RODRIGUEZ
