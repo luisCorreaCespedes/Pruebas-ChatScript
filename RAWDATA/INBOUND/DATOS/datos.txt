@@ -1,3 +1,0 @@
-COCACOLA	Producto	Coca-Cola Light	AGUSTIN RODRIGUEZ	
-MOVISTAR	Servicio	Fibra Óptica	ARMANDO PAREDES	
-NESTLE	Producto	Yogurt Frutilla	JUANITO PEREZ	
