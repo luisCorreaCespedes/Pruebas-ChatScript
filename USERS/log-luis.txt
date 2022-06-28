@@ -3408,3 +3408,16 @@ Jun 13 11:16:38.708 2022 ServerPre: pid: 0 luis (xentric) size=0
 Jun 13 11:16:42.857 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
     Command: :reset
 Jun 13 11:16:42.857 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 13 11:16:42.881 2022 24ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 
+
+Jun 24 11:29:30.316 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 24 11:29:37.326 2022 ServerPre: pid: 0 luis (xentric) size=14 :build inbound
+    Command: :build inbound
+
+Jun 24 11:29:40.108 2022 ServerPre: pid: 0 luis () size=0 
+
+Jun 24 11:29:43.853 2022 ServerPre: pid: 0 luis (xentric) size=0 
+
+Jun 24 11:29:49.174 2022 ServerPre: pid: 0 luis (xentric) size=6 :reset
+    Command: :reset
+Jun 24 11:29:49.174 2022 Respond: user:luis bot:xentric len:7 ip: (~saludo) 0 :reset  ==> Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sorteo. Deseas responder la encuesta? Por favor responde SI o NO.  When:Jun 24 11:29:49.218 2022 44ms q 0 Why:~saludo.0.0=SALUDO.~control.0.0 ~saludo.1.0.~control.0.0  JOpen:0/0 Timeout:0 

@@ -3,6 +3,11 @@ topic: ~nombre keep repeat ()
 
 t: Nombre ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = CONSULTA_NOMBRE
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
 
     Antes de continuar.
 
@@ -14,9 +19,18 @@ u: ()
         $estado = 0
         $nombre = '_0
         if(!$nombre) {
+            $x = ^jsoncreate(TRANSIENT object)
+            $x.intencionContacto =  MENSAJE_DESCONOCIDO
+            $x.intencionBot = CONSULTA_NOMBRE
+            $x.comandoAcanal = None
+            [^jsonwrite($x)]
             No has ingresado tu nombre.
             $topico = ~nombre
         } else {
+            $x.intencionContacto =  INGRESA_NOMBRE
+            $x.intencionBot = CONFIRMA_NOMBRE
+            $x.comandoAcanal = None
+            [^jsonwrite($x)]
             $topico = ~confirma_nombre
         }
 
@@ -24,6 +38,11 @@ topic: ~confirma_nombre keep repeat ()
 
 t: ConfirmaNombre ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = CONFIRMA_NOMBRE
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
 
 u: ()
 
@@ -32,14 +51,29 @@ u: ()
 
    a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  CONFIRMA
+        $x.intencionBot = CONSULTA_CORREO
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~correo
 
     a: NO_CONFIRMACION ( [ ~noc ] )
-        Entendido. 
         $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  NO_CONFIRMA
+        $x.intencionBot = CONSULTA_NOMBRE
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
+        Entendido. 
         $topico = ~nombre
 
     a: DESCONOCIDO ()
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = CONFIRMA_NOMBRE
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~confirma_nombre
 
@@ -49,6 +83,11 @@ topic: ~correo keep repeat ()
 
 t: Correo ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = CONSULTA_CORREO
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
     Mucho gusto en conocerte $nombre .
 
 u: ()
@@ -60,9 +99,19 @@ u: ()
         $estado = 0
         $correo = '_0
         if(!$correo) {
+            $x = ^jsoncreate(TRANSIENT object)
+            $x.intencionContacto =  MENSAJE_DESCONOCIDO
+            $x.intencionBot = CONSULTA_CORREO
+            $x.comandoAcanal = None
+            [^jsonwrite($x)]
             No has ingresado tu correo electronico.
             $topico = ~correo
         } else {
+            $x = ^jsoncreate(TRANSIENT object)
+            $x.intencionContacto =  INGRESA_CORREO
+            $x.intencionBot = CONFIRMA_CORREO
+            $x.comandoAcanal = None
+            [^jsonwrite($x)]
             $topico = ~confirma_correo
         }
 
@@ -70,6 +119,11 @@ topic: ~confirma_correo keep repeat ()
 
 t: ConfirmaCorreo ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = CONFIRMA_CORREO
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
 
 u: ()
 
@@ -78,14 +132,29 @@ u: ()
 
    a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  CONFIRMA
+        $x.intencionBot = PRIMERA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~pregunta_uno
 
     a: NO_CONFIRMACION ( [ ~noc ] )
-        Entendido. 
         $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  NO_CONFIRMA
+        $x.intencionBot = CONSULTA_CORREO
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
+        Entendido. 
         $topico = ~correo
 
     a: DESCONOCIDO ()
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = CONFIRMA_CORREO
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~confirma_correo
 
@@ -95,6 +164,11 @@ topic: ~pregunta_uno keep repeat ()
 
 t: Pregunta_uno ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = PRIMERA_PREGUNTA
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
     Muy bien $nombre .
 
 u: ()
@@ -106,9 +180,19 @@ u: ()
     a: RESPONDE_PREGUNTA (~rangoUnoSiete)
 	    $estado = 0
         $preg_uno = '_0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  INGRESA_VALOR
+        $x.intencionBot = SEGUNDA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~pregunta_dos
 
     a: DESCONOCIDO ()
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = PRIMERA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~pregunta_uno
 
@@ -118,6 +202,11 @@ topic: ~pregunta_dos keep repeat ()
 
 t: Pregunta_dos ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = SEGUNDA_PREGUNTA
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
 
 u: ()
 
@@ -129,9 +218,19 @@ u: ()
     a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
 	    $estado = 0
         $preg_dos = '_0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  INGRESA_VALOR
+        $x.intencionBot = TERCERA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~pregunta_tres
 
     a: DESCONOCIDO ()
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = SEGUNDA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~pregunta_dos
 
@@ -141,6 +240,11 @@ topic: ~pregunta_tres keep repeat ()
 
 t: Pregunta_tres ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = TERCERA_PREGUNTA
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
 
 u: ()
 
@@ -152,9 +256,19 @@ u: ()
     a: RESPONDE_PREGUNTA ( [ ~rangoUnoSiete ])
 	    $estado = 0
         $preg_tres = '_0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  INGRESA_VALOR
+        $x.intencionBot = CUARTA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~pregunta_cuatro
 
     a: DESCONOCIDO ()
+    $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = TERCERA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~pregunta_tres
 
@@ -164,6 +278,11 @@ topic: ~pregunta_cuatro keep repeat ()
 
 t: Pregunta_cuatro ($estado=0)
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = CUARTA_PREGUNTA
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
 
 u: ()
 
@@ -174,9 +293,19 @@ u: ()
     a: RESPONDE_PREGUNTA ( [ ~rangoUnoDiez ])
 	    $estado = 0
         $preg_cuatro = '_0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  INGRESA_VALOR
+        $x.intencionBot = VALIDAR_ENCUESTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~pregunta_validacion
 
     a: DESCONOCIDO ()
+    $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = CUARTA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~pregunta_cuatro
 
@@ -186,6 +315,11 @@ topic: ~pregunta_validacion keep repeat ()
 
 t: Pregunta_validacion ($estado=0) 
     $estado = 1
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = VALIDAR_ENCUESTA
+    $x.comandoAcanal = None
+    [^jsonwrite($x)]
     Muchas gracias por responder $nombre .
 
 u: () 
@@ -196,13 +330,28 @@ u: ()
 
     a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  CONFIRMA
+        $x.intencionBot = TERMINAR
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~conclusion
 
     a: NO_CONFIRMACION ( [ ~noc ] )
-        Entendido. 
         $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  NO_CONFIRMA
+        $x.intencionBot = PRIMERA_PREGUNTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
+        Entendido. 
         $topico = ~pregunta_uno
 
     a: DESCONOCIDO ()
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = VALIDAR_ENCUESTA
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~pregunta_validacion

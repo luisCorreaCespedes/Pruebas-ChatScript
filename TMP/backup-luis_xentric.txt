@@ -1,24 +1,11 @@
 ﻿USERS/topic_luis_xentric.txt
-jul2116 May30'22-03:25:53-1653895553980 Jun13'22-11:16:19-1655133379932 1654269761-11.1.0.12.0.0 |
-15 14 0 DY 0 15 15 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~saludo ~nombre ~confirma_nombre ~correo ~confirma_correo ~pregunta_uno ~pregunta_dos ~pregunta_tres ~pregunta_cuatro ~pregunta_validacion ~conclusion #pending
+jul2116 May30'22-03:25:53-1653895553980 Jun13'22-11:16:42-1655133402881 1654269761-11.1.0.12.0.0 |
+1 0 ~saludo ~Mb 1Nvn2  DY 0 15 15 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~nombre ),checksum
+~saludo #pending
 ~introduccion + 1 QscC1 ia 0 0 0 
 ~saludo + 1 1Nvn2 ia 0 0 0 
-~nombre + 1 -p#~7 ia 5 0 0 
-~confirma_nombre + 1 S=HL6 ia 6 0 0 
-~correo + 1 qclN4 ia 7 0 0 
-~confirma_correo + 1 am&F2 ia 8 0 0 
-~pregunta_uno + 1 xnOl7 ia 9 0 0 
-~pregunta_dos + 1 s@r~3 ia a 0 0 
-~pregunta_tres + 1 cy0x7 ia b 0 0 
-~pregunta_cuatro + 1 7z*$5 ia c 0 0 
-~pregunta_validacion + 1 o+9v3 ia d 0 0 
 #`end topics
 $cs_language=ENGLISH
-$preg_tres=a@a.a
-$preg_dos=a@a.a
-$correo=a@a.a
-$nombre=Luis Correa
 $cs_time=0
 $cs_trace=0
 $cs_randindex=2082
@@ -32,57 +19,21 @@ $botprompt=xentric:
 $empresa=COCA_COLA
 $tipo=PRODUCTO
 $producto=COCA_COLA_LIGHT
-$estado=0
-$salida=3
-$topico=0
-$preg_uno=a@a.a
-$preg_cuatro=a@a.a
+$estado=1
+$salida=2
+$topico=~saludo
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~conclusion 14 CONCLUSION 
- si
- Luis
- no
- }
- no
- Luis Correa
- si
- a@a.a
- si
- 5
- 4
- 6
- 7
- si
+#context ~saludo 0 DESCONOCIDO ~saludo 0 DESCONOCIDO ~conclusion 14 CONCLUSION ~saludo 0 SALUDO ~saludo 0 DESCONOCIDO 
 #`end user
  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sor
  Deseas responder la encuesta? Por favor responde SI o NO.
- Antes de continuar.
- Me puedes indicar tu nombre por favor?
- Tu nombre es Luis? Por favor responda SI o NO.
- Entendido.
- Me puedes indicar tu nombre por favor?
- Tu nombre es }? Por favor responda SI o NO.
- Entendido.
- Me puedes indicar tu nombre por favor?
- No has ingresado tu nombre.
- Me puedes indicar tu nombre por favor?
- Tu nombre es Luis Correa? Por favor responda SI o NO.
- Mucho gusto en conocerte Luis Correa.
- Me puedes indicar tu correo electronico por favor? Recuerda escribir tu correo con el formato nombre@mail.com
- Tu correo es a@a.a? Por favor responda SI o NO.
- Muy bien Luis Correa.
- Que te ha parecido el PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Mal PRODUCTO y 7 es un Buen PRODUCTO.
  La opcion ingresada no es valida.
- Que te ha parecido el PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Mal PRODUCTO y 7 es un Buen PRODUCTO.
- Que te parece la calidad de nuestro PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es una Mala Calidad del PRODUCTO y 7 es una Buena Calid
- Que te parece el precio del PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Precio Caro del PRODUCTO y 7 es un Precio Justo del PRODU
+ Deseas responder la encuesta? Por favor responde SI o NO.
  La opcion ingresada no es valida.
- Que te parece el precio del PRODUCTO COCA_COLA_LIGHT? Por favor, indicame con un numero del 1 al 7 tu apreciacion del PRODUCTO, donde 1 es un Precio Caro del PRODUCTO y 7 es un Precio Justo del PRODU
- Como evaluarias generalmente a nuestra empresa COCA_COLA? Por favor, indicame con un numero del 1 al 10 tu apreciacion, donde 1 es Muy mal y 10 es Muy bien.
- Muchas gracias por responder Luis Correa.
- Deseas mandar tus respuestas? Por favor responde SI para guardar tus respuestas y terminar con la encuesta, o NO para volver a contestar la encuesta.
- Muchas gracias Luis Correa por responder esta encuesta sobre nuestro PRODUCTO COCA_COLA_LIGHT. Recuerda que por responder esta encuesta estas participando en un sorteo. Puedes revisar las condiciones
+ Deseas responder la encuesta? Por favor responde SI o NO.
+ La opcion ingresada no es valida.
+ Deseas responder la encuesta? Por favor responde SI o NO.
 #`end chatbot

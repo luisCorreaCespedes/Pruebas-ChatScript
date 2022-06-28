@@ -1,4 +1,4 @@
-outputmacro: xentric()  
+outputmacro: inbound()  
 
 $cs_token = #DO_PRIVATE | #NO_SEMICOLON_END  | #DO_SUBSTITUTE_SYSTEM   | #DO_SPELLCHECK  | #DO_PARSE        # some default value
 $cs_token -= #DO_SPELLCHECK | DO_SUBSTITUTE_SYSTEM | #DO_PARSE 
@@ -12,10 +12,10 @@ $cs_language = spanish
 $cs_control_main = ~control
 
 $userprompt = ^"%user: >"
-$botprompt = ^"xentric: "
+$botprompt = ^"inbound: "
 
 
 table: defaultbot (^name)
 ^createfact(^name defaultbot defaultbot)
 DATA:
-xentric
+inbound

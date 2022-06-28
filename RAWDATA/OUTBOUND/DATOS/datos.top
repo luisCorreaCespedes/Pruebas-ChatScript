@@ -5,7 +5,7 @@ outputmacro: ^myfunc1(^resp)
 
 topic: ~datos keep repeat ()
 
-#u: () $data = ^jsonreadcsv( TAB RAWDATA/INBOUND/DATOS/datos.txt '^testfn )
+#u: () $data = ^jsonreadcsv( TAB RAWDATA/OUTBOUND/DATOS/datos.txt '^testfn )
 
 u: () $nombre = JUANITO
 

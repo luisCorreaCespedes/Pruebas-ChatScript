@@ -1,4 +1,4 @@
-﻿00015 Jun13'22-11:13:34-1655133214079 inbound 12.1
+﻿00015 Jun24'22-11:29:37-1656084577486 inbound 12.1
 TOPIC: ~control 0x1b 110576807 1 0 809 control.top
 " all " 0aJ u: ( ) ^if 00v( %input < %userfirstline ) 01J{ ^respond ( ~datos ) ^nofail ( TOPIC ^respond ( ~introduccion ) ) ^nofail ( TOPIC ^gambit ( ~introduccion ) ) } 004 ^if 00w( %input == %userfirstline ) 00b{ } 004 ^nofail ( TOPIC ^rejoinder ( ) ) ^if 00A( %response == 0 and ! $$boton ) 051{ @8 = ^query ( direct_sv topickeyword member ? ) $$respuesta = %response ^loop ( -1 ) 01Q { $$topic = ^first ( @8object ) ^nofail ( TOPIC ^respond ( $$topic ) ) ^if 00l( %response > 0 ) 00p{ ^end ( RULE ) } 004 } ^if 00v( %response > $$respuesta ) 01H{ $$respuesta_topic = True ^if 00q( ! %outputrejoinder ) 00Q{ ^setrejoinder ( OUTPUT ~help.continuar ) } 004 } 004 } 004 ^if 00p( $$respuesta_topic ) 00q{ ^end ( TOPIC ) } 004 ^nofail ( TOPIC ^gambit ( $topico ) ) ^nofail ( TOPIC ^respond ( $topico ) ) `000 
 TOPIC: ~conclusion 0x3 3753128 1 0 313 conclusion.top

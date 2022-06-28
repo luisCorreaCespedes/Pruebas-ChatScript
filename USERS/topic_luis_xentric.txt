@@ -1,5 +1,5 @@
 USERS/topic_luis_xentric.txt
-jul2116 May30'22-03:25:53-1653895553980 Jun13'22-11:16:42-1655133402881 1654269761-11.1.0.12.0.0 |
+jul2116 May30'22-03:25:53-1653895553980 Jun24'22-11:29:49-1656084589208 1654269761-11.1.0.12.0.0 |
 1 0 ~saludo ~Mb 1Nvn2  DY 0 15 15 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~nombre ),checksum
 ~saludo #pending
 ~introduccion + 1 QscC1 ia 0 0 0 
@@ -26,7 +26,7 @@ $cs_time=0
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~saludo 0 SALUDO ~conclusion 14 CONCLUSION 
+#context ~saludo 0 SALUDO ~saludo 0 DESCONOCIDO ~saludo 0 SALUDO ~conclusion 14 CONCLUSION ~saludo 0 DESCONOCIDO ~saludo 0 DESCONOCIDO 
 #`end user
  Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sor
  Deseas responder la encuesta? Por favor responde SI o NO.

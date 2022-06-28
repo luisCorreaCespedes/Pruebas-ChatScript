@@ -3,6 +3,10 @@ topic: ~saludo keep repeat ()
 t: Saludo ($estado=0) 
     $estado = 1
     $salida = 2
+    $x = ^jsoncreate(TRANSIENT object)
+    $x.intencionContacto =  None
+    $x.intencionBot = CONSULTA_CONFIRMACION
+    $x.comandoAcanal = None
 
     Hola! Yo soy Xentric, tu asistente virtual. 
     A continuacion te hare unas breves preguntas respecto
@@ -16,13 +20,28 @@ u: ()
 
     a: CONFIRMACION ( [ ~sic ] )
 	    $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  CONFIRMA
+        $x.intencionBot = CONSULTA_NOMBRE
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         $topico = ~nombre
 
     a: NO_CONFIRMACION ( [ ~noc ] )
-        Entendido. 
         $estado = 0
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  NO_CONFIRMA
+        $x.intencionBot = FINALIZAR_CONVERSACION
+        $x.comandoAcanal = FINALIZAR_CONVERSACION
+        [^jsonwrite($x)]
+        Entendido. 
         $topico = ~salir
 
     a: DESCONOCIDO ()
+        $x = ^jsoncreate(TRANSIENT object)
+        $x.intencionContacto =  MENSAJE_DESCONOCIDO
+        $x.intencionBot = CONSULTA_CONFIRMACION
+        $x.comandoAcanal = None
+        [^jsonwrite($x)]
         La opcion ingresada no es valida.
 	    $topico = ~saludo

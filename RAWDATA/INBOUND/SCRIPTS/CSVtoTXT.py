@@ -12,16 +12,13 @@ def ejecucionScript():
     #Lectura de ficheros
     for rutas in ficheros:
         entrada = open("../ARCHIVO_CARGA/" + rutas, encoding="utf-8")
-        datos = csv.reader(entrada)
+        datos = csv.DictReader(entrada)
+        lista = list(datos)
 
         #Exportación fichero .txt con datos del .csv
         salida = open("../DATOS/datos.txt", "a", encoding="utf-8")
-        for fila in datos:
-            for columna in fila:
-                salida.write(columna)
-                salida.write("\t")
-            salida.write("\n")
-        
+        resultados = csv.DictWriter(salida, fieldnames=['empresa', 'tipo', 'producto', 'nombre'], extrasaction='ignore', delimiter='\t', lineterminator='\n')
+        resultados.writerows(lista)
 
     salida.close()
     entrada.close()
