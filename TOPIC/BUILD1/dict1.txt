@@ -1,5 +1,4 @@
-﻿+ ^xentric 
-+ xentric 
+﻿+ ^outbound 
 + defaultbot 
 + sí PATTERN_WORD 
 + sí_sí 

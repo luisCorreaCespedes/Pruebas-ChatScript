@@ -1,0 +1,39 @@
+USERS/topic_axel_inbound.txt
+jul2116 Jun30'22-02:22:05-1656570125749 Jun30'22-02:23:55-1656570235450 0 |
+1 1 ~nombre ~Mb 8JP-1  DY 0 15 15 0 # start, input#, rejoindertopic,rejoinderid (a: INGRESO_NOMBRE ( _* ) $estado = 0 $nombre = '_0 ^if 00h( ! $nombre ) 02^{ $x = ^jsoncreate ( TRANSIENT ob...   ),checksum
+~saludo ~nombre #pending
+~introduccion + 1 QscC1 ia 0 0 0 
+~saludo + 1 QAy!7 ia 1 0 0 
+~nombre + 1 8JP-1 ia 1 0 0 
+#`end topics
+$cs_language=ENGLISH
+$cs_time=0
+$cs_trace=0
+$cs_randindex=3119
+$cs_bot=Inbound
+$cs_login=axel
+$cs_token=0
+$cs_response=32
+$cs_control_main=~control
+$userprompt=axel: >
+$botprompt=inbound: 
+$empresa=COCA_COLA
+$tipo=PRODUCTO
+$producto=COCA_COLA_LIGHT
+$estado=1
+$salida=2
+$topico=~nombre
+$x=jo-t+2
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~nombre 1 NOMBRE ~saludo 1 CONFIRMACION ~correo 3 CORREO ~confirma_nombre 3 CONFIRMACION ~nombre 1 NOMBRE ~saludo 1 CONFIRMACION ~saludo 0 SALUDO ~saludo 0 SALUDO ~nombre 2 INGRESO_NOMBRE ~confirma_nombre 2 CONFIRMANOMBRE ~saludo 0 SALUDO 
+ si
+#`end user
+ Hola! Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sor
+ Deseas responder la encuesta? Por favor responde SI o NO.
+ {\"intencionContacto\": \"CONFIRMA\", \"intencionBot\": \"CONSULTA_NOMBRE\", \"comandoAcanal\": \"None\"}
+ {\"intencionContacto\": \"None\", \"intencionBot\": \"CONSULTA_NOMBRE\", \"comandoAcanal\": \"None\"}  Antes de continuar.
+ Me puedes indicar tu nombre por favor?
+#`end chatbot

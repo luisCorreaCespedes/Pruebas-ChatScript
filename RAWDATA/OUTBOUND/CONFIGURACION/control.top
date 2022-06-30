@@ -4,12 +4,12 @@ u: ()
 
 # INICIO CONVERSACION (cambiar acá a abajo para escribir uno primero)
 if ( %input < %userfirstline) {
-	^respond(~datos) 	
-	^nofail(TOPIC ^respond(~introduccion))
-	^nofail(TOPIC ^gambit(~introduccion))
 }
 
 if ( %input == %userfirstline) { 
+	^respond(~datos) 	
+	^nofail(TOPIC ^respond(~introduccion))
+	^nofail(TOPIC ^gambit(~introduccion))
   }
 
 

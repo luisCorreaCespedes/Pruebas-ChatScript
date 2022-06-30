@@ -1,9 +1,10 @@
 ﻿    ChatScript Version 12.1  compiled Apr 24 2022 11:16:22
+    No such directory VERIFY/*
 
 >>Reading folder RAWDATA/OUTBOUND/CONFIGURACION/
 
 ----Reading file configuracion.top   
-Reading outputmacro: ^xentric
+Reading outputmacro: ^outbound
 Reading table ^tbl:defaultbot
 
 ----Reading file control.top   

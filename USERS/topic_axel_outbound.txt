@@ -1,0 +1,34 @@
+USERS/topic_axel_outbound.txt
+jul2116 Jun30'22-02:07:47-1656569267349 Jun30'22-02:39:57-1656571197136 0 |
+1 1 ~saludo ~Mb NBF^  DY 0 13 13 0 # start, input#, rejoindertopic,rejoinderid (a: CONFIRMACION ( [ ~sic ] ) $estado = 0 $topico = ~correo ),checksum
+~saludo #pending
+~introduccion + 1 P?G66 ia 0 0 0 
+~saludo + 1 NBF^ ia 1 0 0 
+#`end topics
+$cs_language=ENGLISH
+$topico=~saludo
+$estado=1
+$producto=COCA_COLA_LIGHT
+$tipo=PRODUCTO
+$empresa=COCA_COLA
+$nombre=JUANITO
+$cs_time=0
+$cs_trace=0
+$cs_randindex=3119
+$cs_bot=Outbound
+$cs_login=axel
+$cs_token=0
+$cs_response=32
+$cs_control_main=~control
+$userprompt=axel: >
+$botprompt=outbound: 
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~saludo 1 SALUDO ~saludo 1 SALUDO ~saludo 2 DESCONOCIDO ~saludo 0 SALUDO ~introduccion 3 INTRODUCCION ~saludo 6 SALUDO ~saludo 0 DESCONOCIDO ~saludo 2 SALUDO 
+ hola
+#`end user
+ Hola Yo soy Xentric, tu asistente virtual. A continuacion te hare unas breves preguntas respecto a un PRODUCTO de nuestra empresa COCA_COLA. Al responder esta encuesta estaras participando de un sort
+ Deseas responder la encuesta? Por favor responde SI o NO.
+#`end chatbot

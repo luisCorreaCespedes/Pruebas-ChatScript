@@ -3,7 +3,7 @@ topic: ~saludo keep repeat ()
 t: Saludo ($estado=0) 
     $estado = 1
 
-    Hola $nombre ! Yo soy Xentric, tu asistente virtual. 
+    Hola Yo soy Xentric, tu asistente virtual. 
     A continuacion te hare unas breves preguntas respecto
     a un $tipo de nuestra empresa $empresa . Al responder esta encuesta estaras
     participando de un sorteo.
